@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "scope": "complete_reproduction_bundle",
+  "original_engineering_files_included": 1265,
+  "original_selected_binary_assets_identical": 133,
+  "bundled_runtime_inputs": 449,
+  "local_build_archives": 3,
+  "checks": {
+    "project_integrity_and_references": "PASS",
+    "license_scope_coverage": "PASS",
+    "model_and_media_manifest": "PASS",
+    "board_recovery_manifest": "PASS",
+    "release_naming": "PASS",
+    "display_arm_rebuild": "PASS",
+    "backend_offline_cmake_configuration": "PASS",
+    "pynq_skill_regression": "PASS: 63/63"
+  }
+}

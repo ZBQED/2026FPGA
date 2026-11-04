@@ -1,0 +1,1162 @@
+{
+  "status": "FIXTURE_PASS_ORIGINAL_RESTORED",
+  "session_id": "phand_f1eba8b1700040ba",
+  "root": "/root/light_try_phand_f1eba8b1700040ba",
+  "run": "E:\\medical_gesture_detection\\light_try\\FPGA_120ms_work\\engineering_execution\\package\\medical_gesture_fpga\\runtime\\project\\runs\\p_full_hand_20261104_061152",
+  "source_scope": "fixed_fixture",
+  "active": {
+    "pid": 21111,
+    "start_ticks": 434712,
+    "boot_id": "100b4654-cdc5-4c51-8ed2-68ef1a231a00",
+    "root": "/root/light_try_phand_f1eba8b1700040ba"
+  },
+  "state": {
+    "window_receipt.json": {
+      "status": "FIXTURE_PASS_ORIGINAL_RESTORED",
+      "boot_id": "100b4654-cdc5-4c51-8ed2-68ef1a231a00",
+      "session_id": "phand_f1eba8b1700040ba",
+      "errors": [],
+      "actions": [],
+      "original_service_restored": true,
+      "controller_clock_writes": false,
+      "default_boot_written": false,
+      "new_camera_opened": false,
+      "new_audio_probe": false,
+      "compute_clock_mhz": 100.0,
+      "before": {
+        "clocks": {
+          "0x100": 106496,
+          "0x104": 86016,
+          "0x108": 81920,
+          "0x170": 2098432,
+          "0x180": 1050368,
+          "0x190": 1049856,
+          "0x1a0": 2098432
+        },
+        "metadata_digest": "d4892b6eb2301da31cff6d5b9f26bd3a14eba371de86609d8cbd9b04eaa7187b",
+        "service": {
+          "pid": 20564,
+          "start_ticks": 422091,
+          "cmd_sha256": "747f0d0aa6316bc20f4f2b3aa058f5bf4ca8a9e81a0cd20bdfbb6bb730add21c"
+        },
+        "bit": "/usr/local/share/pynq-venv/lib/python3.10/site-packages/pynq/overlays/base/base.bit",
+        "bit_sha256": "3239e9cc37ee4993c25f02ae6c97da0b3372f0e722e267d10073e20adc5d6717"
+      },
+      "original_service_stop_requested": true,
+      "candidate_loaded": true,
+      "candidate_info": {
+        "magic": 944328779,
+        "abi": 3,
+        "features": 15,
+        "pool_bytes": 16777216
+      },
+      "restored_service": {
+        "pid": 21371,
+        "start_ticks": 439029,
+        "cmd_sha256": "747f0d0aa6316bc20f4f2b3aa058f5bf4ca8a9e81a0cd20bdfbb6bb730add21c"
+      },
+      "restored_metadata_digest": "d4892b6eb2301da31cff6d5b9f26bd3a14eba371de86609d8cbd9b04eaa7187b",
+      "metadata_scope": "All fields restored; startup-owned timestamp may advance"
+    },
+    "rpc_actual.json": {
+      "status": "FIXTURE_FULL_HAND_PASS",
+      "model_identity": "approved_Full_Hand224",
+      "source_hand_sha256": "74aa6f9a1d2834b20e289cb2ee5ccd92e555bb93425fa7db35d68d43875fef0a",
+      "boot_id": "100b4654-cdc5-4c51-8ed2-68ef1a231a00",
+      "session_id": "phand_f1eba8b1700040ba",
+      "source_scope": "fixed_fixture",
+      "fixture_kind": "full_hand",
+      "camera_opened": false,
+      "TCN_RUN": 0,
+      "model_warmup_RUN": 0,
+      "rows": [
+        {
+          "sample": 0,
+          "stage": "numerical_trace",
+          "returncode": 0,
+          "complete_call_ns": 131270984,
+          "native": {
+            "PL_jobs": 50,
+            "ioctl_ns": 81983716,
+            "driver_ns": 73971072,
+            "input_copy_ns": 458615,
+            "PS_ns": 7418189,
+            "output_copy_ns": 3262,
+            "total_ns": 130941322,
+            "failed_op_plus1": 0
+          },
+          "heads_max_abs_error": 0.0,
+          "int8_layer_outputs_byte_exact": 47
+        },
+        {
+          "sample": 1,
+          "stage": "numerical_trace",
+          "returncode": 0,
+          "complete_call_ns": 122987975,
+          "native": {
+            "PL_jobs": 50,
+            "ioctl_ns": 83298312,
+            "driver_ns": 74251508,
+            "input_copy_ns": 350449,
+            "PS_ns": 7432660,
+            "output_copy_ns": 4216,
+            "total_ns": 122706873,
+            "failed_op_plus1": 0
+          },
+          "heads_max_abs_error": 4.656612873077393e-10,
+          "int8_layer_outputs_byte_exact": 47
+        },
+        {
+          "sample": 2,
+          "stage": "numerical_trace",
+          "returncode": 0,
+          "complete_call_ns": 121225385,
+          "native": {
+            "PL_jobs": 50,
+            "ioctl_ns": 82842599,
+            "driver_ns": 74197444,
+            "input_copy_ns": 368339,
+            "PS_ns": 7182537,
+            "output_copy_ns": 3428,
+            "total_ns": 120469299,
+            "failed_op_plus1": 0
+          },
+          "heads_max_abs_error": 0.0,
+          "int8_layer_outputs_byte_exact": 47
+        },
+        {
+          "sample": 1,
+          "stage": "two_hand_pair",
+          "returncode": 0,
+          "complete_call_ns": 94014043,
+          "native": {
+            "PL_jobs": 50,
+            "ioctl_ns": 85722501,
+            "driver_ns": 77533229,
+            "input_copy_ns": 380307,
+            "PS_ns": 7435360,
+            "output_copy_ns": 3453,
+            "total_ns": 93708301,
+            "failed_op_plus1": 0
+          },
+          "heads_max_abs_error": 4.656612873077393e-10
+        },
+        {
+          "sample": 2,
+          "stage": "two_hand_pair",
+          "returncode": 0,
+          "complete_call_ns": 90070307,
+          "native": {
+            "PL_jobs": 50,
+            "ioctl_ns": 82174974,
+            "driver_ns": 73877084,
+            "input_copy_ns": 376012,
+            "PS_ns": 7074270,
+            "output_copy_ns": 3052,
+            "total_ns": 89794350,
+            "failed_op_plus1": 0
+          },
+          "heads_max_abs_error": 0.0
+        },
+        {
+          "sample": 1,
+          "stage": "two_hand_pair",
+          "returncode": 0,
+          "complete_call_ns": 105088609,
+          "native": {
+            "PL_jobs": 50,
+            "ioctl_ns": 96788355,
+            "driver_ns": 88515182,
+            "input_copy_ns": 356474,
+            "PS_ns": 7490238,
+            "output_copy_ns": 3009,
+            "total_ns": 104817397,
+            "failed_op_plus1": 0
+          },
+          "heads_max_abs_error": 4.656612873077393e-10
+        },
+        {
+          "sample": 2,
+          "stage": "two_hand_pair",
+          "returncode": 0,
+          "complete_call_ns": 115818615,
+          "native": {
+            "PL_jobs": 50,
+            "ioctl_ns": 107557037,
+            "driver_ns": 99207730,
+            "input_copy_ns": 352733,
+            "PS_ns": 7463016,
+            "output_copy_ns": 3649,
+            "total_ns": 115559028,
+            "failed_op_plus1": 0
+          },
+          "heads_max_abs_error": 0.0
+        },
+        {
+          "sample": 1,
+          "stage": "two_hand_pair",
+          "returncode": 0,
+          "complete_call_ns": 121085821,
+          "native": {
+            "PL_jobs": 50,
+            "ioctl_ns": 106393424,
+            "driver_ns": 97415251,
+            "input_copy_ns": 345120,
+            "PS_ns": 13866103,
+            "output_copy_ns": 2990,
+            "total_ns": 120804744,
+            "failed_op_plus1": 0
+          },
+          "heads_max_abs_error": 4.656612873077393e-10
+        },
+        {
+          "sample": 2,
+          "stage": "two_hand_pair",
+          "returncode": 0,
+          "complete_call_ns": 91381286,
+          "native": {
+            "PL_jobs": 50,
+            "ioctl_ns": 83411749,
+            "driver_ns": 75142424,
+            "input_copy_ns": 367945,
+            "PS_ns": 7155194,
+            "output_copy_ns": 3378,
+            "total_ns": 91107711,
+            "failed_op_plus1": 0
+          },
+          "heads_max_abs_error": 0.0
+        }
+      ],
+      "pairs": [
+        {
+          "phase": "entry",
+          "repeat": 0,
+          "complete_pair_ns": 188872831,
+          "left_call_ns": 94014043,
+          "right_call_ns": 90070307,
+          "PL_jobs": 100,
+          "includes_native_inputs_and_heads": true,
+          "scope": "Q fixed crops only; excludes capture,Palm,Body,TCN,HDMI"
+        },
+        {
+          "phase": "entry",
+          "repeat": 1,
+          "complete_pair_ns": 225414240,
+          "left_call_ns": 105088609,
+          "right_call_ns": 115818615,
+          "PL_jobs": 100,
+          "includes_native_inputs_and_heads": true,
+          "scope": "Q fixed crops only; excludes capture,Palm,Body,TCN,HDMI"
+        },
+        {
+          "phase": "entry",
+          "repeat": 2,
+          "complete_pair_ns": 217411686,
+          "left_call_ns": 121085821,
+          "right_call_ns": 91381286,
+          "PL_jobs": 100,
+          "includes_native_inputs_and_heads": true,
+          "scope": "Q fixed crops only; excludes capture,Palm,Body,TCN,HDMI"
+        }
+      ],
+      "errors": [],
+      "actual_NN_PL_RUN": 450,
+      "full_frame_acceptance": false,
+      "fixture_load_ns": 102445046,
+      "startup_ns": 10272973,
+      "phase": "entry",
+      "numerical_trace_extra_copy_enabled": true,
+      "layer_profile": [
+        {
+          "index": 0,
+          "name": "/layer_2/Conv",
+          "kind": 1,
+          "wall_ns": 6521391,
+          "driver_ns": 6487335
+        },
+        {
+          "index": 1,
+          "name": "/layer_5/Conv",
+          "kind": 1,
+          "wall_ns": 3520221,
+          "driver_ns": 3487360
+        },
+        {
+          "index": 2,
+          "name": "/layer_8/Conv",
+          "kind": 1,
+          "wall_ns": 1461434,
+          "driver_ns": 1427877
+        },
+        {
+          "index": 3,
+          "name": "/layer_11/Conv",
+          "kind": 1,
+          "wall_ns": 2835619,
+          "driver_ns": 2785286
+        },
+        {
+          "index": 4,
+          "name": "/layer_14/Conv",
+          "kind": 1,
+          "wall_ns": 2620357,
+          "driver_ns": 2484444
+        },
+        {
+          "index": 5,
+          "name": "/layer_17/Conv",
+          "kind": 1,
+          "wall_ns": 1003932,
+          "driver_ns": 969323
+        },
+        {
+          "index": 6,
+          "name": "/layer_20/Conv",
+          "kind": 1,
+          "wall_ns": 1817779,
+          "driver_ns": 1747975
+        },
+        {
+          "index": 7,
+          "name": "/layer_23/Conv",
+          "kind": 1,
+          "wall_ns": 3760326,
+          "driver_ns": 3673378
+        },
+        {
+          "index": 8,
+          "name": "/layer_26/Conv",
+          "kind": 1,
+          "wall_ns": 1988394,
+          "driver_ns": 1948326
+        },
+        {
+          "index": 9,
+          "name": "/Add",
+          "kind": 2,
+          "wall_ns": 2573003,
+          "driver_ns": 0
+        },
+        {
+          "index": 10,
+          "name": "/layer_30/Conv",
+          "kind": 1,
+          "wall_ns": 1819304,
+          "driver_ns": 1741446
+        },
+        {
+          "index": 11,
+          "name": "/layer_33/Conv",
+          "kind": 1,
+          "wall_ns": 1919594,
+          "driver_ns": 1837422
+        },
+        {
+          "index": 12,
+          "name": "/layer_36/Conv",
+          "kind": 1,
+          "wall_ns": 733606,
+          "driver_ns": 698338
+        },
+        {
+          "index": 13,
+          "name": "/layer_39/Conv",
+          "kind": 1,
+          "wall_ns": 1119766,
+          "driver_ns": 1017212
+        },
+        {
+          "index": 14,
+          "name": "/layer_42/Conv",
+          "kind": 1,
+          "wall_ns": 2256215,
+          "driver_ns": 2150000
+        },
+        {
+          "index": 15,
+          "name": "/layer_45/Conv",
+          "kind": 1,
+          "wall_ns": 1081545,
+          "driver_ns": 1045557
+        },
+        {
+          "index": 16,
+          "name": "/Add_1",
+          "kind": 2,
+          "wall_ns": 914566,
+          "driver_ns": 0
+        },
+        {
+          "index": 17,
+          "name": "/layer_49/Conv",
+          "kind": 1,
+          "wall_ns": 1160074,
+          "driver_ns": 1054166
+        },
+        {
+          "index": 18,
+          "name": "/layer_52/Conv",
+          "kind": 1,
+          "wall_ns": 823181,
+          "driver_ns": 713532
+        },
+        {
+          "index": 19,
+          "name": "/layer_55/Conv",
+          "kind": 1,
+          "wall_ns": 489428,
+          "driver_ns": 441133
+        },
+        {
+          "index": 20,
+          "name": "/layer_58/Conv",
+          "kind": 1,
+          "wall_ns": 1185588,
+          "driver_ns": 999680
+        },
+        {
+          "index": 21,
+          "name": "/layer_61/Conv",
+          "kind": 1,
+          "wall_ns": 1131182,
+          "driver_ns": 942252
+        },
+        {
+          "index": 22,
+          "name": "/layer_64/Conv",
+          "kind": 1,
+          "wall_ns": 882000,
+          "driver_ns": 833126
+        },
+        {
+          "index": 23,
+          "name": "/Add_2",
+          "kind": 2,
+          "wall_ns": 451427,
+          "driver_ns": 0
+        },
+        {
+          "index": 24,
+          "name": "/layer_68/Conv",
+          "kind": 1,
+          "wall_ns": 1173317,
+          "driver_ns": 986110
+        },
+        {
+          "index": 25,
+          "name": "/layer_71/Conv",
+          "kind": 1,
+          "wall_ns": 1130738,
+          "driver_ns": 940400
+        },
+        {
+          "index": 26,
+          "name": "/layer_74/Conv",
+          "kind": 1,
+          "wall_ns": 901459,
+          "driver_ns": 851993
+        },
+        {
+          "index": 27,
+          "name": "/Add_3",
+          "kind": 2,
+          "wall_ns": 470277,
+          "driver_ns": 0
+        },
+        {
+          "index": 28,
+          "name": "/layer_78/Conv",
+          "kind": 1,
+          "wall_ns": 1197317,
+          "driver_ns": 1010566
+        },
+        {
+          "index": 29,
+          "name": "/layer_81/Conv",
+          "kind": 1,
+          "wall_ns": 1464492,
+          "driver_ns": 1273588
+        },
+        {
+          "index": 30,
+          "name": "/layer_84/Conv",
+          "kind": 1,
+          "wall_ns": 1180265,
+          "driver_ns": 1120227
+        },
+        {
+          "index": 31,
+          "name": "/layer_87/Conv",
+          "kind": 1,
+          "wall_ns": 1989126,
+          "driver_ns": 1736240
+        },
+        {
+          "index": 32,
+          "name": "/layer_90/Conv",
+          "kind": 1,
+          "wall_ns": 2006892,
+          "driver_ns": 1748744
+        },
+        {
+          "index": 33,
+          "name": "/layer_93/Conv",
+          "kind": 1,
+          "wall_ns": 1598142,
+          "driver_ns": 1536271
+        },
+        {
+          "index": 34,
+          "name": "/Add_4",
+          "kind": 2,
+          "wall_ns": 637341,
+          "driver_ns": 0
+        },
+        {
+          "index": 35,
+          "name": "/layer_97/Conv",
+          "kind": 1,
+          "wall_ns": 1991409,
+          "driver_ns": 1733379
+        },
+        {
+          "index": 36,
+          "name": "/layer_100/Conv",
+          "kind": 1,
+          "wall_ns": 1978972,
+          "driver_ns": 1720886
+        },
+        {
+          "index": 37,
+          "name": "/layer_103/Conv",
+          "kind": 1,
+          "wall_ns": 1577532,
+          "driver_ns": 1513532
+        },
+        {
+          "index": 38,
+          "name": "/Add_5",
+          "kind": 2,
+          "wall_ns": 642480,
+          "driver_ns": 0
+        },
+        {
+          "index": 39,
+          "name": "/layer_107/Conv",
+          "kind": 1,
+          "wall_ns": 1997415,
+          "driver_ns": 1740880
+        },
+        {
+          "index": 40,
+          "name": "/layer_110/Conv",
+          "kind": 1,
+          "wall_ns": 1204560,
+          "driver_ns": 946363
+        },
+        {
+          "index": 41,
+          "name": "/layer_113/Conv",
+          "kind": 1,
+          "wall_ns": 897348,
+          "driver_ns": 812111
+        },
+        {
+          "index": 42,
+          "name": "/layer_116/Conv",
+          "kind": 1,
+          "wall_ns": 2073735,
+          "driver_ns": 1652763
+        },
+        {
+          "index": 43,
+          "name": "/layer_119/Conv",
+          "kind": 1,
+          "wall_ns": 1789784,
+          "driver_ns": 1366160
+        },
+        {
+          "index": 44,
+          "name": "/layer_122/Conv",
+          "kind": 1,
+          "wall_ns": 1388246,
+          "driver_ns": 1300947
+        },
+        {
+          "index": 45,
+          "name": "/Add_6",
+          "kind": 2,
+          "wall_ns": 272301,
+          "driver_ns": 0
+        },
+        {
+          "index": 46,
+          "name": "/layer_126/Conv",
+          "kind": 1,
+          "wall_ns": 2072707,
+          "driver_ns": 1649895
+        },
+        {
+          "index": 47,
+          "name": "/layer_129/Conv",
+          "kind": 1,
+          "wall_ns": 1785532,
+          "driver_ns": 1363107
+        },
+        {
+          "index": 48,
+          "name": "/layer_132/Conv",
+          "kind": 1,
+          "wall_ns": 1370844,
+          "driver_ns": 1284468
+        },
+        {
+          "index": 49,
+          "name": "/Add_7",
+          "kind": 2,
+          "wall_ns": 265107,
+          "driver_ns": 0
+        },
+        {
+          "index": 50,
+          "name": "/layer_136/Conv",
+          "kind": 1,
+          "wall_ns": 2072264,
+          "driver_ns": 1650080
+        },
+        {
+          "index": 51,
+          "name": "/layer_139/Conv",
+          "kind": 1,
+          "wall_ns": 1815944,
+          "driver_ns": 1391366
+        },
+        {
+          "index": 52,
+          "name": "/layer_142/Conv",
+          "kind": 1,
+          "wall_ns": 1372597,
+          "driver_ns": 1285895
+        },
+        {
+          "index": 53,
+          "name": "/Add_8",
+          "kind": 2,
+          "wall_ns": 261612,
+          "driver_ns": 0
+        },
+        {
+          "index": 54,
+          "name": "/layer_146/Conv",
+          "kind": 1,
+          "wall_ns": 2082437,
+          "driver_ns": 1659674
+        },
+        {
+          "index": 55,
+          "name": "/layer_149/Conv",
+          "kind": 1,
+          "wall_ns": 1507705,
+          "driver_ns": 1025428
+        },
+        {
+          "index": 56,
+          "name": "/ReduceMean",
+          "kind": 3,
+          "wall_ns": 827699,
+          "driver_ns": 0
+        },
+        {
+          "index": 57,
+          "name": "/layer_157/Gemm",
+          "kind": 1,
+          "wall_ns": 77102,
+          "driver_ns": 58800
+        },
+        {
+          "index": 58,
+          "name": "/Sigmoid",
+          "kind": 4,
+          "wall_ns": 24733,
+          "driver_ns": 0
+        },
+        {
+          "index": 59,
+          "name": "/layer_161/Gemm",
+          "kind": 1,
+          "wall_ns": 110493,
+          "driver_ns": 94911
+        },
+        {
+          "index": 60,
+          "name": "/Div",
+          "kind": 5,
+          "wall_ns": 4671,
+          "driver_ns": 0
+        },
+        {
+          "index": 61,
+          "name": "/handedness_head/Gemm",
+          "kind": 1,
+          "wall_ns": 44406,
+          "driver_ns": 31120
+        },
+        {
+          "index": 62,
+          "name": "/Sigmoid_1",
+          "kind": 4,
+          "wall_ns": 2738,
+          "driver_ns": 0
+        }
+      ],
+      "phase_profiles": {
+        "entry": [
+          {
+            "index": 0,
+            "name": "/layer_2/Conv",
+            "kind": 1,
+            "wall_ns": 6521391,
+            "driver_ns": 6487335
+          },
+          {
+            "index": 1,
+            "name": "/layer_5/Conv",
+            "kind": 1,
+            "wall_ns": 3520221,
+            "driver_ns": 3487360
+          },
+          {
+            "index": 2,
+            "name": "/layer_8/Conv",
+            "kind": 1,
+            "wall_ns": 1461434,
+            "driver_ns": 1427877
+          },
+          {
+            "index": 3,
+            "name": "/layer_11/Conv",
+            "kind": 1,
+            "wall_ns": 2835619,
+            "driver_ns": 2785286
+          },
+          {
+            "index": 4,
+            "name": "/layer_14/Conv",
+            "kind": 1,
+            "wall_ns": 2620357,
+            "driver_ns": 2484444
+          },
+          {
+            "index": 5,
+            "name": "/layer_17/Conv",
+            "kind": 1,
+            "wall_ns": 1003932,
+            "driver_ns": 969323
+          },
+          {
+            "index": 6,
+            "name": "/layer_20/Conv",
+            "kind": 1,
+            "wall_ns": 1817779,
+            "driver_ns": 1747975
+          },
+          {
+            "index": 7,
+            "name": "/layer_23/Conv",
+            "kind": 1,
+            "wall_ns": 3760326,
+            "driver_ns": 3673378
+          },
+          {
+            "index": 8,
+            "name": "/layer_26/Conv",
+            "kind": 1,
+            "wall_ns": 1988394,
+            "driver_ns": 1948326
+          },
+          {
+            "index": 9,
+            "name": "/Add",
+            "kind": 2,
+            "wall_ns": 2573003,
+            "driver_ns": 0
+          },
+          {
+            "index": 10,
+            "name": "/layer_30/Conv",
+            "kind": 1,
+            "wall_ns": 1819304,
+            "driver_ns": 1741446
+          },
+          {
+            "index": 11,
+            "name": "/layer_33/Conv",
+            "kind": 1,
+            "wall_ns": 1919594,
+            "driver_ns": 1837422
+          },
+          {
+            "index": 12,
+            "name": "/layer_36/Conv",
+            "kind": 1,
+            "wall_ns": 733606,
+            "driver_ns": 698338
+          },
+          {
+            "index": 13,
+            "name": "/layer_39/Conv",
+            "kind": 1,
+            "wall_ns": 1119766,
+            "driver_ns": 1017212
+          },
+          {
+            "index": 14,
+            "name": "/layer_42/Conv",
+            "kind": 1,
+            "wall_ns": 2256215,
+            "driver_ns": 2150000
+          },
+          {
+            "index": 15,
+            "name": "/layer_45/Conv",
+            "kind": 1,
+            "wall_ns": 1081545,
+            "driver_ns": 1045557
+          },
+          {
+            "index": 16,
+            "name": "/Add_1",
+            "kind": 2,
+            "wall_ns": 914566,
+            "driver_ns": 0
+          },
+          {
+            "index": 17,
+            "name": "/layer_49/Conv",
+            "kind": 1,
+            "wall_ns": 1160074,
+            "driver_ns": 1054166
+          },
+          {
+            "index": 18,
+            "name": "/layer_52/Conv",
+            "kind": 1,
+            "wall_ns": 823181,
+            "driver_ns": 713532
+          },
+          {
+            "index": 19,
+            "name": "/layer_55/Conv",
+            "kind": 1,
+            "wall_ns": 489428,
+            "driver_ns": 441133
+          },
+          {
+            "index": 20,
+            "name": "/layer_58/Conv",
+            "kind": 1,
+            "wall_ns": 1185588,
+            "driver_ns": 999680
+          },
+          {
+            "index": 21,
+            "name": "/layer_61/Conv",
+            "kind": 1,
+            "wall_ns": 1131182,
+            "driver_ns": 942252
+          },
+          {
+            "index": 22,
+            "name": "/layer_64/Conv",
+            "kind": 1,
+            "wall_ns": 882000,
+            "driver_ns": 833126
+          },
+          {
+            "index": 23,
+            "name": "/Add_2",
+            "kind": 2,
+            "wall_ns": 451427,
+            "driver_ns": 0
+          },
+          {
+            "index": 24,
+            "name": "/layer_68/Conv",
+            "kind": 1,
+            "wall_ns": 1173317,
+            "driver_ns": 986110
+          },
+          {
+            "index": 25,
+            "name": "/layer_71/Conv",
+            "kind": 1,
+            "wall_ns": 1130738,
+            "driver_ns": 940400
+          },
+          {
+            "index": 26,
+            "name": "/layer_74/Conv",
+            "kind": 1,
+            "wall_ns": 901459,
+            "driver_ns": 851993
+          },
+          {
+            "index": 27,
+            "name": "/Add_3",
+            "kind": 2,
+            "wall_ns": 470277,
+            "driver_ns": 0
+          },
+          {
+            "index": 28,
+            "name": "/layer_78/Conv",
+            "kind": 1,
+            "wall_ns": 1197317,
+            "driver_ns": 1010566
+          },
+          {
+            "index": 29,
+            "name": "/layer_81/Conv",
+            "kind": 1,
+            "wall_ns": 1464492,
+            "driver_ns": 1273588
+          },
+          {
+            "index": 30,
+            "name": "/layer_84/Conv",
+            "kind": 1,
+            "wall_ns": 1180265,
+            "driver_ns": 1120227
+          },
+          {
+            "index": 31,
+            "name": "/layer_87/Conv",
+            "kind": 1,
+            "wall_ns": 1989126,
+            "driver_ns": 1736240
+          },
+          {
+            "index": 32,
+            "name": "/layer_90/Conv",
+            "kind": 1,
+            "wall_ns": 2006892,
+            "driver_ns": 1748744
+          },
+          {
+            "index": 33,
+            "name": "/layer_93/Conv",
+            "kind": 1,
+            "wall_ns": 1598142,
+            "driver_ns": 1536271
+          },
+          {
+            "index": 34,
+            "name": "/Add_4",
+            "kind": 2,
+            "wall_ns": 637341,
+            "driver_ns": 0
+          },
+          {
+            "index": 35,
+            "name": "/layer_97/Conv",
+            "kind": 1,
+            "wall_ns": 1991409,
+            "driver_ns": 1733379
+          },
+          {
+            "index": 36,
+            "name": "/layer_100/Conv",
+            "kind": 1,
+            "wall_ns": 1978972,
+            "driver_ns": 1720886
+          },
+          {
+            "index": 37,
+            "name": "/layer_103/Conv",
+            "kind": 1,
+            "wall_ns": 1577532,
+            "driver_ns": 1513532
+          },
+          {
+            "index": 38,
+            "name": "/Add_5",
+            "kind": 2,
+            "wall_ns": 642480,
+            "driver_ns": 0
+          },
+          {
+            "index": 39,
+            "name": "/layer_107/Conv",
+            "kind": 1,
+            "wall_ns": 1997415,
+            "driver_ns": 1740880
+          },
+          {
+            "index": 40,
+            "name": "/layer_110/Conv",
+            "kind": 1,
+            "wall_ns": 1204560,
+            "driver_ns": 946363
+          },
+          {
+            "index": 41,
+            "name": "/layer_113/Conv",
+            "kind": 1,
+            "wall_ns": 897348,
+            "driver_ns": 812111
+          },
+          {
+            "index": 42,
+            "name": "/layer_116/Conv",
+            "kind": 1,
+            "wall_ns": 2073735,
+            "driver_ns": 1652763
+          },
+          {
+            "index": 43,
+            "name": "/layer_119/Conv",
+            "kind": 1,
+            "wall_ns": 1789784,
+            "driver_ns": 1366160
+          },
+          {
+            "index": 44,
+            "name": "/layer_122/Conv",
+            "kind": 1,
+            "wall_ns": 1388246,
+            "driver_ns": 1300947
+          },
+          {
+            "index": 45,
+            "name": "/Add_6",
+            "kind": 2,
+            "wall_ns": 272301,
+            "driver_ns": 0
+          },
+          {
+            "index": 46,
+            "name": "/layer_126/Conv",
+            "kind": 1,
+            "wall_ns": 2072707,
+            "driver_ns": 1649895
+          },
+          {
+            "index": 47,
+            "name": "/layer_129/Conv",
+            "kind": 1,
+            "wall_ns": 1785532,
+            "driver_ns": 1363107
+          },
+          {
+            "index": 48,
+            "name": "/layer_132/Conv",
+            "kind": 1,
+            "wall_ns": 1370844,
+            "driver_ns": 1284468
+          },
+          {
+            "index": 49,
+            "name": "/Add_7",
+            "kind": 2,
+            "wall_ns": 265107,
+            "driver_ns": 0
+          },
+          {
+            "index": 50,
+            "name": "/layer_136/Conv",
+            "kind": 1,
+            "wall_ns": 2072264,
+            "driver_ns": 1650080
+          },
+          {
+            "index": 51,
+            "name": "/layer_139/Conv",
+            "kind": 1,
+            "wall_ns": 1815944,
+            "driver_ns": 1391366
+          },
+          {
+            "index": 52,
+            "name": "/layer_142/Conv",
+            "kind": 1,
+            "wall_ns": 1372597,
+            "driver_ns": 1285895
+          },
+          {
+            "index": 53,
+            "name": "/Add_8",
+            "kind": 2,
+            "wall_ns": 261612,
+            "driver_ns": 0
+          },
+          {
+            "index": 54,
+            "name": "/layer_146/Conv",
+            "kind": 1,
+            "wall_ns": 2082437,
+            "driver_ns": 1659674
+          },
+          {
+            "index": 55,
+            "name": "/layer_149/Conv",
+            "kind": 1,
+            "wall_ns": 1507705,
+            "driver_ns": 1025428
+          },
+          {
+            "index": 56,
+            "name": "/ReduceMean",
+            "kind": 3,
+            "wall_ns": 827699,
+            "driver_ns": 0
+          },
+          {
+            "index": 57,
+            "name": "/layer_157/Gemm",
+            "kind": 1,
+            "wall_ns": 77102,
+            "driver_ns": 58800
+          },
+          {
+            "index": 58,
+            "name": "/Sigmoid",
+            "kind": 4,
+            "wall_ns": 24733,
+            "driver_ns": 0
+          },
+          {
+            "index": 59,
+            "name": "/layer_161/Gemm",
+            "kind": 1,
+            "wall_ns": 110493,
+            "driver_ns": 94911
+          },
+          {
+            "index": 60,
+            "name": "/Div",
+            "kind": 5,
+            "wall_ns": 4671,
+            "driver_ns": 0
+          },
+          {
+            "index": 61,
+            "name": "/handedness_head/Gemm",
+            "kind": 1,
+            "wall_ns": 44406,
+            "driver_ns": 31120
+          },
+          {
+            "index": 62,
+            "name": "/Sigmoid_1",
+            "kind": 4,
+            "wall_ns": 2738,
+            "driver_ns": 0
+          }
+        ]
+      },
+      "all_device_fds_closed": true
+    },
+    "boot_id": "100b4654-cdc5-4c51-8ed2-68ef1a231a00",
+    "log_tail": ""
+  }
+}

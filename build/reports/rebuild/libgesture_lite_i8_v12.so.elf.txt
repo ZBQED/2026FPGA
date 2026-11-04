@@ -1,0 +1,155 @@
+ELF Header:
+  Magic:   7f 45 4c 46 01 01 01 00 00 00 00 00 00 00 00 00 
+  Class:                             ELF32
+  Data:                              2's complement, little endian
+  Version:                           1 (current)
+  OS/ABI:                            UNIX - System V
+  ABI Version:                       0
+  Type:                              DYN (Shared object file)
+  Machine:                           ARM
+  Version:                           0x1
+  Entry point address:               0x0
+  Start of program headers:          52 (bytes into file)
+  Start of section headers:          1757236 (bytes into file)
+  Flags:                             0x5000400, Version5 EABI, hard-float ABI
+  Size of this header:               52 (bytes)
+  Size of program headers:           32 (bytes)
+  Number of program headers:         8
+  Size of section headers:           40 (bytes)
+  Number of section headers:         31
+  Section header string table index: 30
+
+Dynamic section at offset 0x194ecc contains 34 entries:
+  Tag        Type                         Name/Value
+ 0x00000001 (NEEDED)                     Shared library: [libgesture_tflite_pl_pointwise.so]
+ 0x00000001 (NEEDED)                     Shared library: [libstdc++.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libpthread.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libdl.so.2]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux-armhf.so.3]
+ 0x0000001d (RUNPATH)                    Library runpath: [$ORIGIN]
+ 0x0000000c (INIT)                       0x6544
+ 0x0000000d (FINI)                       0x318ac
+ 0x00000019 (INIT_ARRAY)                 0x16c008
+ 0x0000001b (INIT_ARRAYSZ)               12 (bytes)
+ 0x0000001a (FINI_ARRAY)                 0x16c014
+ 0x0000001c (FINI_ARRAYSZ)               4 (bytes)
+ 0x6ffffef5 (GNU_HASH)                   0x158
+ 0x00000005 (STRTAB)                     0xde0
+ 0x00000006 (SYMTAB)                     0x2c0
+ 0x0000000a (STRSZ)                      5279 (bytes)
+ 0x0000000b (SYMENT)                     16 (bytes)
+ 0x00000003 (PLTGOT)                     0x195000
+ 0x00000002 (PLTRELSZ)                   832 (bytes)
+ 0x00000014 (PLTREL)                     REL
+ 0x00000017 (JMPREL)                     0x6204
+ 0x00000011 (REL)                        0x257c
+ 0x00000012 (RELSZ)                      15496 (bytes)
+ 0x00000013 (RELENT)                     8 (bytes)
+ 0x6ffffffc (VERDEF)                     0x23e4
+ 0x6ffffffd (VERDEFNUM)                  2
+ 0x6ffffffe (VERNEED)                    0x241c
+ 0x6fffffff (VERNEEDNUM)                 6
+ 0x6ffffff0 (VERSYM)                     0x2280
+ 0x6ffffffa (RELCOUNT)                   1883
+ 0x00000000 (NULL)                       0x0
+
+Version symbols section '.gnu.version' contains 178 entries:
+ Addr: 0x0000000000002280  Offset: 0x00002280  Link: 3 (.dynsym)
+  000:   0 (*local*)       0 (*local*)       0 (*local*)       3 (GLIBCXX_3.4)
+  004:   1 (*global*)      4 (GLIBC_2.4)     1 (*global*)      5 (GLIBC_2.4)  
+  008:   6 (GCC_3.5)       7 (GLIBCXX_3.4.21)    8 (GLIBC_2.4)     7 (GLIBCXX_3.4.21) 
+  00c:   9 (CXXABI_ARM_1.3.3)      1 (*global*)      3 (GLIBCXX_3.4)   3 (GLIBCXX_3.4)
+  010:   3 (GLIBCXX_3.4)   1 (*global*)      7 (GLIBCXX_3.4.21)    1 (*global*)   
+  014:   1 (*global*)      1 (*global*)      3 (GLIBCXX_3.4)   1 (*global*)   
+  018:   3 (GLIBCXX_3.4)   3 (GLIBCXX_3.4)   a (GLIBCXX_3.4.14)    7 (GLIBCXX_3.4.21) 
+  01c:   7 (GLIBCXX_3.4.21)    b (CXXABI_1.3)    6 (GCC_3.5)       7 (GLIBCXX_3.4.21) 
+  020:   1 (*global*)      5 (GLIBC_2.4)     b (CXXABI_1.3)    3 (GLIBCXX_3.4)
+  024:   8 (GLIBC_2.4)     1 (*global*)      3 (GLIBCXX_3.4)   3 (GLIBCXX_3.4)
+  028:   8 (GLIBC_2.4)     7 (GLIBCXX_3.4.21)    3 (GLIBCXX_3.4)   1 (*global*)   
+  02c:   c (GLIBCXX_3.4.11)    8 (GLIBC_2.4)     8 (GLIBC_2.4)     1 (*global*)   
+  030:   d (CXXABI_1.3.9)   b (CXXABI_1.3)    3 (GLIBCXX_3.4)   b (CXXABI_1.3) 
+  034:   3 (GLIBCXX_3.4)   4 (GLIBC_2.4)     1 (*global*)      1 (*global*)   
+  038:   8 (GLIBC_2.4)     3 (GLIBCXX_3.4)   8 (GLIBC_2.4)     1 (*global*)   
+  03c:   8 (GLIBC_2.4)     3 (GLIBCXX_3.4)   3 (GLIBCXX_3.4)   7 (GLIBCXX_3.4.21) 
+  040:   5 (GLIBC_2.4)     3 (GLIBCXX_3.4)   4 (GLIBC_2.4)     4 (GLIBC_2.4)  
+  044:   3 (GLIBCXX_3.4)   3 (GLIBCXX_3.4)   1 (*global*)      b (CXXABI_1.3) 
+  048:   6 (GCC_3.5)       1 (*global*)      e (GLIBCXX_3.4.18)    3 (GLIBCXX_3.4)
+  04c:   3 (GLIBCXX_3.4)   b (CXXABI_1.3)    f (GLIBCXX_3.4.19)    3 (GLIBCXX_3.4)
+  050:   1 (*global*)      1 (*global*)      3 (GLIBCXX_3.4)   3 (GLIBCXX_3.4)
+  054:   6 (GCC_3.5)       8 (GLIBC_2.4)     6 (GCC_3.5)       7 (GLIBCXX_3.4.21) 
+  058:   3 (GLIBCXX_3.4)   b (CXXABI_1.3)    3 (GLIBCXX_3.4)   8 (GLIBC_2.4)  
+  05c:  10 (GLIBCXX_3.4.20)    3 (GLIBCXX_3.4)   8 (GLIBC_2.4)     8 (GLIBC_2.4)  
+  060:   3 (GLIBCXX_3.4)   3 (GLIBCXX_3.4)   6 (GCC_3.5)       7 (GLIBCXX_3.4.21) 
+  064:   e (GLIBCXX_3.4.18)    7 (GLIBCXX_3.4.21)    b (CXXABI_1.3)    b (CXXABI_1.3) 
+  068:   3 (GLIBCXX_3.4)   6 (GCC_3.5)       8 (GLIBC_2.4)     3 (GLIBCXX_3.4)
+  06c:   b (CXXABI_1.3)    7 (GLIBCXX_3.4.21)    3 (GLIBCXX_3.4)   4 (GLIBC_2.4)  
+  070:  11 (CXXABI_1.3.7)   3 (GLIBCXX_3.4)   1 (*global*)      8 (GLIBC_2.4)  
+  074:   7 (GLIBCXX_3.4.21)    3 (GLIBCXX_3.4)   6 (GCC_3.5)       3 (GLIBCXX_3.4)
+  078:   3 (GLIBCXX_3.4)   3 (GLIBCXX_3.4)   8 (GLIBC_2.4)     3 (GLIBCXX_3.4)
+  07c:   1 (*global*)      1 (*global*)      7 (GLIBCXX_3.4.21)    1 (*global*)   
+  080:   7 (GLIBCXX_3.4.21)    8 (GLIBC_2.4)    12 (GLIBC_2.4)     4 (GLIBC_2.4)  
+  084:   3 (GLIBCXX_3.4)   8 (GLIBC_2.4)     3 (GLIBCXX_3.4)   1 (*global*)   
+  088:   7 (GLIBCXX_3.4.21)    2 (GPI8P_1.0)     2 (GPI8P_1.0)     2 (GPI8P_1.0)  
+  08c:   2 (GPI8P_1.0)     2 (GPI8P_1.0)     2 (GPI8P_1.0)     2 (GPI8P_1.0)  
+  090:   2 (GPI8P_1.0)     2 (GPI8P_1.0)     2 (GPI8P_1.0)     2 (GPI8P_1.0)  
+  094:   2 (GPI8P_1.0)     2 (GPI8P_1.0)     2 (GPI8P_1.0)     2 (GPI8P_1.0)  
+  098:   2 (GPI8P_1.0)     2 (GPI8P_1.0)     2 (GPI8P_1.0)     2 (GPI8P_1.0)  
+  09c:   2 (GPI8P_1.0)     2 (GPI8P_1.0)     2 (GPI8P_1.0)     2 (GPI8P_1.0)  
+  0a0:   2 (GPI8P_1.0)     2 (GPI8P_1.0)     2 (GPI8P_1.0)     2 (GPI8P_1.0)  
+  0a4:   2 (GPI8P_1.0)     2 (GPI8P_1.0)     2 (GPI8P_1.0)     2 (GPI8P_1.0)  
+  0a8:   2 (GPI8P_1.0)     2 (GPI8P_1.0)     2 (GPI8P_1.0)     2 (GPI8P_1.0)  
+  0ac:   2 (GPI8P_1.0)     2 (GPI8P_1.0)     2 (GPI8P_1.0)     2 (GPI8P_1.0)  
+  0b0:   2 (GPI8P_1.0)     2 (GPI8P_1.0)  
+
+Version definition section '.gnu.version_d' contains 2 entries:
+ Addr: 0x00000000000023e4  Offset: 0x000023e4  Link: 4 (.dynstr)
+  000000: Rev: 1  Flags: BASE  Index: 1  Cnt: 1  Name: libgesture_lite_i8_v12.so
+  0x001c: Rev: 1  Flags: none  Index: 2  Cnt: 1  Name: GPI8P_1.0
+
+Version needs section '.gnu.version_r' contains 6 entries:
+ Addr: 0x000000000000241c  Offset: 0x0000241c  Link: 4 (.dynstr)
+  000000: Version: 1  File: ld-linux-armhf.so.3  Cnt: 1
+  0x0010:   Name: GLIBC_2.4  Flags: none  Version: 18
+  0x0020: Version: 1  File: libc.so.6  Cnt: 1
+  0x0030:   Name: GLIBC_2.4  Flags: none  Version: 8
+  0x0040: Version: 1  File: libgcc_s.so.1  Cnt: 1
+  0x0050:   Name: GCC_3.5  Flags: none  Version: 6
+  0x0060: Version: 1  File: libm.so.6  Cnt: 1
+  0x0070:   Name: GLIBC_2.4  Flags: none  Version: 5
+  0x0080: Version: 1  File: libpthread.so.0  Cnt: 1
+  0x0090:   Name: GLIBC_2.4  Flags: none  Version: 4
+  0x00a0: Version: 1  File: libstdc++.so.6  Cnt: 11
+  0x00b0:   Name: CXXABI_1.3.7  Flags: none  Version: 17
+  0x00c0:   Name: GLIBCXX_3.4.20  Flags: none  Version: 16
+  0x00d0:   Name: GLIBCXX_3.4.19  Flags: none  Version: 15
+  0x00e0:   Name: GLIBCXX_3.4.18  Flags: none  Version: 14
+  0x00f0:   Name: CXXABI_1.3.9  Flags: none  Version: 13
+  0x0100:   Name: GLIBCXX_3.4.11  Flags: none  Version: 12
+  0x0110:   Name: CXXABI_1.3  Flags: none  Version: 11
+  0x0120:   Name: GLIBCXX_3.4.14  Flags: none  Version: 10
+  0x0130:   Name: CXXABI_ARM_1.3.3  Flags: none  Version: 9
+  0x0140:   Name: GLIBCXX_3.4.21  Flags: none  Version: 7
+  0x0150:   Name: GLIBCXX_3.4  Flags: none  Version: 3
+Attribute Section: aeabi
+File Attributes
+  Tag_CPU_name: "7-A"
+  Tag_CPU_arch: v7
+  Tag_CPU_arch_profile: Application
+  Tag_ARM_ISA_use: Yes
+  Tag_THUMB_ISA_use: Thumb-2
+  Tag_FP_arch: VFPv3
+  Tag_Advanced_SIMD_arch: NEONv1
+  Tag_ABI_PCS_wchar_t: 4
+  Tag_ABI_FP_denormal: Needed
+  Tag_ABI_FP_exceptions: Needed
+  Tag_ABI_FP_number_model: IEEE 754
+  Tag_ABI_align_needed: 8-byte
+  Tag_ABI_align_preserved: 8-byte, except leaf SP
+  Tag_ABI_enum_size: int
+  Tag_ABI_VFP_args: VFP registers
+  Tag_CPU_unaligned_access: v6
+  Tag_MPextension_use: Allowed
+  Tag_Virtualization_use: TrustZone

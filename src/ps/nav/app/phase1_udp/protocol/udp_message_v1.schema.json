@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://medcomm.local/schema/udp_message_v1.schema.json",
+  "title": "PYNQ to ZYNQ UDP message v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "magic",
+    "protocol_version",
+    "catalog_version",
+    "message_type",
+    "source",
+    "boot_id",
+    "sequence",
+    "sender_uptime_ms"
+  ],
+  "properties": {
+    "magic": { "const": "MEDCOMM" },
+    "protocol_version": { "const": 1 },
+    "catalog_version": { "const": "voice-v1" },
+    "message_type": {
+      "enum": ["VOICE_RESULT", "ACK", "HEARTBEAT", "HEARTBEAT_ACK"]
+    },
+    "source": { "enum": ["PYNQ", "ZYNQ"] },
+    "boot_id": { "type": "string", "format": "uuid" },
+    "sequence": { "type": "integer", "minimum": 0, "maximum": 4294967295 },
+    "sender_uptime_ms": { "type": "integer", "minimum": 0 },
+    "intent_id": { "type": "integer", "minimum": 0, "maximum": 65535 },
+    "confidence": { "type": "number", "minimum": 0.0, "maximum": 1.0 },
+    "ack_boot_id": { "type": "string", "format": "uuid" },
+    "ack_sequence": { "type": "integer", "minimum": 0, "maximum": 4294967295 },
+    "status": { "enum": ["accepted", "duplicate", "rejected"] },
+    "error_code": { "type": "integer", "minimum": 0 }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "message_type": { "const": "VOICE_RESULT" } } },
+      "then": {
+        "properties": { "source": { "const": "PYNQ" } },
+        "required": ["intent_id", "confidence"]
+      }
+    },
+    {
+      "if": { "properties": { "message_type": { "const": "ACK" } } },
+      "then": {
+        "properties": { "source": { "const": "ZYNQ" } },
+        "required": ["ack_boot_id", "ack_sequence", "status", "error_code"]
+      }
+    },
+    {
+      "if": { "properties": { "message_type": { "const": "HEARTBEAT" } } },
+      "then": { "properties": { "source": { "const": "PYNQ" } } }
+    },
+    {
+      "if": { "properties": { "message_type": { "const": "HEARTBEAT_ACK" } } },
+      "then": {
+        "properties": { "source": { "const": "ZYNQ" } },
+        "required": ["ack_boot_id", "ack_sequence"]
+      }
+    }
+  ]
+}

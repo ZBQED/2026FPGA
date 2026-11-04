@@ -1,0 +1,17 @@
+{
+  "vendor": 1157,
+  "product": 22337,
+  "port": "1-1.1",
+  "configuration": 1,
+  "interface": 0,
+  "alternate": 0,
+  "printer_class": [
+    7,
+    1,
+    2
+  ],
+  "bulk_out": 2,
+  "bulk_in": 130,
+  "max_packet": 64,
+  "descriptors_sha256": "e229b914c8dafb370b69d78557464585a7f54658779f8ae763aa60978e7d6ba0"
+}

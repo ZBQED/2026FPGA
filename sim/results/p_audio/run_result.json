@@ -1,0 +1,44 @@
+{
+  "kind": "p_audio",
+  "board_connected": false,
+  "commands": [
+    {
+      "argv": [
+        "E:\\vivado2024.2\\Vivado\\2024.2\\bin\\xelab.bat",
+        "xil_defaultlib.tb",
+        "-prj",
+        "files.prj",
+        "-L",
+        "unisims_ver",
+        "-L",
+        "xpm",
+        "-L",
+        "secureip",
+        "-timescale",
+        "1ns/1ps",
+        "-mt",
+        "2",
+        "-debug",
+        "typical",
+        "-s",
+        "report_p_audio"
+      ],
+      "returncode": 0,
+      "wall_seconds": 2.202999999979511
+    },
+    {
+      "argv": [
+        "E:\\vivado2024.2\\Vivado\\2024.2\\bin\\xsim.bat",
+        "report_p_audio",
+        "-tclbatch",
+        "run.tcl",
+        "-wdb",
+        "p_audio.wdb"
+      ],
+      "returncode": 0,
+      "wall_seconds": 3.76500000001397
+    }
+  ],
+  "started": "2026-11-03 22:43:18",
+  "finished": "2026-11-03 22:43:24"
+}

@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<wave_config>
+  <wave_state />
+  <db_ref_list>
+    <db_ref path="E:/medical_gesture_detection/light_try/FPGA_120ms_work/waves_1103/core/core.wdb" id="1">
+      <top_modules>
+        <top_module name="tb" />
+      </top_modules>
+    </db_ref>
+  </db_ref_list>
+  <zoom_setting>
+    <ZoomStartTime time="12700 ns" />
+    <ZoomEndTime time="12980 ns" />
+    <Cursor1Time time="12900 ns" />
+  </zoom_setting>
+  <column_width_setting>
+    <NameColumnWidth column_width="250" />
+    <ValueColumnWidth column_width="160" />
+  </column_width_setting>
+  <WVObjectSize size="7" />
+  <wvobject fp_name="/tb/wvalid" type="logic">
+    <obj_property name="ElementShortName">wvalid</obj_property>
+    <obj_property name="ObjectShortName">wvalid</obj_property>
+  </wvobject>
+  <wvobject fp_name="/tb/wready" type="logic">
+    <obj_property name="ElementShortName">wready</obj_property>
+    <obj_property name="ObjectShortName">wready</obj_property>
+  </wvobject>
+  <wvobject fp_name="/tb/wdata" type="array">
+    <obj_property name="ElementShortName">wdata</obj_property>
+    <obj_property name="ObjectShortName">wdata</obj_property>
+    <obj_property name="Radix">HEXRADIX</obj_property>
+  </wvobject>
+  <wvobject fp_name="/tb/wlast" type="logic">
+    <obj_property name="ElementShortName">wlast</obj_property>
+    <obj_property name="ObjectShortName">wlast</obj_property>
+  </wvobject>
+  <wvobject fp_name="/tb/bvalid" type="logic">
+    <obj_property name="ElementShortName">bvalid</obj_property>
+    <obj_property name="ObjectShortName">bvalid</obj_property>
+  </wvobject>
+  <wvobject fp_name="/tb/bready" type="logic">
+    <obj_property name="ElementShortName">bready</obj_property>
+    <obj_property name="ObjectShortName">bready</obj_property>
+  </wvobject>
+  <wvobject fp_name="/tb/ap_done" type="logic">
+    <obj_property name="ElementShortName">ap_done</obj_property>
+    <obj_property name="ObjectShortName">ap_done</obj_property>
+  </wvobject>
+</wave_config>

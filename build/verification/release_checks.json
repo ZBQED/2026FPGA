@@ -1,0 +1,71 @@
+{
+  "status": "PASS",
+  "release_text_checks": "PASS",
+  "selected_binary_identity": {
+    "files": 56,
+    "status": "PASS"
+  },
+  "model_and_intent_semantic_projection": {
+    "files": 26,
+    "status": "PASS"
+  },
+  "replay_contract": {
+    "frames": 363,
+    "events": 5,
+    "exact_match": true
+  },
+  "mode_admission": {
+    "accepted": 3,
+    "rejected": 5
+  },
+  "runtime_bindings": {
+    "files": 70,
+    "status": "PASS"
+  },
+  "unit_tests": {
+    "count": 63,
+    "status": "PASS"
+  },
+  "monitor_http_and_lifecycle": "PASS",
+  "admission_reference_fields": "EXACT_MATCH",
+  "relocated_runtime_payload_checks": {
+    "fixed": {
+      "status": "PASS",
+      "payload_files": 58,
+      "source_files_and_bindings": "PASS",
+      "network_connections": 0,
+      "execution_scope": "offline_payload_assembly_with_stubbed_transport"
+    },
+    "live": {
+      "status": "PASS",
+      "payload_files": 57,
+      "source_files_and_bindings": "PASS",
+      "network_connections": 0,
+      "execution_scope": "offline_payload_assembly_with_stubbed_transport"
+    },
+    "q_preflight": {
+      "status": "PASS",
+      "network_connections": 0,
+      "local_source_and_identity_checks": "PASS"
+    },
+    "hand": {
+      "status": "PASS",
+      "payload_files": 17,
+      "network_connections": 0,
+      "execution_scope": "original_local_staging_prefix"
+    }
+  },
+  "rtl_source_reference_closure": {
+    "core": 127,
+    "ov5640": 2,
+    "ethernet": 5,
+    "p_audio": 4,
+    "video": 33,
+    "status": "PASS"
+  },
+  "tcn_dma_bounds": {
+    "templates": 16,
+    "end_exclusive": 6293312,
+    "status": "PASS"
+  }
+}

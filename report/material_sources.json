@@ -1,0 +1,1162 @@
+[
+  {
+    "path": "sim/design/ov5640/files.prj",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\ov5640\\files.prj",
+    "source_sha256": "e1d6f5b52a969490ec288bffcbd87c1f464fa98714854ae2a4faccd1e5ca7892",
+    "transformed": false,
+    "delivered_sha256": "e1d6f5b52a969490ec288bffcbd87c1f464fa98714854ae2a4faccd1e5ca7892"
+  },
+  {
+    "path": "sim/design/ov5640/run.tcl",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\ov5640\\run.tcl",
+    "source_sha256": "728b895a3ced59b27749ca20e4c931f53b93f3ca2169bd4ce65eec7e80a30ff7",
+    "transformed": false,
+    "delivered_sha256": "728b895a3ced59b27749ca20e4c931f53b93f3ca2169bd4ce65eec7e80a30ff7"
+  },
+  {
+    "path": "sim/design/ov5640/tb.sv",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\ov5640\\tb.sv",
+    "source_sha256": "bbacbab596497e8771701dcedc65da29cc96923282a6c060433ac0d94e742d69",
+    "transformed": true,
+    "delivered_sha256": "9c01cb59bba8c05981f6d035d273a66198a1c8d2ad064f86022b1f6865bdb7d7"
+  },
+  {
+    "path": "sim/results/ov5640/compile.log",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\ov5640\\compile.log",
+    "source_sha256": "f4ceffcd5c4c88b9d9796cfca545967d0c1587b29b84892ed2607d878eaf4737",
+    "transformed": false,
+    "delivered_sha256": "f4ceffcd5c4c88b9d9796cfca545967d0c1587b29b84892ed2607d878eaf4737"
+  },
+  {
+    "path": "sim/results/ov5640/simulate.log",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\ov5640\\simulate.log",
+    "source_sha256": "dbf2aef326dc09526b16affceac7e95de8505399484fa9278954a298c9ba9191",
+    "transformed": false,
+    "delivered_sha256": "dbf2aef326dc09526b16affceac7e95de8505399484fa9278954a298c9ba9191"
+  },
+  {
+    "path": "sim/results/ov5640/run_result.json",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\ov5640\\run_result.json",
+    "source_sha256": "62e62ebea55fdc40c94ddabebfe21ef889e4335b0134c39823652ad844af5f9c",
+    "transformed": false,
+    "delivered_sha256": "62e62ebea55fdc40c94ddabebfe21ef889e4335b0134c39823652ad844af5f9c"
+  },
+  {
+    "path": "sim/results/ov5640/ov5640.vcd",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\ov5640\\ov5640.vcd",
+    "source_sha256": "c8f6b829f9b21c308f66c6307de0d5319d2546cb4acc586b7810d1e9a7fae37e",
+    "transformed": false,
+    "delivered_sha256": "c8f6b829f9b21c308f66c6307de0d5319d2546cb4acc586b7810d1e9a7fae37e"
+  },
+  {
+    "path": "sim/results/ov5640/source_manifest.json",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\ov5640\\source_manifest.json",
+    "source_sha256": "e41e60031a2d0bc3621abead824fb324bd1dc507d06f1f9c6111ba281fee6aa1",
+    "transformed": false,
+    "delivered_sha256": "e41e60031a2d0bc3621abead824fb324bd1dc507d06f1f9c6111ba281fee6aa1"
+  },
+  {
+    "path": "sim/design/ethernet/files.prj",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\ethernet\\files.prj",
+    "source_sha256": "a53defde5578edb86073a9fc5e822275d2eeea6530d38bb2cfe67a2fb34ef439",
+    "transformed": false,
+    "delivered_sha256": "a53defde5578edb86073a9fc5e822275d2eeea6530d38bb2cfe67a2fb34ef439"
+  },
+  {
+    "path": "sim/design/ethernet/glbl.v",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\ethernet\\glbl.v",
+    "source_sha256": "6270251cf35e1fce3119fc79f8fb968912f7983027e43cf030409ba68f048936",
+    "transformed": true,
+    "delivered_sha256": "ca9651d24ebe82b113862ac5c54f74572b383d9f42df59cb8d29e339851edf8a"
+  },
+  {
+    "path": "sim/design/ethernet/run.tcl",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\ethernet\\run.tcl",
+    "source_sha256": "93e71d1c01a96a9b21d93ac21a1069feea624f09b5f47c8d9ef13b6e8a9a7bf1",
+    "transformed": false,
+    "delivered_sha256": "93e71d1c01a96a9b21d93ac21a1069feea624f09b5f47c8d9ef13b6e8a9a7bf1"
+  },
+  {
+    "path": "sim/design/ethernet/tb.sv",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\ethernet\\tb.sv",
+    "source_sha256": "95683729e214a5cd3f110baf342e6b06775616f071a58a70ea39fa236b1612ca",
+    "transformed": true,
+    "delivered_sha256": "8818c940e370c8c883346aa7fcb39e3886dc3829e8a820418ed877b5f472df25"
+  },
+  {
+    "path": "sim/results/ethernet/compile.log",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\ethernet\\compile.log",
+    "source_sha256": "e1fd14be0a0d8a3efadeaab9dcc35e377f62f7dcec7ca844d0ad63ecf80b5c4b",
+    "transformed": false,
+    "delivered_sha256": "e1fd14be0a0d8a3efadeaab9dcc35e377f62f7dcec7ca844d0ad63ecf80b5c4b"
+  },
+  {
+    "path": "sim/results/ethernet/simulate.log",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\ethernet\\simulate.log",
+    "source_sha256": "f1408e420bc4a7b96a48ca506aacb83246c634871316ea3cd5f9d4e61358ca87",
+    "transformed": false,
+    "delivered_sha256": "f1408e420bc4a7b96a48ca506aacb83246c634871316ea3cd5f9d4e61358ca87"
+  },
+  {
+    "path": "sim/results/ethernet/run_result.json",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\ethernet\\run_result.json",
+    "source_sha256": "ca9674c33e560de008fcc263ac4cca18cb36c394870689502ccfbf91a8ff2c2c",
+    "transformed": false,
+    "delivered_sha256": "ca9674c33e560de008fcc263ac4cca18cb36c394870689502ccfbf91a8ff2c2c"
+  },
+  {
+    "path": "sim/results/ethernet/ethernet.vcd",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\ethernet\\ethernet.vcd",
+    "source_sha256": "1e04c21c094446642552651c91272f2e44322a20013ef307a4a5004eb3452fe5",
+    "transformed": false,
+    "delivered_sha256": "1e04c21c094446642552651c91272f2e44322a20013ef307a4a5004eb3452fe5"
+  },
+  {
+    "path": "sim/results/ethernet/source_manifest.json",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\ethernet\\source_manifest.json",
+    "source_sha256": "8a4df478769c2c49801facc9709378ac4215462c06d96e2790a8b70f3003560f",
+    "transformed": false,
+    "delivered_sha256": "8a4df478769c2c49801facc9709378ac4215462c06d96e2790a8b70f3003560f"
+  },
+  {
+    "path": "sim/design/p_audio/files.prj",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\p_audio\\files.prj",
+    "source_sha256": "7bbdb71119461b73373a63604c03b0557dceb29e53fcb003e01c8d963e373387",
+    "transformed": false,
+    "delivered_sha256": "7bbdb71119461b73373a63604c03b0557dceb29e53fcb003e01c8d963e373387"
+  },
+  {
+    "path": "sim/design/p_audio/iis_deser.vhd",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\p_audio\\iis_deser.vhd",
+    "source_sha256": "af72dd1856a870e63b4e8cd5c69ea2ceeedae35fb788d9029db568711e533b12",
+    "transformed": true,
+    "delivered_sha256": "561c350aa567e3f4456cd217f26dbe2545150d4d90e3dc31bfb6793829b7b290"
+  },
+  {
+    "path": "sim/design/p_audio/iis_ser.vhd",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\p_audio\\iis_ser.vhd",
+    "source_sha256": "0ca9f3da00c5c411cbabb8b32792444366178227c7a5d0005ed26665156268d8",
+    "transformed": true,
+    "delivered_sha256": "78086e6a7e8a23c83c8a50b2561974007ae6df57855aa3fb5542123178e4efc5"
+  },
+  {
+    "path": "sim/design/p_audio/run.tcl",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\p_audio\\run.tcl",
+    "source_sha256": "ba6df04c2dfc3318a2118b50a5c4f944a800453a490a97b5bb96b0d502cbae82",
+    "transformed": false,
+    "delivered_sha256": "ba6df04c2dfc3318a2118b50a5c4f944a800453a490a97b5bb96b0d502cbae82"
+  },
+  {
+    "path": "sim/design/p_audio/tb.sv",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\p_audio\\tb.sv",
+    "source_sha256": "2afe1d1644c9243cbeecdd04a0574078a14e352918adcb81a45037438b951042",
+    "transformed": true,
+    "delivered_sha256": "5243dc129cde2d0417f17be8efec8d84e3a8d5765e5b5b010c608f74d021167a"
+  },
+  {
+    "path": "sim/results/p_audio/compile.log",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\p_audio\\compile.log",
+    "source_sha256": "f5367dbb741a6defe85ca45b53fadde87c4d4d40b74fbe20e850ce83559f7609",
+    "transformed": false,
+    "delivered_sha256": "f5367dbb741a6defe85ca45b53fadde87c4d4d40b74fbe20e850ce83559f7609"
+  },
+  {
+    "path": "sim/results/p_audio/simulate.log",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\p_audio\\simulate.log",
+    "source_sha256": "6fd312e664d99a276f2629ff7242713ab797db92ff104e1ef33f5bf61e190332",
+    "transformed": false,
+    "delivered_sha256": "6fd312e664d99a276f2629ff7242713ab797db92ff104e1ef33f5bf61e190332"
+  },
+  {
+    "path": "sim/results/p_audio/run_result.json",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\p_audio\\run_result.json",
+    "source_sha256": "9d5a1dbb63b220619ae88077ad92a65c822ee2c5d408bb2840864500ac4bfa96",
+    "transformed": false,
+    "delivered_sha256": "9d5a1dbb63b220619ae88077ad92a65c822ee2c5d408bb2840864500ac4bfa96"
+  },
+  {
+    "path": "sim/results/p_audio/p_audio.vcd",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\p_audio\\p_audio.vcd",
+    "source_sha256": "c1a4b8858b928def4003c2d4e1f071096e7072da97a8adcc834f04d03fc77950",
+    "transformed": false,
+    "delivered_sha256": "c1a4b8858b928def4003c2d4e1f071096e7072da97a8adcc834f04d03fc77950"
+  },
+  {
+    "path": "sim/results/p_audio/source_manifest.json",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\p_audio\\source_manifest.json",
+    "source_sha256": "f3fa6ae4fba912cb4a74a772c392a248463d5fb0889927fe8833d0b735a9729e",
+    "transformed": false,
+    "delivered_sha256": "f3fa6ae4fba912cb4a74a772c392a248463d5fb0889927fe8833d0b735a9729e"
+  },
+  {
+    "path": "sim/design/core/files.prj",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\core\\files.prj",
+    "source_sha256": "45d5033cb67065b2f8506df11ace05102ad322cb7fdf101a2369d46849c6ad0d",
+    "transformed": true,
+    "delivered_sha256": "dc2d2f42733a1f8d12b5a7e84a98178bb5bb3cceaa0fd245ce604ac3a7fde8f1"
+  },
+  {
+    "path": "sim/design/core/keypoint_conv_i8_p_anonymous_namespace_load_patch_rgb_rows_rows_ram_2p_bram_2r1w.dat",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\core\\keypoint_conv_i8_p_anonymous_namespace_load_patch_rgb_rows_rows_RAM_2P_BRAM_2R1W.dat",
+    "source_sha256": "10a0c1833240ae1e1496c8e83aa3fdd1a02b3465869074f3b5f3df7feaa911a3",
+    "transformed": false,
+    "delivered_sha256": "10a0c1833240ae1e1496c8e83aa3fdd1a02b3465869074f3b5f3df7feaa911a3"
+  },
+  {
+    "path": "sim/design/core/run.tcl",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\core\\run.tcl",
+    "source_sha256": "de70e25824ccb1994853358ecd883b8d6ef12481633a8c0fbfebd182ba60ee7f",
+    "transformed": false,
+    "delivered_sha256": "de70e25824ccb1994853358ecd883b8d6ef12481633a8c0fbfebd182ba60ee7f"
+  },
+  {
+    "path": "sim/design/core/tb.sv",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\core\\tb.sv",
+    "source_sha256": "cc59fef5632d7e2936a3268d9ee6448df8a2ba8cf6b133b23f2222e2ee586254",
+    "transformed": true,
+    "delivered_sha256": "7ecf2f8032ec23ebc3149b0acf10e8db5ab79b0a82c4a555e91c3a442d5f7600"
+  },
+  {
+    "path": "sim/design/core/rtl/keypoint_conv_i8_mul_10ns_10ns_20_1_1.v",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\core\\rtl\\keypoint_conv_i8_mul_10ns_10ns_20_1_1.v",
+    "source_sha256": "ebff9294b9f23c1b8d90d4dcbc2cd595a340278921ff45cc8b749c5bc820761d",
+    "transformed": false,
+    "delivered_sha256": "ebff9294b9f23c1b8d90d4dcbc2cd595a340278921ff45cc8b749c5bc820761d"
+  },
+  {
+    "path": "sim/design/core/rtl/keypoint_conv_i8_mul_11ns_10ns_21_1_1.v",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\core\\rtl\\keypoint_conv_i8_mul_11ns_10ns_21_1_1.v",
+    "source_sha256": "f261cf2734d08fd669034940f96d00c75c28c0349acf0531149ae5acd4e80642",
+    "transformed": false,
+    "delivered_sha256": "f261cf2734d08fd669034940f96d00c75c28c0349acf0531149ae5acd4e80642"
+  },
+  {
+    "path": "sim/design/core/rtl/keypoint_conv_i8_mul_11ns_12ns_23_1_1.v",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\core\\rtl\\keypoint_conv_i8_mul_11ns_12ns_23_1_1.v",
+    "source_sha256": "aaa1d0b1c14603c263a8bcce648eb7667662325159af3c883acc2ccee1840391",
+    "transformed": false,
+    "delivered_sha256": "aaa1d0b1c14603c263a8bcce648eb7667662325159af3c883acc2ccee1840391"
+  },
+  {
+    "path": "sim/design/core/rtl/keypoint_conv_i8_mul_11ns_6ns_15_1_1.v",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\core\\rtl\\keypoint_conv_i8_mul_11ns_6ns_15_1_1.v",
+    "source_sha256": "6e1756ca6055266bba06edc1f3901c1a6ca962a9d06e26449b222d8fe7d9276d",
+    "transformed": false,
+    "delivered_sha256": "6e1756ca6055266bba06edc1f3901c1a6ca962a9d06e26449b222d8fe7d9276d"
+  },
+  {
+    "path": "sim/design/core/rtl/keypoint_conv_i8_mul_11ns_6ns_17_1_1.v",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\core\\rtl\\keypoint_conv_i8_mul_11ns_6ns_17_1_1.v",
+    "source_sha256": "7f2eb822b5bf438b0260cdd8582c49dcf99bfe345ca09fe113d08161403b062f",
+    "transformed": false,
+    "delivered_sha256": "7f2eb822b5bf438b0260cdd8582c49dcf99bfe345ca09fe113d08161403b062f"
+  },
+  {
+    "path": "sim/design/core/rtl/keypoint_conv_i8_mul_11s_7ns_18_1_1.v",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\core\\rtl\\keypoint_conv_i8_mul_11s_7ns_18_1_1.v",
+    "source_sha256": "c742db72ade65956a7c7fafc52d6dd953f1cf80c32c19dca7d8a48068ebc295c",
+    "transformed": false,
+    "delivered_sha256": "c742db72ade65956a7c7fafc52d6dd953f1cf80c32c19dca7d8a48068ebc295c"
+  },
+  {
+    "path": "sim/design/core/rtl/keypoint_conv_i8_mul_12ns_11ns_23_1_1.v",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\core\\rtl\\keypoint_conv_i8_mul_12ns_11ns_23_1_1.v",
+    "source_sha256": "4a983bb2b310c6b84866c9953b336c17e245746fe34d9ad883e2e576c85c0680",
+    "transformed": false,
+    "delivered_sha256": "4a983bb2b310c6b84866c9953b336c17e245746fe34d9ad883e2e576c85c0680"
+  },
+  {
+    "path": "sim/design/core/rtl/keypoint_conv_i8_mul_12ns_32s_32_3_1.v",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\core\\rtl\\keypoint_conv_i8_mul_12ns_32s_32_3_1.v",
+    "source_sha256": "dbdc31cfe30077403368cb90be4650dec1da3b422e2b1bcfa86916784196156b",
+    "transformed": false,
+    "delivered_sha256": "dbdc31cfe30077403368cb90be4650dec1da3b422e2b1bcfa86916784196156b"
+  },
+  {
+    "path": "sim/design/core/rtl/keypoint_conv_i8_mul_12ns_7ns_18_1_1.v",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\core\\rtl\\keypoint_conv_i8_mul_12ns_7ns_18_1_1.v",
+    "source_sha256": "09fd0427e8f05bf8c3f5b36ad2523fdbe737978fac593d9c421ba2d6075f505e",
+    "transformed": false,
+    "delivered_sha256": "09fd0427e8f05bf8c3f5b36ad2523fdbe737978fac593d9c421ba2d6075f505e"
+  },
+  {
+    "path": "sim/design/core/rtl/keypoint_conv_i8_mul_13s_10ns_20_1_1.v",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\core\\rtl\\keypoint_conv_i8_mul_13s_10ns_20_1_1.v",
+    "source_sha256": "04b2fa785ffcff1bb416050ac53049776c78673baa003036d4d26f7c56bbcd16",
+    "transformed": false,
+    "delivered_sha256": "04b2fa785ffcff1bb416050ac53049776c78673baa003036d4d26f7c56bbcd16"
+  },
+  {
+    "path": "sim/design/core/rtl/keypoint_conv_i8_mul_13s_10ns_21_1_1.v",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\core\\rtl\\keypoint_conv_i8_mul_13s_10ns_21_1_1.v",
+    "source_sha256": "6db9f64a65619a9b0abe1f0085f640995d70f27c605e6bf2bbff659f278cee05",
+    "transformed": false,
+    "delivered_sha256": "6db9f64a65619a9b0abe1f0085f640995d70f27c605e6bf2bbff659f278cee05"
+  },
+  {
+    "path": "sim/design/core/rtl/keypoint_conv_i8_mul_13s_13s_13_1_1.v",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\core\\rtl\\keypoint_conv_i8_mul_13s_13s_13_1_1.v",
+    "source_sha256": "63624ed44668c2ecdec9a556dc18932d007dc5254d6d61ab30f8400a82d796dc",
+    "transformed": false,
+    "delivered_sha256": "63624ed44668c2ecdec9a556dc18932d007dc5254d6d61ab30f8400a82d796dc"
+  },
+  {
+    "path": "sim/design/core/rtl/keypoint_conv_i8_mul_13s_3ns_13_1_1.v",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\core\\rtl\\keypoint_conv_i8_mul_13s_3ns_13_1_1.v",
+    "source_sha256": "5afc17e064739439f5dd470e95e68cc5d5b2965002909bcf90f8fbd5b025e8fc",
+    "transformed": false,
+    "delivered_sha256": "5afc17e064739439f5dd470e95e68cc5d5b2965002909bcf90f8fbd5b025e8fc"
+  },
+  {
+    "path": "sim/design/core/rtl/keypoint_conv_i8_mul_14ns_3ns_17_1_1.v",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\core\\rtl\\keypoint_conv_i8_mul_14ns_3ns_17_1_1.v",
+    "source_sha256": "a4459c9dc6c65bc034eb98d83ea62b0436863259d7e9c978f371e5ee563cbcda",
+    "transformed": false,
+    "delivered_sha256": "a4459c9dc6c65bc034eb98d83ea62b0436863259d7e9c978f371e5ee563cbcda"
+  },
+  {
+    "path": "sim/design/core/rtl/keypoint_conv_i8_mul_17ns_11ns_28_1_1.v",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\core\\rtl\\keypoint_conv_i8_mul_17ns_11ns_28_1_1.v",
+    "source_sha256": "f583f516403555f4527cccc4ddd284ee3632cec51afc2307aaac825008be4e4b",
+    "transformed": false,
+    "delivered_sha256": "f583f516403555f4527cccc4ddd284ee3632cec51afc2307aaac825008be4e4b"
+  },
+  {
+    "path": "sim/design/core/rtl/keypoint_conv_i8_mul_18ns_32s_32_3_1.v",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\core\\rtl\\keypoint_conv_i8_mul_18ns_32s_32_3_1.v",
+    "source_sha256": "3c80a32f9f05885aec6f831dfb22bc1abb94eecbd73a491c3a5ce1e84229b244",
+    "transformed": false,
+    "delivered_sha256": "3c80a32f9f05885aec6f831dfb22bc1abb94eecbd73a491c3a5ce1e84229b244"
+  },
+  {
+    "path": "sim/design/core/rtl/keypoint_conv_i8_mul_18ns_3ns_21_1_1.v",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\core\\rtl\\keypoint_conv_i8_mul_18ns_3ns_21_1_1.v",
+    "source_sha256": "e420ab4ce49cc25105f83a0ece657373bb4c7556ac17ac8498510a92c42b2b39",
+    "transformed": false,
+    "delivered_sha256": "e420ab4ce49cc25105f83a0ece657373bb4c7556ac17ac8498510a92c42b2b39"
+  },
+  {
+    "path": "sim/design/core/rtl/keypoint_conv_i8_mul_20ns_11ns_31_4_1.v",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\core\\rtl\\keypoint_conv_i8_mul_20ns_11ns_31_4_1.v",
+    "source_sha256": "442790687b7a5373f00fc63745eded838ed4c40d1e904dc692ad64008aed2e78",
+    "transformed": false,
+    "delivered_sha256": "442790687b7a5373f00fc63745eded838ed4c40d1e904dc692ad64008aed2e78"
+  },
+  {
+    "path": "sim/design/core/rtl/keypoint_conv_i8_mul_24s_8s_32_4_1.v",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\core\\rtl\\keypoint_conv_i8_mul_24s_8s_32_4_1.v",
+    "source_sha256": "cf9afe40aa3d7d31482d31924e80aad941544a4da1b2a09804350bdcd98aa79b",
+    "transformed": false,
+    "delivered_sha256": "cf9afe40aa3d7d31482d31924e80aad941544a4da1b2a09804350bdcd98aa79b"
+  },
+  {
+    "path": "sim/design/core/rtl/keypoint_conv_i8_mul_25s_9s_34_4_1.v",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\core\\rtl\\keypoint_conv_i8_mul_25s_9s_34_4_1.v",
+    "source_sha256": "c4c10fa98355c2daab679ebe369375222ac411432093a96f69ef2d9573ce6d24",
+    "transformed": false,
+    "delivered_sha256": "c4c10fa98355c2daab679ebe369375222ac411432093a96f69ef2d9573ce6d24"
+  },
+  {
+    "path": "sim/design/core/rtl/keypoint_conv_i8_mul_29s_12ns_29_3_1.v",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\core\\rtl\\keypoint_conv_i8_mul_29s_12ns_29_3_1.v",
+    "source_sha256": "f070dc889173151583adf5091374ec180edf60ca50f76e5e19b86bbf44300e91",
+    "transformed": false,
+    "delivered_sha256": "f070dc889173151583adf5091374ec180edf60ca50f76e5e19b86bbf44300e91"
+  },
+  {
+    "path": "sim/design/core/rtl/keypoint_conv_i8_mul_32s_11ns_32_3_1.v",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\core\\rtl\\keypoint_conv_i8_mul_32s_11ns_32_3_1.v",
+    "source_sha256": "27021686b411fc4d6bc61df83e2227e895abf3050e73f6e32e59b94ece68a64b",
+    "transformed": false,
+    "delivered_sha256": "27021686b411fc4d6bc61df83e2227e895abf3050e73f6e32e59b94ece68a64b"
+  },
+  {
+    "path": "sim/design/core/rtl/keypoint_conv_i8_mul_32s_13ns_32_3_1.v",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\core\\rtl\\keypoint_conv_i8_mul_32s_13ns_32_3_1.v",
+    "source_sha256": "35af5d1a8dc1cc34f77669b42beb5d9850b6a484f4993020e57298c42c4acaee",
+    "transformed": false,
+    "delivered_sha256": "35af5d1a8dc1cc34f77669b42beb5d9850b6a484f4993020e57298c42c4acaee"
+  },
+  {
+    "path": "sim/design/core/rtl/keypoint_conv_i8_mul_32s_31ns_63_5_0.v",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\core\\rtl\\keypoint_conv_i8_mul_32s_31ns_63_5_0.v",
+    "source_sha256": "989fb5398a1bc36a703be70699f04b095e68a26da5c636344e0b15677cb8b2b6",
+    "transformed": false,
+    "delivered_sha256": "989fb5398a1bc36a703be70699f04b095e68a26da5c636344e0b15677cb8b2b6"
+  },
+  {
+    "path": "sim/design/core/rtl/keypoint_conv_i8_mul_32s_32s_32_3_1.v",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\core\\rtl\\keypoint_conv_i8_mul_32s_32s_32_3_1.v",
+    "source_sha256": "ddd4e95c6ff1185050044e0be1b93814f9fe551386358cb4986a2d73fd07aa75",
+    "transformed": false,
+    "delivered_sha256": "ddd4e95c6ff1185050044e0be1b93814f9fe551386358cb4986a2d73fd07aa75"
+  },
+  {
+    "path": "sim/design/core/rtl/keypoint_conv_i8_mul_32s_7ns_32_3_1.v",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\core\\rtl\\keypoint_conv_i8_mul_32s_7ns_32_3_1.v",
+    "source_sha256": "3a865f178f24d96fdbf9c0b1280c491012d363965a7e8609ec6e17241dd1d105",
+    "transformed": false,
+    "delivered_sha256": "3a865f178f24d96fdbf9c0b1280c491012d363965a7e8609ec6e17241dd1d105"
+  },
+  {
+    "path": "sim/design/core/rtl/keypoint_conv_i8_mul_32s_8ns_32_3_1.v",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\core\\rtl\\keypoint_conv_i8_mul_32s_8ns_32_3_1.v",
+    "source_sha256": "547071b373d0660f19d3262ef862a3f42a6d73c253fa177a17f8f21d173719da",
+    "transformed": false,
+    "delivered_sha256": "547071b373d0660f19d3262ef862a3f42a6d73c253fa177a17f8f21d173719da"
+  },
+  {
+    "path": "sim/design/core/rtl/keypoint_conv_i8_mul_3ns_3ns_6_1_1.v",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\core\\rtl\\keypoint_conv_i8_mul_3ns_3ns_6_1_1.v",
+    "source_sha256": "1fce1300d0282d4f7b5945cfb5bb1b86886d703015bd8f1e7ffb876c7fde6a83",
+    "transformed": false,
+    "delivered_sha256": "1fce1300d0282d4f7b5945cfb5bb1b86886d703015bd8f1e7ffb876c7fde6a83"
+  },
+  {
+    "path": "sim/design/core/rtl/keypoint_conv_i8_mul_3s_3s_3_1_1.v",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\core\\rtl\\keypoint_conv_i8_mul_3s_3s_3_1_1.v",
+    "source_sha256": "1c14789f21aa4ff119be2916554c44b4c6cd076bf1429d1f2d3da1713b98e305",
+    "transformed": false,
+    "delivered_sha256": "1c14789f21aa4ff119be2916554c44b4c6cd076bf1429d1f2d3da1713b98e305"
+  },
+  {
+    "path": "sim/design/core/rtl/keypoint_conv_i8_mul_5ns_3ns_7_1_1.v",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\core\\rtl\\keypoint_conv_i8_mul_5ns_3ns_7_1_1.v",
+    "source_sha256": "d8dfb82c27e9eebf53dbb9336d1267ef998b925fd94de5e5ad8bdadfab027ada",
+    "transformed": false,
+    "delivered_sha256": "d8dfb82c27e9eebf53dbb9336d1267ef998b925fd94de5e5ad8bdadfab027ada"
+  },
+  {
+    "path": "sim/design/core/rtl/keypoint_conv_i8_mul_7ns_12ns_18_1_1.v",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\core\\rtl\\keypoint_conv_i8_mul_7ns_12ns_18_1_1.v",
+    "source_sha256": "4ffa18d79776638028b5d71fe0adcfaa52a1e444ea62c667146f3e1f59919abe",
+    "transformed": false,
+    "delivered_sha256": "4ffa18d79776638028b5d71fe0adcfaa52a1e444ea62c667146f3e1f59919abe"
+  },
+  {
+    "path": "sim/design/core/rtl/keypoint_conv_i8_mul_7ns_3ns_10_1_1.v",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\core\\rtl\\keypoint_conv_i8_mul_7ns_3ns_10_1_1.v",
+    "source_sha256": "7d012c22728a9891cce26104b87a2f4483f434f2d9e1a5a170183244fa3482ec",
+    "transformed": false,
+    "delivered_sha256": "7d012c22728a9891cce26104b87a2f4483f434f2d9e1a5a170183244fa3482ec"
+  },
+  {
+    "path": "sim/design/core/rtl/keypoint_conv_i8_mul_8ns_10ns_13_1_1.v",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\core\\rtl\\keypoint_conv_i8_mul_8ns_10ns_13_1_1.v",
+    "source_sha256": "12e8e69234fa9e5c7df9a01b69f9156746ce5c07afdb5fd256a9d616212f4811",
+    "transformed": false,
+    "delivered_sha256": "12e8e69234fa9e5c7df9a01b69f9156746ce5c07afdb5fd256a9d616212f4811"
+  },
+  {
+    "path": "sim/design/core/rtl/keypoint_conv_i8_mul_8ns_31ns_38_3_1.v",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\core\\rtl\\keypoint_conv_i8_mul_8ns_31ns_38_3_1.v",
+    "source_sha256": "4a2c6473732eae5ade19335e2c0226b344daa99e0f66820827a448cb9cbd9c1b",
+    "transformed": false,
+    "delivered_sha256": "4a2c6473732eae5ade19335e2c0226b344daa99e0f66820827a448cb9cbd9c1b"
+  },
+  {
+    "path": "sim/design/core/rtl/keypoint_conv_i8_mul_8ns_32s_32_3_1.v",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\core\\rtl\\keypoint_conv_i8_mul_8ns_32s_32_3_1.v",
+    "source_sha256": "d123c647e85d344147ae9f8dd041180a239746a69c15ddb44cda660bc21a80a1",
+    "transformed": false,
+    "delivered_sha256": "d123c647e85d344147ae9f8dd041180a239746a69c15ddb44cda660bc21a80a1"
+  },
+  {
+    "path": "sim/design/core/rtl/keypoint_conv_i8_mul_9s_8ns_9_1_1.v",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\core\\rtl\\keypoint_conv_i8_mul_9s_8ns_9_1_1.v",
+    "source_sha256": "575acd40b7f91c2e81ea52b4c6ef969999dcdf6033be00e8729a510a4943c8cf",
+    "transformed": false,
+    "delivered_sha256": "575acd40b7f91c2e81ea52b4c6ef969999dcdf6033be00e8729a510a4943c8cf"
+  },
+  {
+    "path": "sim/design/core/rtl/keypoint_conv_i8_mul_9s_8s_17_3_1.v",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\core\\rtl\\keypoint_conv_i8_mul_9s_8s_17_3_1.v",
+    "source_sha256": "1c3e8b7c504eed15b5d644ea7d02f3fe56d365fb3896b84d82f8f105a42b1f1c",
+    "transformed": false,
+    "delivered_sha256": "1c3e8b7c504eed15b5d644ea7d02f3fe56d365fb3896b84d82f8f105a42b1f1c"
+  },
+  {
+    "path": "sim/results/core/compile.log",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\core\\compile.log",
+    "source_sha256": "530e829ebeb1155694022a7d6930bf9086d560a76401c7d3bb3dbaf4574a2b7c",
+    "transformed": false,
+    "delivered_sha256": "530e829ebeb1155694022a7d6930bf9086d560a76401c7d3bb3dbaf4574a2b7c"
+  },
+  {
+    "path": "sim/results/core/simulate.log",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\core\\simulate.log",
+    "source_sha256": "06e50ade1355c9753bff0ec9bb0151ac4541bcad267a3870ce6a5c932cb226bd",
+    "transformed": false,
+    "delivered_sha256": "06e50ade1355c9753bff0ec9bb0151ac4541bcad267a3870ce6a5c932cb226bd"
+  },
+  {
+    "path": "sim/results/core/run_result.json",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\core\\run_result.json",
+    "source_sha256": "62e41b8926a4039e19f5be2ad9883ad86dfdd1b90977fe0f9293ca324b9f1e62",
+    "transformed": false,
+    "delivered_sha256": "62e41b8926a4039e19f5be2ad9883ad86dfdd1b90977fe0f9293ca324b9f1e62"
+  },
+  {
+    "path": "sim/results/core/core.vcd",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\core\\core.vcd",
+    "source_sha256": "d58b90d1f39ac0655b9bb048663ea0a2a94ddd3bdc1cc47ca19fc972f2298f86",
+    "transformed": false,
+    "delivered_sha256": "d58b90d1f39ac0655b9bb048663ea0a2a94ddd3bdc1cc47ca19fc972f2298f86"
+  },
+  {
+    "path": "sim/results/core/source_manifest.json",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\core\\source_manifest.json",
+    "source_sha256": "162acc9b5b2f48b6ba30ca035fb64e29f8c0f3aa2f84a39ffd44b380d653f123",
+    "transformed": false,
+    "delivered_sha256": "162acc9b5b2f48b6ba30ca035fb64e29f8c0f3aa2f84a39ffd44b380d653f123"
+  },
+  {
+    "path": "sim/design/video/files.prj",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\video\\files.prj",
+    "source_sha256": "efa99a2bf20036cee5d80b59e0b7483605a848fc4bce6468f142978df773e869",
+    "transformed": true,
+    "delivered_sha256": "8b11688a756b7e6ff1d68ded67c26f1deabc36753769f48352fdf36c7f2f930a"
+  },
+  {
+    "path": "sim/design/video/run.tcl",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\video\\run.tcl",
+    "source_sha256": "bc90c0daed2418c3d9f33e7c40696e3a338855483643f388812111c9ce6fdc80",
+    "transformed": true,
+    "delivered_sha256": "5e6a7faf3763f0b2243891c422b734f9fe3076dac8b854fa1796f6bd607f92ec"
+  },
+  {
+    "path": "sim/design/video/system_v_frmbuf_wr_0_0_hls_deadlock_detection_unit.v",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\video\\system_v_frmbuf_wr_0_0_hls_deadlock_detection_unit.v",
+    "source_sha256": "73cb1cd790db2cb50581e51dbfe0be39afe8fa642da7d34972291d32ed3d0c49",
+    "transformed": false,
+    "delivered_sha256": "73cb1cd790db2cb50581e51dbfe0be39afe8fa642da7d34972291d32ed3d0c49"
+  },
+  {
+    "path": "sim/design/video/system_v_frmbuf_wr_0_0_hls_deadlock_detector.vh",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\video\\system_v_frmbuf_wr_0_0_hls_deadlock_detector.vh",
+    "source_sha256": "9bd6047965eb5511f8f366bb4fc27d112b3d1d81cfbe8b14e90e865d34eb6fb3",
+    "transformed": false,
+    "delivered_sha256": "9bd6047965eb5511f8f366bb4fc27d112b3d1d81cfbe8b14e90e865d34eb6fb3"
+  },
+  {
+    "path": "sim/design/video/system_v_frmbuf_wr_0_0_hls_deadlock_idx0_monitor.v",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\video\\system_v_frmbuf_wr_0_0_hls_deadlock_idx0_monitor.v",
+    "source_sha256": "77a79b0a76cbb36254cd6500099f71d3abf407898985a0247e09d6d734e94ed8",
+    "transformed": false,
+    "delivered_sha256": "77a79b0a76cbb36254cd6500099f71d3abf407898985a0247e09d6d734e94ed8"
+  },
+  {
+    "path": "sim/design/video/system_v_frmbuf_wr_0_0_hls_deadlock_idx1_monitor.v",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\video\\system_v_frmbuf_wr_0_0_hls_deadlock_idx1_monitor.v",
+    "source_sha256": "77e186ce417bbe93d1aa9b7398edfb13617a304d562a74dea932ad4a0ef8d09c",
+    "transformed": false,
+    "delivered_sha256": "77e186ce417bbe93d1aa9b7398edfb13617a304d562a74dea932ad4a0ef8d09c"
+  },
+  {
+    "path": "sim/design/video/system_v_frmbuf_wr_0_0_hls_deadlock_idx2_monitor.v",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\video\\system_v_frmbuf_wr_0_0_hls_deadlock_idx2_monitor.v",
+    "source_sha256": "80af63621b220dc41bfca082d1fc4e7a2be78e2d849d06619a608403bf63fc9f",
+    "transformed": false,
+    "delivered_sha256": "80af63621b220dc41bfca082d1fc4e7a2be78e2d849d06619a608403bf63fc9f"
+  },
+  {
+    "path": "sim/design/video/system_v_frmbuf_wr_0_0_hls_deadlock_kernel_monitor_top.vh",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\video\\system_v_frmbuf_wr_0_0_hls_deadlock_kernel_monitor_top.vh",
+    "source_sha256": "9678c37bbbc88c1fd937fd1e3ea3b68c0252cb69e77eb5b91b7b47a15c2b9864",
+    "transformed": false,
+    "delivered_sha256": "9678c37bbbc88c1fd937fd1e3ea3b68c0252cb69e77eb5b91b7b47a15c2b9864"
+  },
+  {
+    "path": "sim/design/video/system_v_frmbuf_wr_0_0_hls_deadlock_report_unit.vh",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\video\\system_v_frmbuf_wr_0_0_hls_deadlock_report_unit.vh",
+    "source_sha256": "60b5a7074c32dfe1a9867caf7b2d0988fcd18f5babff434c07138853c88af095",
+    "transformed": false,
+    "delivered_sha256": "60b5a7074c32dfe1a9867caf7b2d0988fcd18f5babff434c07138853c88af095"
+  },
+  {
+    "path": "sim/design/video/system_v_frmbuf_wr_0_0_mul_11ns_13ns_23_1_1.v",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\video\\system_v_frmbuf_wr_0_0_mul_11ns_13ns_23_1_1.v",
+    "source_sha256": "5accd86c0559a6c5307650356b57799968704688f2c26d855af1f421f80b667f",
+    "transformed": false,
+    "delivered_sha256": "5accd86c0559a6c5307650356b57799968704688f2c26d855af1f421f80b667f"
+  },
+  {
+    "path": "sim/design/video/system_v_frmbuf_wr_0_0_mul_14s_3ns_14_1_1.v",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\video\\system_v_frmbuf_wr_0_0_mul_14s_3ns_14_1_1.v",
+    "source_sha256": "123ddfca0da559355a860c4dbd097408cc76914aa40b84af7ccd27638e4c390f",
+    "transformed": false,
+    "delivered_sha256": "123ddfca0da559355a860c4dbd097408cc76914aa40b84af7ccd27638e4c390f"
+  },
+  {
+    "path": "sim/design/video/tb.sv",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\video\\tb.sv",
+    "source_sha256": "45fd1f8853b2a5f9722303418e096ff579ec9ca9af2fce07135328f9493d5c68",
+    "transformed": true,
+    "delivered_sha256": "b706140deee0f40451e7f585badfa5d0435e2a751cc8b7750fdd9b837bc5a6a4"
+  },
+  {
+    "path": "sim/results/video/compile.log",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\video\\compile.log",
+    "source_sha256": "e7e17d6c0cd9cbfc07f9c9858e8b8d35c65350eb1d7be7244f30db4690fe58d5",
+    "transformed": false,
+    "delivered_sha256": "e7e17d6c0cd9cbfc07f9c9858e8b8d35c65350eb1d7be7244f30db4690fe58d5"
+  },
+  {
+    "path": "sim/results/video/simulate.log",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\video\\simulate.log",
+    "source_sha256": "c92598e3109c382601dbdc4a366bf51a401d468482df65f7f6ac801c9422028e",
+    "transformed": false,
+    "delivered_sha256": "c92598e3109c382601dbdc4a366bf51a401d468482df65f7f6ac801c9422028e"
+  },
+  {
+    "path": "sim/results/video/run_result.json",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\video\\run_result.json",
+    "source_sha256": "6dfdd42f2b74b9bfae974784f81f1b0caf3776514b537edaa6aca414822513c6",
+    "transformed": false,
+    "delivered_sha256": "6dfdd42f2b74b9bfae974784f81f1b0caf3776514b537edaa6aca414822513c6"
+  },
+  {
+    "path": "sim/results/video/video.vcd",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\video\\video.vcd",
+    "source_sha256": "dcc0b668b30a93667760fe4e8a19f8fa3824dc9040fdbcf1f6578921e62ef172",
+    "transformed": false,
+    "delivered_sha256": "dcc0b668b30a93667760fe4e8a19f8fa3824dc9040fdbcf1f6578921e62ef172"
+  },
+  {
+    "path": "sim/results/video/source_manifest.json",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\video\\source_manifest.json",
+    "source_sha256": "38081bb395530dc5dcaaad2088191abef06168227d5cbdf4882e9942c0427978",
+    "transformed": false,
+    "delivered_sha256": "38081bb395530dc5dcaaad2088191abef06168227d5cbdf4882e9942c0427978"
+  },
+  {
+    "path": "data/reference/core/case0_expected.hex",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\core\\case0_expected.hex",
+    "source_sha256": "307e1807317332616be2b0d470f378787a039119152b71cc7d29185ab7be73d8",
+    "transformed": false,
+    "delivered_sha256": "307e1807317332616be2b0d470f378787a039119152b71cc7d29185ab7be73d8"
+  },
+  {
+    "path": "data/test_inputs/core/case0_mem.hex",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\core\\case0_mem.hex",
+    "source_sha256": "3211955b979f218e5d65b62fbff13015fc481930169fc0c11d71d54528d522c7",
+    "transformed": false,
+    "delivered_sha256": "3211955b979f218e5d65b62fbff13015fc481930169fc0c11d71d54528d522c7"
+  },
+  {
+    "path": "data/reference/core/case1_expected.hex",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\core\\case1_expected.hex",
+    "source_sha256": "0ee7f52b5c6f65aa56288f91256875a237904adb9e908669d0c5610091c93161",
+    "transformed": false,
+    "delivered_sha256": "0ee7f52b5c6f65aa56288f91256875a237904adb9e908669d0c5610091c93161"
+  },
+  {
+    "path": "data/test_inputs/core/case1_mem.hex",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\core\\case1_mem.hex",
+    "source_sha256": "044bf904507cbabcd562d3bd47ebb53e7bab4db8cfd327fbd70c82a85d754884",
+    "transformed": false,
+    "delivered_sha256": "044bf904507cbabcd562d3bd47ebb53e7bab4db8cfd327fbd70c82a85d754884"
+  },
+  {
+    "path": "data/reference/core/case2_expected.hex",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\core\\case2_expected.hex",
+    "source_sha256": "3a0b3fe13d4c2f350770efe14dc7c75b0ade464fd721036c94b6196237264be9",
+    "transformed": false,
+    "delivered_sha256": "3a0b3fe13d4c2f350770efe14dc7c75b0ade464fd721036c94b6196237264be9"
+  },
+  {
+    "path": "data/test_inputs/core/case2_mem.hex",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\core\\case2_mem.hex",
+    "source_sha256": "37a558899499552093f19d4a2a2000e33b3ecaaf2ff3e0c7918ebc2718b20cfe",
+    "transformed": false,
+    "delivered_sha256": "37a558899499552093f19d4a2a2000e33b3ecaaf2ff3e0c7918ebc2718b20cfe"
+  },
+  {
+    "path": "data/reference/core/cases.json",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\core\\cases.json",
+    "source_sha256": "69030d44f5248671ec48b1cc9a028603ab3768f0f9b456532b66e8edd3bd68d1",
+    "transformed": true,
+    "delivered_sha256": "711c1add508526b5156c4950d5caef23b9885566059e2c588c2ffd4d2d4957b0"
+  },
+  {
+    "path": "sim/wave_config/audio_detail.wcfg",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\audio_detail.wcfg",
+    "source_sha256": "e79884080416c3c4e6037013c7de13623671ff74394e581dad1d4e4d2b811152",
+    "transformed": false,
+    "delivered_sha256": "e79884080416c3c4e6037013c7de13623671ff74394e581dad1d4e4d2b811152"
+  },
+  {
+    "path": "sim/wave_config/audio_pair_final.wcfg",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\audio_pair_final.wcfg",
+    "source_sha256": "56190456726946c054338542f5904d75cee531dbcfd5e1276208f6e09265d993",
+    "transformed": false,
+    "delivered_sha256": "56190456726946c054338542f5904d75cee531dbcfd5e1276208f6e09265d993"
+  },
+  {
+    "path": "sim/wave_config/core_detail.wcfg",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\core_detail.wcfg",
+    "source_sha256": "2b511eff2035ae6b077840692a818d3c507bf952f968068b95b0aba17e0aa603",
+    "transformed": false,
+    "delivered_sha256": "2b511eff2035ae6b077840692a818d3c507bf952f968068b95b0aba17e0aa603"
+  },
+  {
+    "path": "sim/wave_config/core_full_final.wcfg",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\core_full_final.wcfg",
+    "source_sha256": "75d172ed6a37a75eee8d288d085871b5c31be8455e13e12722397d5c7dd3fd03",
+    "transformed": false,
+    "delivered_sha256": "75d172ed6a37a75eee8d288d085871b5c31be8455e13e12722397d5c7dd3fd03"
+  },
+  {
+    "path": "sim/wave_config/eth_detail.wcfg",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\eth_detail.wcfg",
+    "source_sha256": "a0ff32f2f1003a2b306f15dfe8e86a272478c03731a4a48ddafd4e26339b0397",
+    "transformed": false,
+    "delivered_sha256": "a0ff32f2f1003a2b306f15dfe8e86a272478c03731a4a48ddafd4e26339b0397"
+  },
+  {
+    "path": "sim/wave_config/eth_overview.wcfg",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\eth_overview.wcfg",
+    "source_sha256": "9a57187405b5ebe3d779d5443687a80f1c3f13310fcf3ace3aeee680d0824595",
+    "transformed": false,
+    "delivered_sha256": "9a57187405b5ebe3d779d5443687a80f1c3f13310fcf3ace3aeee680d0824595"
+  },
+  {
+    "path": "sim/wave_config/ov_detail.wcfg",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\ov_detail.wcfg",
+    "source_sha256": "1c5fbd593e78af5b293df4f9a2fbde7935cd2ea8b2ed7222badc7ed1b2c8247a",
+    "transformed": false,
+    "delivered_sha256": "1c5fbd593e78af5b293df4f9a2fbde7935cd2ea8b2ed7222badc7ed1b2c8247a"
+  },
+  {
+    "path": "sim/wave_config/ov_overview.wcfg",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\ov_overview.wcfg",
+    "source_sha256": "12257a28c1646122352b8fc0fec9e0cc3468aef218e407c096d9dcc8ada9af0e",
+    "transformed": false,
+    "delivered_sha256": "12257a28c1646122352b8fc0fec9e0cc3468aef218e407c096d9dcc8ada9af0e"
+  },
+  {
+    "path": "sim/results/original_wave_checks.json",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\final_wave_checks.json",
+    "source_sha256": "7bc14b5cb7c671afa4105ad16522df8a22a69fe91333b9c8e14d5b6e8d94b0d8",
+    "transformed": true,
+    "delivered_sha256": "d967907002f7d5846abeeb23dfc2650b17ad471407a88db2a4a886f4e2180243"
+  },
+  {
+    "path": "build/reports/q/complete_synthesized_150mhz_timing.rpt",
+    "source": "fpga\\hw\\q\\build\\full_base\\complete_synthesized_150MHz_timing.rpt",
+    "source_sha256": "00349d67c47a594512c26268a3a6fcac5e53e4d2a9f1b8271491eff235eca69e",
+    "transformed": false,
+    "delivered_sha256": "00349d67c47a594512c26268a3a6fcac5e53e4d2a9f1b8271491eff235eca69e"
+  },
+  {
+    "path": "build/reports/q/optimized_utilization.rpt",
+    "source": "fpga\\hw\\q\\build\\full_base\\optimized_utilization.rpt",
+    "source_sha256": "f7eaa8746257c1f58dba04042e27045fa9e23212ee0c03ecce302331b75b1295",
+    "transformed": false,
+    "delivered_sha256": "f7eaa8746257c1f58dba04042e27045fa9e23212ee0c03ecce302331b75b1295"
+  },
+  {
+    "path": "build/reports/q/routed_150mhz_timing.rpt",
+    "source": "fpga\\hw\\q\\build\\full_base\\routed_150MHz_timing.rpt",
+    "source_sha256": "4026257ddd5c8b1bf1fd798e71c3a3fe97f81800210034634dcc69246e339b71",
+    "transformed": false,
+    "delivered_sha256": "4026257ddd5c8b1bf1fd798e71c3a3fe97f81800210034634dcc69246e339b71"
+  },
+  {
+    "path": "build/reports/q/routed_clocks.rpt",
+    "source": "fpga\\hw\\q\\build\\full_base\\routed_clocks.rpt",
+    "source_sha256": "936c51f57c4080b30a84c75456d2aa49ff9af6e1fa0cd495cf2d41967f731f1d",
+    "transformed": false,
+    "delivered_sha256": "936c51f57c4080b30a84c75456d2aa49ff9af6e1fa0cd495cf2d41967f731f1d"
+  },
+  {
+    "path": "build/reports/q/routed_drc.rpt",
+    "source": "fpga\\hw\\q\\build\\full_base\\routed_drc.rpt",
+    "source_sha256": "2b7cbb62d9277510c392fef714c17bcc81b9c73d01066b737356fb04ce978787",
+    "transformed": false,
+    "delivered_sha256": "2b7cbb62d9277510c392fef714c17bcc81b9c73d01066b737356fb04ce978787"
+  },
+  {
+    "path": "build/reports/q/routed_hierarchical_utilization.rpt",
+    "source": "fpga\\hw\\q\\build\\full_base\\routed_hierarchical_utilization.rpt",
+    "source_sha256": "db2d50b819dedffde153571e0457655b5754172328a2c78343710416d957de69",
+    "transformed": false,
+    "delivered_sha256": "db2d50b819dedffde153571e0457655b5754172328a2c78343710416d957de69"
+  },
+  {
+    "path": "build/reports/q/routed_io.rpt",
+    "source": "fpga\\hw\\q\\build\\full_base\\routed_io.rpt",
+    "source_sha256": "ad1a367e667aaab22e8df01caa329184053e87c8ef5cc0b87be308d8b2fe9a20",
+    "transformed": false,
+    "delivered_sha256": "ad1a367e667aaab22e8df01caa329184053e87c8ef5cc0b87be308d8b2fe9a20"
+  },
+  {
+    "path": "build/reports/q/routed_utilization.rpt",
+    "source": "fpga\\hw\\q\\build\\full_base\\routed_utilization.rpt",
+    "source_sha256": "a5643a33463afcfbc7b8eeb390e57fea4f502abf452b96eb117529ae49d00c9c",
+    "transformed": false,
+    "delivered_sha256": "a5643a33463afcfbc7b8eeb390e57fea4f502abf452b96eb117529ae49d00c9c"
+  },
+  {
+    "path": "build/reports/q/route_status.rpt",
+    "source": "fpga\\hw\\q\\build\\full_base\\route_status.rpt",
+    "source_sha256": "f3f9af54a7609dd231ea6a32cc0f54a8c3046569ad1eda708d506830cbaebcb1",
+    "transformed": false,
+    "delivered_sha256": "f3f9af54a7609dd231ea6a32cc0f54a8c3046569ad1eda708d506830cbaebcb1"
+  },
+  {
+    "path": "build/reports/q/synthesized_io.rpt",
+    "source": "fpga\\hw\\q\\build\\full_base\\synthesized_io.rpt",
+    "source_sha256": "3c9e22ebdcd2c0f0a0a701b2d4dac5f59bcad0849bc1268ca33a4d3a9c480367",
+    "transformed": false,
+    "delivered_sha256": "3c9e22ebdcd2c0f0a0a701b2d4dac5f59bcad0849bc1268ca33a4d3a9c480367"
+  },
+  {
+    "path": "build/reports/p/routed_clocks.rpt",
+    "source": "fpga\\hw\\p\\build_100MHz\\routed_clocks.rpt",
+    "source_sha256": "1620520769f7f66e965f807127777b421d997d572df451746fd3534b657694fd",
+    "transformed": false,
+    "delivered_sha256": "1620520769f7f66e965f807127777b421d997d572df451746fd3534b657694fd"
+  },
+  {
+    "path": "build/reports/p/routed_drc.rpt",
+    "source": "fpga\\hw\\p\\build_100MHz\\routed_drc.rpt",
+    "source_sha256": "e45ba05e9134c03c3f50e2b50fe6abfc50c4fa9ec1a0a9d0d2d18e43aa72c5fc",
+    "transformed": false,
+    "delivered_sha256": "e45ba05e9134c03c3f50e2b50fe6abfc50c4fa9ec1a0a9d0d2d18e43aa72c5fc"
+  },
+  {
+    "path": "build/reports/p/routed_hierarchy.rpt",
+    "source": "fpga\\hw\\p\\build_100MHz\\routed_hierarchy.rpt",
+    "source_sha256": "ffccf861f9fd9d3f6a4ad3f93e10e26f47a9f76bdb2cbb45dd62e352a63a15e4",
+    "transformed": false,
+    "delivered_sha256": "ffccf861f9fd9d3f6a4ad3f93e10e26f47a9f76bdb2cbb45dd62e352a63a15e4"
+  },
+  {
+    "path": "build/reports/p/routed_io.rpt",
+    "source": "fpga\\hw\\p\\build_100MHz\\routed_io.rpt",
+    "source_sha256": "1315236fbb0f9a7704f69c74be3c1f619a1f90f685ba0541aae184dc0e60f282",
+    "transformed": false,
+    "delivered_sha256": "1315236fbb0f9a7704f69c74be3c1f619a1f90f685ba0541aae184dc0e60f282"
+  },
+  {
+    "path": "build/reports/p/routed_status.rpt",
+    "source": "fpga\\hw\\p\\build_100MHz\\routed_status.rpt",
+    "source_sha256": "f2920e121ede981cccd8633639ba4146285781f19df3c595179f12c370b4291d",
+    "transformed": false,
+    "delivered_sha256": "f2920e121ede981cccd8633639ba4146285781f19df3c595179f12c370b4291d"
+  },
+  {
+    "path": "build/reports/p/routed_timing.rpt",
+    "source": "fpga\\hw\\p\\build_100MHz\\routed_timing.rpt",
+    "source_sha256": "433231e7c5375085718f2afd059d102eda8b12e96d8f4d07adb28919a3fd6ed7",
+    "transformed": false,
+    "delivered_sha256": "433231e7c5375085718f2afd059d102eda8b12e96d8f4d07adb28919a3fd6ed7"
+  },
+  {
+    "path": "build/reports/p/routed_utilization.rpt",
+    "source": "fpga\\hw\\p\\build_100MHz\\routed_utilization.rpt",
+    "source_sha256": "d83aa86b495524a40ee020a5dddfcdd2cd69c6ea7e4a6d2cac8448ff0e897aa1",
+    "transformed": false,
+    "delivered_sha256": "d83aa86b495524a40ee020a5dddfcdd2cd69c6ea7e4a6d2cac8448ff0e897aa1"
+  },
+  {
+    "path": "build/reports/p/synthesized_hierarchy.rpt",
+    "source": "fpga\\hw\\p\\build_100MHz\\synthesized_hierarchy.rpt",
+    "source_sha256": "95d1890134e2c0c4b1198f916fb27ee2e541811cad23a51e917ad9c269ae4b5b",
+    "transformed": false,
+    "delivered_sha256": "95d1890134e2c0c4b1198f916fb27ee2e541811cad23a51e917ad9c269ae4b5b"
+  },
+  {
+    "path": "build/reports/p/synthesized_utilization.rpt",
+    "source": "fpga\\hw\\p\\build_100MHz\\synthesized_utilization.rpt",
+    "source_sha256": "d2245c0d6cff8b410eca266c1c6237d0d2451231eb6c0774834f059d0fcd3d76",
+    "transformed": false,
+    "delivered_sha256": "d2245c0d6cff8b410eca266c1c6237d0d2451231eb6c0774834f059d0fcd3d76"
+  },
+  {
+    "path": "build/reports/hls/keypoint_conv_i8_csynth.rpt",
+    "source": "fpga\\hw\\q\\dw8_synth_project\\solution\\syn\\report\\keypoint_conv_i8_csynth.rpt",
+    "source_sha256": "d6d90f86a506715ad526445899cc3ecc6d254537e74a2a791d88d754751bcc06",
+    "transformed": false,
+    "delivered_sha256": "d6d90f86a506715ad526445899cc3ecc6d254537e74a2a791d88d754751bcc06"
+  },
+  {
+    "path": "build/reports/hls/keypoint_conv_i8_csynth.xml",
+    "source": "fpga\\hw\\q\\dw8_synth_project\\solution\\syn\\report\\keypoint_conv_i8_csynth.xml",
+    "source_sha256": "363c124b8a5692edfd76cba49ba91a6de52724af9c296382bb9a18b7b7c82c8a",
+    "transformed": false,
+    "delivered_sha256": "363c124b8a5692edfd76cba49ba91a6de52724af9c296382bb9a18b7b7c82c8a"
+  },
+  {
+    "path": "build/verification/q.log",
+    "source": "package_check\\q.log",
+    "source_sha256": "80121bbff7d1e330b9e19c2f0d4220bc15c7c60551dfb601342b2c1692f1f60d",
+    "transformed": false,
+    "delivered_sha256": "80121bbff7d1e330b9e19c2f0d4220bc15c7c60551dfb601342b2c1692f1f60d"
+  },
+  {
+    "path": "build/verification/p.log",
+    "source": "package_check\\p.log",
+    "source_sha256": "c97e2172b943f547adc6769e8979ead758979d7e1e525a2f8d0bb6c78d457c65",
+    "transformed": false,
+    "delivered_sha256": "c97e2172b943f547adc6769e8979ead758979d7e1e525a2f8d0bb6c78d457c65"
+  },
+  {
+    "path": "build/verification/nav_fp32.log",
+    "source": "package_check\\nav_fp32.log",
+    "source_sha256": "74842f88105c09c5c87c374a90055d3dea4bd517d36dbbccdc81b3c386474adb",
+    "transformed": false,
+    "delivered_sha256": "74842f88105c09c5c87c374a90055d3dea4bd517d36dbbccdc81b3c386474adb"
+  },
+  {
+    "path": "build/verification/init_mem.log",
+    "source": "package_check\\init_mem.log",
+    "source_sha256": "90720e230a798918d6fa226b9704861eb3437e29dcf30eb6bf0125843cf3d34d",
+    "transformed": false,
+    "delivered_sha256": "90720e230a798918d6fa226b9704861eb3437e29dcf30eb6bf0125843cf3d34d"
+  },
+  {
+    "path": "build/verification/source_package_verification.json",
+    "source": "source_release_20261104\\package_verification.json",
+    "source_sha256": "532ed2bc52c4689e6ea96e73fefb42f8505ed5923d4e9a00393664e35973aa04",
+    "transformed": false,
+    "delivered_sha256": "532ed2bc52c4689e6ea96e73fefb42f8505ed5923d4e9a00393664e35973aa04"
+  },
+  {
+    "path": "build/verification/source_nav_reconstruction_check.json",
+    "source": "source_release_20261104\\nav_reconstruction_check.json",
+    "source_sha256": "9a8663573f0831a3ba3af9a5300621e0af1634e0ad12251761458aa7eec8d154",
+    "transformed": false,
+    "delivered_sha256": "9a8663573f0831a3ba3af9a5300621e0af1634e0ad12251761458aa7eec8d154"
+  },
+  {
+    "path": "board/runtime/q/qiming_int8_overlay.dtbo",
+    "source": "fpga\\output\\report_hybrid_0600_20261101\\board_workers\\qiming\\recovery_reference\\qiming_int8_overlay.dtbo",
+    "source_sha256": "11d89efe2c452ea7ad2e80f30f565931c0f86e6d3f6ae696d7bc35b5d632efe1",
+    "transformed": false,
+    "delivered_sha256": "11d89efe2c452ea7ad2e80f30f565931c0f86e6d3f6ae696d7bc35b5d632efe1"
+  },
+  {
+    "path": "board/runtime/p/hand_overlay_100mhz.dtbo",
+    "source": "fpga\\output\\report_hybrid_0600_20261101\\board_workers\\pynq\\runtime_package\\driver\\hand_overlay_100mhz.dtbo",
+    "source_sha256": "cb1610a0a38d8365edee47cc644fa829ae65c940e33d44a6047003a86ea8b370",
+    "transformed": false,
+    "delivered_sha256": "cb1610a0a38d8365edee47cc644fa829ae65c940e33d44a6047003a86ea8b370"
+  },
+  {
+    "path": "data/test_inputs/fixed_frame.bin",
+    "source": "runs\\three_board_perception_20261103_203613\\fixed_frame.bin",
+    "source_sha256": "ee74c843cc3574d9875dfe3c320dd830686dfe9ff5f0eeef5c73176396a52caa",
+    "transformed": false,
+    "delivered_sha256": "ee74c843cc3574d9875dfe3c320dd830686dfe9ff5f0eeef5c73176396a52caa"
+  },
+  {
+    "path": "data/test_inputs/nav_heads/body_0_group0.npz",
+    "source": "nav_split\\compact\\body_0_group0.npz",
+    "source_sha256": "1e2496d10e9cb8c0becffe4304e61145c08e9eefa38418dfa79f46d72f85aba8",
+    "transformed": false,
+    "delivered_sha256": "1e2496d10e9cb8c0becffe4304e61145c08e9eefa38418dfa79f46d72f85aba8"
+  },
+  {
+    "path": "data/test_inputs/nav_heads/body_1_group0.npz",
+    "source": "nav_split\\compact\\body_1_group0.npz",
+    "source_sha256": "d6ae6d0c04607462941d2c074e8a54be6072b50f51b62f0592a0a4a205615adc",
+    "transformed": false,
+    "delivered_sha256": "d6ae6d0c04607462941d2c074e8a54be6072b50f51b62f0592a0a4a205615adc"
+  },
+  {
+    "path": "data/test_inputs/nav_heads/body_2_group0.npz",
+    "source": "nav_split\\compact\\body_2_group0.npz",
+    "source_sha256": "d46404ab85978857140242ff53afb5ece423fc38e077f82ce89ff808c14f5c17",
+    "transformed": false,
+    "delivered_sha256": "d46404ab85978857140242ff53afb5ece423fc38e077f82ce89ff808c14f5c17"
+  },
+  {
+    "path": "data/test_inputs/nav_heads/palm_0_group0.npz",
+    "source": "nav_split\\compact\\palm_0_group0.npz",
+    "source_sha256": "f181fc47b73f0b602f0dc7f1ca9f396d09f6014653b6dc8f47a72a7641bedbb9",
+    "transformed": false,
+    "delivered_sha256": "f181fc47b73f0b602f0dc7f1ca9f396d09f6014653b6dc8f47a72a7641bedbb9"
+  },
+  {
+    "path": "data/test_inputs/nav_heads/palm_1_group0.npz",
+    "source": "nav_split\\compact\\palm_1_group0.npz",
+    "source_sha256": "b050a3e9ed394456761d6888dde9b74202c4b2e2f4c66a43462be7f928d145f2",
+    "transformed": false,
+    "delivered_sha256": "b050a3e9ed394456761d6888dde9b74202c4b2e2f4c66a43462be7f928d145f2"
+  },
+  {
+    "path": "data/test_inputs/nav_heads/palm_2_group0.npz",
+    "source": "nav_split\\compact\\palm_2_group0.npz",
+    "source_sha256": "27cf8ddf999ac2fe50fb6e3d3245b2484ac5fa9945f3c8f22f5507c93ede6183",
+    "transformed": false,
+    "delivered_sha256": "27cf8ddf999ac2fe50fb6e3d3245b2484ac5fa9945f3c8f22f5507c93ede6183"
+  },
+  {
+    "path": "data/reference/hand_fixture.npz",
+    "source": "models\\full_hand\\full_hand_fixture.npz",
+    "source_sha256": "c7742d449348ca45bb61adf892f1da41763a9eeff666cbde62da4540d25d3e9c",
+    "transformed": false,
+    "delivered_sha256": "c7742d449348ca45bb61adf892f1da41763a9eeff666cbde62da4540d25d3e9c"
+  },
+  {
+    "path": "data/reference/body_fixture.npz",
+    "source": "models\\full_body_channels\\fixture.npz",
+    "source_sha256": "292c778c370e656434e174fb6aa69aa53d10c03412eb4e7a3e822e599c84bd6f",
+    "transformed": false,
+    "delivered_sha256": "292c778c370e656434e174fb6aa69aa53d10c03412eb4e7a3e822e599c84bd6f"
+  },
+  {
+    "path": "data/reference/tcn_torch_golden.npz",
+    "source": "models\\tcn508a\\torch_reference_golden.npz",
+    "source_sha256": "7e4477b5d997d0067c6c328a5030d06c56e1a2950df12bb4c381afab3eecddd1",
+    "transformed": false,
+    "delivered_sha256": "7e4477b5d997d0067c6c328a5030d06c56e1a2950df12bb4c381afab3eecddd1"
+  },
+  {
+    "path": "data/reference/tcn_seven_words.npz",
+    "source": "models\\tcn508a\\minimal\\seven_words.npz",
+    "source_sha256": "76021f91f6fc8460727326822d70bb66847b7bbe9aa0037c351346437643dacd",
+    "transformed": false,
+    "delivered_sha256": "76021f91f6fc8460727326822d70bb66847b7bbe9aa0037c351346437643dacd"
+  },
+  {
+    "path": "data/reference/tcn_primary_input.npz",
+    "source": "models\\tcn508a\\minimal\\shared_tcn\\candidate_primary_input.npz",
+    "source_sha256": "12f7ef7fbd5a9dbef696a2869322bdd308be9b4a6017c3bb09df20f9bd5b2f84",
+    "transformed": false,
+    "delivered_sha256": "12f7ef7fbd5a9dbef696a2869322bdd308be9b4a6017c3bb09df20f9bd5b2f84"
+  },
+  {
+    "path": "data/reference/tcn_primary_golden.json",
+    "source": "models\\tcn508a\\minimal\\shared_tcn\\expected_primary_golden.json",
+    "source_sha256": "32ba5fa65aee5323fca174981e41a0b984592ee4ad8c90275833d2812deb3c60",
+    "transformed": true,
+    "delivered_sha256": "65b81bffcd314467242fa18a60eed59e786ffc727df71fc4d75136b723f1d72b"
+  },
+  {
+    "path": "sim/results/skill_validation/skill_original_review.json",
+    "source": "submission_release_20261104\\skill_original_review.json",
+    "source_sha256": "b70e1b8f652accad0c66ed6d8e28f0d53f21a686de095db98cd1946e8ba1fb6e",
+    "transformed": false,
+    "delivered_sha256": "b70e1b8f652accad0c66ed6d8e28f0d53f21a686de095db98cd1946e8ba1fb6e"
+  },
+  {
+    "path": "sim/results/skill_validation/skill_tests.log",
+    "source": "submission_release_20261104\\skill_tests.log",
+    "source_sha256": "32911f56c6ef3bdd29bd66352e261a253b6fd4786e9c55c027f9b2892c37373c",
+    "transformed": false,
+    "delivered_sha256": "32911f56c6ef3bdd29bd66352e261a253b6fd4786e9c55c027f9b2892c37373c"
+  },
+  {
+    "path": "sim/results/skill_validation/skill_demo.log",
+    "source": "submission_release_20261104\\skill_demo.log",
+    "source_sha256": "88bb77ed45f357f2fad4e83608451cf742316c4640987ed2254772388f22c64d",
+    "transformed": false,
+    "delivered_sha256": "88bb77ed45f357f2fad4e83608451cf742316c4640987ed2254772388f22c64d"
+  },
+  {
+    "path": "sim/results/skill_validation/demo/actual.npy",
+    "source": "submission_release_20261104\\skill_demo\\actual.npy",
+    "source_sha256": "4b70f9a4634f177474470ce1b2b25b023987b7291db972891a9a3cf3b2f4dc64",
+    "transformed": false,
+    "delivered_sha256": "4b70f9a4634f177474470ce1b2b25b023987b7291db972891a9a3cf3b2f4dc64"
+  },
+  {
+    "path": "sim/results/skill_validation/demo/bad.npy",
+    "source": "submission_release_20261104\\skill_demo\\bad.npy",
+    "source_sha256": "9dd4778f9ac46052f0a846cfb7f77815cd6ef57e0259ac1b81553484571e0fda",
+    "transformed": false,
+    "delivered_sha256": "9dd4778f9ac46052f0a846cfb7f77815cd6ef57e0259ac1b81553484571e0fda"
+  },
+  {
+    "path": "sim/results/skill_validation/demo/demo_result.json",
+    "source": "submission_release_20261104\\skill_demo\\demo_result.json",
+    "source_sha256": "665b400f01688b6e64bf6ef405079ef05f916069efaeeddd71938ac3488dc466",
+    "transformed": true,
+    "delivered_sha256": "665bf3ce26c9262dc0f0bf9a011810b8f14f8d4ed3212c1f2c6468688bb27570"
+  },
+  {
+    "path": "sim/results/skill_validation/demo/fixture.bit",
+    "source": "submission_release_20261104\\skill_demo\\fixture.bit",
+    "source_sha256": "281dfa810ae532c6380b653f64714eafc3774ac6526d2f10b0d4d46ccff6ede0",
+    "transformed": false,
+    "delivered_sha256": "281dfa810ae532c6380b653f64714eafc3774ac6526d2f10b0d4d46ccff6ede0"
+  },
+  {
+    "path": "sim/results/skill_validation/demo/fixture.hwh",
+    "source": "submission_release_20261104\\skill_demo\\fixture.hwh",
+    "source_sha256": "89a102b349cf7409cb57103f567d389e72474a371b161992f7a1291124bf670c",
+    "transformed": false,
+    "delivered_sha256": "89a102b349cf7409cb57103f567d389e72474a371b161992f7a1291124bf670c"
+  },
+  {
+    "path": "sim/results/skill_validation/demo/manifest.json",
+    "source": "submission_release_20261104\\skill_demo\\manifest.json",
+    "source_sha256": "e8fd8bffdf5221a7948191bb03b9b5dc92058c168179c313dbce93001487d766",
+    "transformed": false,
+    "delivered_sha256": "e8fd8bffdf5221a7948191bb03b9b5dc92058c168179c313dbce93001487d766"
+  },
+  {
+    "path": "sim/results/skill_validation/demo/reference.npy",
+    "source": "submission_release_20261104\\skill_demo\\reference.npy",
+    "source_sha256": "4b70f9a4634f177474470ce1b2b25b023987b7291db972891a9a3cf3b2f4dc64",
+    "transformed": false,
+    "delivered_sha256": "4b70f9a4634f177474470ce1b2b25b023987b7291db972891a9a3cf3b2f4dc64"
+  },
+  {
+    "path": "sim/results/skill_validation/demo/stale_pipeline.csv",
+    "source": "submission_release_20261104\\skill_demo\\stale_pipeline.csv",
+    "source_sha256": "03e4cd0b11b5497e429acf4841ce369a04742fd93b72e1ccc5c8176e7d584cc7",
+    "transformed": false,
+    "delivered_sha256": "03e4cd0b11b5497e429acf4841ce369a04742fd93b72e1ccc5c8176e7d584cc7"
+  },
+  {
+    "path": "sim/results/skill_validation/demo/handoff/input.txt",
+    "source": "submission_release_20261104\\skill_demo\\handoff\\input.txt",
+    "source_sha256": "d67e2e944994496c8d8ec76eed0cf9f09679448d584b532bebf941852a37f5ed",
+    "transformed": false,
+    "delivered_sha256": "d67e2e944994496c8d8ec76eed0cf9f09679448d584b532bebf941852a37f5ed"
+  },
+  {
+    "path": "report/design/system_report.docx",
+    "source": "medical_gesture_fpga_submission_3_20261104.zip::medical_gesture_fpga/report/design/system_report.docx",
+    "source_archive_sha256": "5c3f5458efa22dd127729bafba09f07111bf7f66fb9faffb1affbbea7e0fd5e2",
+    "source_sha256": "fecca32d811aa02d573d6a6e9b44a1f23a9c265426fa39c44ad2ee765c03fa09",
+    "transformed": false,
+    "delivered_sha256": "fecca32d811aa02d573d6a6e9b44a1f23a9c265426fa39c44ad2ee765c03fa09"
+  },
+  {
+    "path": "report/design/system_report.pdf",
+    "source": "medical_gesture_fpga_submission_3_20261104.zip::medical_gesture_fpga/report/design/system_report.pdf",
+    "source_archive_sha256": "5c3f5458efa22dd127729bafba09f07111bf7f66fb9faffb1affbbea7e0fd5e2",
+    "source_sha256": "8250a79f583f04a57c976c05e2c5deb96d2d5b440b8c29ab9c5c66cc21c5a594",
+    "transformed": false,
+    "delivered_sha256": "8250a79f583f04a57c976c05e2c5deb96d2d5b440b8c29ab9c5c66cc21c5a594"
+  },
+  {
+    "path": "board/outputs/source_complete_fixed/result.json",
+    "source": "medical_gesture_fpga_submission_3_20261104.zip::medical_gesture_fpga/board/outputs/source_complete_fixed/result.json",
+    "source_archive_sha256": "5c3f5458efa22dd127729bafba09f07111bf7f66fb9faffb1affbbea7e0fd5e2",
+    "source_sha256": "b08631736094fdbd621706ef18bb5f8cac6a2fd4fd45bb7b9f3f20f4ab1192ae",
+    "transformed": false,
+    "delivered_sha256": "b08631736094fdbd621706ef18bb5f8cac6a2fd4fd45bb7b9f3f20f4ab1192ae"
+  },
+  {
+    "path": "board/outputs/installed_tcn/result.json",
+    "source": "medical_gesture_fpga_submission_3_20261104.zip::medical_gesture_fpga/board/outputs/installed_tcn/result.json",
+    "source_archive_sha256": "5c3f5458efa22dd127729bafba09f07111bf7f66fb9faffb1affbbea7e0fd5e2",
+    "source_sha256": "e6a0447b597bd3479d7d0d227374d4181417dc7e0afd997a41afde46a5a769e9",
+    "transformed": false,
+    "delivered_sha256": "e6a0447b597bd3479d7d0d227374d4181417dc7e0afd997a41afde46a5a769e9"
+  },
+  {
+    "path": "board/outputs/rebuilt_hand/result.json",
+    "source": "medical_gesture_fpga_submission_3_20261104.zip::medical_gesture_fpga/board/outputs/rebuilt_hand/result.json",
+    "source_archive_sha256": "5c3f5458efa22dd127729bafba09f07111bf7f66fb9faffb1affbbea7e0fd5e2",
+    "source_sha256": "1173f81f7eab9250ec29db699ad7ed210d1704710a19ac65e37931b347d02745",
+    "transformed": false,
+    "delivered_sha256": "1173f81f7eab9250ec29db699ad7ed210d1704710a19ac65e37931b347d02745"
+  }
+]

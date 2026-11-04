@@ -1,0 +1,51 @@
+[
+  {
+    "name": "liblive_integer_frame.so",
+    "sha256": "67815b89b663be1168906af8baf98a1c2fedd5bde0600a007a0bcf883772b257",
+    "binary_paths": [
+      "board/runtime/nav/liblive_integer_frame.so"
+    ],
+    "source_paths": [
+      "src/native/display"
+    ],
+    "source_status": "SOURCE_BUILT_AND_NUMERICALLY_VERIFIED",
+    "build_entry": "build/build_arm.py display"
+  },
+  {
+    "name": "libreport_integer_image.so",
+    "sha256": "5b7bb09b6c8990c5b36cb9aa3a239219b126380e707a94740f70e9354e958d49",
+    "binary_paths": [
+      "board/runtime/nav/libreport_integer_image.so"
+    ],
+    "source_paths": [
+      "src/native/display"
+    ],
+    "source_status": "SOURCE_BUILT_AND_NUMERICALLY_VERIFIED",
+    "build_entry": "build/build_arm.py display"
+  },
+  {
+    "name": "libgesture_tflite_pl.so",
+    "sha256": "6cd57afe24a657cf627904ed031be01e56adbc0c0d0a47b07a848c66fc9648a8",
+    "binary_paths": [
+      "board/runtime/nav/libgesture_tflite_pl.so",
+      "board/runtime/q/libgesture_tflite_pl.so"
+    ],
+    "source_paths": [
+      "src/native/nav_fp32"
+    ],
+    "source_status": "SOURCE_BUILT_AND_NUMERICALLY_VERIFIED",
+    "build_entry": "build/nav_fp32/CMakeLists.txt"
+  },
+  {
+    "name": "libgesture_lite_i8_v12.so",
+    "sha256": "d05d60bab4c00fe0660590c79e48417bb0376552657bd75035821649fd8c35e7",
+    "binary_paths": [
+      "board/runtime/q/libgesture_lite_i8_v12.so"
+    ],
+    "source_paths": [
+      "src/native/tcn"
+    ],
+    "source_status": "SOURCE_BUILT_AND_NUMERICALLY_VERIFIED",
+    "build_entry": "build/build_arm.py tcn"
+  }
+]

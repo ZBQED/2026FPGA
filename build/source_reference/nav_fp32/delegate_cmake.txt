@@ -1,0 +1,16 @@
+# Included by the isolated TFLite build after tensorflow-lite is available.
+foreach(mode IN ITEMS pl pl_emulation)
+  set(name gesture_tflite_${mode})
+  add_library(${name} SHARED
+    "${CMAKE_CURRENT_LIST_DIR}/../gesture_tflite.cc"
+    pl_delegate.cc gesture_pl_client.cpp
+    "${CMAKE_CURRENT_LIST_DIR}/../tensorflow-2.11.0/tensorflow/lite/delegates/utils/simple_delegate.cc")
+  target_include_directories(${name} PRIVATE "${CMAKE_CURRENT_LIST_DIR}" "${CMAKE_CURRENT_LIST_DIR}/../pl_keypoints")
+  target_compile_definitions(${name} PRIVATE GESTURE_USE_PL=1)
+  target_link_libraries(${name} PRIVATE tensorflow-lite)
+  target_link_options(${name} PRIVATE "-Wl,-z,defs")
+  if(mode STREQUAL "pl_emulation")
+    target_compile_definitions(${name} PRIVATE GESTURE_PL_EMULATION=1)
+    target_sources(${name} PRIVATE "${CMAKE_CURRENT_LIST_DIR}/../pl_keypoints/keypoint_conv.cpp")
+  endif()
+endforeach()

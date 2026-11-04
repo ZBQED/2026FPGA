@@ -1,0 +1,35 @@
+[
+  {
+    "model": "full_palm_fused_cached",
+    "source": "full_palm_fused_lut_cached",
+    "base": 6293376,
+    "constant_bytes": 2628288,
+    "activation_bytes": 1260800,
+    "pool_bytes": 8527680,
+    "input_elements": 110592,
+    "head_values": 38304,
+    "PL_jobs": 91
+  },
+  {
+    "model": "full_body_channels_cached",
+    "source": "full_body_channels_halfadd_cached",
+    "base": 8921728,
+    "constant_bytes": 1722872,
+    "activation_bytes": 1542720,
+    "pool_bytes": 6181248,
+    "input_elements": 147456,
+    "head_values": 52224,
+    "PL_jobs": 269
+  },
+  {
+    "model": "full_hand",
+    "source": "full_hand",
+    "base": 10644672,
+    "constant_bytes": 2915520,
+    "activation_bytes": 2007360,
+    "pool_bytes": 4922944,
+    "input_elements": 150528,
+    "head_values": 44,
+    "PL_jobs": 50
+  }
+]

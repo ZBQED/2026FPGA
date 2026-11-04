@@ -1,0 +1,191 @@
+{
+  "status": "EXACT_PREVIOUSLY_ADMITTED_NAV_HEADS_REUSED",
+  "models": {
+    "palm": {
+      "source": "E:\\medical_gesture_detection\\light_try\\FPGA_120ms_work\\models\\pl_graph\\palm.onnx",
+      "source_sha256": "5abb05b8ea267e0008288296d87165e499a1219b9d41972aa04a33fdc8b006dd",
+      "features": [
+        "/layer_230/PRelu_output_0"
+      ],
+      "heads": [
+        "/layer_233/Conv_output_0",
+        "/layer_237/Conv_output_0",
+        "/layer_264/Conv_output_0",
+        "/layer_269/Conv_output_0"
+      ],
+      "outputs": [
+        "regressions",
+        "score_logits"
+      ],
+      "FPGA_convolutions": [
+        {
+          "node": "/layer_233/Conv",
+          "feature": "/layer_230/PRelu_output_0",
+          "head": "/layer_233/Conv_output_0",
+          "input_shape": [
+            12,
+            12,
+            256
+          ],
+          "output_shape": [
+            12,
+            12,
+            6
+          ],
+          "macs": 221184
+        }
+      ],
+      "prefix_suffix_reference_pass": true,
+      "groups": [
+        {
+          "feature": "/layer_230/PRelu_output_0",
+          "heads": [
+            "/layer_233/Conv_output_0"
+          ],
+          "channels": [
+            6
+          ],
+          "input_shape": [
+            12,
+            12,
+            256
+          ]
+        }
+      ],
+      "PC_heads": [
+        "/layer_237/Conv_output_0",
+        "/layer_264/Conv_output_0",
+        "/layer_269/Conv_output_0"
+      ]
+    },
+    "body": {
+      "source": "E:\\medical_gesture_detection\\light_try\\FPGA_120ms_work\\models\\pl_graph\\body.onnx",
+      "source_sha256": "caade4456b4f0be66a41fab8a5a44d8db803ea4e7d4c78665d8b1a04d8f47490",
+      "features": [
+        "relu_143.tmp_0"
+      ],
+      "heads": [
+        "conv2d_441.tmp_1"
+      ],
+      "outputs": [
+        "conv2d_441.tmp_1"
+      ],
+      "FPGA_convolutions": [
+        {
+          "node": "Conv.268",
+          "feature": "relu_143.tmp_0",
+          "head": "conv2d_441.tmp_1",
+          "input_shape": [
+            64,
+            48,
+            40
+          ],
+          "output_shape": [
+            64,
+            48,
+            17
+          ],
+          "macs": 2088960
+        }
+      ],
+      "prefix_suffix_reference_pass": true,
+      "groups": [
+        {
+          "feature": "relu_143.tmp_0",
+          "heads": [
+            "conv2d_441.tmp_1"
+          ],
+          "channels": [
+            17
+          ],
+          "input_shape": [
+            64,
+            48,
+            40
+          ]
+        }
+      ],
+      "PC_heads": []
+    }
+  },
+  "cases": [
+    {
+      "file": "palm_0_group0.npz",
+      "model": "palm",
+      "sample": 0,
+      "node": "/layer_233/Conv + /layer_237/Conv",
+      "macs": 4202496
+    },
+    {
+      "file": "palm_1_group0.npz",
+      "model": "palm",
+      "sample": 1,
+      "node": "/layer_233/Conv + /layer_237/Conv",
+      "macs": 4202496
+    },
+    {
+      "file": "palm_2_group0.npz",
+      "model": "palm",
+      "sample": 2,
+      "node": "/layer_233/Conv + /layer_237/Conv",
+      "macs": 4202496
+    },
+    {
+      "file": "palm_0_group1.npz",
+      "model": "palm",
+      "sample": 0,
+      "node": "/layer_264/Conv + /layer_269/Conv",
+      "macs": 2801664
+    },
+    {
+      "file": "palm_1_group1.npz",
+      "model": "palm",
+      "sample": 1,
+      "node": "/layer_264/Conv + /layer_269/Conv",
+      "macs": 2801664
+    },
+    {
+      "file": "palm_2_group1.npz",
+      "model": "palm",
+      "sample": 2,
+      "node": "/layer_264/Conv + /layer_269/Conv",
+      "macs": 2801664
+    },
+    {
+      "file": "body_0_group0.npz",
+      "model": "body",
+      "sample": 0,
+      "node": "Conv.268",
+      "macs": 2088960
+    },
+    {
+      "file": "body_1_group0.npz",
+      "model": "body",
+      "sample": 1,
+      "node": "Conv.268",
+      "macs": 2088960
+    },
+    {
+      "file": "body_2_group0.npz",
+      "model": "body",
+      "sample": 2,
+      "node": "Conv.268",
+      "macs": 2088960
+    }
+  ],
+  "PC_Hand_RUN": 0,
+  "PC_TCN_RUN": 0,
+  "files": {
+    "body_0_group0.npz": "1e2496d10e9cb8c0becffe4304e61145c08e9eefa38418dfa79f46d72f85aba8",
+    "body_1_group0.npz": "d6ae6d0c04607462941d2c074e8a54be6072b50f51b62f0592a0a4a205615adc",
+    "body_2_group0.npz": "d46404ab85978857140242ff53afb5ece423fc38e077f82ce89ff808c14f5c17",
+    "body_prefix.onnx": "8aa33fc4971bee309516ef606efe256b5db4a1352200294f698934eca24877ea",
+    "body_suffix.onnx": "2de09ad50150bfcbe85e1dc0c3ba291d420698d86ca5b31ef45c9da639c2abde",
+    "palm_0_group0.npz": "f181fc47b73f0b602f0dc7f1ca9f396d09f6014653b6dc8f47a72a7641bedbb9",
+    "palm_1_group0.npz": "b050a3e9ed394456761d6888dde9b74202c4b2e2f4c66a43462be7f928d145f2",
+    "palm_2_group0.npz": "27cf8ddf999ac2fe50fb6e3d3245b2484ac5fa9945f3c8f22f5507c93ede6183",
+    "palm_prefix.onnx": "5089098926c13b017bdc6cc72d0f9eaf28397ecf923687c6bd63364476779c0f",
+    "palm_suffix.onnx": "ec0ec7aa32083e892dac190a696fc838d7bff119e1e34bc8c21e831808bc92ff"
+  },
+  "native_library_sha256": "6cd57afe24a657cf627904ed031be01e56adbc0c0d0a47b07a848c66fc9648a8"
+}

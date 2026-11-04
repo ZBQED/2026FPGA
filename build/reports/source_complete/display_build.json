@@ -1,0 +1,26 @@
+{
+  "results": [
+    {
+      "name": "liblive_integer_frame.so",
+      "returncode": 0,
+      "source_sha256": {
+        "src\\native\\display\\live_integer_frame.c": "c0d148e17c2e81f532993d0883eb2f969ab39554159f4a9600697b9721bec6a2"
+      },
+      "status": "ARM_ELF_BUILT",
+      "sha256": "67815b89b663be1168906af8baf98a1c2fedd5bde0600a007a0bcf883772b257",
+      "bytes": 15612
+    },
+    {
+      "name": "libreport_integer_image.so",
+      "returncode": 0,
+      "source_sha256": {
+        "src\\native\\display\\live_integer_frame.c": "c0d148e17c2e81f532993d0883eb2f969ab39554159f4a9600697b9721bec6a2"
+      },
+      "status": "ARM_ELF_BUILT",
+      "sha256": "5b7bb09b6c8990c5b36cb9aa3a239219b126380e707a94740f70e9354e958d49",
+      "bytes": 15612
+    }
+  ],
+  "hardware_accessed": false,
+  "numeric_and_scan_verification": "build/reports/source_complete/display_golden.json"
+}

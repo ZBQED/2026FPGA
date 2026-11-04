@@ -1,0 +1,10 @@
+{
+  "observed_date": "2026-11-03",
+  "source": "Explicit user reply after extended Nav HDMI display",
+  "quote": "还可以比较贴合，接着加速吧，太卡了",
+  "hand21_current_session_basic_alignment_accepted": true,
+  "all_scenes_accuracy_accepted": false,
+  "latency_accepted": false,
+  "TCN_RUN": 0,
+  "source_run": "three_board_perception_20261103_084836"
+}

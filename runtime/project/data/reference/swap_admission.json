@@ -1,0 +1,154 @@
+{
+  "status": "OFFLINE_DISPLAY_PASS_RESTORED",
+  "UI_sha256": "721dbd4382b5b2c92be1aa014b9906c664393e9f05d2a825666b7fa917b3469d",
+  "display": {
+    "rows": [
+      {
+        "paired_copy_ack": {
+          "render_equivalence_verified": true,
+          "rgb_swap_method": "neon16"
+        }
+      },
+      {
+        "paired_copy_ack": {
+          "render_equivalence_verified": true,
+          "rgb_swap_method": "neon16"
+        }
+      },
+      {
+        "paired_copy_ack": {
+          "render_equivalence_verified": true,
+          "rgb_swap_method": "neon16"
+        }
+      },
+      {
+        "paired_copy_ack": {
+          "render_equivalence_verified": true,
+          "rgb_swap_method": "neon16"
+        }
+      },
+      {
+        "paired_copy_ack": {
+          "render_equivalence_verified": true,
+          "rgb_swap_method": "neon16"
+        }
+      },
+      {
+        "paired_copy_ack": {
+          "render_equivalence_verified": true,
+          "rgb_swap_method": "neon16"
+        }
+      },
+      {
+        "paired_copy_ack": {
+          "render_equivalence_verified": true,
+          "rgb_swap_method": "neon16"
+        }
+      },
+      {
+        "paired_copy_ack": {
+          "render_equivalence_verified": true,
+          "rgb_swap_method": "neon16"
+        }
+      },
+      {
+        "paired_copy_ack": {
+          "render_equivalence_verified": true,
+          "rgb_swap_method": "neon16"
+        }
+      },
+      {
+        "paired_copy_ack": {
+          "render_equivalence_verified": true,
+          "rgb_swap_method": "neon16"
+        }
+      },
+      {
+        "paired_copy_ack": {
+          "render_equivalence_verified": true,
+          "rgb_swap_method": "neon16"
+        }
+      },
+      {
+        "paired_copy_ack": {
+          "render_equivalence_verified": true,
+          "rgb_swap_method": "neon16"
+        }
+      },
+      {
+        "paired_copy_ack": {
+          "render_equivalence_verified": true,
+          "rgb_swap_method": "neon16"
+        }
+      },
+      {
+        "paired_copy_ack": {
+          "render_equivalence_verified": true,
+          "rgb_swap_method": "neon16"
+        }
+      },
+      {
+        "paired_copy_ack": {
+          "render_equivalence_verified": true,
+          "rgb_swap_method": "neon16"
+        }
+      },
+      {
+        "paired_copy_ack": {
+          "render_equivalence_verified": true,
+          "rgb_swap_method": "neon16"
+        }
+      },
+      {
+        "paired_copy_ack": {
+          "render_equivalence_verified": true,
+          "rgb_swap_method": "neon16"
+        }
+      },
+      {
+        "paired_copy_ack": {
+          "render_equivalence_verified": true,
+          "rgb_swap_method": "neon16"
+        }
+      },
+      {
+        "paired_copy_ack": {
+          "render_equivalence_verified": true,
+          "rgb_swap_method": "neon16"
+        }
+      },
+      {
+        "paired_copy_ack": {
+          "render_equivalence_verified": true,
+          "rgb_swap_method": "neon16"
+        }
+      },
+      {
+        "paired_copy_ack": {
+          "render_equivalence_verified": true,
+          "rgb_swap_method": "neon16"
+        }
+      },
+      {
+        "paired_copy_ack": {
+          "render_equivalence_verified": true,
+          "rgb_swap_method": "neon16"
+        }
+      },
+      {
+        "paired_copy_ack": {
+          "render_equivalence_verified": true,
+          "rgb_swap_method": "neon16"
+        }
+      },
+      {
+        "paired_copy_ack": {
+          "render_equivalence_verified": true,
+          "rgb_swap_method": "neon16"
+        }
+      }
+    ]
+  },
+  "record_type": "verbatim_field_excerpt",
+  "source_record_sha256": "b52f4e486b8103cef76db6d915c12148f1c9c63d9c6386783f76ddc645cef14f"
+}

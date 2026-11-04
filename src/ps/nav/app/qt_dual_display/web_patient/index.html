@@ -1,0 +1,529 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>医手相通 · 患者端</title>
+  <style>
+    :root { --navy:#12384b; --ink:#17394f; --muted:#58717e; --teal:#237a64; --line:#cfdee5; --paper:#fff; --background:#eef4f7; }
+    * { box-sizing:border-box; }
+    [hidden] { display:none !important; }
+    body { margin:0; min-width:300px; background:var(--background); color:var(--ink); font-family:"Microsoft YaHei","PingFang SC",system-ui,sans-serif; }
+    button { font:inherit; cursor:pointer; touch-action:manipulation; }
+    button:focus-visible { outline:3px solid #d7a93c; outline-offset:3px; }
+    button:disabled { cursor:not-allowed; opacity:.43; }
+    .app { min-height:100vh; min-height:100dvh; display:flex; flex-direction:column; }
+    .header { background:var(--navy); color:#fff; padding:19px clamp(16px,3vw,38px); display:flex; align-items:center; gap:18px; }
+    .brand { display:flex; align-items:center; gap:12px; min-width:0; }
+    .brand-mark { flex:none; width:38px; height:38px; border:1px solid #6c96a2; border-radius:12px; display:grid; place-items:center; color:#b5e7d8; font-size:26px; line-height:1; }
+    h1 { font-size:clamp(19px,2.1vw,28px); margin:0; font-weight:700; letter-spacing:.02em; }
+    .subtitle { color:#bcd4df; font-size:12px; margin-top:4px; }
+    .header-actions { margin-left:auto; display:flex; align-items:center; gap:14px; flex:none; }
+    .connection { font-size:13px; color:#f7d899; display:flex; align-items:center; gap:7px; }
+    .connection::before { content:""; width:7px; height:7px; border-radius:50%; background:currentColor; }
+    .connection.online { color:#a7e7c8; }
+    .fullscreen { border:1px solid #668491; color:#e6f1f4; border-radius:8px; background:transparent; padding:9px 13px; font-size:13px; }
+    main { width:100%; max-width:1800px; margin:0 auto; padding:20px clamp(14px,2.5vw,34px) 16px; display:flex; flex-direction:column; gap:16px; flex:1; }
+    .turn-bar { display:flex; align-items:center; gap:14px; padding:12px 16px; border:1px solid #c4ddd5; background:#ddefe9; color:#17624f; border-radius:11px; font-weight:600; font-size:clamp(15px,1.5vw,19px); }
+    .turn-bar.staff-turn { color:#215d83; border-color:#c9dae8; background:#ddebf7; }
+    .round { white-space:nowrap; padding:6px 12px; border-radius:7px; background:#ffffffa6; font-size:14px; }
+    .turn-copy { min-width:0; }
+    .notice { border:1px solid #e0c17c; background:#fff6e6; color:#865315; padding:12px 15px; border-radius:9px; font-size:14px; line-height:1.65; overflow-wrap:anywhere; }
+    .notice strong { display:block; font-weight:600; }
+    .workspace { display:grid; grid-template-columns:minmax(0,55fr) minmax(0,45fr); gap:18px; align-items:stretch; flex:1; min-height:400px; }
+    .camera-card { background:#153747; border-radius:15px; overflow:hidden; color:#fff; display:flex; flex-direction:column; min-width:0; box-shadow:0 5px 18px #12384b0d; }
+    .camera-toolbar { display:flex; align-items:center; gap:12px; padding:16px 18px; }
+    .camera-heading { min-width:0; flex:1; }
+    h2 { margin:0; font-size:18px; font-weight:600; }
+    .camera-heading p { margin:6px 0 0; color:#b9d4de; font-size:13px; line-height:1.5; overflow-wrap:anywhere; }
+    .replay { flex:none; border:1px solid #6a8e9e; background:#ffffff0c; border-radius:8px; color:#edf7fa; padding:10px 13px; font-size:14px; }
+    .camera-stage { position:relative; width:100%; min-height:220px; aspect-ratio:5 / 3; background:#071b25; display:grid; place-items:center; margin:auto 0; overflow:hidden; }
+    .camera-stage img { display:block; width:100%; height:100%; object-fit:contain; position:absolute; inset:0; }
+    .camera-stage video { display:block; width:100%; height:100%; object-fit:contain; position:absolute; inset:0; background:#071b25; z-index:1; }
+    .camera-stage.unavailable img { opacity:.24; }
+    .camera-notice { position:relative; margin:24px; text-align:center; color:#e5f0f4; max-width:90%; background:#102e40dd; border:1px solid #426575; border-radius:10px; padding:22px 26px; line-height:1.65; }
+    .camera-notice strong { display:block; font-size:18px; font-weight:600; }
+    .camera-notice span { display:block; margin-top:5px; font-size:13px; color:#bbd3dd; overflow-wrap:anywhere; }
+    .camera-caption { padding:16px 18px; font-size:13px; line-height:1.75; color:#cbe2e9; text-align:center; }
+    .camera-caption.error { color:#ffd397; }
+    .conversation { display:flex; flex-direction:column; gap:14px; min-width:0; }
+    .card { border:1px solid var(--line); background:var(--paper); border-radius:13px; padding:clamp(18px,2vw,28px); min-width:0; }
+    .staff-card { flex:0 0 auto; min-height:0; padding-top:18px; padding-bottom:18px; }
+    .recent-result { flex:0 0 auto; padding:14px 18px; background:#eaf7f1; border-color:#a7d4ca; }
+    .recent-heading, .recent-value { display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:6px 12px; }
+    .recent-heading h2 { font-size:14px; color:#237a64; }
+    .recent-badge { font-size:11px; color:#58717e; }
+    .recent-value { margin:7px 0 5px; }
+    .recent-word { font-size:28px; line-height:1.25; color:#17624f; overflow-wrap:anywhere; }
+    .recent-confidence { color:#456c5e; font-size:13px; }
+    .recent-time { font-size:12px; color:#58717e; }
+    .recent-note { margin:6px 0 0; font-size:11px; color:#58717e; line-height:1.55; }
+    .recent-reason { margin:5px 0 0; color:#966323; font-size:12px; line-height:1.5; }
+    .recent-result.unconfirmed { background:#fff7ec; border-color:#dfc39d; }
+    .recent-result.unconfirmed .recent-word { color:#966323; }
+    .recent-result.offline .recent-word { color:#687f85; }
+    .recent-result.offline .recent-badge { color:#966323; }
+    .eyebrow { font-size:13px; font-weight:600; letter-spacing:.04em; color:#48738a; margin:0 0 13px; display:flex; align-items:center; gap:8px; }
+    .eyebrow::before { content:""; width:4px; height:14px; background:#7fabbc; border-radius:2px; }
+    .staff-message { font-size:clamp(22px,2vw,31px); line-height:1.6; margin:0; overflow-wrap:anywhere; white-space:pre-wrap; }
+    .draft-card { flex:1; display:flex; flex-direction:column; border-color:#a7d4ca; }
+    .draft-card.matched { background:#eaf7f1; }
+    .draft-card.unmatched { background:#fff4e9; border-color:#ddb381; }
+    .draft-heading { display:flex; align-items:center; flex-wrap:wrap; gap:10px; margin-bottom:20px; }
+    .draft-heading h2 { flex:1; color:#976a20; }
+    .matched .draft-heading h2 { color:var(--teal); }
+    .draft-badge { font-size:12px; padding:5px 9px; border-radius:6px; background:#f0f5f6; color:#58717e; }
+    .matched .draft-badge { background:#d5eee3; color:#237a64; }
+    .unmatched .draft-badge { background:#f8e4cf; color:#956322; }
+    .tokens-label { color:var(--muted); font-size:12px; margin:0 0 10px; }
+    .tokens-heading { display:flex; align-items:center; justify-content:space-between; gap:10px; margin-bottom:10px; }
+    .tokens-heading .tokens-label { margin:0; font-size:13px; }
+    .undo { flex:none; border:1px solid #abcabd; border-radius:8px; background:#ffffffc4; color:#286651; padding:10px 12px; font-size:14px; min-height:40px; }
+    .undo:hover:not(:disabled) { background:#dcefe5; }
+    .tokens { display:flex; flex-wrap:wrap; align-items:center; gap:8px; padding:0; margin:0 0 20px; list-style:none; }
+    .tokens li { display:flex; align-items:center; gap:7px; border:1px solid #c8ded7; border-radius:8px; background:#ffffffb3; padding:8px 11px; max-width:100%; overflow-wrap:anywhere; font-size:16px; }
+    .tokens .number { color:#78968b; font-size:12px; font-variant-numeric:tabular-nums; }
+    .tokens .empty { border:0; background:none; padding:0; color:#6d8491; font-size:15px; }
+    .intent-label { font-size:12px; color:var(--muted); margin:0 0 8px; }
+    .intent { font-size:clamp(24px,2.5vw,37px); font-weight:700; line-height:1.5; margin:0 0 20px; overflow-wrap:anywhere; white-space:pre-wrap; }
+    .matched .intent { color:#17624f; }
+    .match-hint { margin:0 0 10px; color:#365e52; font-size:14px; line-height:1.7; overflow-wrap:anywhere; }
+    .unmatched .match-hint { color:#986128; }
+    .catalog-tip { margin:0 0 14px; color:#687f89; font-size:12px; line-height:1.65; }
+    .hint { margin:auto 0 0; padding-top:14px; border-top:1px solid #d6e4e4; font-size:14px; line-height:1.75; color:var(--muted); overflow-wrap:anywhere; }
+    .actions { display:grid; grid-template-columns:1fr 1.4fr 1fr .9fr; gap:12px; }
+    .action { border:1px solid #bdcfd8; background:#fff; border-radius:10px; color:var(--ink); min-height:58px; padding:12px 14px; font-size:clamp(16px,1.6vw,21px); font-weight:600; }
+    .action:hover:not(:disabled) { background:#e3eef1; }
+    .action.primary { background:var(--teal); border-color:var(--teal); color:#fff; }
+    .action.primary:hover:not(:disabled) { background:#19634f; }
+    .action.end { color:#6b5e5a; background:#f7f9fa; }
+    .status-line { display:flex; flex-wrap:wrap; gap:8px 18px; color:var(--muted); font-size:13px; line-height:1.6; min-height:20px; overflow-wrap:anywhere; }
+    .selected { color:#237a64; font-weight:600; }
+    .feedback { color:#865315; font-size:14px; line-height:1.6; border-left:3px solid #d7a557; padding:8px 12px; margin:0; background:#fff8eb; border-radius:0 7px 7px 0; overflow-wrap:anywhere; }
+    dialog { width:min(600px,calc(100% - 30px)); max-height:calc(100dvh - 40px); border:1px solid #cadce4; border-radius:16px; padding:26px; color:var(--ink); background:#f8fbfc; box-shadow:0 20px 70px #09233340; }
+    dialog::backdrop { background:#102e42bb; }
+    .dialog-heading { display:flex; align-items:center; gap:16px; margin-bottom:20px; }
+    .dialog-heading h2 { flex:1; font-size:23px; }
+    .dialog-description { color:var(--muted); line-height:1.8; margin:12px 0 24px; }
+    .dialog-actions { display:grid; grid-template-columns:1fr 1fr; gap:12px; }
+    .department-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px; }
+    .department-grid .action { min-height:75px; font-size:18px; }
+    .modal-status { margin:16px 0 0; color:#9a681f; line-height:1.6; font-size:14px; }
+    @media (min-width:1500px) { .camera-stage { min-height:390px; } }
+    @media (max-width:860px) {
+      .header { padding:16px; gap:12px; }
+      .brand-mark { display:none; }
+      .header-actions { gap:10px; }
+      .connection { font-size:11px; }
+      main { gap:12px; padding-top:14px; }
+      .workspace { grid-template-columns:1fr; min-height:0; gap:12px; }
+      .camera-stage { min-height:0; }
+      .camera-toolbar { padding:13px 15px; }
+      .camera-caption { padding:12px 15px; }
+      .conversation { gap:12px; }
+      .staff-card { min-height:0; }
+      .card { padding:18px; }
+      .staff-message { font-size:23px; }
+      .draft-heading { margin-bottom:16px; }
+      .actions { grid-template-columns:1fr 1fr; gap:10px; }
+      .action { min-height:56px; font-size:17px; }
+      .turn-bar { font-size:15px; gap:10px; padding:10px 12px; }
+      .round { font-size:12px; padding:6px 8px; }
+    }
+    @media (max-width:480px) {
+      .header { flex-wrap:wrap; }
+      .header-actions { gap:10px; }
+      .connection { max-width:100px; line-height:1.5; }
+      .fullscreen { padding:7px 9px; font-size:12px; }
+      h1 { font-size:20px; }
+      .subtitle { font-size:11px; }
+      .replay { font-size:12px; padding:9px; }
+      h2 { font-size:17px; }
+      .department-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
+      dialog { padding:20px; }
+      .dialog-heading { flex-wrap:wrap; }
+      .dialog-heading h2 { font-size:21px; }
+    }
+    @media (prefers-reduced-motion:no-preference) { button { transition:background-color .12s,opacity .12s; } }
+  </style>
+</head>
+<body>
+<div class="app">
+  <header class="header">
+    <div class="brand"><span class="brand-mark" aria-hidden="true">＋</span><div><h1>医手相通 · 患者端</h1><div class="subtitle">用手语表达，让沟通更清楚</div></div></div>
+    <div class="header-actions"><span class="connection" id="connection">正在连接</span><button class="fullscreen" id="fullscreen" type="button">全屏显示</button></div>
+  </header>
+  <main>
+    <div class="turn-bar" id="turnBar"><span class="round" id="round">等待回合</span><span class="turn-copy" id="turnCopy">正在连接，请稍候</span></div>
+    <div class="notice" id="connectionNotice" role="status"><strong id="connectionTitle">正在连接患者端</strong><span id="connectionDetail">连接后将显示当前对话。</span></div>
+    <div class="workspace">
+      <section class="camera-card" aria-labelledby="cameraTitle">
+        <div class="camera-toolbar"><div class="camera-heading"><h2 id="cameraTitle">我的手语画面</h2><p id="signStatus">等待手语识别</p></div><button class="replay" id="replay" type="button" disabled>重新播放</button></div>
+        <div class="camera-stage unavailable" id="cameraStage">
+          <img id="camera" src="http://127.0.0.1:8765/stream.mjpg" alt="我的实时摄像画面，显示检测到的人体、手部和手部骨架">
+          <video id="signVideo" muted playsinline preload="metadata" hidden aria-label="工作人员回复的手语视频"></video>
+          <div class="camera-notice" id="cameraNotice" role="status"><strong id="cameraNoticeTitle">正在连接摄像头</strong><span id="cameraNoticeDetail">画面连接后会自动显示。</span></div>
+        </div>
+        <div class="camera-caption" id="cameraCaption">双手自然下垂待机 → 做一个动作 → 双手自然下垂完成</div>
+      </section>
+      <div class="conversation">
+        <section class="card staff-card" aria-labelledby="staffLabel"><p class="eyebrow" id="staffLabel">工作人员已发送</p><p class="staff-message" id="staffMessage">等待工作人员说话</p></section>
+        <section class="card recent-result" id="recentResult" aria-labelledby="recentTitle">
+          <div class="recent-heading"><h2 id="recentTitle">最近识别的词</h2><span class="recent-badge" id="recentBadge">等待完整动作</span></div>
+          <div class="recent-value"><strong class="recent-word" id="recentWord">尚无结果</strong><span class="recent-confidence" id="recentConfidence"></span></div>
+          <div class="recent-time" id="recentTime">等待完成一个动作</div>
+          <p class="recent-reason" id="recentReason" hidden></p>
+          <p class="recent-note">单个动作的结果；发送给工作人员的句子以下方组合表达为准。</p>
+        </section>
+        <section class="card draft-card" id="draftCard" aria-labelledby="draftTitle">
+          <div class="draft-heading"><h2 id="draftTitle">我的手语 · 待确认</h2><span class="draft-badge" id="draftBadge">等待表达</span></div>
+          <div class="tokens-heading"><p class="tokens-label" id="tokenCount">我的词序 · 0 个词</p><button class="undo" id="undo" type="button" disabled>撤回上一词</button></div>
+          <ol class="tokens" id="tokens"><li class="empty">等待第一个词</li></ol>
+          <p class="intent-label" id="intentLabel">组合意图</p><p class="intent" id="intent">请按顺序完成手语表达</p>
+          <p class="match-hint" id="matchHint">按顺序表达，只有意图库中对应的完整词序才能确认发送。</p>
+          <p class="catalog-tip">支持的表达示例：我 → 走 → 药房。部分识别词暂无对应意图。</p>
+          <p class="hint" id="signHint">识别结果将按顺序组成表达，核对后再确认发送。</p>
+        </section>
+      </div>
+    </div>
+    <div class="actions" aria-label="患者操作">
+      <button class="action" id="retry" type="button" disabled>重新识别</button>
+      <button class="action primary" id="confirm" type="button" disabled>确认识别结果</button>
+      <button class="action" id="departments" type="button" disabled>选择科室</button>
+      <button class="action end" id="end" type="button" disabled>结束对话</button>
+    </div>
+    <p class="feedback" id="feedback" role="status" hidden></p>
+    <footer class="status-line"><span class="selected" id="selectedDepartment" hidden></span><span id="statusMessage">等待连接</span></footer>
+  </main>
+</div>
+<dialog id="departmentDialog" aria-labelledby="departmentTitle">
+  <div class="dialog-heading"><h2 id="departmentTitle">请选择挂号科室</h2><button class="action" id="cancelDepartments" type="button" disabled>取消选择</button></div>
+  <div class="department-grid" id="departmentGrid"></div>
+  <p class="modal-status" id="departmentStatus" role="status"></p>
+</dialog>
+<dialog id="endDialog" aria-labelledby="endTitle">
+  <h2 id="endTitle">确认结束本次对话？</h2>
+  <p class="dialog-description">双方将清空本次对话，并从第 1 回合重新开始。</p>
+  <div class="dialog-actions"><button class="action" id="keepTalking" type="button">继续对话</button><button class="action primary" id="confirmEnd" type="button" disabled>确认结束</button></div>
+  <p class="modal-status" id="endStatus" role="status"></p>
+</dialog>
+<script>
+'use strict';
+(() => {
+  const el = id => document.getElementById(id);
+  const text = (id, value) => { el(id).textContent = typeof value === 'string' ? value : ''; };
+  const streamUrl = 'http://127.0.0.1:8765/stream.mjpg';
+  let state = null, connected = false, preview = null, recognition = null, lastRecognitionEvent = null, busy = false;
+  let error = '', everConnected = false, fetching = false, pollTimer = null;
+  let generation = 0, stopped = false, cameraError = false, cameraLoaded = false, cameraRetry = null;
+  let tokenKey = '', departmentKey = '', feedback = '';
+  let browserVideoUrl = '', seenVideoId = '', activeVideoId = '', localVideoError = '';
+  const departmentDialog = el('departmentDialog'), endDialog = el('endDialog');
+  const recognitionPhases = {waiting_neutral:'请让双手自然下垂', ready:'已准备好，可以开始',
+    active:'正在识别这个动作', finishing:'正在确认动作结束', rejected:'请重新完成这个动作'};
+  const recognitionReasons = {pose_unknown:'让肩、腰和双腕完整入镜，再自然下垂。',
+    pose_stale:'正在等待新鲜的姿态画面。', tracking_lost:'动作中跟踪丢失，请保持双手在画面中。',
+    too_short:'有效动作帧不足，请完整表达一次。', low_conf:'模型没有足够把握，请重新表达。',
+    source_gap:'摄像画面中断，请重新开始。'};
+
+  function recognitionHint() {
+    if (!recognition || recognition.live !== true) return '识别连接暂不可用，正在等待实时状态恢复。';
+    if (recognition.segment_state === 'active') return '继续完成动作，做完后自然放下双手。';
+    if (recognition.segment_state === 'ready') {
+      const paused = recognition.posture_state === 'unknown' || ['pose_unknown','pose_stale'].includes(recognition.quality);
+      return paused ? '准备状态已保留，正在恢复身体跟踪，请保持双手入镜。' : '现在可以做一个动作，不用等待倒计时。';
+    }
+    return recognitionReasons[recognition.quality] || '动作前后自然下垂，以姿态确认动作边界。';
+  }
+
+  function relativeRecognitionTime(event, nowMilliseconds = Date.now()) {
+    if (!event) return '等待完成一个动作';
+    const received = event.preview_received_at;
+    if (!Number.isFinite(received) || received <= 0 || !Number.isFinite(nowMilliseconds)) return '上次识别结果';
+    const age = Math.floor(nowMilliseconds / 1000 - received);
+    if (age < 0) return '上次识别结果';
+    if (age < 60) return '完成于刚刚';
+    if (age < 3600) return '完成于 ' + Math.floor(age / 60) + ' 分钟前';
+    if (age < 86400) return '完成于 ' + Math.floor(age / 3600) + ' 小时前';
+    return '完成于 ' + Math.floor(age / 86400) + ' 天前';
+  }
+
+  function renderRecognition() {
+    const live = recognition && recognition.live === true;
+    const paused = live && recognition.segment_state === 'ready' &&
+      (recognition.posture_state === 'unknown' || ['pose_unknown','pose_stale'].includes(recognition.quality));
+    text('signStatus', live ? paused ? '准备状态已保留，正在恢复身体跟踪'
+      : recognitionPhases[recognition.segment_state] || '等待图像' : '等待手语识别连接');
+    const event = lastRecognitionEvent, accepted = event && event.status === 'recognized';
+    el('recentResult').classList.toggle('offline', !live);
+    el('recentResult').classList.toggle('unconfirmed', Boolean(event && !accepted));
+    text('recentBadge', !live ? event ? '识别离线 · 上次结果' : '等待识别连接'
+      : event ? '最近完整动作' : '等待完整动作');
+    text('recentWord', event ? accepted ? event.gesture_name : '未确认' : '尚无结果');
+    text('recentConfidence', event ? '模型置信度 ' + (Number.isFinite(event.confidence) ? (event.confidence * 100).toFixed(1) + '%' : '—') : '');
+    text('recentTime', relativeRecognitionTime(event));
+    text('recentReason', event && !accepted ? recognitionReasons[event.reason] || '本次未形成可确认的识别结果。' : '');
+    el('recentReason').hidden = !event || accepted;
+  }
+
+  function permissions() {
+    const ready = connected && state && state.system_state === 'READY' && !busy;
+    const videoBusy = state && ['requested', 'playing'].includes(state.video_playback_state);
+    const modal = departmentDialog.open || endDialog.open;
+    return {
+      act: Boolean(ready && state.conversation_turn === 'patient' && !videoBusy && !modal),
+      departments: Boolean(ready && !modal),
+      select: Boolean(ready && state.department_selection_visible === true),
+      replay: Boolean(ready && state.video_available === true && !modal),
+      end: Boolean(connected && state && !busy && !departmentDialog.open),
+      videoBusy: Boolean(videoBusy)
+    };
+  }
+
+  function renderCamera() {
+    const live = preview && preview.live === true && !cameraError;
+    const waiting = !preview && !cameraError && !cameraLoaded;
+    el('cameraStage').classList.toggle('unavailable', !live);
+    el('cameraNotice').hidden = Boolean(live || activeVideoId);
+    el('camera').hidden = Boolean(activeVideoId);
+    text('cameraTitle', activeVideoId ? '工作人员的手语回复' : '我的手语画面');
+    text('cameraNoticeTitle', waiting ? '正在连接摄像头' : '摄像画面暂不可用');
+    text('cameraNoticeDetail', cameraError ? '画面连接已中断，正在重新连接。'
+      : preview && typeof preview.error === 'string' && preview.error ? preview.error
+      : waiting ? '画面连接后会自动显示。' : '正在等待新的摄像画面，旧画面不代表当前状态。');
+  }
+
+  function stopVideo() {
+    if (!activeVideoId) return;
+    activeVideoId = '';
+    const player = el('signVideo');
+    player.pause(); player.hidden = true; player.removeAttribute('src'); player.load();
+  }
+
+  function renderVideo() {
+    const requestId = state && typeof state.video_playback_id === 'string' ? state.video_playback_id : '';
+    const requested = connected && state && ['requested', 'playing'].includes(state.video_playback_state)
+      && !departmentDialog.open && !endDialog.open;
+    if (!requested || !requestId) { stopVideo(); return; }
+    if (requestId === seenVideoId) return;
+    stopVideo(); seenVideoId = requestId; localVideoError = '';
+    if (!browserVideoUrl) {
+      localVideoError = '电脑端暂无对应手语视频，继续显示摄像画面。';
+      return;
+    }
+    const player = el('signVideo');
+    activeVideoId = requestId;
+    player.muted = true; player.loop = false; player.hidden = false;
+    player.src = browserVideoUrl; player.load();
+    const fail = () => {
+      if (activeVideoId !== requestId) return;
+      localVideoError = '电脑端视频暂不可播放，继续显示摄像画面。';
+      stopVideo(); render();
+    };
+    try {
+      const started = player.play();
+      if (started && typeof started.catch === 'function') started.catch(fail);
+    } catch (_) { fail(); }
+  }
+
+  function render() {
+    const patient = state && state.conversation_turn === 'patient';
+    const round = state && Number.isInteger(state.round_number) ? state.round_number : null;
+    const selection = Boolean(state && state.department_selection_visible === true);
+    if (selection && !departmentDialog.open && !endDialog.open) departmentDialog.showModal();
+    if (!selection && departmentDialog.open) departmentDialog.close();
+    renderVideo();
+    const allow = permissions();
+    el('connection').classList.toggle('online', Boolean(connected && state && state.sign_online === true));
+    text('connection', !connected ? (everConnected ? '连接已中断' : '正在连接')
+      : state.sign_online === true ? '手语识别已连接' : '等待手语识别');
+    el('connectionNotice').hidden = connected;
+    text('connectionTitle', everConnected ? '连接已中断，操作暂不可用' : error ? '暂时无法连接患者端' : '正在连接患者端');
+    text('connectionDetail', (state ? '以下保留上次对话内容。' : '') + (error || '连接后将自动恢复。'));
+    el('turnBar').classList.toggle('staff-turn', Boolean(state && !patient));
+    text('round', round === null ? '等待回合' : '第 ' + round + ' 回合');
+    const videoBusy = state && ['requested', 'playing'].includes(state.video_playback_state);
+    text('turnCopy', !state ? '正在连接，请稍候' : videoBusy ? '请观看工作人员的手语回复'
+      : patient ? '现在请患者表达并确认' : '现在请工作人员回复并确认');
+    if (state) {
+      text('staffMessage', state.patient_prompt || '等待工作人员说话');
+      text('draftTitle', patient ? '我的手语 · 待确认' : '我已发送');
+      const matched = !patient || state.sign_match_status === 'matched';
+      el('draftCard').classList.toggle('matched', matched);
+      el('draftCard').classList.toggle('unmatched', Boolean(patient && state.sign_match_status === 'unmatched'));
+      text('draftBadge', !patient ? '已发送' : state.sign_match_status === 'matched' ? '待确认'
+        : state.sign_match_status === 'unmatched' ? '词序未匹配'
+        : state.sign_match_status === 'prefix' ? '继续表达' : '等待表达');
+      text('intentLabel', patient ? '组合意图' : '已确认表达');
+      text('intent', !patient ? state.staff_text || '已确认发送'
+        : state.sign_match_status === 'matched' ? state.sign_draft_text || '等待匹配内容'
+        : state.sign_match_status === 'unmatched' ? '当前词序暂无对应意图'
+        : state.sign_match_status === 'prefix' ? '请继续按顺序表达' : '请按顺序完成手语表达');
+      const matchHint = typeof state.sign_match_hint === 'string' ? state.sign_match_hint : '';
+      text('matchHint', !patient ? '已确认发送，请等待工作人员回复。'
+        : matchHint || (state.sign_match_status === 'unmatched' ? '当前词序在意图库中没有对应表达，可撤回上一词或重新识别。'
+        : state.sign_match_status === 'matched' ? '完整词序已匹配，请核对组合意图后点击“确认识别结果”。'
+        : '请按顺序表达，只有意图库中对应的完整词序才能确认发送。'));
+      text('signHint', patient ? state.sign_hint || '请按顺序表达，核对后确认。' : '');
+      el('signHint').hidden = !patient;
+      const tokens = Array.isArray(state.sign_tokens) ? state.sign_tokens.filter(item => typeof item === 'string') : [];
+      text('tokenCount', '我的词序 · ' + tokens.length + ' 个词');
+      const nextTokens = JSON.stringify(tokens);
+      if (nextTokens !== tokenKey) {
+        tokenKey = nextTokens;
+        el('tokens').replaceChildren();
+        if (!tokens.length) {
+          const item = document.createElement('li'); item.className = 'empty'; item.textContent = '等待第一个词'; el('tokens').append(item);
+        }
+        tokens.forEach((word, index) => {
+          const item = document.createElement('li'), number = document.createElement('span'), label = document.createElement('span');
+          number.className = 'number'; number.textContent = String(index + 1); label.textContent = word;
+          item.append(number, label); el('tokens').append(item);
+        });
+      }
+      const videoError = state.video_playback_state === 'error';
+      el('cameraCaption').classList.toggle('error', Boolean(videoError || (videoBusy && localVideoError)));
+      text('cameraCaption', activeVideoId ? '正在播放工作人员的手语回复，播放结束后自动返回摄像画面。'
+        : videoBusy ? localVideoError || '本次手语视频已播放，稍后可继续表达。'
+        : videoError ? state.video_playback_error || '手语视频暂不可播放，继续显示摄像画面。'
+        : recognitionHint());
+      el('replay').title = state.video_available === true ? '重新播放工作人员的手语回复' : '对应手语视频暂未提供';
+      text('selectedDepartment', state.selected_department ? '已选科室：' + state.selected_department : '');
+      el('selectedDepartment').hidden = !state.selected_department;
+      text('statusMessage', /^UDP监听\s/.test(state.status_message || '')
+        ? '等待患者开始表达' : state.status_message || '');
+      const departments = Array.isArray(state.department_options) ? state.department_options.filter(item => typeof item === 'string') : [];
+      const nextDepartments = JSON.stringify(departments);
+      if (nextDepartments !== departmentKey) {
+        departmentKey = nextDepartments; el('departmentGrid').replaceChildren();
+        departments.forEach(name => {
+          const button = document.createElement('button'); button.className = 'action'; button.type = 'button'; button.textContent = name;
+          button.addEventListener('click', () => { if (permissions().select) sendCommand({action:'select_department', department:name}); });
+          el('departmentGrid').append(button);
+        });
+      }
+      text('departmentStatus', !connected ? '连接已中断，暂时无法选择科室。' : busy ? '正在提交，请稍候…'
+        : !departments.length ? '科室列表暂不可用。' : feedback);
+    }
+    el('retry').disabled = !allow.act;
+    el('undo').disabled = !(allow.act && state.sign_can_undo === true);
+    el('confirm').disabled = !(allow.act && state.sign_can_confirm === true);
+    el('departments').disabled = !allow.departments;
+    el('end').disabled = !allow.end;
+    el('replay').disabled = !allow.replay;
+    el('cancelDepartments').disabled = !(connected && !busy && state && state.department_selection_visible === true);
+    el('confirmEnd').disabled = !(connected && state && !busy);
+    el('keepTalking').disabled = busy;
+    el('departmentGrid').querySelectorAll('button').forEach(button => { button.disabled = !allow.select; });
+    text('endStatus', !connected ? '连接已中断，暂时无法结束对话。' : busy ? '正在提交，请稍候…' : feedback);
+    text('feedback', feedback); el('feedback').hidden = !feedback;
+    renderRecognition();
+    renderCamera();
+  }
+
+  function applyPayload(payload) {
+    if (!payload || typeof payload !== 'object') throw new Error('患者端返回的状态无法读取。');
+    connected = payload.connected === true && payload.state && typeof payload.state === 'object' && !Array.isArray(payload.state);
+    connected = Boolean(connected);
+    if (payload.state && typeof payload.state === 'object' && !Array.isArray(payload.state)) state = payload.state;
+    if (payload.preview && typeof payload.preview === 'object') preview = payload.preview;
+    else preview = null;
+    browserVideoUrl = typeof payload.browser_video_url === 'string' &&
+      /^\/videos\/[a-z0-9_]+\.mp4$/.test(payload.browser_video_url) ? payload.browser_video_url : '';
+    recognition = payload.recognition && typeof payload.recognition === 'object' ? payload.recognition : null;
+    if (recognition && Object.prototype.hasOwnProperty.call(recognition, 'last_event')) {
+      const event = recognition.last_event;
+      if (event === null) lastRecognitionEvent = null;
+      else if (event && typeof event === 'object' && typeof event.event_id === 'string' && event.event_id &&
+        ['recognized','rejected'].includes(event.status)) lastRecognitionEvent = event;
+    }
+    error = typeof payload.error === 'string' ? payload.error : '';
+    if (connected) everConnected = true;
+    render();
+  }
+
+  function schedulePoll(delay = 200) {
+    if (stopped) return;
+    clearTimeout(pollTimer); pollTimer = setTimeout(poll, delay);
+  }
+  async function poll() {
+    if (stopped || fetching) return;
+    fetching = true;
+    const startedGeneration = generation;
+    const controller = new AbortController(), timeout = setTimeout(() => controller.abort(), 3000);
+    try {
+      const response = await fetch('/api/state', {cache:'no-store', credentials:'same-origin', signal:controller.signal});
+      if (!response.ok) throw new Error('患者端连接失败，请稍候。');
+      const payload = await response.json();
+      if (startedGeneration === generation) applyPayload(payload);
+    } catch (cause) {
+      if (startedGeneration === generation) {
+        connected = false; preview = null; recognition = null;
+        error = cause.name === 'AbortError' ? '连接暂时没有响应，正在重新连接。' : cause.message || '连接已中断，正在重新连接。';
+        render();
+      }
+    } finally {
+      clearTimeout(timeout); fetching = false; schedulePoll(startedGeneration === generation ? 200 : 0);
+    }
+  }
+
+  async function sendCommand(command) {
+    if (!connected || !state || busy) return false;
+    busy = true; generation += 1; feedback = '正在提交，请稍候…'; render();
+    const controller = new AbortController(), timeout = setTimeout(() => controller.abort(), 5000);
+    let sent = false;
+    try {
+      const response = await fetch('/api/command', {
+        method:'POST', credentials:'same-origin', signal:controller.signal,
+        headers:{'Content-Type':'application/json','X-Requested-With':'MedCommPatient'}, body:JSON.stringify(command)
+      });
+      const payload = await response.json();
+      if (!response.ok || payload.ok !== true) throw new Error(typeof payload.error === 'string' && payload.error ? payload.error : '操作未能提交，请查看当前状态后再操作。');
+      sent = true; feedback = '操作已发送，请以更新后的对话内容为准。';
+      if ('connected' in payload && payload.state) applyPayload(payload);
+    } catch (cause) {
+      feedback = cause.name === 'AbortError' ? '请先查看更新后的对话，再确认操作结果，暂勿重复提交。'
+        : cause.message || '请查看当前对话后确认操作结果。';
+    } finally {
+      clearTimeout(timeout); busy = false; render(); schedulePoll(0);
+    }
+    return sent;
+  }
+
+  el('retry').addEventListener('click', () => { if (permissions().act) sendCommand({action:'retry_sign'}); });
+  el('undo').addEventListener('click', () => { if (permissions().act && state.sign_can_undo === true) sendCommand({action:'undo_sign'}); });
+  el('confirm').addEventListener('click', () => { if (permissions().act && state.sign_can_confirm === true) sendCommand({action:'confirm_sign'}); });
+  el('departments').addEventListener('click', () => { if (permissions().departments) sendCommand({action:'open_departments'}); });
+  el('cancelDepartments').addEventListener('click', () => { if (connected && !busy) sendCommand({action:'cancel_departments'}); });
+  departmentDialog.addEventListener('cancel', event => { event.preventDefault(); if (connected && !busy) sendCommand({action:'cancel_departments'}); });
+  el('replay').addEventListener('click', () => { if (permissions().replay) sendCommand({action:'replay_video'}); });
+  el('end').addEventListener('click', () => { if (permissions().end) { feedback = ''; endDialog.showModal(); render(); } });
+  el('keepTalking').addEventListener('click', () => { if (!busy) { endDialog.close(); render(); } });
+  endDialog.addEventListener('cancel', event => { if (busy) event.preventDefault(); });
+  endDialog.addEventListener('close', render);
+  el('confirmEnd').addEventListener('click', async () => { if (await sendCommand({action:'clear'})) { endDialog.close(); render(); } });
+  el('fullscreen').addEventListener('click', async () => {
+    try { if (document.fullscreenElement) await document.exitFullscreen(); else await document.documentElement.requestFullscreen(); }
+    catch (_) { feedback = '当前窗口暂不支持全屏，可以扩大窗口查看。'; render(); }
+  });
+  document.addEventListener('fullscreenchange', () => text('fullscreen', document.fullscreenElement ? '退出全屏' : '全屏显示'));
+  el('camera').addEventListener('load', () => { cameraLoaded = true; cameraError = false; renderCamera(); });
+  el('camera').addEventListener('error', () => {
+    cameraError = true; renderCamera();
+    if (!cameraRetry && !stopped) cameraRetry = setTimeout(() => {
+      cameraRetry = null; if (!stopped) el('camera').src = streamUrl + '?reconnect=' + Date.now();
+    }, 2000);
+  });
+  el('signVideo').addEventListener('ended', () => { stopVideo(); render(); });
+  el('signVideo').addEventListener('error', () => {
+    if (!activeVideoId) return;
+    localVideoError = '电脑端视频暂不可播放，继续显示摄像画面。'; stopVideo(); render();
+  });
+  window.addEventListener('pagehide', () => { stopped = true; stopVideo(); clearTimeout(pollTimer); clearTimeout(cameraRetry); });
+  window.addEventListener('pageshow', () => { if (stopped) { stopped = false; schedulePoll(0); } });
+  render(); schedulePoll(0);
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "q": {
+    "bit_sha256": "326695c02344bf5adf2deccda81ebf4d03fc20995a32383a309373620e205783",
+    "old_bit_sha256": "c1101e3fee8f40bccaa96a509b86ecf691cce3e0dee54ecdcb23429bf1b0fb39",
+    "payload_sha256": "4867ecfb4719ce72a6c88310f1c19b31846b33215a1c8de55c0e703c58d52ad7",
+    "old_payload_sha256": "4867ecfb4719ce72a6c88310f1c19b31846b33215a1c8de55c0e703c58d52ad7",
+    "payload_identical": true,
+    "module_import_crcs_match": true,
+    "changed_imports": {},
+    "module_sha256": "73f0b2391e4707e149b966f9bac588492aa8bc3093a865bc8295269720f953ba"
+  },
+  "p": {
+    "bit_sha256": "8dba7cd2b9fb4e7b53633f7c92cec7db1c1ffa0e65dd6297a16d80015f7880a0",
+    "old_bit_sha256": "697e87c820cbb6006183c899e2cb2d089a854568d130d3d60a83c7b92b53e4d1",
+    "payload_sha256": "049d3c09ef64f54ac79962b0cffff9a888f25ba6588d2aea46ecfd36ea4897f9",
+    "old_payload_sha256": "049d3c09ef64f54ac79962b0cffff9a888f25ba6588d2aea46ecfd36ea4897f9",
+    "payload_identical": true,
+    "module_import_crcs_match": true,
+    "changed_imports": {},
+    "module_sha256": "f388158560b857e2e7831bebffd52725e25d13e587a887e89b7ea6dead7d2ab9"
+  }
+}

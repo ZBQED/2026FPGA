@@ -1,0 +1,13 @@
+.venv/
+.cache/
+build_output/
+__pycache__/
+*.pyc
+*.upload
+.env
+.env.*
+*.pem
+*.key
+host_monitor/runtime/
+runtime/project/runs/monitor_session.json
+runtime/project/runs/pynq_current_restore.json

@@ -1,0 +1,150 @@
+{
+  "status": "FROZEN_OFFICIAL_INT8_REFERENCE",
+  "model_sha256": "cd7cc22fa946e5d146a7b98d496853e1923e22828d3972d579973f27f91bb105",
+  "fixture_sha256": "ef1936fb030fc38eb9c1f0fe91f25934a9fc87cb5a2b34b2bee1baa1bfbe34bd",
+  "cases": [
+    {
+      "case": 0,
+      "source_operator": 68,
+      "split_axis": "co",
+      "start": 0,
+      "stop": 160,
+      "input_zero": -128,
+      "input_shape": [
+        6,
+        6,
+        960
+      ],
+      "weight_shape": [
+        160,
+        960
+      ],
+      "fused_activation": 0,
+      "expected_sha256": "5c56a3ec2e382722bdf2cea8b02ae13d1baa6e948d299f22b64265b5a98a2ae6"
+    },
+    {
+      "case": 1,
+      "source_operator": 68,
+      "split_axis": "co",
+      "start": 160,
+      "stop": 320,
+      "input_zero": -128,
+      "input_shape": [
+        6,
+        6,
+        960
+      ],
+      "weight_shape": [
+        160,
+        960
+      ],
+      "fused_activation": 0,
+      "expected_sha256": "1fbcb37c71dac4b1292b766a5b3af074bd3508fd4a60b7d3402e5a1487a4b679"
+    },
+    {
+      "case": 2,
+      "source_operator": 69,
+      "split_axis": "co",
+      "start": 0,
+      "stop": 640,
+      "input_zero": -18,
+      "input_shape": [
+        6,
+        6,
+        320
+      ],
+      "weight_shape": [
+        640,
+        320
+      ],
+      "fused_activation": 3,
+      "expected_sha256": "16211a7e3c5dd41effb9ea8d17ce947c49209e42962bd9377a5ae420d60d11f0"
+    },
+    {
+      "case": 3,
+      "source_operator": 69,
+      "split_axis": "co",
+      "start": 640,
+      "stop": 1280,
+      "input_zero": -18,
+      "input_shape": [
+        6,
+        6,
+        320
+      ],
+      "weight_shape": [
+        640,
+        320
+      ],
+      "fused_activation": 3,
+      "expected_sha256": "a075d536d6093d9c920d37ceea8fb8372640a8b444dfa6b11c99b05b4e7747bb"
+    },
+    {
+      "case": 4,
+      "source_operator": 70,
+      "split_axis": "ci",
+      "start": 0,
+      "stop": 640,
+      "input_zero": -128,
+      "input_shape": [
+        6,
+        6,
+        640
+      ],
+      "weight_shape": [
+        64,
+        640
+      ],
+      "fused_activation": 0,
+      "expected_sha256": "8b10d397179fa946f6f41dc6e520a902112db6c4fa8c0667a088dc49f9e3644b"
+    },
+    {
+      "case": 5,
+      "source_operator": 70,
+      "split_axis": "ci",
+      "start": 640,
+      "stop": 1280,
+      "input_zero": -128,
+      "input_shape": [
+        6,
+        6,
+        640
+      ],
+      "weight_shape": [
+        64,
+        640
+      ],
+      "fused_activation": 0,
+      "expected_sha256": "c4dc141dc3de7af51bfc202382e16e12a7dad3df8caa34e88e16768680c91105"
+    }
+  ],
+  "reconstruction": [
+    {
+      "source_operator": 68,
+      "raw32_reconstruction_exact": true,
+      "shape": [
+        6,
+        6,
+        320
+      ]
+    },
+    {
+      "source_operator": 69,
+      "raw32_reconstruction_exact": true,
+      "shape": [
+        6,
+        6,
+        1280
+      ]
+    },
+    {
+      "source_operator": 70,
+      "raw32_reconstruction_exact": true,
+      "shape": [
+        6,
+        6,
+        64
+      ]
+    }
+  ]
+}

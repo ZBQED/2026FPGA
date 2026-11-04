@@ -1,0 +1,29 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Wed Nov  4 04:53:31 2026
+| Host         : LAPTOP-KMP51U6H running 64-bit major release  (build 9200)
+| Command      : report_cdc -file E:/mgd_offline_build/nav/cdc.rpt
+| Design       : system_wrapper
+| Device       : 7z020-clg400
+| Speed File   : -2  PRODUCTION 1.12 2019-11-22
+| Design State : Routed
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+CDC Report
+
+Severity  Source Clock                    Destination Clock               CDC Type                 Exceptions               Endpoints  Safe  Unsafe  Unknown  No ASYNC_REG  
+--------  ------------------------------  ------------------------------  -----------------------  -----------------------  ---------  ----  ------  -------  ------------  
+Critical  clk_fpga_0                      clk_fpga_1                      No Common Primary Clock  Asynch Clock Groups           1018   665       6      347             0  
+Critical  clk_fpga_0                      hdmi_pclk_system_clk_wiz_dyn_0  User Ignored             Asynch Clock Groups           1874  1532       4      338             0  
+Critical  clk_fpga_0                      lcd_pclk_system_clk_wiz_0_0     User Ignored             Asynch Clock Groups           1875  1533       4      338             0  
+Warning   hdmi_pclk_system_clk_wiz_dyn_0  clk_fpga_0                      User Ignored             Asynch Clock Groups             39    39       0        0             0  
+Warning   lcd_pclk_system_clk_wiz_0_0     clk_fpga_0                      User Ignored             Asynch Clock Groups             39    39       0        0             0  
+Warning   clk_fpga_0                      mclk_system_clk_wiz_0_0         Safely Timed             Max Delay Datapath Only         18    18       0        0             0  
+Info      clk_fpga_1                      clk_fpga_0                      No Common Primary Clock  Asynch Clock Groups              5     5       0        0             0  
+Info      input port clock                clk_fpga_0                      No Common Primary Clock  False Path                       3     3       0        0             0  
+Info      mclk_system_clk_wiz_0_0         clk_fpga_0                      Safely Timed             Max Delay Datapath Only          6     6       0        0             0  
+Info      cmos_pclk                       clk_fpga_1                      No Common Primary Clock  Max Delay Datapath Only          1     1       0        0             0  
+Info      clk_fpga_0                      cmos_pclk                       No Common Primary Clock  False Path                       1     1       0        0             0  
+Info      clk_fpga_1                      cmos_pclk                       No Common Primary Clock  Max Delay Datapath Only          1     1       0        0             0  
+

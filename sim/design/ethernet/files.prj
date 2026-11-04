@@ -1,0 +1,5 @@
+verilog xil_defaultlib "gmii_to_rgmii.v"
+verilog xil_defaultlib "rgmii_tx.v"
+verilog xil_defaultlib "rgmii_rx.v"
+verilog xil_defaultlib "glbl.v"
+sv xil_defaultlib "tb.sv"

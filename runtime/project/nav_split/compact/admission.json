@@ -1,0 +1,57 @@
+{
+  "status": "REUSED_NAV_HEADS_AND_REPARTITIONED_PALM_PASS",
+  "new_PL_runs": 0,
+  "original_qualification_files": {
+    "E:\\medical_gesture_detection\\light_try\\FPGA_120ms_work\\runs\\nav_output_heads_20261103_121331\\result.json": "f4bff6b688eeb44e5be11d557eef251c45ae15038bddf516bc370e9d4e17e55e",
+    "E:\\medical_gesture_detection\\light_try\\FPGA_120ms_work\\runs\\nav_output_heads_20261103_122442\\result.json": "1ff94c4051832cc886b4af85e6b53788117a1321fe7dad19358f4ef8c6c31f09"
+  },
+  "reused": [
+    {
+      "file": "palm_0_group0.npz",
+      "source_file": "palm_0_0.npz",
+      "sha256": "f181fc47b73f0b602f0dc7f1ca9f396d09f6014653b6dc8f47a72a7641bedbb9",
+      "actual_PL_jobs": 1
+    },
+    {
+      "file": "body_0_group0.npz",
+      "source_file": "body_0_group0.npz",
+      "sha256": "1e2496d10e9cb8c0becffe4304e61145c08e9eefa38418dfa79f46d72f85aba8",
+      "actual_PL_jobs": 1
+    },
+    {
+      "file": "palm_1_group0.npz",
+      "source_file": "palm_1_0.npz",
+      "sha256": "b050a3e9ed394456761d6888dde9b74202c4b2e2f4c66a43462be7f928d145f2",
+      "actual_PL_jobs": 1
+    },
+    {
+      "file": "body_1_group0.npz",
+      "source_file": "body_1_group0.npz",
+      "sha256": "d6ae6d0c04607462941d2c074e8a54be6072b50f51b62f0592a0a4a205615adc",
+      "actual_PL_jobs": 1
+    },
+    {
+      "file": "palm_2_group0.npz",
+      "source_file": "palm_2_0.npz",
+      "sha256": "27cf8ddf999ac2fe50fb6e3d3245b2484ac5fa9945f3c8f22f5507c93ede6183",
+      "actual_PL_jobs": 1
+    },
+    {
+      "file": "body_2_group0.npz",
+      "source_file": "body_2_group0.npz",
+      "sha256": "d46404ab85978857140242ff53afb5ece423fc38e077f82ce89ff808c14f5c17",
+      "actual_PL_jobs": 1
+    }
+  ],
+  "palm_composition_max_abs_errors": [
+    1.33514404296875e-05,
+    1.239776611328125e-05,
+    1.1444091796875e-05
+  ],
+  "manifest_sha256": "662ee1b4004b1a9ba17d71705ede00aa678ec65a7582220de61b51e13327f9fb",
+  "runtime_backend_binding": {
+    "status": "SOURCE_BUILT_BACKEND",
+    "sha256": "6cd57afe24a657cf627904ed031be01e56adbc0c0d0a47b07a848c66fc9648a8",
+    "frozen_tensor_files_unchanged": true
+  }
+}

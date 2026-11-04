@@ -1,0 +1,50 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Wed Nov  4 00:39:05 2026
+# Process ID         : 16752
+# Current directory  : E:/medical_gesture_detection/light_try
+# Command line       : vivado.exe -mode batch -nojournal -log E:/medical_gesture_detection/light_try/FPGA_120ms_work/package_check/init_mem.log -source E:/medical_gesture_detection/light_try/FPGA_120ms_work/package_check/check_init.tcl -tclargs E:/medical_gesture_detection/light_try/FPGA_120ms_work/source_release_20261104/medical_gesture_fpga/src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_p_anonymous_namespace_load_patch_rgb_rows_rows_ram_2p_bram_2r1w.mem
+# Log file           : E:/medical_gesture_detection/light_try/FPGA_120ms_work/package_check/init_mem.log
+# Journal file       : 
+# Running On         : LAPTOP-KMP51U6H
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : 13th Gen Intel(R) Core(TM) i7-13650HX
+# CPU Frequency      : 2803 MHz
+# CPU Physical cores : 14
+# CPU Logical cores  : 20
+# Host memory        : 34053 MB
+# Swap memory        : 2550 MB
+# Total Virtual      : 36603 MB
+# Available Virtual  : 9676 MB
+#-----------------------------------------------------------
+INFO: [Common 17-1239] XILINX_LOCAL_USER_DATA is set to 'no'.
+Sourcing tcl script 'E:/vivado2024.2/Vivado/2024.2/scripts/Vivado_init.tcl'
+vivado-mcp server ready on port 9999
+source E:/medical_gesture_detection/light_try/FPGA_120ms_work/package_check/check_init.tcl
+# set ram_init [file normalize [lindex $argv 0]]
+# foreach board {q p} {
+#  open_project [file join [file dirname [info script]] $board ${board}.xpr]
+#  add_files -norecurse $ram_init
+#  puts "RAM_SOURCE_INCLUDED $board [get_property FILE_TYPE [get_files $ram_init]]"
+#  close_project
+# }
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/medical_gesture_detection/light_try/FPGA_120ms_work/source_release_20261104/medical_gesture_fpga/src/rtl/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/vivado2024.2/Vivado/2024.2/data/ip'.
+INFO: [Project 1-5579] Found utility IPs instantiated in one or more block designs which have equivalent inline hdl with improved performance and reduced diskspace. It is recommended to migrate these utility IPs to inline hdl using the command upgrade_project -migrate_to_inline_hdl. The utility IPs may be deprecated in future releases. More information on inline hdl is available in UG994.
+open_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 370.934 ; gain = 81.625
+RAM_SOURCE_INCLUDED q Memory File
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/medical_gesture_detection/light_try/FPGA_120ms_work/source_release_20261104/medical_gesture_fpga/src/rtl/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/vivado2024.2/Vivado/2024.2/data/ip'.
+INFO: [Project 1-5579] Found utility IPs instantiated in one or more block designs which have equivalent inline hdl with improved performance and reduced diskspace. It is recommended to migrate these utility IPs to inline hdl using the command upgrade_project -migrate_to_inline_hdl. The utility IPs may be deprecated in future releases. More information on inline hdl is available in UG994.
+RAM_SOURCE_INCLUDED p Memory File
+INFO: [Common 17-206] Exiting Vivado at Wed Nov  4 00:39:19 2026...

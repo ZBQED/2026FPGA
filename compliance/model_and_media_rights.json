@@ -1,0 +1,395 @@
+{
+  "model_provenance_basis": "Maintainer declaration: palm/hand/body replaced with self-recorded-data-trained weights; TCN and audio are project training artifacts. No independent reconstruction of every training history is asserted.",
+  "annotation_tool": "MediaPipe; Apache-2.0 is the tool license, not a replacement for footage permission.",
+  "video_permission": "Maintainer explicitly confirmed consent from all persons appearing in demonstration videos.",
+  "yolo": {
+    "upstream": "https://github.com/dog-qiuqiu/Yolo-FastestV2",
+    "license_issue": "https://github.com/dog-qiuqiu/Yolo-FastestV2/issues/50",
+    "redistributed_pretrained_weights": true,
+    "training_images_redistributed": false,
+    "distribution_basis": "publisher_confirmation",
+    "license_scope": "original_component_terms"
+  },
+  "models_and_test_data": [
+    {
+      "path": "data/models/hand_p/hand_weights.bin",
+      "sha256": "3dca375e721dcde0d822b6c22acb38bbc1f2d931b147a83c21fb4780d15d0cf9",
+      "license": "MIT",
+      "basis": "maintainer_declared_self_recorded_or_project_generated_data_and_parameters"
+    },
+    {
+      "path": "data/models/hand_q/hand_weights.bin",
+      "sha256": "3dca375e721dcde0d822b6c22acb38bbc1f2d931b147a83c21fb4780d15d0cf9",
+      "license": "MIT",
+      "basis": "maintainer_declared_self_recorded_or_project_generated_data_and_parameters"
+    },
+    {
+      "path": "data/models/nav_heads/body_0_group0.npz",
+      "sha256": "4b3f553500801e50bef2e7a38ec2c20a72ae2fb570d37a334a6901eeee87d4e6",
+      "license": "MIT",
+      "basis": "maintainer_declared_self_recorded_or_project_generated_data_and_parameters"
+    },
+    {
+      "path": "data/models/nav_heads/body_prefix.onnx",
+      "sha256": "8aa33fc4971bee309516ef606efe256b5db4a1352200294f698934eca24877ea",
+      "license": "MIT",
+      "basis": "maintainer_declared_self_recorded_or_project_generated_data_and_parameters"
+    },
+    {
+      "path": "data/models/nav_heads/body_suffix.onnx",
+      "sha256": "2de09ad50150bfcbe85e1dc0c3ba291d420698d86ca5b31ef45c9da639c2abde",
+      "license": "MIT",
+      "basis": "maintainer_declared_self_recorded_or_project_generated_data_and_parameters"
+    },
+    {
+      "path": "data/models/nav_heads/palm_0_group0.npz",
+      "sha256": "5fefbff7f49e31d14a1af4c62c283eed65e4c5c2a21efea27b0e56d1d2145f7d",
+      "license": "MIT",
+      "basis": "maintainer_declared_self_recorded_or_project_generated_data_and_parameters"
+    },
+    {
+      "path": "data/models/nav_heads/palm_prefix.onnx",
+      "sha256": "5089098926c13b017bdc6cc72d0f9eaf28397ecf923687c6bd63364476779c0f",
+      "license": "MIT",
+      "basis": "maintainer_declared_self_recorded_or_project_generated_data_and_parameters"
+    },
+    {
+      "path": "data/models/nav_heads/palm_suffix.onnx",
+      "sha256": "ec0ec7aa32083e892dac190a696fc838d7bff119e1e34bc8c21e831808bc92ff",
+      "license": "MIT",
+      "basis": "maintainer_declared_self_recorded_or_project_generated_data_and_parameters"
+    },
+    {
+      "path": "data/models/tcn/primary/primary_core_int8_io.tflite",
+      "sha256": "96e5280aa30b3c6f623653c6eac48330b6e2cd5c9e18e58ea349b21894c1bef4",
+      "license": "MIT",
+      "basis": "maintainer_declared_self_recorded_or_project_generated_data_and_parameters"
+    },
+    {
+      "path": "data/models/tcn/primary/primary_head_int8_io.tflite",
+      "sha256": "553c59eaf62fa5c20a801f62f8f77b6f681678da0d3e9ca16be7646f6f94edfa",
+      "license": "MIT",
+      "basis": "maintainer_declared_self_recorded_or_project_generated_data_and_parameters"
+    },
+    {
+      "path": "data/models/tcn/roof/roof_core_int8_io.tflite",
+      "sha256": "c741e06eea1e5de5628ef37910557dea4a4d1b392228cbda01cf4b4b557833b6",
+      "license": "MIT",
+      "basis": "maintainer_declared_self_recorded_or_project_generated_data_and_parameters"
+    },
+    {
+      "path": "data/models/tcn/roof/roof_head_int8_io.tflite",
+      "sha256": "eea4e87b32ae7d499f7755225e57993fee928e4e388d0a3446584236e587ac32",
+      "license": "MIT",
+      "basis": "maintainer_declared_self_recorded_or_project_generated_data_and_parameters"
+    },
+    {
+      "path": "data/reference/body_fixture.npz",
+      "sha256": "292c778c370e656434e174fb6aa69aa53d10c03412eb4e7a3e822e599c84bd6f",
+      "license": "CC-BY-4.0",
+      "basis": "maintainer_declared_self_recorded_or_project_generated_data_and_parameters"
+    },
+    {
+      "path": "data/reference/hand_fixture.npz",
+      "sha256": "c7742d449348ca45bb61adf892f1da41763a9eeff666cbde62da4540d25d3e9c",
+      "license": "CC-BY-4.0",
+      "basis": "maintainer_declared_self_recorded_or_project_generated_data_and_parameters"
+    },
+    {
+      "path": "data/reference/tcn_primary_input.npz",
+      "sha256": "12f7ef7fbd5a9dbef696a2869322bdd308be9b4a6017c3bb09df20f9bd5b2f84",
+      "license": "MIT",
+      "basis": "maintainer_declared_self_recorded_or_project_generated_data_and_parameters"
+    },
+    {
+      "path": "data/reference/tcn_seven_words.npz",
+      "sha256": "76021f91f6fc8460727326822d70bb66847b7bbe9aa0037c351346437643dacd",
+      "license": "MIT",
+      "basis": "maintainer_declared_self_recorded_or_project_generated_data_and_parameters"
+    },
+    {
+      "path": "data/reference/tcn_torch_golden.npz",
+      "sha256": "7e4477b5d997d0067c6c328a5030d06c56e1a2950df12bb4c381afab3eecddd1",
+      "license": "MIT",
+      "basis": "maintainer_declared_self_recorded_or_project_generated_data_and_parameters"
+    },
+    {
+      "path": "data/test_inputs/fixed_frame.bin",
+      "sha256": "ee74c843cc3574d9875dfe3c320dd830686dfe9ff5f0eeef5c73176396a52caa",
+      "license": "CC-BY-4.0",
+      "basis": "maintainer_declared_self_recorded_or_project_generated_data_and_parameters"
+    },
+    {
+      "path": "data/test_inputs/nav_fp32/case_000.bin",
+      "sha256": "3e605cbd134c2620fe263196d7aefb185bb1d27c79fcbf0e449f35e714412267",
+      "license": "MIT",
+      "basis": "maintainer_declared_self_recorded_or_project_generated_data_and_parameters"
+    },
+    {
+      "path": "data/test_inputs/nav_fp32/case_018.bin",
+      "sha256": "e4e3df1f4ab029d55078e9181c22f12a38cebbccc7fd09804cadc77335636063",
+      "license": "MIT",
+      "basis": "maintainer_declared_self_recorded_or_project_generated_data_and_parameters"
+    },
+    {
+      "path": "data/test_inputs/nav_fp32/case_046.bin",
+      "sha256": "f7bc0f790a5ed29309d659b19170fde97ff389df1646e472a7528800261a5bbf",
+      "license": "MIT",
+      "basis": "maintainer_declared_self_recorded_or_project_generated_data_and_parameters"
+    },
+    {
+      "path": "data/test_inputs/nav_heads/body_0_group0.npz",
+      "sha256": "1e2496d10e9cb8c0becffe4304e61145c08e9eefa38418dfa79f46d72f85aba8",
+      "license": "MIT",
+      "basis": "maintainer_declared_self_recorded_or_project_generated_data_and_parameters"
+    },
+    {
+      "path": "data/test_inputs/nav_heads/body_1_group0.npz",
+      "sha256": "d6ae6d0c04607462941d2c074e8a54be6072b50f51b62f0592a0a4a205615adc",
+      "license": "MIT",
+      "basis": "maintainer_declared_self_recorded_or_project_generated_data_and_parameters"
+    },
+    {
+      "path": "data/test_inputs/nav_heads/body_2_group0.npz",
+      "sha256": "d46404ab85978857140242ff53afb5ece423fc38e077f82ce89ff808c14f5c17",
+      "license": "MIT",
+      "basis": "maintainer_declared_self_recorded_or_project_generated_data_and_parameters"
+    },
+    {
+      "path": "data/test_inputs/nav_heads/palm_0_group0.npz",
+      "sha256": "f181fc47b73f0b602f0dc7f1ca9f396d09f6014653b6dc8f47a72a7641bedbb9",
+      "license": "MIT",
+      "basis": "maintainer_declared_self_recorded_or_project_generated_data_and_parameters"
+    },
+    {
+      "path": "data/test_inputs/nav_heads/palm_1_group0.npz",
+      "sha256": "b050a3e9ed394456761d6888dde9b74202c4b2e2f4c66a43462be7f928d145f2",
+      "license": "MIT",
+      "basis": "maintainer_declared_self_recorded_or_project_generated_data_and_parameters"
+    },
+    {
+      "path": "data/test_inputs/nav_heads/palm_2_group0.npz",
+      "sha256": "27cf8ddf999ac2fe50fb6e3d3245b2484ac5fa9945f3c8f22f5507c93ede6183",
+      "license": "MIT",
+      "basis": "maintainer_declared_self_recorded_or_project_generated_data_and_parameters"
+    },
+    {
+      "path": "runtime/project/fpga/output/pc_fourth_board_probe/complete120_fixture_20261031/candidate_frame_bgr.npy",
+      "sha256": "6cfdc7040c88686f8386b481e9684577dd2658593c0159dd3207ac4d7d1a741b",
+      "license": "CC-BY-4.0",
+      "basis": "maintainer_declared_self_recorded_or_project_generated_data_and_parameters"
+    },
+    {
+      "path": "runtime/project/models/full_body_channels/fixture.npz",
+      "sha256": "292c778c370e656434e174fb6aa69aa53d10c03412eb4e7a3e822e599c84bd6f",
+      "license": "CC-BY-4.0",
+      "basis": "maintainer_declared_self_recorded_or_project_generated_data_and_parameters"
+    },
+    {
+      "path": "runtime/project/models/full_hand/full_hand_fixture.npz",
+      "sha256": "c7742d449348ca45bb61adf892f1da41763a9eeff666cbde62da4540d25d3e9c",
+      "license": "CC-BY-4.0",
+      "basis": "maintainer_declared_self_recorded_or_project_generated_data_and_parameters"
+    },
+    {
+      "path": "runtime/project/models/full_hand/hand_weights.bin",
+      "sha256": "3dca375e721dcde0d822b6c22acb38bbc1f2d931b147a83c21fb4780d15d0cf9",
+      "license": "MIT",
+      "basis": "maintainer_declared_self_recorded_or_project_generated_data_and_parameters"
+    },
+    {
+      "path": "runtime/project/models/full_palm/fixture.npz",
+      "sha256": "a7c7c5de753ece8f3f33532d6ab7a3bf28e30070ae844756e9e9545d504b9861",
+      "license": "CC-BY-4.0",
+      "basis": "maintainer_declared_self_recorded_or_project_generated_data_and_parameters"
+    },
+    {
+      "path": "runtime/project/models/shared_workspace/full_body_channels_cached/hand_weights.bin",
+      "sha256": "013c93aed3f31a483362b5b62b0a8b97cce42a6cbfba788758c0decb3ca48a23",
+      "license": "MIT",
+      "basis": "maintainer_declared_self_recorded_or_project_generated_data_and_parameters"
+    },
+    {
+      "path": "runtime/project/models/shared_workspace/full_hand/hand_weights.bin",
+      "sha256": "3dca375e721dcde0d822b6c22acb38bbc1f2d931b147a83c21fb4780d15d0cf9",
+      "license": "MIT",
+      "basis": "maintainer_declared_self_recorded_or_project_generated_data_and_parameters"
+    },
+    {
+      "path": "runtime/project/models/shared_workspace/full_palm_fused_cached/hand_weights.bin",
+      "sha256": "22e7b5f546b0cdfbe51f8ae59808476cca6abfcb7c15a855330b07b1ce4e6e12",
+      "license": "MIT",
+      "basis": "maintainer_declared_self_recorded_or_project_generated_data_and_parameters"
+    },
+    {
+      "path": "runtime/project/models/tcn508a/minimal/seven_words.npz",
+      "sha256": "76021f91f6fc8460727326822d70bb66847b7bbe9aa0037c351346437643dacd",
+      "license": "MIT",
+      "basis": "maintainer_declared_self_recorded_or_project_generated_data_and_parameters"
+    },
+    {
+      "path": "runtime/project/models/tcn508a/minimal/shared_tcn/assets/primary/primary_core_int8_io.tflite",
+      "sha256": "96e5280aa30b3c6f623653c6eac48330b6e2cd5c9e18e58ea349b21894c1bef4",
+      "license": "MIT",
+      "basis": "maintainer_declared_self_recorded_or_project_generated_data_and_parameters"
+    },
+    {
+      "path": "runtime/project/models/tcn508a/minimal/shared_tcn/assets/primary/primary_head_int8_io.tflite",
+      "sha256": "553c59eaf62fa5c20a801f62f8f77b6f681678da0d3e9ca16be7646f6f94edfa",
+      "license": "MIT",
+      "basis": "maintainer_declared_self_recorded_or_project_generated_data_and_parameters"
+    },
+    {
+      "path": "runtime/project/models/tcn508a/minimal/shared_tcn/assets/roof/roof_core_int8_io.tflite",
+      "sha256": "c741e06eea1e5de5628ef37910557dea4a4d1b392228cbda01cf4b4b557833b6",
+      "license": "MIT",
+      "basis": "maintainer_declared_self_recorded_or_project_generated_data_and_parameters"
+    },
+    {
+      "path": "runtime/project/models/tcn508a/minimal/shared_tcn/assets/roof/roof_head_int8_io.tflite",
+      "sha256": "eea4e87b32ae7d499f7755225e57993fee928e4e388d0a3446584236e587ac32",
+      "license": "MIT",
+      "basis": "maintainer_declared_self_recorded_or_project_generated_data_and_parameters"
+    },
+    {
+      "path": "runtime/project/models/tcn508a/minimal/shared_tcn/candidate_primary_input.npz",
+      "sha256": "12f7ef7fbd5a9dbef696a2869322bdd308be9b4a6017c3bb09df20f9bd5b2f84",
+      "license": "MIT",
+      "basis": "maintainer_declared_self_recorded_or_project_generated_data_and_parameters"
+    },
+    {
+      "path": "runtime/project/nav_split/compact/body_0_group0.npz",
+      "sha256": "1e2496d10e9cb8c0becffe4304e61145c08e9eefa38418dfa79f46d72f85aba8",
+      "license": "MIT",
+      "basis": "maintainer_declared_self_recorded_or_project_generated_data_and_parameters"
+    },
+    {
+      "path": "runtime/project/nav_split/compact/body_1_group0.npz",
+      "sha256": "d6ae6d0c04607462941d2c074e8a54be6072b50f51b62f0592a0a4a205615adc",
+      "license": "MIT",
+      "basis": "maintainer_declared_self_recorded_or_project_generated_data_and_parameters"
+    },
+    {
+      "path": "runtime/project/nav_split/compact/body_2_group0.npz",
+      "sha256": "d46404ab85978857140242ff53afb5ece423fc38e077f82ce89ff808c14f5c17",
+      "license": "MIT",
+      "basis": "maintainer_declared_self_recorded_or_project_generated_data_and_parameters"
+    },
+    {
+      "path": "runtime/project/nav_split/compact/body_prefix.onnx",
+      "sha256": "8aa33fc4971bee309516ef606efe256b5db4a1352200294f698934eca24877ea",
+      "license": "MIT",
+      "basis": "maintainer_declared_self_recorded_or_project_generated_data_and_parameters"
+    },
+    {
+      "path": "runtime/project/nav_split/compact/body_suffix.onnx",
+      "sha256": "2de09ad50150bfcbe85e1dc0c3ba291d420698d86ca5b31ef45c9da639c2abde",
+      "license": "MIT",
+      "basis": "maintainer_declared_self_recorded_or_project_generated_data_and_parameters"
+    },
+    {
+      "path": "runtime/project/nav_split/compact/palm_0_group0.npz",
+      "sha256": "f181fc47b73f0b602f0dc7f1ca9f396d09f6014653b6dc8f47a72a7641bedbb9",
+      "license": "MIT",
+      "basis": "maintainer_declared_self_recorded_or_project_generated_data_and_parameters"
+    },
+    {
+      "path": "runtime/project/nav_split/compact/palm_1_group0.npz",
+      "sha256": "b050a3e9ed394456761d6888dde9b74202c4b2e2f4c66a43462be7f928d145f2",
+      "license": "MIT",
+      "basis": "maintainer_declared_self_recorded_or_project_generated_data_and_parameters"
+    },
+    {
+      "path": "runtime/project/nav_split/compact/palm_2_group0.npz",
+      "sha256": "27cf8ddf999ac2fe50fb6e3d3245b2484ac5fa9945f3c8f22f5507c93ede6183",
+      "license": "MIT",
+      "basis": "maintainer_declared_self_recorded_or_project_generated_data_and_parameters"
+    },
+    {
+      "path": "runtime/project/nav_split/compact/palm_prefix.onnx",
+      "sha256": "5089098926c13b017bdc6cc72d0f9eaf28397ecf923687c6bd63364476779c0f",
+      "license": "MIT",
+      "basis": "maintainer_declared_self_recorded_or_project_generated_data_and_parameters"
+    },
+    {
+      "path": "runtime/project/nav_split/compact/palm_suffix.onnx",
+      "sha256": "ec0ec7aa32083e892dac190a696fc838d7bff119e1e34bc8c21e831808bc92ff",
+      "license": "MIT",
+      "basis": "maintainer_declared_self_recorded_or_project_generated_data_and_parameters"
+    },
+    {
+      "path": "sim/results/skill_validation/demo/actual.npy",
+      "sha256": "4b70f9a4634f177474470ce1b2b25b023987b7291db972891a9a3cf3b2f4dc64",
+      "license": "MIT",
+      "basis": "maintainer_declared_self_recorded_or_project_generated_data_and_parameters"
+    },
+    {
+      "path": "sim/results/skill_validation/demo/bad.npy",
+      "sha256": "9dd4778f9ac46052f0a846cfb7f77815cd6ef57e0259ac1b81553484571e0fda",
+      "license": "MIT",
+      "basis": "maintainer_declared_self_recorded_or_project_generated_data_and_parameters"
+    },
+    {
+      "path": "sim/results/skill_validation/demo/reference.npy",
+      "sha256": "4b70f9a4634f177474470ce1b2b25b023987b7291db972891a9a3cf3b2f4dc64",
+      "license": "MIT",
+      "basis": "maintainer_declared_self_recorded_or_project_generated_data_and_parameters"
+    },
+    {
+      "path": "src/ps/p/audio/staff_classifier_active_speech_float32_pc_mic_selected.npz",
+      "sha256": "c98bd72ad0661e839cf0bdf6767a5ae8f932ac15ed3c59f6f401912165490692",
+      "license": "MIT",
+      "basis": "maintainer_declared_self_recorded_or_project_generated_data_and_parameters"
+    }
+  ],
+  "videos": [
+    {
+      "path": "data/sign_videos/staff_display_00_cards.mp4",
+      "sha256": "233ebd4f2c7387a1150299f1c9b8dd75525b6f17e18a92d3e2ab47f450f8025c",
+      "license": "CC-BY-4.0",
+      "publisher_confirmed_all_performers_consented": true
+    },
+    {
+      "path": "data/sign_videos/staff_display_01_insurance_documents.mp4",
+      "sha256": "b8228e3ba747db3e37ab56e81b93d46c7261ac9aa4b3eb33127e32136eeae3d9",
+      "license": "CC-BY-4.0",
+      "publisher_confirmed_all_performers_consented": true
+    },
+    {
+      "path": "data/sign_videos/staff_display_02_register_here.mp4",
+      "sha256": "10fd6063607af831b6d70394bf2bd5bc7c8e1a87c3a085047920631127e39308",
+      "license": "CC-BY-4.0",
+      "publisher_confirmed_all_performers_consented": true
+    },
+    {
+      "path": "data/sign_videos/staff_display_03_choose_department.mp4",
+      "sha256": "18cf0b2735c1ffe5d9a9c0ddfd6866d7e60be5a12f35a8c0725dbfa531e24b1d",
+      "license": "CC-BY-4.0",
+      "publisher_confirmed_all_performers_consented": true
+    },
+    {
+      "path": "data/sign_videos/staff_display_04_payment_complete.mp4",
+      "sha256": "cbc72f31d54224f03b108b28bc1d913f54c3911e883ee300e65ab5362baffcba",
+      "license": "CC-BY-4.0",
+      "publisher_confirmed_all_performers_consented": true
+    },
+    {
+      "path": "data/sign_videos/staff_display_05_payment_required.mp4",
+      "sha256": "fcb04c73aac5d173fefa8f7dc943aa8323be15f175d7262e05ea21352fe260f5",
+      "license": "CC-BY-4.0",
+      "publisher_confirmed_all_performers_consented": true
+    },
+    {
+      "path": "data/sign_videos/staff_display_06_cash_allowed.mp4",
+      "sha256": "c4965c891b2b0a005ec180c28784d5944c8bd087f86f811f22af99ff52b9c33c",
+      "license": "CC-BY-4.0",
+      "publisher_confirmed_all_performers_consented": true
+    },
+    {
+      "path": "data/sign_videos/staff_display_07_discharge_ready.mp4",
+      "sha256": "2515ef45be7f4e9c1767dd619760625276d333f3e51823bbaf585620ccec43b3",
+      "license": "CC-BY-4.0",
+      "publisher_confirmed_all_performers_consented": true
+    }
+  ]
+}

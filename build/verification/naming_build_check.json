@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "source": "src/native/display/live_integer_frame.c",
+  "source_sha256": "ac538d61f508e6ab8d934b18a6200c66ae843ff43770fe89181001bdaeb1a2bf",
+  "outputs": {
+    "liblive_integer_frame.so": "67815b89b663be1168906af8baf98a1c2fedd5bde0600a007a0bcf883772b257",
+    "libreport_integer_image.so": "5b7bb09b6c8990c5b36cb9aa3a239219b126380e707a94740f70e9354e958d49"
+  },
+  "matches_qualified_runtime": true
+}

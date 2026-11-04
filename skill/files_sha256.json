@@ -1,0 +1,233 @@
+{
+  "schema": "sha256-inventory-v1",
+  "files": {
+    "install.py": {
+      "bytes": 553,
+      "sha256": "8cb5b06f3fddbf5e42ee1845327eaa3909450fa4a10fe45a042c0d737a7068f8"
+    },
+    "pynq-evidence-audit/agents/openai.yaml": {
+      "bytes": 273,
+      "sha256": "1a8087a94f8dd6a8e49782d55016525a4dd336a107874b78de5486503880ee91"
+    },
+    "pynq-evidence-audit/evidence/board_readonly.json": {
+      "bytes": 1763,
+      "sha256": "d80814b6de68393115a237d17af4230ee13fda20d4d1856d1a93046f64ccc0df"
+    },
+    "pynq-evidence-audit/evidence/current_validation.json": {
+      "bytes": 1365,
+      "sha256": "a7f290a5f9a590974f28ef785ddd078559fc51746c06c4cc01e12434313ee44c"
+    },
+    "pynq-evidence-audit/evidence/demo_result.json": {
+      "bytes": 10102,
+      "sha256": "665bf3ce26c9262dc0f0bf9a011810b8f14f8d4ed3212c1f2c6468688bb27570"
+    },
+    "pynq-evidence-audit/evidence/historical_report_check.json": {
+      "bytes": 93,
+      "sha256": "a3c0709380244b52badf6e02235e52a7091f4c696dfed512e5f757640da8a8e3"
+    },
+    "pynq-evidence-audit/evidence/historical_report_check_final.json": {
+      "bytes": 2026,
+      "sha256": "075077d7760be4eaa22752908eeedb29f2bd2b3499f2e38219b71f3f567846bf"
+    },
+    "pynq-evidence-audit/evidence/local_validation.json": {
+      "bytes": 1101,
+      "sha256": "f3d16a74452483606240605ac47ef9bd58644d85ba891ce68f118b78eab40381"
+    },
+    "pynq-evidence-audit/evidence/provenance.json": {
+      "bytes": 1760,
+      "sha256": "409e176cf0b384ed39df2b9b54f76662b747a341cad8ee6a7d630ffb79c662b2"
+    },
+    "pynq-evidence-audit/evidence/revision_validation.json": {
+      "bytes": 2671,
+      "sha256": "990d875f850c9a5828d58155a601505b9c1ee418c2e776eaa183c274f5656b9a"
+    },
+    "pynq-evidence-audit/evidence/unit_tests.log": {
+      "bytes": 6105,
+      "sha256": "292d0c9facc35640f3c6a3081339ea1e0c64c79c7f9e8d4ccd1cd8aecde08d84"
+    },
+    "pynq-evidence-audit/evidence/upstream_sources.json": {
+      "bytes": 3404,
+      "sha256": "8e55b38504ba3fc3c7764240952b108ada5c9f264ca46b6495a8ce1c034e28ad"
+    },
+    "pynq-evidence-audit/examples/frames.csv": {
+      "bytes": 351,
+      "sha256": "237ee62f624255ea30317c10f1b6c0fc6e8e101edc8445c36ebed978812dbbe8"
+    },
+    "pynq-evidence-audit/examples/historical_timing.rpt": {
+      "bytes": 5164,
+      "sha256": "65ad31bcf81ec81f65e47bd26e95845ddcb469043e6e43bb236e087e393d7cc6"
+    },
+    "pynq-evidence-audit/examples/historical_utilization.rpt": {
+      "bytes": 11547,
+      "sha256": "b2a0649801a64291f0dd606cb607f345298e5c5ac008283f2d77bd78f874e4b2"
+    },
+    "pynq-evidence-audit/examples/pipeline_contract.json": {
+      "bytes": 886,
+      "sha256": "52438b1e901010a568317303cdcf2539876c1f661a09db33579b82951c231c6e"
+    },
+    "pynq-evidence-audit/examples/pipeline_results.csv": {
+      "bytes": 1648,
+      "sha256": "c423aa07cf91a28895a10fe227ffc9aded9967189e759dd0971df5767a0e69fd"
+    },
+    "pynq-evidence-audit/examples/timing.rpt": {
+      "bytes": 894,
+      "sha256": "d14c3b394c9251970c97235de7abc3a67af88805d390d3c436e006770d54832d"
+    },
+    "pynq-evidence-audit/examples/utilization.rpt": {
+      "bytes": 348,
+      "sha256": "de7b6d8d389f7e838fbeb7f52eab0ba4ae4a613db7443a30221c36570b725bfa"
+    },
+    "pynq-evidence-audit/LICENSE": {
+      "bytes": 1085,
+      "sha256": "750d9d7853d3c1d4e430ed8eafc83d5c465d60a2ae44a974fd0b01d7644b6b1f"
+    },
+    "pynq-evidence-audit/references/audio_pipeline.md": {
+      "bytes": 5974,
+      "sha256": "9f253227c60018969719a9170475a528b2b4283f0a5f1807542c872aecd64808"
+    },
+    "pynq-evidence-audit/references/development_record.md": {
+      "bytes": 3128,
+      "sha256": "292290b12dabd5fc3cff829c84e705e21707f0d6e6f5ad0ca70c73b98e740c46"
+    },
+    "pynq-evidence-audit/references/experiment_reproduction.md": {
+      "bytes": 1746,
+      "sha256": "56e311c06612fa77b508678748366761cc4ec3fe71bebe7a7b8270ef2e49fae3"
+    },
+    "pynq-evidence-audit/references/failure_patterns.md": {
+      "bytes": 4753,
+      "sha256": "a020ad62057bc25fccdc49f2d7070ef6421214e36ccba85367e5c7a7b96b99ff"
+    },
+    "pynq-evidence-audit/references/prompts.md": {
+      "bytes": 4698,
+      "sha256": "1401b1021b57762dc467a40c73320882fac21b78d23993ceb9e6b5b44a5d80a3"
+    },
+    "pynq-evidence-audit/references/source_provenance.md": {
+      "bytes": 1636,
+      "sha256": "f691117d90fbc5580dbdf2fef8dbdad349f9b870c8cabc265cbf45a0f605dcef"
+    },
+    "pynq-evidence-audit/references/sources.md": {
+      "bytes": 2233,
+      "sha256": "e4da86af4c8e8de03d591068babbffd50fd2f8a2770279d14f7f73a3cb204aa1"
+    },
+    "pynq-evidence-audit/references/submission_requirements.md": {
+      "bytes": 2316,
+      "sha256": "faf516c3465798eeb28d34cf663d8eb490b35506344f12439b546c79a39bef1a"
+    },
+    "pynq-evidence-audit/references/upstream_review.md": {
+      "bytes": 2673,
+      "sha256": "a3bc2e1de66d11059fd9d3ba7d5d302031166230fbae601003d829e6f86eb6ea"
+    },
+    "pynq-evidence-audit/references/validation.md": {
+      "bytes": 1106,
+      "sha256": "362950bb169a51a11080c417150861e56f4e2a593f88459a55c4f9159fbeb05e"
+    },
+    "pynq-evidence-audit/references/vision_pipeline.md": {
+      "bytes": 5639,
+      "sha256": "6a080847ee5c80612ac9176d51a71babaefa07817cd93428b53edc9674757d2e"
+    },
+    "pynq-evidence-audit/references/workflow.md": {
+      "bytes": 11887,
+      "sha256": "3b8f4d7a3247a42775f80d3e21a2654d5ac47c0bdb6092d1536dab261f60b1dc"
+    },
+    "pynq-evidence-audit/requirements.txt": {
+      "bytes": 204,
+      "sha256": "e385042615ccbea2187e925446aeb0d89b817c6e58e9914ff3a454b1764869c4"
+    },
+    "pynq-evidence-audit/scripts/check_latency.py": {
+      "bytes": 4326,
+      "sha256": "b01b327293d87f2996b75b8878d2789603ff661a32b5076a325e868fbbf83c21"
+    },
+    "pynq-evidence-audit/scripts/check_manifest.py": {
+      "bytes": 3877,
+      "sha256": "bed7909194018ade7552855b8bdac7b6bdf2bc7ab76efe16881ebd1cc6f582b7"
+    },
+    "pynq-evidence-audit/scripts/check_pipeline.py": {
+      "bytes": 4285,
+      "sha256": "5f8462606cc9207705e64baae9a37d81dbd74cd5beb614a95a0a20d269c84cc3"
+    },
+    "pynq-evidence-audit/scripts/check_reports.py": {
+      "bytes": 6734,
+      "sha256": "5bf2253406d5b344248bc5f055fcfdb432ff7b69db7ab860546815cfd5626cee"
+    },
+    "pynq-evidence-audit/scripts/collect_evidence.py": {
+      "bytes": 15146,
+      "sha256": "96cc8d1efb6ffbe5f7fe863c4b6035559113e2a9110b404c31b1801fedc71a5f"
+    },
+    "pynq-evidence-audit/scripts/compare_arrays.py": {
+      "bytes": 6126,
+      "sha256": "be9e82b8788c111205712013d97d01150d5c037a56a6c03e3343d86965fb3a4e"
+    },
+    "pynq-evidence-audit/scripts/install_skill.py": {
+      "bytes": 5035,
+      "sha256": "9e61d6bf5ee543a1f0356e3df89b0c4f8168de70e9c697ecf03ae2e537bc1c40"
+    },
+    "pynq-evidence-audit/scripts/run.py": {
+      "bytes": 1203,
+      "sha256": "9d9e93a922bfcf2cb121b459e58dd3bb139e4b86531d5fbf4ec08f8cfefa0419"
+    },
+    "pynq-evidence-audit/scripts/run_demo.py": {
+      "bytes": 4022,
+      "sha256": "a86004e9516442acba58abb3750c7385b73d576d690aa6059759f65acd167042"
+    },
+    "pynq-evidence-audit/skill-card.md": {
+      "bytes": 866,
+      "sha256": "e69e226a81f1237b24acd2d55fe243c9cd536a67ae357e25c3afcb9fe09c21bb"
+    },
+    "pynq-evidence-audit/SKILL.md": {
+      "bytes": 3752,
+      "sha256": "92b1ab37033c1db7fbf0b3f0958662cdcf07d5db7d5d5245e8239049e298ab7f"
+    },
+    "pynq-evidence-audit/templates/audio_contract.json": {
+      "bytes": 2012,
+      "sha256": "2bc78aaa29b01adfbaf979a27cc6c8e3c6ba810eda74a7b4a429a8db61879610"
+    },
+    "pynq-evidence-audit/templates/collaboration_record.md": {
+      "bytes": 783,
+      "sha256": "e4a44e9457a5bb743d3ebc56f8461859f07ce53a78ee2598a03cf9cc34a6493d"
+    },
+    "pynq-evidence-audit/templates/experiment_report.md": {
+      "bytes": 2029,
+      "sha256": "a88e6e27c37ebb16c248efde67a07cb394851c51120677b02655cd260415b3d4"
+    },
+    "pynq-evidence-audit/templates/export_reports.tcl": {
+      "bytes": 850,
+      "sha256": "ef5d493ebfb0bb985a9a52e21c1b196867c6a66adad14c5d787d1dced4a10a1b"
+    },
+    "pynq-evidence-audit/templates/interface_contract.json": {
+      "bytes": 1099,
+      "sha256": "72dc935d1357b81d9f700f112bd25f4852083c65fa0a4de39620c511639e3a9a"
+    },
+    "pynq-evidence-audit/templates/reproduction_plan.json": {
+      "bytes": 411,
+      "sha256": "d2bfe22ebf645bbe88232740bac98b6a548b44dc5dc955d907fa951a1c70caa6"
+    },
+    "pynq-evidence-audit/templates/reproduction_result.md": {
+      "bytes": 354,
+      "sha256": "442ba2a531d0f78349ceea6e0fa3b4e11e2e26ef5dd67a6122bd2c604f53caf9"
+    },
+    "pynq-evidence-audit/templates/source_provenance.json": {
+      "bytes": 491,
+      "sha256": "ac298a9e9513d79bd3ce0570eb00d304a2a2527e1c680253563ba41335f04ac0"
+    },
+    "pynq-evidence-audit/tests/test_installation.py": {
+      "bytes": 4849,
+      "sha256": "64d0106a0165e0881a86e1917239b1146a0c82ad90c959f6b46b7c7ed0573de7"
+    },
+    "pynq-evidence-audit/tests/test_pipeline.py": {
+      "bytes": 2212,
+      "sha256": "fbdd855823df57bf25f096e250c47aec3e55da149247c2484dbaf20f046f81ad"
+    },
+    "pynq-evidence-audit/tests/test_tools.py": {
+      "bytes": 9333,
+      "sha256": "f13dfa0cdd7e81ceef7aa99b61cca1a2953fbdff7a65a82234d2e11b2bb1a5f7"
+    },
+    "pynq-evidence-audit/tests/test_validation.py": {
+      "bytes": 6057,
+      "sha256": "cb5706d2c98f1670ef7213b01e5d36f81585376880c86540dac6742892ba106d"
+    },
+    "README.md": {
+      "bytes": 8530,
+      "sha256": "97096308584143ee61b29073b0ff1dd13b7e95e7c78363c64d83ccfd9c6997c4"
+    }
+  }
+}

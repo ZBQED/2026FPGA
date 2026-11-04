@@ -1,0 +1,4 @@
+vhdl xil_defaultlib "iis_ser.vhd"
+vhdl xil_defaultlib "iis_deser.vhd"
+vhdl xil_defaultlib "user_logic.vhd"
+sv xil_defaultlib "tb.sv"

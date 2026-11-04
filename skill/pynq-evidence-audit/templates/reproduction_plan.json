@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "workload": null,
+  "input_manifest": null,
+  "environment": {
+    "python": null,
+    "framework": null,
+    "compiler": null
+  },
+  "target_contract": null,
+  "steps": [],
+  "acceptance": {
+    "numeric_tolerance": null,
+    "timing_endpoint": null,
+    "required_outputs": []
+  },
+  "resource_owner": null,
+  "restore_entry": null,
+  "output_directory": null
+}

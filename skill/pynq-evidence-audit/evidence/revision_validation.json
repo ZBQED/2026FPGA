@@ -1,0 +1,99 @@
+{
+  "historical_report": {
+    "expected_exit": 2,
+    "actual_exit": 2,
+    "issues": [
+      "constraint review required: no_input_delay=1",
+      "constraint review required: no_output_delay=3"
+    ]
+  },
+  "mixed_integer_float_counterexample": {
+    "reference_shape": [
+      1
+    ],
+    "actual_shape": [
+      1
+    ],
+    "reference_dtype": "int64",
+    "actual_dtype": "float64",
+    "atol": 0,
+    "rtol": 0,
+    "status": "failed",
+    "element_count": 1,
+    "mismatch_count": 1,
+    "max_abs_error": "1",
+    "first_mismatch_index": [
+      0
+    ],
+    "comparison_method": "exact_rational_mixed_integer_float"
+  },
+  "sensor_reuse": {
+    "evidence_kind": "synthetic_offline_different_task",
+    "independent_human_team": false,
+    "hardware_test": false,
+    "configuration": "2x3 normalized fixed-point sensor array; no business labels or network required",
+    "checks": [
+      {
+        "case": "actual",
+        "expected_exit": 0,
+        "actual_exit": 0,
+        "result": {
+          "reference_shape": [
+            2,
+            3
+          ],
+          "actual_shape": [
+            2,
+            3
+          ],
+          "reference_dtype": "float64",
+          "actual_dtype": "float64",
+          "atol": 0.0,
+          "rtol": 0.0,
+          "status": "passed",
+          "element_count": 6,
+          "mismatch_count": 0,
+          "max_abs_error": "0",
+          "first_mismatch_index": null,
+          "interpretation": "array equality/tolerance check only; not classifier accuracy or task acceptance"
+        }
+      },
+      {
+        "case": "bad",
+        "expected_exit": 2,
+        "actual_exit": 2,
+        "result": {
+          "reference_shape": [
+            2,
+            3
+          ],
+          "actual_shape": [
+            2,
+            3
+          ],
+          "reference_dtype": "float64",
+          "actual_dtype": "float64",
+          "atol": 0.0,
+          "rtol": 0.0,
+          "status": "failed",
+          "element_count": 6,
+          "mismatch_count": 1,
+          "max_abs_error": "0.25",
+          "first_mismatch_index": [
+            1,
+            2
+          ],
+          "interpretation": "array equality/tolerance check only; not classifier accuracy or task acceptance"
+        }
+      }
+    ]
+  },
+  "scope": "software_revision_only",
+  "version": "0.4.0",
+  "unit_tests": {
+    "count": 63,
+    "status": "passed"
+  },
+  "installation_regression": "venv_dependency_self_test_failure_cleanup; retry; preserve_existing; reject_corrupt; interrupt",
+  "independent_team_or_other_board_test": false
+}

@@ -1,0 +1,259 @@
+[
+  {
+    "name": "bcrypt",
+    "version": "3.2.0",
+    "distribution": "bundled_original_wheel",
+    "license_expression": null,
+    "license_metadata": "Apache License, Version 2.0",
+    "license_files": [
+      "licenses/dependencies/bcrypt/bcrypt-3.2.0.dist-info/LICENSE"
+    ],
+    "source_urls": [
+      "https://github.com/pyca/bcrypt/"
+    ],
+    "wheel_path": "install/wheels/bcrypt-3.2.0-cp36-abi3-win_amd64.whl",
+    "wheel_sha256": "81fec756feff5b6818ea7ab031205e1d323d8943d237303baca2c5f9c7846f34"
+  },
+  {
+    "name": "cffi",
+    "version": "2.1.1",
+    "distribution": "bundled_original_wheel",
+    "license_expression": "MIT-0",
+    "license_metadata": null,
+    "license_files": [
+      "licenses/dependencies/cffi/cffi-2.1.1.dist-info/licenses/LICENSE"
+    ],
+    "source_urls": [
+      "Documentation, https://cffi.readthedocs.io/",
+      "Changelog, https://cffi.readthedocs.io/en/latest/whatsnew.html",
+      "Download, https://github.com/python-cffi/cffi/releases",
+      "Contact, https://groups.google.com/forum/#!forum/python-cffi",
+      "Source Code, https://github.com/python-cffi/cffi",
+      "Issue Tracker, https://github.com/python-cffi/cffi/issues"
+    ],
+    "wheel_path": "install/wheels/cffi-2.1.1-cp312-cp312-win_amd64.whl",
+    "wheel_sha256": "f53e442b08449d42821fa4a4fba000095af9f62742a500f978a9f557ec44339a"
+  },
+  {
+    "name": "cryptography",
+    "version": "42.0.5",
+    "distribution": "bundled_original_wheel",
+    "license_expression": null,
+    "license_metadata": "Apache-2.0 OR BSD-3-Clause",
+    "license_files": [
+      "licenses/dependencies/cryptography/cryptography-42.0.5.dist-info/LICENSE",
+      "licenses/dependencies/cryptography/cryptography-42.0.5.dist-info/license.apache",
+      "licenses/dependencies/cryptography/cryptography-42.0.5.dist-info/license.bsd"
+    ],
+    "source_urls": [
+      "homepage, https://github.com/pyca/cryptography",
+      "documentation, https://cryptography.io/",
+      "source, https://github.com/pyca/cryptography/",
+      "issues, https://github.com/pyca/cryptography/issues",
+      "changelog, https://cryptography.io/en/latest/changelog/"
+    ],
+    "wheel_path": "install/wheels/cryptography-42.0.5-cp39-abi3-win_amd64.whl",
+    "wheel_sha256": "a011a644f6d7d03736214d38832e030d8268bcff4a41f728e6030325fea3e400"
+  },
+  {
+    "name": "flatbuffers",
+    "version": "25.12.19",
+    "distribution": "bundled_original_wheel",
+    "license_expression": "Apache-2.0",
+    "license_metadata": "Apache 2.0",
+    "license_files": [
+      "licenses/dependencies/flatbuffers/license.txt"
+    ],
+    "source_urls": [
+      "Documentation, https://google.github.io/flatbuffers/",
+      "Source, https://github.com/google/flatbuffers"
+    ],
+    "wheel_path": "install/wheels/flatbuffers-25.12.19-py2.py3-none-any.whl",
+    "wheel_sha256": "7634f50c427838bb021c2d66a3d1168e9d199b0607e6329399f04846d42e20b4"
+  },
+  {
+    "name": "numpy",
+    "version": "2.5.2",
+    "distribution": "bundled_original_wheel",
+    "license_expression": "BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0",
+    "license_metadata": null,
+    "license_files": [
+      "licenses/dependencies/numpy/numpy/ma/LICENSE",
+      "licenses/dependencies/numpy/numpy/random/license.md",
+      "licenses/dependencies/numpy/numpy/_core/include/numpy/random/license.txt",
+      "licenses/dependencies/numpy/numpy-2.5.2.dist-info/licenses/license.txt",
+      "licenses/dependencies/numpy/numpy-2.5.2.dist-info/licenses/numpy/fft/pocketfft/license.md",
+      "licenses/dependencies/numpy/numpy-2.5.2.dist-info/licenses/numpy/linalg/lapack_lite/license.txt",
+      "licenses/dependencies/numpy/numpy-2.5.2.dist-info/licenses/numpy/ma/LICENSE",
+      "licenses/dependencies/numpy/numpy-2.5.2.dist-info/licenses/numpy/random/license.md",
+      "licenses/dependencies/numpy/numpy-2.5.2.dist-info/licenses/numpy/random/src/distributions/license.md",
+      "licenses/dependencies/numpy/numpy-2.5.2.dist-info/licenses/numpy/random/src/mt19937/license.md",
+      "licenses/dependencies/numpy/numpy-2.5.2.dist-info/licenses/numpy/random/src/pcg64/license.md",
+      "licenses/dependencies/numpy/numpy-2.5.2.dist-info/licenses/numpy/random/src/philox/license.md",
+      "licenses/dependencies/numpy/numpy-2.5.2.dist-info/licenses/numpy/random/src/sfc64/license.md",
+      "licenses/dependencies/numpy/numpy-2.5.2.dist-info/licenses/numpy/random/src/splitmix64/license.md",
+      "licenses/dependencies/numpy/numpy-2.5.2.dist-info/licenses/numpy/_core/include/numpy/libdivide/license.txt",
+      "licenses/dependencies/numpy/numpy-2.5.2.dist-info/licenses/numpy/_core/src/common/pythoncapi-compat/COPYING",
+      "licenses/dependencies/numpy/numpy-2.5.2.dist-info/licenses/numpy/_core/src/highway/LICENSE",
+      "licenses/dependencies/numpy/numpy-2.5.2.dist-info/licenses/numpy/_core/src/multiarray/dragon4_license.txt",
+      "licenses/dependencies/numpy/numpy-2.5.2.dist-info/licenses/numpy/_core/src/npysort/x86-simd-sort/license.md",
+      "licenses/dependencies/numpy/numpy-2.5.2.dist-info/licenses/numpy/_core/src/umath/svml/LICENSE"
+    ],
+    "source_urls": [
+      "homepage, https://numpy.org",
+      "documentation, https://numpy.org/doc/",
+      "source, https://github.com/numpy/numpy",
+      "download, https://pypi.org/project/numpy/#files",
+      "tracker, https://github.com/numpy/numpy/issues",
+      "release notes, https://numpy.org/doc/stable/release"
+    ],
+    "wheel_path": "install/wheels/numpy-2.5.2-cp312-cp312-win_amd64.whl",
+    "wheel_sha256": "28ac63476ec7651484215ee7fa15a1f78b57c14621f01e392afe17b9a1390ce4"
+  },
+  {
+    "name": "onnxruntime",
+    "version": "1.31.0",
+    "distribution": "bundled_original_wheel",
+    "license_expression": null,
+    "license_metadata": "MIT License",
+    "license_files": [
+      "licenses/dependencies/onnxruntime/onnxruntime/LICENSE",
+      "licenses/dependencies/onnxruntime/onnxruntime/thirdpartynotices.txt"
+    ],
+    "source_urls": [
+      "https://onnxruntime.ai"
+    ],
+    "wheel_path": "install/wheels/onnxruntime-1.31.0-cp312-cp312-win_amd64.whl",
+    "wheel_sha256": "09d56445c1753e66e0912de69d3f0184016ad9a191dcd6925bf5dd570d2bfbe5"
+  },
+  {
+    "name": "opencv-python",
+    "version": "5.0.0.93",
+    "distribution": "bundled_original_wheel",
+    "license_expression": null,
+    "license_metadata": "Apache 2.0",
+    "license_files": [
+      "licenses/dependencies/opencv-python/cv2/license-3rd-party.txt",
+      "licenses/dependencies/opencv-python/cv2/license.txt",
+      "licenses/dependencies/opencv-python/opencv_python-5.0.0.93.dist-info/license-3rd-party.txt",
+      "licenses/dependencies/opencv-python/opencv_python-5.0.0.93.dist-info/license.txt"
+    ],
+    "source_urls": [
+      "https://github.com/opencv/opencv-python"
+    ],
+    "wheel_path": "install/wheels/opencv_python-5.0.0.93-cp37-abi3-win_amd64.whl",
+    "wheel_sha256": "f90ba04b8f73bc5c3814037699739f0156f597338a98f05956c684e7c3ca10d2"
+  },
+  {
+    "name": "packaging",
+    "version": "26.3",
+    "distribution": "bundled_original_wheel",
+    "license_expression": "Apache-2.0 OR BSD-2-Clause",
+    "license_metadata": null,
+    "license_files": [
+      "licenses/dependencies/packaging/packaging-26.3.dist-info/licenses/LICENSE",
+      "licenses/dependencies/packaging/packaging-26.3.dist-info/licenses/license.apache",
+      "licenses/dependencies/packaging/packaging-26.3.dist-info/licenses/license.bsd"
+    ],
+    "source_urls": [
+      "Documentation, https://packaging.pypa.io/",
+      "Source, https://github.com/pypa/packaging"
+    ],
+    "wheel_path": "install/wheels/packaging-26.3-py3-none-any.whl",
+    "wheel_sha256": "d7193f7c8e4e93f444fde0262bf90af30e16fa0ad0ad44cb553c87339b23cd1c"
+  },
+  {
+    "name": "paramiko",
+    "version": "2.8.1",
+    "distribution": "bundled_original_wheel",
+    "license_expression": null,
+    "license_metadata": "LGPL",
+    "license_files": [
+      "licenses/dependencies/paramiko/paramiko-2.8.1.dist-info/LICENSE"
+    ],
+    "source_urls": [
+      "Docs, https://docs.paramiko.org",
+      "Source, https://github.com/paramiko/paramiko",
+      "Issues, https://github.com/paramiko/paramiko/issues",
+      "Changelog, https://www.paramiko.org/changelog.html",
+      "CI, https://app.circleci.com/pipelines/github/paramiko/paramiko"
+    ],
+    "wheel_path": "install/wheels/paramiko-2.8.1-py2.py3-none-any.whl",
+    "wheel_sha256": "7b5910f5815a00405af55da7abcc8a9e0d9657f57fcdd9a89894fdbba1c6b8a8"
+  },
+  {
+    "name": "protobuf",
+    "version": "7.36.2",
+    "distribution": "bundled_original_wheel",
+    "license_expression": null,
+    "license_metadata": "3-Clause BSD License",
+    "license_files": [
+      "licenses/dependencies/protobuf/protobuf-7.36.2.dist-info/LICENSE"
+    ],
+    "source_urls": [
+      "https://developers.google.com/protocol-buffers/"
+    ],
+    "wheel_path": "install/wheels/protobuf-7.36.2-cp310-abi3-win_amd64.whl",
+    "wheel_sha256": "a300819d441e078a5608c0d3c709796bb548136058fda017ae51d425b44fd353"
+  },
+  {
+    "name": "psutil",
+    "version": "5.9.8",
+    "distribution": "bundled_original_wheel",
+    "license_expression": null,
+    "license_metadata": "BSD-3-Clause",
+    "license_files": [
+      "licenses/dependencies/psutil/psutil-5.9.8.dist-info/LICENSE"
+    ],
+    "source_urls": [
+      "https://github.com/giampaolo/psutil"
+    ],
+    "wheel_path": "install/wheels/psutil-5.9.8-cp37-abi3-win_amd64.whl",
+    "wheel_sha256": "8db4c1b57507eef143a15a6884ca10f7c73876cdf5d51e713151c1236a0e68cf"
+  },
+  {
+    "name": "pycparser",
+    "version": "3.12",
+    "distribution": "bundled_original_wheel",
+    "license_expression": "BSD-3-Clause",
+    "license_metadata": null,
+    "license_files": [
+      "licenses/dependencies/pycparser/pycparser-3.12.dist-info/licenses/LICENSE"
+    ],
+    "source_urls": [
+      "Homepage, https://github.com/eliben/pycparser"
+    ],
+    "wheel_path": "install/wheels/pycparser-3.12-py3-none-any.whl",
+    "wheel_sha256": "a076f3f489b39b43ed13563a1dafe42447445bec2e294154ec5c57fcdda4c85e"
+  },
+  {
+    "name": "pynacl",
+    "version": "1.5.0",
+    "distribution": "bundled_original_wheel",
+    "license_expression": null,
+    "license_metadata": "Apache License 2.0",
+    "license_files": [
+      "licenses/dependencies/pynacl/pynacl-1.5.0.dist-info/LICENSE"
+    ],
+    "source_urls": [
+      "https://github.com/pyca/pynacl/"
+    ],
+    "wheel_path": "install/wheels/pynacl-1.5.0-cp36-abi3-win_amd64.whl",
+    "wheel_sha256": "20f42270d27e1b6a29f54032090b972d97f0a1b0948cc52392041ef7831fee93"
+  },
+  {
+    "name": "six",
+    "version": "1.17.0",
+    "distribution": "bundled_original_wheel",
+    "license_expression": null,
+    "license_metadata": "MIT",
+    "license_files": [
+      "licenses/dependencies/six/six-1.17.0.dist-info/LICENSE"
+    ],
+    "source_urls": [
+      "https://github.com/benjaminp/six"
+    ],
+    "wheel_path": "install/wheels/six-1.17.0-py2.py3-none-any.whl",
+    "wheel_sha256": "4721f391ed90541fddacab5acf947aa0d3dc7d27b2e1e8eda2be8970586c3274"
+  }
+]

@@ -1,0 +1,30 @@
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: E:/vivado2024.2/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe xil_defaultlib.tb -prj files.prj -L unisims_ver -L xpm -L secureip -timescale 1ns/1ps -mt 2 -debug typical -s submission_p_audio 
+Using 2 slave threads.
+Determining compilation order of HDL files.
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/medical_gesture_detection/light_try/FPGA_120ms_work/submission_release_20261104/recheck_p_audio/tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/medical_gesture_detection/light_try/FPGA_120ms_work/submission_release_20261104/recheck_p_audio/iis_ser.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'iis_ser'
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/medical_gesture_detection/light_try/FPGA_120ms_work/submission_release_20261104/recheck_p_audio/iis_deser.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'iis_deser'
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/medical_gesture_detection/light_try/FPGA_120ms_work/submission_release_20261104/recheck_p_audio/user_logic.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'user_logic'
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.iis_deser [iis_deser_default]
+Compiling architecture behavioral of entity xil_defaultlib.iis_ser [iis_ser_default]
+Compiling architecture imp of entity xil_defaultlib.user_logic [user_logic_default]
+Compiling module xil_defaultlib.tb
+Built simulation snapshot submission_p_audio

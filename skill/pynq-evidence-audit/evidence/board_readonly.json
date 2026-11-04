@@ -1,0 +1,60 @@
+{
+  "evidence_kind": "historical_readonly_board_excerpt",
+  "source_sha256": "2c33b825d5b12308a761a7a4d85cd7016ba4ded1c06f3b7efeebb0df4609c467",
+  "transform": "selected measurements and invariants; identifying metadata omitted",
+  "board": "PYNQ-Z2",
+  "environment": {
+    "python": "3.10.4",
+    "pynq_package_version": "3.1.1"
+  },
+  "status": "ok",
+  "issues": [],
+  "sampling_intervals": 12,
+  "summary": {
+    "window_seconds": 3.043684051000014,
+    "system_cpu_percent": {
+      "min": 50.0,
+      "mean": 51.21649259607084,
+      "max": 54.0
+    },
+    "process_cpu_percent_one_core": {
+      "min": 98.51956346518169,
+      "mean": 99.87891538738049,
+      "max": 102.52084321689854
+    },
+    "process_rss_bytes": {
+      "min": 107831296,
+      "mean": 107831296,
+      "max": 107831296
+    },
+    "peak_scope": "sampled window only; not a proven live-inference peak"
+  },
+  "service_before": {
+    "MainPID": "816",
+    "NRestarts": "0",
+    "ActiveState": "active",
+    "SubState": "running",
+    "UnitFileState": "enabled"
+  },
+  "service_after": {
+    "MainPID": "816",
+    "NRestarts": "0",
+    "ActiveState": "active",
+    "SubState": "running",
+    "UnitFileState": "enabled"
+  },
+  "production_files_unchanged": true,
+  "checked_file_count": 8,
+  "hardware_initialization": false,
+  "service_changed_by_test": false,
+  "pl_utilization": {
+    "status": "not_measured",
+    "lut": null,
+    "ff": null,
+    "bram": null,
+    "dsp": null,
+    "reason": "requires a matching implementation/synthesis report"
+  },
+  "deployment_stage": "historical_baseline_before_label_extension",
+  "current_deployment_claim": "none; these measurements do not describe a later retrained deployment"
+}

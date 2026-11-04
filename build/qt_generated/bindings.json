@@ -1,0 +1,25 @@
+{
+  "header_equivalence": "identical after include-path case normalization",
+  "resource_contents_identical": true,
+  "source_headers": {
+    "backend.h": "0741cae6a00178bdd16bde7d4ed25366aeacd93c45ae432469ac91129961a5e0",
+    "camerapreview.h": "4020117a823f98e7564e6df5bc662991ece3555986cae2ea30605e0c955405e2"
+  },
+  "resource_count": 10,
+  "source_files_sha256": {
+    "src/ui/src/backend.h": "0741cae6a00178bdd16bde7d4ed25366aeacd93c45ae432469ac91129961a5e0",
+    "src/ui/src/camerapreview.h": "4020117a823f98e7564e6df5bc662991ece3555986cae2ea30605e0c955405e2",
+    "src/ui/qml.qrc": "07ad8341e588055a3730e8cdeaa0b016cb95d36ca59fe910da8d74f450718cfd",
+    "src/ui/qml/main.qml": "7307817e23858e17bbf355ee9830e315e23f53c6115c795788392319b39a40b8",
+    "src/ui/qml/embeddedwindow.qml": "337d381041e532883d2191adadd8e9558461d00b3da97cffbea914cdcb268fb1",
+    "src/ui/qml/touchbutton.qml": "31be3e65e5d73249ef14c72d681a76aa1beb2030552030e1246b1b890e2e00f0",
+    "src/ui/qml/embeddeddualwindow.qml": "68f968a9fce3d3949878fee2b8e32af6a248362f6e17cc07a172bd9c0cdeea21",
+    "src/ui/qml/previewwindow.qml": "79ce330efcee544ef375f84501efd08c811cf2d95796bf083eaf120da8098d7e",
+    "src/ui/qml/staffwindow.qml": "87a78cb7b144d41873ae1025742eb7bde1d2b1b29525924e39801578891440d3",
+    "src/ui/qml/patientwindow.qml": "e0ef3373972b37bbb95fba62afb32f305f254f1b18d294ab48b3e52a63f5bc95",
+    "src/ui/qml/staffpanel.qml": "5b8156d0d841a2f4e0cacc6c33c421cd053734d9b14d22fe7a3ca6223a0d2e6c",
+    "src/ui/qml/patientpanel.qml": "58571c574233c5100dfafd24ce9ef868d8fa8a855440404c8b57b0dbf7bded53",
+    "src/ui/qml/statuspill.qml": "06e5419ba1b5cbfb03fff947e22e91435863646e73fcb78a4da94e06ebaeb954"
+  },
+  "resource_verification": "All embedded resource bytes decoded and equal to current qml.qrc source files"
+}

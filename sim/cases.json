@@ -1,0 +1,17 @@
+{
+  "ov5640": {
+    "pass_marker": "OV5640_RTL_PASS"
+  },
+  "ethernet": {
+    "pass_marker": "RGMII_RTL_PASS"
+  },
+  "p_audio": {
+    "pass_marker": "P_AUDIO_RTL_PASS"
+  },
+  "core": {
+    "pass_marker": "CURRENT_CORE_RTL_PASS"
+  },
+  "video": {
+    "pass_marker": "VIDEO_RTL_PASS"
+  }
+}

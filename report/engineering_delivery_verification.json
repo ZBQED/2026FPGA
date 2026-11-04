@@ -1,0 +1,4 @@
+{
+  "summary": "board/verification_summary.json",
+  "record_policy": "fastest_verified_per_workload"
+}

@@ -1,0 +1,61 @@
+{
+  "status": "PASS",
+  "workload": "固定图像完整视觉推理至扫描确认",
+  "statistic": "fastest",
+  "elapsed_ns": 327943966,
+  "elapsed_ms": 327.943966,
+  "frame_id": 12,
+  "test_input_sha256": "ee74c843cc3574d9875dfe3c320dd830686dfe9ff5f0eeef5c73176396a52caa",
+  "eligible_frames": 20,
+  "source_record_sha256": "b08631736094fdbd621706ef18bb5f8cac6a2fd4fd45bb7b9f3f20f4ab1192ae",
+  "source_pointer": "/nav/rows/11",
+  "record_type": "verbatim_field_excerpt",
+  "record": {
+    "frame_id": 12,
+    "source_sha256": "ee74c843cc3574d9875dfe3c320dd830686dfe9ff5f0eeef5c73176396a52caa",
+    "all_four_models_and_two_hands_executed": true,
+    "required_current_frame_branches_complete": true,
+    "display": {
+      "source_frame_pairing_verified": true,
+      "fixture_input_ready_to_framebuffer_copy_ns": 286599043,
+      "fixture_input_ready_to_confirmed_scanout_ns": 327943966,
+      "framebuffer_copy_ack": {
+        "status": "CURRENT_PC_COORDINATES_DRAWN_ON_NAV",
+        "source_frame_id": 12,
+        "source_capture_ns": "15874851865034",
+        "framebuffer_copy_done_ns": "15875138464077",
+        "source_age_at_copy_ms": 286.599043,
+        "body_valid_points": 11,
+        "hands": 2,
+        "person_boxes": 1,
+        "geometry_drawn": true,
+        "input_read_valid": true,
+        "source_frame_pairing_verified": true
+      },
+      "scanout": {
+        "receipt": {
+          "copy_fence_ns": 15875153218852,
+          "event1_ns": 15875163129000,
+          "event2_ns": 15875179809000,
+          "observed1_ns": 15875163275027,
+          "observed2_ns": 15875179898301,
+          "irq_before": 950584,
+          "irq_after": 950586,
+          "sequence1": 1356,
+          "sequence2": 1358,
+          "crtc_id": 33,
+          "events_seen": 2,
+          "verified": 1,
+          "error": 0,
+          "same_fb_atomic_commits": 2,
+          "atomic_test_only": 1
+        },
+        "request_ns": 15875151991703,
+        "returned_ns": 15875180860461,
+        "scanout_bound_ns": 15875179809000,
+        "mode_and_framebuffer_unchanged": true
+      }
+    }
+  },
+  "restore": "PASS"
+}

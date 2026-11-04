@@ -1,0 +1,44 @@
+{
+  "kind": "core",
+  "board_connected": false,
+  "commands": [
+    {
+      "argv": [
+        "E:\\vivado2024.2\\Vivado\\2024.2\\bin\\xelab.bat",
+        "xil_defaultlib.tb",
+        "-prj",
+        "files.prj",
+        "-L",
+        "unisims_ver",
+        "-L",
+        "xpm",
+        "-L",
+        "secureip",
+        "-timescale",
+        "1ns/1ps",
+        "-mt",
+        "2",
+        "-debug",
+        "typical",
+        "-s",
+        "report_core"
+      ],
+      "returncode": 0,
+      "wall_seconds": 46.75
+    },
+    {
+      "argv": [
+        "E:\\vivado2024.2\\Vivado\\2024.2\\bin\\xsim.bat",
+        "report_core",
+        "-tclbatch",
+        "run.tcl",
+        "-wdb",
+        "core.wdb"
+      ],
+      "returncode": 0,
+      "wall_seconds": 4.25
+    }
+  ],
+  "started": "2026-11-03 22:32:48",
+  "finished": "2026-11-03 22:33:39"
+}

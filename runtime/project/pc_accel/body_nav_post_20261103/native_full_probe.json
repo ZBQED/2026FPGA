@@ -1,0 +1,105 @@
+{
+  "status": "NAV_BODY_LAYOUT_PROBE_DONE",
+  "started": "2026-11-03T18:45:34.582605",
+  "suspended": [
+    17512,
+    37004,
+    37596,
+    12236,
+    17564
+  ],
+  "library_sha256": "a431c165cbcae23a867335e1dac12ff15aeb4a6cc30445e5b6456905a6abe076",
+  "result": {
+    "rc": 0,
+    "stdout": "{\"status\": \"BODY_DECODE_NATIVE_PROBE\", \"rows\": [{\"sample\": 0, \"mode\": \"baseline\", \"max_abs\": 0.0, \"exact\": true}, {\"sample\": 0, \"mode\": \"native_full\", \"max_abs\": 0.0, \"exact\": true}, {\"sample\": 1, \"mode\": \"baseline\", \"max_abs\": 0.0, \"exact\": true}, {\"sample\": 1, \"mode\": \"native_full\", \"max_abs\": 0.0, \"exact\": true}, {\"sample\": 2, \"mode\": \"baseline\", \"max_abs\": 0.0, \"exact\": true}, {\"sample\": 2, \"mode\": \"native_full\", \"max_abs\": 0.0, \"exact\": true}], \"blur_checks\": [{\"sample\": 0, \"exact\": true, \"max_abs\": 0.0}, {\"sample\": 1, \"exact\": true, \"max_abs\": 0.0}, {\"sample\": 2, \"exact\": true, \"max_abs\": 0.0}, {\"sample\": 3, \"exact\": true, \"max_abs\": 0.0}, {\"sample\": 4, \"exact\": true, \"max_abs\": 0.0}, {\"sample\": 5, \"exact\": true, \"max_abs\": 0.0}, {\"sample\": 6, \"exact\": true, \"max_abs\": 0.0}, {\"sample\": 7, \"exact\": true, \"max_abs\": 0.0}], \"camera_used\": false, \"PL_RUN\": 0}",
+    "stderr": ""
+  },
+  "probe": {
+    "status": "BODY_DECODE_NATIVE_PROBE",
+    "rows": [
+      {
+        "sample": 0,
+        "mode": "baseline",
+        "max_abs": 0.0,
+        "exact": true
+      },
+      {
+        "sample": 0,
+        "mode": "native_full",
+        "max_abs": 0.0,
+        "exact": true
+      },
+      {
+        "sample": 1,
+        "mode": "baseline",
+        "max_abs": 0.0,
+        "exact": true
+      },
+      {
+        "sample": 1,
+        "mode": "native_full",
+        "max_abs": 0.0,
+        "exact": true
+      },
+      {
+        "sample": 2,
+        "mode": "baseline",
+        "max_abs": 0.0,
+        "exact": true
+      },
+      {
+        "sample": 2,
+        "mode": "native_full",
+        "max_abs": 0.0,
+        "exact": true
+      }
+    ],
+    "blur_checks": [
+      {
+        "sample": 0,
+        "exact": true,
+        "max_abs": 0.0
+      },
+      {
+        "sample": 1,
+        "exact": true,
+        "max_abs": 0.0
+      },
+      {
+        "sample": 2,
+        "exact": true,
+        "max_abs": 0.0
+      },
+      {
+        "sample": 3,
+        "exact": true,
+        "max_abs": 0.0
+      },
+      {
+        "sample": 4,
+        "exact": true,
+        "max_abs": 0.0
+      },
+      {
+        "sample": 5,
+        "exact": true,
+        "max_abs": 0.0
+      },
+      {
+        "sample": 6,
+        "exact": true,
+        "max_abs": 0.0
+      },
+      {
+        "sample": 7,
+        "exact": true,
+        "max_abs": 0.0
+      }
+    ],
+    "camera_used": false,
+    "PL_RUN": 0
+  },
+  "route_resumed_same_pids": true,
+  "finished": "2026-11-03T18:45:46.814498",
+  "excerpt_source_sha256": "7d1caf6141c6860e0f9d9f585a8dc6ede71d17a3e684471cdb13e3c275a0a948"
+}

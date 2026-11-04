@@ -1,0 +1,41 @@
+{
+  "case": "video",
+  "status": "PASS",
+  "commands": [
+    {
+      "argv": [
+        "E:\\vivado2024.2\\Vivado\\2024.2\\bin\\xelab.bat",
+        "xil_defaultlib.tb",
+        "-prj",
+        "files.prj",
+        "-L",
+        "unisims_ver",
+        "-L",
+        "xpm",
+        "-L",
+        "secureip",
+        "-timescale",
+        "1ns/1ps",
+        "-mt",
+        "2",
+        "-debug",
+        "typical",
+        "-s",
+        "submission_video"
+      ],
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "E:\\vivado2024.2\\Vivado\\2024.2\\bin\\xsim.bat",
+        "submission_video",
+        "-tclbatch",
+        "run.tcl",
+        "-wdb",
+        "video.wdb"
+      ],
+      "returncode": 0
+    }
+  ],
+  "hardware_accessed": false
+}

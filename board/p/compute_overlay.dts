@@ -1,0 +1,53 @@
+/dts-v1/;
+/plugin/;
+/ {
+  fragment@0 {
+    target-path = [2f 61 78 69 00];
+    __overlay__ {
+      #address-cells = [00 00 00 01];
+      #size-cells = [00 00 00 01];
+      handfixedclk {
+        compatible = [66 69 78 65 64 2d 63 6c 6f 63 6b 00];
+        #clock-cells = [00 00 00 00];
+        clock-frequency = [05 f5 e1 00];
+        phandle = [00 00 00 01];
+      };
+      handreset@80010000 {
+        compatible = [78 6c 6e 78 2c 78 70 73 2d 67 70 69 6f 2d 31 2e 30 30 2e 61 00];
+        reg = [80 01 00 00 00 01 00 00];
+        clocks = [00 00 00 01];
+        clock-names = [73 5f 61 78 69 5f 61 63 6c 6b 00];
+        gpio-controller;
+        #gpio-cells = [00 00 00 02];
+        xlnx,gpio-width = [00 00 00 01];
+        xlnx,all-outputs = [00 00 00 01];
+        xlnx,dout-default = [00 00 00 01];
+        xlnx,tri-default = [00 00 00 00];
+        status = [6f 6b 61 79 00];
+        phandle = [00 00 00 02];
+      };
+      handi8@80000000 {
+        compatible = [67 65 73 74 75 72 65 2c 6b 65 79 70 6f 69 6e 74 2d 63 6f 6e 76 2d 69 38 2d 76 32 00];
+        reg = [80 00 00 00 00 01 00 00];
+        reset-gpios = [00 00 00 02 00 00 00 00 00 00 00 01];
+        status = [6f 6b 61 79 00];
+      };
+    };
+  };
+  __symbols__ {
+    handfixedclk = [2f 66 72 61 67 6d 65 6e 74 40 30 2f 5f 5f 6f 76 65 72 6c 61 79 5f 5f 2f 68 61 6e 64 66 69 78 65 64 63 6c 6b 00];
+    handreset = [2f 66 72 61 67 6d 65 6e 74 40 30 2f 5f 5f 6f 76 65 72 6c 61 79 5f 5f 2f 68 61 6e 64 72 65 73 65 74 40 38 30 30 31 30 30 30 30 00];
+  };
+  __local_fixups__ {
+    fragment@0 {
+      __overlay__ {
+        handreset@80010000 {
+          clocks = [00 00 00 00];
+        };
+        handi8@80000000 {
+          reset-gpios = [00 00 00 00];
+        };
+      };
+    };
+  };
+};

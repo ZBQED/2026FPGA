@@ -1,0 +1,123 @@
+{
+  "status": "Q_PERSON_HAND_TCN_SHARED_SINGLE_FD_PASS",
+  "rows": [
+    {
+      "sample": 0,
+      "Person": {
+        "PL_jobs": 79,
+        "complete_call_ns": 59757827,
+        "native": [
+          79,
+          15288365,
+          965622,
+          14704983,
+          17307220,
+          16177616,
+          0
+        ],
+        "PS_convolution_calls": 0
+      },
+      "Hand": {
+        "complete_call_ns": 70219217,
+        "PL_jobs": 50,
+        "native": [
+          50,
+          62772869,
+          55089247,
+          397307,
+          6256338,
+          3757,
+          70026520,
+          0
+        ]
+      },
+      "heads_exact": true,
+      "opposite_arenas_unchanged": true
+    },
+    {
+      "sample": 1,
+      "Person": {
+        "PL_jobs": 79,
+        "complete_call_ns": 53885041,
+        "native": [
+          79,
+          16069699,
+          911584,
+          12642773,
+          14746357,
+          16954050,
+          0
+        ],
+        "PS_convolution_calls": 0
+      },
+      "Hand": {
+        "complete_call_ns": 65684440,
+        "PL_jobs": 50,
+        "native": [
+          50,
+          59391226,
+          52600997,
+          293726,
+          5696561,
+          3165,
+          65504816,
+          0
+        ]
+      },
+      "heads_exact": true,
+      "opposite_arenas_unchanged": true
+    },
+    {
+      "sample": 2,
+      "Person": {
+        "PL_jobs": 79,
+        "complete_call_ns": 60153948,
+        "native": [
+          79,
+          15280431,
+          1117750,
+          17603492,
+          15961133,
+          16461836,
+          0
+        ],
+        "PS_convolution_calls": 0
+      },
+      "Hand": {
+        "complete_call_ns": 68097374,
+        "PL_jobs": 50,
+        "native": [
+          50,
+          60904684,
+          53139267,
+          321754,
+          6500009,
+          3602,
+          67895030,
+          0
+        ]
+      },
+      "heads_exact": true,
+      "opposite_arenas_unchanged": true
+    }
+  ],
+  "PL_RUN": 515,
+  "frozen_TCN_RUN": 8,
+  "live_TCN_RUN": 0,
+  "wall_ns": 3371808855,
+  "person_base": 6293376,
+  "person_bytes": 1243072,
+  "source_run": "saved_landmarks_165fc5f0430f206c",
+  "qualified_files": {
+    "shared_perception_tcn.py": "92457b884522f0a24bd11fbef102258612e55ffeea14f12446a3942ea2a6f73e",
+    "resident_models.py": "54f8133ea3c4c5b1944a187334844f1f14c410e76d0e573c62f617c943064903",
+    "person_raw_runtime.py": "c420f88e56e8a68f9d9e6e9be4737a8338506e958de89af5ea79496e0f7133c0",
+    "shared_person_startup.py": "72dbeac3035fb8d5ba061bc88f304048fe90adfd668979cfc79c83836515d141",
+    "person_raw/libyf2_raw_pl.so": "4836ff699ad3b8f53822f221eae25eb8729893a2e89cf556d119d1f632598cf9",
+    "person_raw/shared_references.json": "dc3f6723357488dc12cc4c82ec9e591eccd83a65e004743227c6d7d0ba42a160",
+    "shared_workspace/full_hand/libfull_hand_pl.so": "76bb7e52830788b26acd272f8584ac59179eb43e87c44346a96d082af00dd5e2",
+    "shared_workspace/full_hand/hand_weights.bin": "3dca375e721dcde0d822b6c22acb38bbc1f2d931b147a83c21fb4780d15d0cf9",
+    "shared_workspace/layout.json": "b5a9ea7e5090e1d29ba3fd0281c7ec5f547e0e406908eb974e6dcea39ddb849d",
+    "shared_workspace/manifest.json": "2b2975d7e3ca10faf3921f9162f2bbd18762022531e5cbe415fe96978c3d897a"
+  }
+}

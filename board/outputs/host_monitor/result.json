@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "board_status": {
+    "navigator": "online",
+    "qiming": "online",
+    "pynq": "online"
+  },
+  "numeric_frame_observations": [
+    {
+      "frame_id": 4,
+      "body": 17,
+      "hands": 2,
+      "mode": "三板FPGA协同 · 固定输入复现",
+      "inference_fps": null
+    },
+    {
+      "frame_id": 12,
+      "body": 17,
+      "hands": 2,
+      "mode": "三板FPGA协同 · 固定输入复现",
+      "inference_fps": 2.803738752402024
+    },
+    {
+      "frame_id": 20,
+      "body": 17,
+      "hands": 2,
+      "mode": "三板FPGA协同 · 固定输入复现",
+      "inference_fps": 2.9593225293365464
+    },
+    {
+      "frame_id": 24,
+      "body": 17,
+      "hands": 2,
+      "mode": "三板FPGA协同 · 固定输入复现",
+      "inference_fps": 2.577695469441025
+    }
+  ],
+  "process_idempotence": true,
+  "source_record_sha256": "35734705221e90a03f2e0f30ceaeb4c2ce5e98645d9ac75312a94f15554c92f7"
+}

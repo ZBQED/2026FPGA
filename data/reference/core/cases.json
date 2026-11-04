@@ -1,0 +1,47 @@
+[
+  {
+    "case": 0,
+    "name": "PW16",
+    "shape": [
+      1,
+      5,
+      8,
+      16,
+      1,
+      1
+    ],
+    "output_bytes": 80,
+    "output_words": 10,
+    "reference_sha256": "50e2f76d6088efaeee896ff4f284d1579631920d982cb39512c299b27544414b"
+  },
+  {
+    "case": 1,
+    "name": "DW3x3",
+    "shape": [
+      3,
+      5,
+      8,
+      8,
+      3,
+      3
+    ],
+    "output_bytes": 120,
+    "output_words": 15,
+    "reference_sha256": "69ab6727c155e560fe480bc8ca2cd5e7e06a118b0a7a53a24a36853676ad88e9"
+  },
+  {
+    "case": 2,
+    "name": "TCN1x3",
+    "shape": [
+      1,
+      7,
+      8,
+      16,
+      1,
+      3
+    ],
+    "output_bytes": 112,
+    "output_words": 14,
+    "reference_sha256": "9c2c96b95fc7f60160e0127e5a63419541b75bca381d21f7f7992c35cd04722a"
+  }
+]

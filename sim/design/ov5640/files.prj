@@ -1,0 +1,2 @@
+verilog xil_defaultlib "ov5640_capture_data.v"
+sv xil_defaultlib "tb.sv"

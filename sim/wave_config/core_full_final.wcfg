@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<wave_config>
+  <wave_state />
+  <db_ref_list>
+    <db_ref path="E:/medical_gesture_detection/light_try/FPGA_120ms_work/waves_1103/core/core.wdb" id="1">
+      <top_modules>
+        <top_module name="tb" />
+      </top_modules>
+    </db_ref>
+  </db_ref_list>
+  <zoom_setting>
+    <ZoomStartTime time="4500 ns" />
+    <ZoomEndTime time="11800 ns" />
+    <Cursor1Time time="12925 ns" />
+  </zoom_setting>
+  <column_width_setting>
+    <NameColumnWidth column_width="250" />
+    <ValueColumnWidth column_width="160" />
+  </column_width_setting>
+  <WVObjectSize size="7" />
+  <wvobject fp_name="/tb/ap_start" type="logic">
+    <obj_property name="ElementShortName">ap_start</obj_property>
+    <obj_property name="ObjectShortName">ap_start</obj_property>
+  </wvobject>
+  <wvobject fp_name="/tb/rvalid" type="logic">
+    <obj_property name="ElementShortName">rvalid</obj_property>
+    <obj_property name="ObjectShortName">rvalid</obj_property>
+  </wvobject>
+  <wvobject fp_name="/tb/weights_done" type="logic">
+    <obj_property name="ElementShortName">weights_done</obj_property>
+    <obj_property name="ObjectShortName">weights_done</obj_property>
+  </wvobject>
+  <wvobject fp_name="/tb/compute_done" type="logic">
+    <obj_property name="ElementShortName">compute_done</obj_property>
+    <obj_property name="ObjectShortName">compute_done</obj_property>
+  </wvobject>
+  <wvobject fp_name="/tb/wvalid" type="logic">
+    <obj_property name="ElementShortName">wvalid</obj_property>
+    <obj_property name="ObjectShortName">wvalid</obj_property>
+  </wvobject>
+  <wvobject fp_name="/tb/ap_done" type="logic">
+    <obj_property name="ElementShortName">ap_done</obj_property>
+    <obj_property name="ObjectShortName">ap_done</obj_property>
+  </wvobject>
+  <wvobject fp_name="/tb/ap_return" type="array">
+    <obj_property name="ElementShortName">ap_return</obj_property>
+    <obj_property name="ObjectShortName">ap_return</obj_property>
+    <obj_property name="Radix">HEXRADIX</obj_property>
+  </wvobject>
+</wave_config>

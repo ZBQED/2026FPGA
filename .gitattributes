@@ -1,0 +1,12 @@
+* -text
+*.gz binary
+*.whl binary
+*.bit binary
+*.xsa binary
+*.wdb binary
+*.npz binary
+*.npy binary
+*.onnx binary
+*.tflite binary
+*.mp4 binary
+*.png binary

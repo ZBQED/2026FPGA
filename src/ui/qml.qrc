@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="qml/Main.qml">qml/main.qml</file>
+        <file alias="qml/EmbeddedWindow.qml">qml/embeddedwindow.qml</file>
+        <file alias="qml/TouchButton.qml">qml/touchbutton.qml</file>
+        <file alias="qml/EmbeddedDualWindow.qml">qml/embeddeddualwindow.qml</file>
+        <file alias="qml/PreviewWindow.qml">qml/previewwindow.qml</file>
+        <file alias="qml/StaffWindow.qml">qml/staffwindow.qml</file>
+        <file alias="qml/PatientWindow.qml">qml/patientwindow.qml</file>
+        <file alias="qml/StaffPanel.qml">qml/staffpanel.qml</file>
+        <file alias="qml/PatientPanel.qml">qml/patientpanel.qml</file>
+        <file alias="qml/StatusPill.qml">qml/statuspill.qml</file>
+    </qresource>
+</RCC>

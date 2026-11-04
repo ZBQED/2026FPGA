@@ -1,0 +1,34 @@
+{
+  "kind": "video",
+  "board_connected": false,
+  "commands": [
+    {
+      "argv": [
+        "E:\\vivado2024.2\\Vivado\\2024.2\\bin\\xelab.bat",
+        "xil_defaultlib.tb",
+        "-prj",
+        "files.prj",
+        "-debug",
+        "typical",
+        "-s",
+        "report_video"
+      ],
+      "returncode": 0,
+      "wall_seconds": 11.125
+    },
+    {
+      "argv": [
+        "E:\\vivado2024.2\\Vivado\\2024.2\\bin\\xsim.bat",
+        "report_video",
+        "-tclbatch",
+        "run.tcl",
+        "-wdb",
+        "video.wdb"
+      ],
+      "returncode": 0,
+      "wall_seconds": 8.73399999999674
+    }
+  ],
+  "started": "2026-11-03 21:35:10",
+  "finished": "2026-11-03 21:35:30"
+}

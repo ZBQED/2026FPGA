@@ -1,0 +1,277 @@
+{
+  "schema_version": 1,
+  "catalog_version": "sign-source-v1",
+  "source": {
+    "document": "展示案例与词语库、意图库.docx",
+    "sections": [
+      "词语库",
+      "意图库"
+    ],
+    "sha256": "1061288c92cdba145eaf529678b6dda0ba1ac91a9188dd0ebc50a1f5bdac431c",
+    "vocabulary_aliases": {
+      "OK": "好"
+    }
+  },
+  "counts": {
+    "vocabulary_items": 25,
+    "intent_entries": 16
+  },
+  "vocabulary": [
+    {
+      "source_order": 1,
+      "text": "你好"
+    },
+    {
+      "source_order": 2,
+      "text": "好"
+    },
+    {
+      "source_order": 3,
+      "text": "谢谢"
+    },
+    {
+      "source_order": 4,
+      "text": "我"
+    },
+    {
+      "source_order": 5,
+      "text": "你"
+    },
+    {
+      "source_order": 6,
+      "text": "走"
+    },
+    {
+      "source_order": 7,
+      "text": "发烧"
+    },
+    {
+      "source_order": 8,
+      "text": "头"
+    },
+    {
+      "source_order": 9,
+      "text": "晕"
+    },
+    {
+      "source_order": 10,
+      "text": "恶心"
+    },
+    {
+      "source_order": 11,
+      "text": "腰痛"
+    },
+    {
+      "source_order": 12,
+      "text": "药房"
+    },
+    {
+      "source_order": 13,
+      "text": "卫生间"
+    },
+    {
+      "source_order": 14,
+      "text": "皮肤科"
+    },
+    {
+      "source_order": 15,
+      "text": "检验科"
+    },
+    {
+      "source_order": 16,
+      "text": "放射科"
+    },
+    {
+      "source_order": 17,
+      "text": "挂号"
+    },
+    {
+      "source_order": 18,
+      "text": "缴费"
+    },
+    {
+      "source_order": 19,
+      "text": "预约"
+    },
+    {
+      "source_order": 20,
+      "text": "入院"
+    },
+    {
+      "source_order": 21,
+      "text": "出院"
+    },
+    {
+      "source_order": 22,
+      "text": "医保卡"
+    },
+    {
+      "source_order": 23,
+      "text": "现金"
+    },
+    {
+      "source_order": 24,
+      "text": "身份证"
+    },
+    {
+      "source_order": 25,
+      "text": "对话结束（某个动作）"
+    }
+  ],
+  "intents": [
+    {
+      "source_order": 1,
+      "gesture_expression": "你好+我+头+晕+挂号+预约",
+      "tokens": [
+        "你好",
+        "我",
+        "头",
+        "晕",
+        "挂号",
+        "预约"
+      ],
+      "output_text": "你好，我觉得有点头晕，请问挂号要预约吗？"
+    },
+    {
+      "source_order": 2,
+      "gesture_expression": "OK+我+挂号",
+      "tokens": [
+        "OK",
+        "我",
+        "挂号"
+      ],
+      "output_text": "好的，我要挂号。"
+    },
+    {
+      "source_order": 3,
+      "gesture_expression": "OK+我+缴费",
+      "tokens": [
+        "OK",
+        "我",
+        "缴费"
+      ],
+      "output_text": "选好了，请问怎么缴费呢？"
+    },
+    {
+      "source_order": 4,
+      "gesture_expression": "谢谢",
+      "tokens": [
+        "谢谢"
+      ],
+      "output_text": "谢谢。"
+    },
+    {
+      "source_order": 5,
+      "gesture_expression": "你好+我+出院",
+      "tokens": [
+        "你好",
+        "我",
+        "出院"
+      ],
+      "output_text": "你好，我要办理出院。"
+    },
+    {
+      "source_order": 6,
+      "gesture_expression": "现金",
+      "tokens": [
+        "现金"
+      ],
+      "output_text": "可以现金支付吗？"
+    },
+    {
+      "source_order": 7,
+      "gesture_expression": "我+挂号",
+      "tokens": [
+        "我",
+        "挂号"
+      ],
+      "output_text": "我要挂号。"
+    },
+    {
+      "source_order": 8,
+      "gesture_expression": "我+缴费",
+      "tokens": [
+        "我",
+        "缴费"
+      ],
+      "output_text": "我要缴费。"
+    },
+    {
+      "source_order": 9,
+      "gesture_expression": "我+预约",
+      "tokens": [
+        "我",
+        "预约"
+      ],
+      "output_text": "我要预约。"
+    },
+    {
+      "source_order": 10,
+      "gesture_expression": "我+入院",
+      "tokens": [
+        "我",
+        "入院"
+      ],
+      "output_text": "我要入院。"
+    },
+    {
+      "source_order": 11,
+      "gesture_expression": "我+出院",
+      "tokens": [
+        "我",
+        "出院"
+      ],
+      "output_text": "我要出院。"
+    },
+    {
+      "source_order": 12,
+      "gesture_expression": "我+走+药房",
+      "tokens": [
+        "我",
+        "走",
+        "药房"
+      ],
+      "output_text": "请问药房在哪里，怎么走？"
+    },
+    {
+      "source_order": 13,
+      "gesture_expression": "我+走+卫生间",
+      "tokens": [
+        "我",
+        "走",
+        "卫生间"
+      ],
+      "output_text": "请问卫生间在哪里，怎么走？"
+    },
+    {
+      "source_order": 14,
+      "gesture_expression": "我+走+皮肤科",
+      "tokens": [
+        "我",
+        "走",
+        "皮肤科"
+      ],
+      "output_text": "请问皮肤科在哪里，怎么走？"
+    },
+    {
+      "source_order": 15,
+      "gesture_expression": "我+走+检验科",
+      "tokens": [
+        "我",
+        "走",
+        "检验科"
+      ],
+      "output_text": "请问检验科在哪里，怎么走？"
+    },
+    {
+      "source_order": 16,
+      "gesture_expression": "我+走+放射科",
+      "tokens": [
+        "我",
+        "走",
+        "放射科"
+      ],
+      "output_text": "请问放射科在哪里，怎么走？"
+    }
+  ]
+}

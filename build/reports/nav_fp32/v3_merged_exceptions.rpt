@@ -1,0 +1,23 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Thu Oct 22 23:35:20 2026
+| Host         : LAPTOP-T9DIOLED running 64-bit major release  (build 9200)
+| Command      : report_exceptions -summary -file S:/v3_merged_exceptions.rpt
+| Design       : system_wrapper
+| Device       : 7z020-clg400
+| Speed File   : -2  PRODUCTION 1.12 2019-11-22
+| Design State : Routed
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Exceptions Report
+
+Exception        No. of Constraints  No. of Setup Endpoints  No. of Hold Endpoints
+---------------  ------------------  ----------------------  ---------------------
+False Path       118                 1929                    1929
+Clock Groups     4                   5184                    5184
+Multicycle Path  0                   0                       0
+Max Delay        0                   0                       0
+Max Delay DPO    23                  439                     0
+Min Delay        0                   0                       0
+

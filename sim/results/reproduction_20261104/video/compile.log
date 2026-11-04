@@ -1,0 +1,103 @@
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: E:/vivado2024.2/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe xil_defaultlib.tb -prj files.prj -L unisims_ver -L xpm -L secureip -timescale 1ns/1ps -mt 2 -debug typical -s submission_video 
+Using 2 slave threads.
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/medical_gesture_detection/light_try/FPGA_120ms_work/submission_release_20261104/recheck_video/system_v_frmbuf_wr_0_0_axivideo2multipixstream.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module system_v_frmbuf_wr_0_0_AXIvideo2MultiPixStream
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/medical_gesture_detection/light_try/FPGA_120ms_work/submission_release_20261104/recheck_video/system_v_frmbuf_wr_0_0_axivideo2multipixstream_pipeline_loop_wait_for_eol.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module system_v_frmbuf_wr_0_0_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_eol
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/medical_gesture_detection/light_try/FPGA_120ms_work/submission_release_20261104/recheck_video/system_v_frmbuf_wr_0_0_axivideo2multipixstream_pipeline_loop_wait_for_start.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module system_v_frmbuf_wr_0_0_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_start
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/medical_gesture_detection/light_try/FPGA_120ms_work/submission_release_20261104/recheck_video/system_v_frmbuf_wr_0_0_axivideo2multipixstream_pipeline_loop_width.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module system_v_frmbuf_wr_0_0_AXIvideo2MultiPixStream_Pipeline_loop_width
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/medical_gesture_detection/light_try/FPGA_120ms_work/submission_release_20261104/recheck_video/system_v_frmbuf_wr_0_0_bytes2aximmvideo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module system_v_frmbuf_wr_0_0_Bytes2AXIMMvideo
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/medical_gesture_detection/light_try/FPGA_120ms_work/submission_release_20261104/recheck_video/system_v_frmbuf_wr_0_0_bytes2aximmvideo_pipeline_vitis_loop_1504_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module system_v_frmbuf_wr_0_0_Bytes2AXIMMvideo_Pipeline_VITIS_LOOP_1504_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/medical_gesture_detection/light_try/FPGA_120ms_work/submission_release_20261104/recheck_video/system_v_frmbuf_wr_0_0_bytes_per_pixel_rom_auto_1r.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module system_v_frmbuf_wr_0_0_BYTES_PER_PIXEL_ROM_AUTO_1R
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/medical_gesture_detection/light_try/FPGA_120ms_work/submission_release_20261104/recheck_video/system_v_frmbuf_wr_0_0_ctrl_s_axi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module system_v_frmbuf_wr_0_0_CTRL_s_axi
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/medical_gesture_detection/light_try/FPGA_120ms_work/submission_release_20261104/recheck_video/system_v_frmbuf_wr_0_0_entry_proc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module system_v_frmbuf_wr_0_0_entry_proc
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/medical_gesture_detection/light_try/FPGA_120ms_work/submission_release_20261104/recheck_video/system_v_frmbuf_wr_0_0_fifo_w14_d2_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module system_v_frmbuf_wr_0_0_fifo_w14_d2_S
+INFO: [VRFC 10-311] analyzing module system_v_frmbuf_wr_0_0_fifo_w14_d2_S_ShiftReg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/medical_gesture_detection/light_try/FPGA_120ms_work/submission_release_20261104/recheck_video/system_v_frmbuf_wr_0_0_fifo_w14_d3_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module system_v_frmbuf_wr_0_0_fifo_w14_d3_S
+INFO: [VRFC 10-311] analyzing module system_v_frmbuf_wr_0_0_fifo_w14_d3_S_ShiftReg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/medical_gesture_detection/light_try/FPGA_120ms_work/submission_release_20261104/recheck_video/system_v_frmbuf_wr_0_0_fifo_w24_d2_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module system_v_frmbuf_wr_0_0_fifo_w24_d2_S
+INFO: [VRFC 10-311] analyzing module system_v_frmbuf_wr_0_0_fifo_w24_d2_S_ShiftReg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/medical_gesture_detection/light_try/FPGA_120ms_work/submission_release_20261104/recheck_video/system_v_frmbuf_wr_0_0_fifo_w32_d4_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module system_v_frmbuf_wr_0_0_fifo_w32_d4_S
+INFO: [VRFC 10-311] analyzing module system_v_frmbuf_wr_0_0_fifo_w32_d4_S_ShiftReg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/medical_gesture_detection/light_try/FPGA_120ms_work/submission_release_20261104/recheck_video/system_v_frmbuf_wr_0_0_fifo_w64_d481_b.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module system_v_frmbuf_wr_0_0_fifo_w64_d481_B
+INFO: [VRFC 10-311] analyzing module system_v_frmbuf_wr_0_0_fifo_w64_d481_B_ram
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/medical_gesture_detection/light_try/FPGA_120ms_work/submission_release_20261104/recheck_video/system_v_frmbuf_wr_0_0_flow_control_loop_pipe_sequential_init.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module system_v_frmbuf_wr_0_0_flow_control_loop_pipe_sequential_init
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/medical_gesture_detection/light_try/FPGA_120ms_work/submission_release_20261104/recheck_video/system_v_frmbuf_wr_0_0_frmbufwrhlsdataflow.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module system_v_frmbuf_wr_0_0_FrmbufWrHlsDataFlow
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/medical_gesture_detection/light_try/FPGA_120ms_work/submission_release_20261104/recheck_video/system_v_frmbuf_wr_0_0_hls_deadlock_detection_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module system_v_frmbuf_wr_0_0_hls_deadlock_detect_unit
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/medical_gesture_detection/light_try/FPGA_120ms_work/submission_release_20261104/recheck_video/system_v_frmbuf_wr_0_0_hls_deadlock_idx0_monitor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module system_v_frmbuf_wr_0_0_hls_deadlock_idx0_monitor
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/medical_gesture_detection/light_try/FPGA_120ms_work/submission_release_20261104/recheck_video/system_v_frmbuf_wr_0_0_hls_deadlock_idx1_monitor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module system_v_frmbuf_wr_0_0_hls_deadlock_idx1_monitor
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/medical_gesture_detection/light_try/FPGA_120ms_work/submission_release_20261104/recheck_video/system_v_frmbuf_wr_0_0_hls_deadlock_idx2_monitor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module system_v_frmbuf_wr_0_0_hls_deadlock_idx2_monitor
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/medical_gesture_detection/light_try/FPGA_120ms_work/submission_release_20261104/recheck_video/system_v_frmbuf_wr_0_0_memory2live_rom_auto_1r.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module system_v_frmbuf_wr_0_0_MEMORY2LIVE_ROM_AUTO_1R
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/medical_gesture_detection/light_try/FPGA_120ms_work/submission_release_20261104/recheck_video/system_v_frmbuf_wr_0_0_mm_video_m_axi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module system_v_frmbuf_wr_0_0_mm_video_m_axi
+INFO: [VRFC 10-311] analyzing module system_v_frmbuf_wr_0_0_mm_video_m_axi_load
+INFO: [VRFC 10-311] analyzing module system_v_frmbuf_wr_0_0_mm_video_m_axi_store
+INFO: [VRFC 10-311] analyzing module system_v_frmbuf_wr_0_0_mm_video_m_axi_flushManager
+INFO: [VRFC 10-311] analyzing module system_v_frmbuf_wr_0_0_mm_video_m_axi_read
+INFO: [VRFC 10-311] analyzing module system_v_frmbuf_wr_0_0_mm_video_m_axi_write
+INFO: [VRFC 10-311] analyzing module system_v_frmbuf_wr_0_0_mm_video_m_axi_burst_converter
+INFO: [VRFC 10-311] analyzing module system_v_frmbuf_wr_0_0_mm_video_m_axi_throttle
+INFO: [VRFC 10-311] analyzing module system_v_frmbuf_wr_0_0_mm_video_m_axi_reg_slice
+INFO: [VRFC 10-311] analyzing module system_v_frmbuf_wr_0_0_mm_video_m_axi_fifo
+INFO: [VRFC 10-311] analyzing module system_v_frmbuf_wr_0_0_mm_video_m_axi_srl
+INFO: [VRFC 10-311] analyzing module system_v_frmbuf_wr_0_0_mm_video_m_axi_mem
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/medical_gesture_detection/light_try/FPGA_120ms_work/submission_release_20261104/recheck_video/system_v_frmbuf_wr_0_0_multipixstream2bytes.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module system_v_frmbuf_wr_0_0_MultiPixStream2Bytes
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/medical_gesture_detection/light_try/FPGA_120ms_work/submission_release_20261104/recheck_video/system_v_frmbuf_wr_0_0_multipixstream2bytes_pipeline_vitis_loop_1048_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module system_v_frmbuf_wr_0_0_MultiPixStream2Bytes_Pipeline_VITIS_LOOP_1048_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/medical_gesture_detection/light_try/FPGA_120ms_work/submission_release_20261104/recheck_video/system_v_frmbuf_wr_0_0_multipixstream2bytes_pipeline_vitis_loop_1291_6.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module system_v_frmbuf_wr_0_0_MultiPixStream2Bytes_Pipeline_VITIS_LOOP_1291_6
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/medical_gesture_detection/light_try/FPGA_120ms_work/submission_release_20261104/recheck_video/system_v_frmbuf_wr_0_0_mul_11ns_13ns_23_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module system_v_frmbuf_wr_0_0_mul_11ns_13ns_23_1_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/medical_gesture_detection/light_try/FPGA_120ms_work/submission_release_20261104/recheck_video/system_v_frmbuf_wr_0_0_mul_14s_3ns_14_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module system_v_frmbuf_wr_0_0_mul_14s_3ns_14_1_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/medical_gesture_detection/light_try/FPGA_120ms_work/submission_release_20261104/recheck_video/system_v_frmbuf_wr_0_0_regslice_both.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module system_v_frmbuf_wr_0_0_regslice_both
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/medical_gesture_detection/light_try/FPGA_120ms_work/submission_release_20261104/recheck_video/system_v_frmbuf_wr_0_0_reg_unsigned_short_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module system_v_frmbuf_wr_0_0_reg_unsigned_short_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/medical_gesture_detection/light_try/FPGA_120ms_work/submission_release_20261104/recheck_video/system_v_frmbuf_wr_0_0_start_for_bytes2aximmvideo_u0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module system_v_frmbuf_wr_0_0_start_for_Bytes2AXIMMvideo_U0
+INFO: [VRFC 10-311] analyzing module system_v_frmbuf_wr_0_0_start_for_Bytes2AXIMMvideo_U0_ShiftReg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/medical_gesture_detection/light_try/FPGA_120ms_work/submission_release_20261104/recheck_video/system_v_frmbuf_wr_0_0_start_for_multipixstream2bytes_u0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module system_v_frmbuf_wr_0_0_start_for_MultiPixStream2Bytes_U0
+INFO: [VRFC 10-311] analyzing module system_v_frmbuf_wr_0_0_start_for_MultiPixStream2Bytes_U0_ShiftReg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/medical_gesture_detection/light_try/FPGA_120ms_work/submission_release_20261104/recheck_video/system_v_frmbuf_wr_0_0_v_frmbuf_wr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module system_v_frmbuf_wr_0_0_v_frmbuf_wr
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/medical_gesture_detection/light_try/FPGA_120ms_work/submission_release_20261104/recheck_video/tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.system_v_frmbuf_wr_0_0_flow_cont...
+Compiling module xil_defaultlib.system_v_frmbuf_wr_0_0_AXIvideo2...
+Compiling module xil_defaultlib.system_v_frmbuf_wr_0_0_AXIvideo2...
+Compiling module xil_defaultlib.system_v_frmbuf_wr_0_0_AXIvideo2...
+Compiling module xil_defaultlib.system_v_frmbuf_wr_0_0_reg_unsig...
+Compiling module xil_defaultlib.system_v_frmbuf_wr_0_0_AXIvideo2...
+Compiling module xil_defaultlib.tb
+Built simulation snapshot submission_video

@@ -1,0 +1,45 @@
+{
+  "kind": "ethernet",
+  "board_connected": false,
+  "commands": [
+    {
+      "argv": [
+        "E:\\vivado2024.2\\Vivado\\2024.2\\bin\\xelab.bat",
+        "xil_defaultlib.tb",
+        "xil_defaultlib.glbl",
+        "-prj",
+        "files.prj",
+        "-L",
+        "unisims_ver",
+        "-L",
+        "xpm",
+        "-L",
+        "secureip",
+        "-timescale",
+        "1ns/1ps",
+        "-mt",
+        "2",
+        "-debug",
+        "typical",
+        "-s",
+        "report_ethernet"
+      ],
+      "returncode": 0,
+      "wall_seconds": 2.625
+    },
+    {
+      "argv": [
+        "E:\\vivado2024.2\\Vivado\\2024.2\\bin\\xsim.bat",
+        "report_ethernet",
+        "-tclbatch",
+        "run.tcl",
+        "-wdb",
+        "ethernet.wdb"
+      ],
+      "returncode": 0,
+      "wall_seconds": 3.48499999998603
+    }
+  ],
+  "started": "2026-11-03 22:24:28",
+  "finished": "2026-11-03 22:24:34"
+}

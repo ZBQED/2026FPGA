@@ -1,0 +1,15 @@
+{
+  "model_version": "staff_seven_extension_20261031_225629_024268",
+  "intent_table_version": "2026.10.31-seven-extension-v1",
+  "class_count": 25,
+  "feature_shape": [
+    398,
+    40
+  ],
+  "summary_feature_count": 520,
+  "baseline_sha256": "aaa7c39562c855205db9f65275987c9b740bb1ff6f4023b6df94d2001ba3e1a5",
+  "model_sha256": "c98bd72ad0661e839cf0bdf6767a5ae8f932ac15ed3c59f6f401912165490692",
+  "preprocessing": "fixed deployed Log-Mel; frozen baseline mean/std",
+  "C_selected_on_validation_only": 0.03,
+  "board_validated": false
+}

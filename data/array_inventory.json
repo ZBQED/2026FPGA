@@ -1,0 +1,413 @@
+{
+  "data/reference/body_fixture.npz": {
+    "inputs": {
+      "shape": [
+        3,
+        256,
+        192,
+        3
+      ],
+      "dtype": "int8"
+    },
+    "expected_heads": {
+      "shape": [
+        3,
+        52224
+      ],
+      "dtype": "float32"
+    }
+  },
+  "data/reference/hand_fixture.npz": {
+    "inputs": {
+      "shape": [
+        3,
+        224,
+        224,
+        3
+      ],
+      "dtype": "int8"
+    },
+    "expected_heads": {
+      "shape": [
+        3,
+        44
+      ],
+      "dtype": "float32"
+    }
+  },
+  "data/reference/tcn_primary_input.npz": {
+    "values": {
+      "shape": [
+        32,
+        96
+      ],
+      "dtype": "int16"
+    },
+    "mask": {
+      "shape": [
+        32,
+        96
+      ],
+      "dtype": "uint8"
+    }
+  },
+  "data/reference/tcn_seven_words.npz": {
+    "expected_label": {
+      "shape": [
+        7
+      ],
+      "dtype": "int64"
+    },
+    "primary_input": {
+      "shape": [
+        7,
+        192,
+        32
+      ],
+      "dtype": "float32"
+    },
+    "specialist_input": {
+      "shape": [
+        7,
+        224,
+        32
+      ],
+      "dtype": "float32"
+    },
+    "primary_logits": {
+      "shape": [
+        7,
+        27
+      ],
+      "dtype": "float32"
+    },
+    "specialist_logits": {
+      "shape": [
+        7,
+        27
+      ],
+      "dtype": "float32"
+    },
+    "routed_prediction": {
+      "shape": [
+        7
+      ],
+      "dtype": "int64"
+    },
+    "group_sha256": {
+      "shape": [
+        7
+      ],
+      "dtype": "<U64"
+    }
+  },
+  "data/reference/tcn_torch_golden.npz": {
+    "input": {
+      "shape": [
+        7,
+        192,
+        32
+      ],
+      "dtype": "float32"
+    },
+    "logits": {
+      "shape": [
+        7,
+        27
+      ],
+      "dtype": "float32"
+    }
+  },
+  "data/models/nav_heads/body_0_group0.npz": {
+    "weights": {
+      "shape": [
+        17,
+        1,
+        1,
+        40
+      ],
+      "dtype": "float32"
+    },
+    "bias": {
+      "shape": [
+        17
+      ],
+      "dtype": "float32"
+    },
+    "config": {
+      "shape": [
+        17
+      ],
+      "dtype": "int32"
+    },
+    "output_shape": {
+      "shape": [
+        3
+      ],
+      "dtype": "int64"
+    }
+  },
+  "data/models/nav_heads/palm_0_group0.npz": {
+    "weights": {
+      "shape": [
+        6,
+        1,
+        1,
+        256
+      ],
+      "dtype": "float32"
+    },
+    "bias": {
+      "shape": [
+        6
+      ],
+      "dtype": "float32"
+    },
+    "config": {
+      "shape": [
+        17
+      ],
+      "dtype": "int32"
+    },
+    "output_shape": {
+      "shape": [
+        3
+      ],
+      "dtype": "int64"
+    }
+  },
+  "data/test_inputs/nav_heads/body_0_group0.npz": {
+    "input": {
+      "shape": [
+        64,
+        48,
+        40
+      ],
+      "dtype": "float32"
+    },
+    "weights": {
+      "shape": [
+        17,
+        1,
+        1,
+        40
+      ],
+      "dtype": "float32"
+    },
+    "bias": {
+      "shape": [
+        17
+      ],
+      "dtype": "float32"
+    },
+    "config": {
+      "shape": [
+        17
+      ],
+      "dtype": "int32"
+    },
+    "expected": {
+      "shape": [
+        64,
+        48,
+        17
+      ],
+      "dtype": "float32"
+    }
+  },
+  "data/test_inputs/nav_heads/body_1_group0.npz": {
+    "input": {
+      "shape": [
+        64,
+        48,
+        40
+      ],
+      "dtype": "float32"
+    },
+    "weights": {
+      "shape": [
+        17,
+        1,
+        1,
+        40
+      ],
+      "dtype": "float32"
+    },
+    "bias": {
+      "shape": [
+        17
+      ],
+      "dtype": "float32"
+    },
+    "config": {
+      "shape": [
+        17
+      ],
+      "dtype": "int32"
+    },
+    "expected": {
+      "shape": [
+        64,
+        48,
+        17
+      ],
+      "dtype": "float32"
+    }
+  },
+  "data/test_inputs/nav_heads/body_2_group0.npz": {
+    "input": {
+      "shape": [
+        64,
+        48,
+        40
+      ],
+      "dtype": "float32"
+    },
+    "weights": {
+      "shape": [
+        17,
+        1,
+        1,
+        40
+      ],
+      "dtype": "float32"
+    },
+    "bias": {
+      "shape": [
+        17
+      ],
+      "dtype": "float32"
+    },
+    "config": {
+      "shape": [
+        17
+      ],
+      "dtype": "int32"
+    },
+    "expected": {
+      "shape": [
+        64,
+        48,
+        17
+      ],
+      "dtype": "float32"
+    }
+  },
+  "data/test_inputs/nav_heads/palm_0_group0.npz": {
+    "input": {
+      "shape": [
+        12,
+        12,
+        256
+      ],
+      "dtype": "float32"
+    },
+    "weights": {
+      "shape": [
+        6,
+        1,
+        1,
+        256
+      ],
+      "dtype": "float32"
+    },
+    "bias": {
+      "shape": [
+        6
+      ],
+      "dtype": "float32"
+    },
+    "config": {
+      "shape": [
+        17
+      ],
+      "dtype": "int32"
+    },
+    "expected": {
+      "shape": [
+        12,
+        12,
+        6
+      ],
+      "dtype": "float32"
+    }
+  },
+  "data/test_inputs/nav_heads/palm_1_group0.npz": {
+    "input": {
+      "shape": [
+        12,
+        12,
+        256
+      ],
+      "dtype": "float32"
+    },
+    "weights": {
+      "shape": [
+        6,
+        1,
+        1,
+        256
+      ],
+      "dtype": "float32"
+    },
+    "bias": {
+      "shape": [
+        6
+      ],
+      "dtype": "float32"
+    },
+    "config": {
+      "shape": [
+        17
+      ],
+      "dtype": "int32"
+    },
+    "expected": {
+      "shape": [
+        12,
+        12,
+        6
+      ],
+      "dtype": "float32"
+    }
+  },
+  "data/test_inputs/nav_heads/palm_2_group0.npz": {
+    "input": {
+      "shape": [
+        12,
+        12,
+        256
+      ],
+      "dtype": "float32"
+    },
+    "weights": {
+      "shape": [
+        6,
+        1,
+        1,
+        256
+      ],
+      "dtype": "float32"
+    },
+    "bias": {
+      "shape": [
+        6
+      ],
+      "dtype": "float32"
+    },
+    "config": {
+      "shape": [
+        17
+      ],
+      "dtype": "int32"
+    },
+    "expected": {
+      "shape": [
+        12,
+        12,
+        6
+      ],
+      "dtype": "float32"
+    }
+  }
+}

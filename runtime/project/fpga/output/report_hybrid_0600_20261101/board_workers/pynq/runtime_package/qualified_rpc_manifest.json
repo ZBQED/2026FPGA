@@ -1,0 +1,66 @@
+{
+  "status": "SOURCE_REBUILD_PAYLOAD_IDENTICAL_TIMING_PASSED",
+  "part": "xc7z020clg400-1",
+  "compute_clock_hz": 100000000,
+  "compute_clock_source": "FCLK_CLK3",
+  "clock_writes_allowed": false,
+  "route": {
+    "setup_slack_ns": 0.272,
+    "hold_slack_ns": 0.02,
+    "all_nets_routed": true,
+    "DRC_errors": 0,
+    "clock_period_ns": 10,
+    "routable_nets": 89346
+  },
+  "resources": {
+    "Slice LUTs": 36475.0,
+    "Slice Registers": 51327.0,
+    "Block RAM Tile": 139.0,
+    "DSPs": 200.0
+  },
+  "hand_assets": "hand_assets",
+  "files": {
+    "bit": {
+      "file": "build_100MHz/pynq_hand_dw8_audio_100MHz.bit",
+      "sha256": "8dba7cd2b9fb4e7b53633f7c92cec7db1c1ffa0e65dd6297a16d80015f7880a0"
+    },
+    "hwh": {
+      "file": "build_100MHz/pynq_hand_dw8_audio_100MHz.hwh",
+      "sha256": "6cb827ebed4621b422c15d7b1ed6c2c29f53574fdbf98163aaddb8a346dec677"
+    },
+    "module": {
+      "file": "driver/gesture_pynq_hand_i8.ko",
+      "sha256": "f388158560b857e2e7831bebffd52725e25d13e587a887e89b7ea6dead7d2ab9"
+    },
+    "dtbo": {
+      "file": "driver/hand_overlay_100mhz.dtbo",
+      "sha256": "cb1610a0a38d8365edee47cc644fa829ae65c940e33d44a6047003a86ea8b370"
+    }
+  },
+  "model": "original621b Hand, same fasta2dc arithmetic/core source; no ADD LUT rollback",
+  "printing": false,
+  "new_capture": false,
+  "purpose": "Selected 100MHz DW8 payload and current driver; numerical results and recovery receipts are in board/outputs/fastest_hand/result.json",
+  "previous_driver_sha256": "24f27a18fd596eaa2ef4fab450789de71571f7fdfb80d947e5287797dfaf7bc7",
+  "guard_module_sha256": "6fe33bf547849056923572e44c05ff6e23c190d8ee1e5b708e487d9be51c303e",
+  "max_neural_RUN": 153,
+  "max_hand_calls": 3,
+  "warmup_RUN": 0,
+  "driver_capability_rejected_STARTs_separate": 2,
+  "metadata_contract": "Complete typed canonical fields + digest equality; unordered set order normalized, unknown types rejected",
+  "coherent_module_sha256": "6fe33bf547849056923572e44c05ff6e23c190d8ee1e5b708e487d9be51c303e",
+  "guard_and_native_contract_unchanged": true,
+  "DMA_allocation_and_mapping": "dma_alloc_coherent+dma_mmap_coherent attrs0",
+  "cached_payload": false,
+  "source_scope": "approved_historical_fixed_Hand2",
+  "communication_candidate": "Same full4 integer heads and hardware proof, coalesced authenticated packet; compact reply excludes duplicated tracing while full rows remain saved after response",
+  "current_source_pixels_sha256": "c5a449d87ca9bc930d87ca18d0bc7cbffb1f1479b9a0ff863e9fe63c3a4ae515",
+  "new_compute_IP": "gesture.local:hls:keypoint_conv_i8:21.2",
+  "physical_qualification_sha256": "0c328ec944bd5cf0fabd3f2d6014765a4fbc22e04c064931d4b4773d0e4cc404",
+  "historical_qualification_origin": {
+    "source": "output/realtime_full_system_20261031/board_workers/pynq/runtime_package/qualified_rpc_manifest.json",
+    "sha256": "f45cdf91e4508dbe4c59ea55cf7f64baa180097dccefde950c5c0e52ac9e165a",
+    "scope": "Original route/bit/core binding retained; this edited JSON only binds new software payload."
+  },
+  "verification_record": "board/outputs/fastest_hand/result.json"
+}

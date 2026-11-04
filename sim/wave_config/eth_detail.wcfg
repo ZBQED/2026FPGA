@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<wave_config>
+  <wave_state />
+  <db_ref_list>
+    <db_ref path="E:/medical_gesture_detection/light_try/FPGA_120ms_work/waves_1103/ethernet/ethernet.wdb" id="1">
+      <top_modules>
+        <top_module name="tb" />
+      </top_modules>
+    </db_ref>
+  </db_ref_list>
+  <zoom_setting>
+    <ZoomStartTime time="254 ns" />
+    <ZoomEndTime time="318 ns" />
+    <Cursor1Time time="285 ns" />
+  </zoom_setting>
+  <column_width_setting>
+    <NameColumnWidth column_width="250" />
+    <ValueColumnWidth column_width="160" />
+  </column_width_setting>
+  <WVObjectSize size="8" />
+  <wvobject fp_name="/tb/rgmii_rxc" type="logic">
+    <obj_property name="ElementShortName">rgmii_rxc</obj_property>
+    <obj_property name="ObjectShortName">rgmii_rxc</obj_property>
+  </wvobject>
+  <wvobject fp_name="/tb/rgmii_rxd" type="array">
+    <obj_property name="ElementShortName">rgmii_rxd</obj_property>
+    <obj_property name="ObjectShortName">rgmii_rxd</obj_property>
+    <obj_property name="Radix">HEXRADIX</obj_property>
+  </wvobject>
+  <wvobject fp_name="/tb/rgmii_rx_ctl" type="logic">
+    <obj_property name="ElementShortName">rgmii_rx_ctl</obj_property>
+    <obj_property name="ObjectShortName">rgmii_rx_ctl</obj_property>
+  </wvobject>
+  <wvobject fp_name="/tb/gmii_rx_dv" type="logic">
+    <obj_property name="ElementShortName">gmii_rx_dv</obj_property>
+    <obj_property name="ObjectShortName">gmii_rx_dv</obj_property>
+  </wvobject>
+  <wvobject fp_name="/tb/gmii_rxd" type="array">
+    <obj_property name="ElementShortName">gmii_rxd</obj_property>
+    <obj_property name="ObjectShortName">gmii_rxd</obj_property>
+    <obj_property name="Radix">HEXRADIX</obj_property>
+  </wvobject>
+  <wvobject fp_name="/tb/gmii_txd" type="array">
+    <obj_property name="ElementShortName">gmii_txd</obj_property>
+    <obj_property name="ObjectShortName">gmii_txd</obj_property>
+    <obj_property name="Radix">HEXRADIX</obj_property>
+  </wvobject>
+  <wvobject fp_name="/tb/rgmii_txd" type="array">
+    <obj_property name="ElementShortName">rgmii_txd</obj_property>
+    <obj_property name="ObjectShortName">rgmii_txd</obj_property>
+    <obj_property name="Radix">HEXRADIX</obj_property>
+  </wvobject>
+  <wvobject fp_name="/tb/rgmii_tx_ctl" type="logic">
+    <obj_property name="ElementShortName">rgmii_tx_ctl</obj_property>
+    <obj_property name="ObjectShortName">rgmii_tx_ctl</obj_property>
+  </wvobject>
+</wave_config>

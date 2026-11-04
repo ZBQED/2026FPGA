@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "updated_at_ms": "epoch ms / required",
+  "session": {
+    "id": "string|null",
+    "status": "string|null",
+    "mode": "string|null",
+    "word_threshold": "number 0..1|null"
+  },
+  "metrics": {
+    "camera_fps": "number|null",
+    "inference_fps": "number|null",
+    "frontend_ms": "number|null",
+    "eof_to_overlay_ms": "number|null",
+    "word": "string|null",
+    "confidence": "number 0..1|null",
+    "observed_at_ms": "epoch ms; required for current inference metrics, null if no source",
+    "stale_after_ms": "number; default 3000",
+    "eof_observed_at_ms": "epoch ms|null; source ACK observation independent from PC heartbeat",
+    "eof_stale_after_ms": "number; default 3000"
+  },
+  "links": [
+    {
+      "id": "string",
+      "label": "string",
+      "transport": "string",
+      "endpoint": "string",
+      "status": "string",
+      "observed_at_ms": "epoch ms",
+      "rx_Bps": "number|null",
+      "tx_Bps": "number|null",
+      "rx_pps": "number|null",
+      "tx_pps": "number|null",
+      "errors": "number|null",
+      "rate_source": "string",
+      "include_in_total": "boolean; true only for non-overlapping main links",
+      "stale_after_ms": "number; 3000 for NAV, 10000 for Q/P at 6s sample period"
+    }
+  ],
+  "boards": [
+    {
+      "id": "string",
+      "label": "string",
+      "role": "string",
+      "status": "string",
+      "observed_at_ms": "epoch ms",
+      "power_w": "number|null",
+      "power_source": "string|null",
+      "temp_c": "number|null",
+      "stale_after_ms": "number; 3000 for NAV, 10000 for Q/P at 6s sample period",
+      "power_observed_at_ms": "epoch ms|null; required for any numeric power_w",
+      "power_stale_after_ms": "number; source-specific power freshness; default row stale_after_ms or 3000"
+    }
+  ],
+  "pose": {
+    "observed_at_ms": "epoch ms",
+    "frame_id": "number",
+    "width": "number",
+    "height": "number",
+    "coordinates": "image_px_unmirrored",
+    "body": [
+      {
+        "id": "COCO17 index",
+        "name": "string",
+        "x": "number|null",
+        "y": "number|null",
+        "confidence": "number|null",
+        "valid": "boolean"
+      }
+    ],
+    "hands": [
+      {
+        "side": "Left|Right|Unknown",
+        "points": [
+          {
+            "id": "MediaPipe21 index",
+            "x": "number|null",
+            "y": "number|null",
+            "confidence": "number|null",
+            "valid": "boolean"
+          }
+        ],
+        "color_side": "Left|Right|null; visualization only, never changes side"
+      }
+    ],
+    "person_box": "[x1,y1,x2,y2]|null",
+    "stale_after_ms": "number; default 3000"
+  },
+  "audio": {
+    "available": "boolean",
+    "observed_at_ms": "epoch ms",
+    "source": "string|null",
+    "kind": "pcm_waveform|rms_envelope|null",
+    "status_text": "string|null",
+    "sample_rate_hz": "number|null",
+    "waveform": "array of real normalized -1..1 values; no synthetic fill",
+    "rms_dbfs": "number|null",
+    "peak_dbfs": "number|null",
+    "stale_after_ms": "number; 10000 for existing PYNQ 6s polling; available must still reflect real log age <=6000"
+  },
+  "events": [
+    {
+      "id": "string",
+      "t_ms": "epoch ms",
+      "level": "info|warning|error",
+      "type": "string",
+      "message": "string"
+    }
+  ]
+}

@@ -1,0 +1,470 @@
+{
+  "catalog_name": "hospital_staff_speech_intents",
+  "version": "2026.10.31-seven-extension-v1",
+  "source_workbook": "医院双向意图库_当前版 (1).xlsx",
+  "source_sheet": "工作人员语音",
+  "direction": "staff_speech_to_patient_sign_video",
+  "business_class_count": 22,
+  "rejection_class_count": 3,
+  "model_class_index_range": [
+    0,
+    24
+  ],
+  "rejection_model_class_index_range": [
+    15,
+    17
+  ],
+  "intent_id_namespace": "0x2000",
+  "retired_or_reserved_intent_ids": [
+    "0x200B",
+    "0x200C",
+    "0x200D",
+    "0x200E",
+    "0x200F",
+    "0x2012"
+  ],
+  "intents": [
+    {
+      "model_class": 0,
+      "intent_id": 8193,
+      "intent_id_hex": "0x2001",
+      "code": "ASK_ID_CARD",
+      "category": "证件",
+      "speech_examples": [
+        "请出示身份证",
+        "麻烦拿一下身份证",
+        "需要核对身份信息"
+      ],
+      "sign_text": "请出示身份证。",
+      "controlled_fields": [],
+      "video_asset": "sign/staff_01_id_card.mp4"
+    },
+    {
+      "model_class": 1,
+      "intent_id": 8194,
+      "intent_id_hex": "0x2002",
+      "code": "ASK_INSURANCE_CARD",
+      "category": "证件",
+      "speech_examples": [
+        "请出示医保卡",
+        "请刷医保卡",
+        "需要核对医保信息"
+      ],
+      "sign_text": "请出示医保卡。",
+      "controlled_fields": [],
+      "video_asset": "sign/staff_02_insurance.mp4"
+    },
+    {
+      "model_class": 2,
+      "intent_id": 8195,
+      "intent_id_hex": "0x2003",
+      "code": "ASK_APPOINTMENT",
+      "category": "预约",
+      "speech_examples": [
+        "请出示预约信息",
+        "您预约了吗",
+        "麻烦打开预约记录"
+      ],
+      "sign_text": "请出示预约信息。",
+      "controlled_fields": [
+        "appointment_reference"
+      ],
+      "video_asset": "sign/staff_03_appointment.mp4"
+    },
+    {
+      "model_class": 3,
+      "intent_id": 8196,
+      "intent_id_hex": "0x2004",
+      "code": "GO_REGISTER",
+      "category": "楼层与路线",
+      "speech_examples": [
+        "请到一楼挂号窗口",
+        "挂号窗口在一楼大厅",
+        "请去一楼办理挂号"
+      ],
+      "sign_text": "请到挂号窗口。",
+      "controlled_fields": [
+        "floor",
+        "window",
+        "location",
+        "direction_hint"
+      ],
+      "video_asset": "sign/staff_04_register.mp4"
+    },
+    {
+      "model_class": 4,
+      "intent_id": 8197,
+      "intent_id_hex": "0x2005",
+      "code": "GO_PAYMENT",
+      "category": "楼层与路线",
+      "speech_examples": [
+        "请到一楼缴费处",
+        "收费窗口在一楼",
+        "请去一楼缴费"
+      ],
+      "sign_text": "请到缴费处。",
+      "controlled_fields": [
+        "amount",
+        "floor",
+        "window",
+        "location",
+        "direction_hint"
+      ],
+      "video_asset": "sign/staff_05_payment.mp4"
+    },
+    {
+      "model_class": 5,
+      "intent_id": 8198,
+      "intent_id_hex": "0x2006",
+      "code": "GO_CLINIC",
+      "category": "楼层与路线",
+      "speech_examples": [
+        "请到二楼诊室",
+        "诊室在二楼",
+        "请去相应诊室就诊"
+      ],
+      "sign_text": "请到诊室就诊。",
+      "controlled_fields": [
+        "department",
+        "clinic_room",
+        "floor",
+        "location",
+        "direction_hint"
+      ],
+      "video_asset": "sign/staff_06_clinic.mp4"
+    },
+    {
+      "model_class": 6,
+      "intent_id": 8199,
+      "intent_id_hex": "0x2007",
+      "code": "GO_LAB",
+      "category": "楼层与路线",
+      "speech_examples": [
+        "请到二楼检验科",
+        "检验科在二楼",
+        "请到采血窗口"
+      ],
+      "sign_text": "请到检验科。",
+      "controlled_fields": [
+        "department",
+        "floor",
+        "window",
+        "location",
+        "direction_hint"
+      ],
+      "video_asset": "sign/staff_07_lab.mp4"
+    },
+    {
+      "model_class": 7,
+      "intent_id": 8200,
+      "intent_id_hex": "0x2008",
+      "code": "GO_IMAGING",
+      "category": "楼层与路线",
+      "speech_examples": [
+        "请到一楼影像科",
+        "影像科在一楼",
+        "请去影像科检查"
+      ],
+      "sign_text": "请到影像科检查。",
+      "controlled_fields": [
+        "exam_name",
+        "room",
+        "floor",
+        "location",
+        "direction_hint"
+      ],
+      "video_asset": "sign/staff_08_imaging.mp4"
+    },
+    {
+      "model_class": 8,
+      "intent_id": 8201,
+      "intent_id_hex": "0x2009",
+      "code": "GO_PHARMACY",
+      "category": "楼层与路线",
+      "speech_examples": [
+        "请到一楼药房",
+        "药房在一楼",
+        "请去药房取药"
+      ],
+      "sign_text": "请到药房取药。",
+      "controlled_fields": [
+        "floor",
+        "location",
+        "direction_hint"
+      ],
+      "video_asset": "sign/staff_09_pharmacy.mp4"
+    },
+    {
+      "model_class": 9,
+      "intent_id": 8202,
+      "intent_id_hex": "0x200A",
+      "code": "WAIT_FOR_CALL",
+      "category": "候诊",
+      "speech_examples": [
+        "请等待叫号",
+        "请在候诊区等候",
+        "叫到您再进去"
+      ],
+      "sign_text": "请在候诊区等待叫号。",
+      "controlled_fields": [
+        "queue_number",
+        "location"
+      ],
+      "video_asset": "sign/staff_10_wait_call.mp4"
+    },
+    {
+      "model_class": 10,
+      "intent_id": 8208,
+      "intent_id_hex": "0x2010",
+      "code": "USE_TEXT",
+      "category": "沟通辅助",
+      "speech_examples": [
+        "我写给您看",
+        "我们用文字沟通",
+        "请看屏幕上的文字"
+      ],
+      "sign_text": "我们可以使用文字沟通。",
+      "controlled_fields": [
+        "text"
+      ],
+      "video_asset": "sign/staff_16_text.mp4"
+    },
+    {
+      "model_class": 11,
+      "intent_id": 8209,
+      "intent_id_hex": "0x2011",
+      "code": "ASK_REPEAT",
+      "category": "沟通辅助",
+      "speech_examples": [
+        "请再做一次",
+        "请重复一遍",
+        "刚才没有识别清楚"
+      ],
+      "sign_text": "请再做一次。",
+      "controlled_fields": [],
+      "video_asset": "sign/staff_17_repeat.mp4"
+    },
+    {
+      "model_class": 12,
+      "intent_id": 8211,
+      "intent_id_hex": "0x2013",
+      "code": "GO_TOILET",
+      "category": "楼层与路线",
+      "speech_examples": [
+        "卫生间在一楼",
+        "请到一楼卫生间",
+        "卫生间在前方右侧"
+      ],
+      "sign_text": "请到卫生间。",
+      "controlled_fields": [
+        "floor",
+        "location",
+        "direction_hint"
+      ],
+      "video_asset": "sign/staff_19_toilet.mp4"
+    },
+    {
+      "model_class": 13,
+      "intent_id": 8212,
+      "intent_id_hex": "0x2014",
+      "code": "GO_REPORT_DESK",
+      "category": "楼层与路线",
+      "speech_examples": [
+        "请到二楼取报告",
+        "报告打印处在二楼",
+        "请到自助机取报告"
+      ],
+      "sign_text": "请到报告领取处。",
+      "controlled_fields": [
+        "floor",
+        "location",
+        "machine_or_window",
+        "direction_hint"
+      ],
+      "video_asset": "sign/staff_20_report.mp4"
+    },
+    {
+      "model_class": 14,
+      "intent_id": 8213,
+      "intent_id_hex": "0x2015",
+      "code": "YOU_ARE_WELCOME",
+      "category": "礼貌",
+      "speech_examples": [
+        "不客气",
+        "不用谢",
+        "没关系"
+      ],
+      "sign_text": "不客气。",
+      "controlled_fields": [],
+      "video_asset": "sign/staff_21_you_are_welcome.mp4"
+    },
+    {
+      "model_class": 18,
+      "intent_id": 8449,
+      "intent_id_hex": "0x2101",
+      "code": "SHOW_CARD_AND_INSURANCE",
+      "meaning": "请出示医保卡和身份证。",
+      "sign_text": "请出示医保卡和身份证。",
+      "speech_examples": [
+        "请出示医保卡和身份证。"
+      ],
+      "legacy_showcase_button": "00",
+      "is_business_intent": true,
+      "video_asset": null,
+      "video_mapping_status": "receiver_mapping_required"
+    },
+    {
+      "model_class": 19,
+      "intent_id": 8450,
+      "intent_id_hex": "0x2102",
+      "code": "REGISTER_NO_APPOINTMENT",
+      "meaning": "不用，在这里挂号就行。",
+      "sign_text": "不用，在这里挂号就行。",
+      "speech_examples": [
+        "不用，在这里挂号就行。"
+      ],
+      "legacy_showcase_button": "02",
+      "is_business_intent": true,
+      "video_asset": null,
+      "video_mapping_status": "receiver_mapping_required"
+    },
+    {
+      "model_class": 20,
+      "intent_id": 8451,
+      "intent_id_hex": "0x2103",
+      "code": "SELECT_REGISTRATION_DEPARTMENT",
+      "meaning": "请选择你要挂号的科室。",
+      "sign_text": "请选择你要挂号的科室。",
+      "speech_examples": [
+        "请选择你要挂号的科室。"
+      ],
+      "legacy_showcase_button": "03",
+      "is_business_intent": true,
+      "video_asset": null,
+      "video_mapping_status": "receiver_mapping_required"
+    },
+    {
+      "model_class": 21,
+      "intent_id": 8452,
+      "intent_id_hex": "0x2104",
+      "code": "PAYMENT_COMPLETED_GO_CLINIC",
+      "meaning": "已经缴费了，可以去诊室了。",
+      "sign_text": "已经缴费了，可以去诊室了。",
+      "speech_examples": [
+        "已经缴费了，可以去诊室了。"
+      ],
+      "legacy_showcase_button": "04",
+      "is_business_intent": true,
+      "video_asset": null,
+      "video_mapping_status": "receiver_mapping_required"
+    },
+    {
+      "model_class": 22,
+      "intent_id": 8453,
+      "intent_id_hex": "0x2105",
+      "code": "PAYMENT_REQUIRED",
+      "meaning": "请缴纳费用。",
+      "sign_text": "请缴纳费用。",
+      "speech_examples": [
+        "请缴纳费用。"
+      ],
+      "legacy_showcase_button": "05",
+      "is_business_intent": true,
+      "video_asset": null,
+      "video_mapping_status": "receiver_mapping_required"
+    },
+    {
+      "model_class": 23,
+      "intent_id": 8454,
+      "intent_id_hex": "0x2106",
+      "code": "CASH_PAYMENT_ALLOWED",
+      "meaning": "可以的。",
+      "sign_text": "可以的。",
+      "speech_examples": [
+        "可以的。"
+      ],
+      "legacy_showcase_button": "06",
+      "is_business_intent": true,
+      "video_asset": null,
+      "video_mapping_status": "receiver_mapping_required"
+    },
+    {
+      "model_class": 24,
+      "intent_id": 8455,
+      "intent_id_hex": "0x2107",
+      "code": "DISCHARGE_READY",
+      "meaning": "可以出院了。",
+      "sign_text": "可以出院了。",
+      "speech_examples": [
+        "可以出院了。"
+      ],
+      "legacy_showcase_button": "07",
+      "is_business_intent": true,
+      "video_asset": null,
+      "video_mapping_status": "receiver_mapping_required"
+    }
+  ],
+  "rejection_classes": [
+    {
+      "model_class": 15,
+      "intent_id": 8432,
+      "intent_id_hex": "0x20F0",
+      "code": "SILENCE",
+      "is_business_intent": false,
+      "system_action": "keep_listening",
+      "meaning": "未检测到有效语音",
+      "video_asset": null
+    },
+    {
+      "model_class": 16,
+      "intent_id": 8433,
+      "intent_id_hex": "0x20F1",
+      "code": "UNKNOWN_SPEECH",
+      "is_business_intent": false,
+      "system_action": "request_retry",
+      "meaning": "检测到语音，但无法归入已知类别",
+      "video_asset": null
+    },
+    {
+      "model_class": 17,
+      "intent_id": 8434,
+      "intent_id_hex": "0x20F2",
+      "code": "BACKGROUND_NOISE",
+      "is_business_intent": false,
+      "system_action": "discard_result",
+      "meaning": "背景噪声或非目标说话声",
+      "video_asset": null
+    }
+  ],
+  "catalog_note": "Original classes 00-17 and IDs are unchanged. New real recordings train classes 18-24. Legacy showcase button numbers are display aliases, not model classes or wire IDs.",
+  "business_model_classes": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24
+  ],
+  "rejection_model_classes": [
+    15,
+    16,
+    17
+  ],
+  "extension_status": "prepared_not_trained_not_deployed"
+}

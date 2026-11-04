@@ -1,0 +1,22 @@
+{
+  "status": "FIXTURE_PASS_ORIGINAL_RESTORED",
+  "model_result": {
+    "numeric_checks_pass": true,
+    "layout": [
+      {
+        "model": "full_palm_fused_cached",
+        "native_library_sha256": "4fade99d2ff096f6f5e8edaea4dacd30c2271cf7f803bffd7705cdfc2a73beff"
+      },
+      {
+        "model": "full_body_channels_cached",
+        "native_library_sha256": "691646f7ceb81fb71c4b0cfa725427a028ff8426d632dba13e0722ee7a38ae64"
+      },
+      {
+        "model": "full_hand",
+        "native_library_sha256": "76bb7e52830788b26acd272f8584ac59179eb43e87c44346a96d082af00dd5e2"
+      }
+    ]
+  },
+  "record_type": "verbatim_field_excerpt",
+  "source_record_sha256": "eab78c02d08829c18fa19d17ea0b670ae5e9c490a1211d3f71716c25fd9d9512"
+}

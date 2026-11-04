@@ -1,0 +1,99 @@
+Built runtime variants (2026-10-22)
+
+Original successful baseline libgesture_tflite.so is preserved. All variants use
+TensorFlow Lite v2.11.0, Cortex-A9 -mfpu=neon -mfloat-abi=hard -marm,
+-ffp-contract=off, and the preserved vendor glibc 2.30 / libstdc++ 6.0.27 sysroot.
+GCC 9 ARM C++ standard headers match the vendor C++ ABI; GCC 13 private-keyword
+header compatibility patch changes only an internal alias, not runtime semantics.
+
+XNNPACK
+  libgesture_tflite_xnnpack.so
+  SHA256 cf9d16422e7a41a015d468f415bf4ff9834868c11d4666d740048507f71c3ef5
+  Explicit TfLiteXNNPackDelegateCreate + ModifyGraphWithDelegate before allocation.
+  XNNPACK e8f74a9763aa36559980a0c2f37f587794995622 (TF2.11 pinned source).
+  ARM FP16/BF16/DOTPROD, JIT and assembly are disabled. Advanced NEON FMA/FP16/v8
+  microkernels are excluded and corresponding CPU feature dispatch is disabled
+  in this A9-only artifact. Generic NEON kernels remain selected by cpuinfo.
+  xnnpack_cortex_a9.patch records the isolated upstream-source specialization.
+  PSIMD pinned from upstream master to 072586a71b55b7f8c584153d223e95687148a900;
+  archive SHA256 dc615342bcbe51ca885323e51b68b90ed9bb9fa7df0f4419dbfa0297d5e837b7.
+  Static checks pass: VFPv3/NEONv1, all dependencies/versions, and actual target
+  compile graph (771 commands, 418 XNNPACK commands). Unbuilt all_microkernels
+  targets and disabled JIT emitter source names are distinguished from executed
+  instruction kernels. No illegal instruction occurred on board at 1/2 threads.
+
+PL hardware and C simulation
+  libgesture_tflite_pl.so
+  SHA256 a55d4f27cbf296355f6db0ce1f23566b36470a385ee295c6ce1b6202ff73a277
+  libgesture_tflite_pl_emulation.so
+  SHA256 78410448f3622dc5944a717f0cd64f5964bb5365c1e84e146028f80e815ea27e
+  Both statically verified against the original sysroot. gp_* client ABI is
+  exported for direct ctypes smoke checks. Missing device returns an explicit
+  error. A model with zero supported delegate partitions returns an error.
+  There is no automatic CPU substitution after a PL runtime failure.
+  pl_delegate.cc supports original float32 Conv2D and depthwise multiplier 1,
+  K1/2/3/5, stride1/2, dilation1, NONE/RELU/RELU6, N1 NHWC, original OHWI/1HWC
+  weights, and validates all HLS ABI shape/capacity limits before claiming nodes.
+  Internal partition tensors use owned vectors. Boundary tensor pointers are
+  read from TFLite context at every invocation. Multiple models share one device
+  handle; client serialization protects coherent-buffer and hardware access.
+  The emulation library calls the original HLS C function, reports
+  hls_c_emulation_no_fpga, and always reports ZERO hardware jobs and hardware ns.
+  Hardware counters are process-shared: use before/after deltas, not per-model
+  sums. Adapter APIs: backend_name(), delegate_partitions(), pl_stats().
+
+Selection
+  GESTURE_TFLITE_BACKEND=a9
+  GESTURE_TFLITE_LIB=/opt/gesture-tcn-20261022/build_runtime/<library>
+  GESTURE_PL_DEVICE defaults to /dev/gesture-pl0, used only by the hardware lib.
+  The CPU baseline and XNNPACK are separate library choices. Choosing the PL
+  library applies the PL delegate; unsupported non-convolution operators remain
+  normal TFLite CPU operations, as intended by the partition design.
+
+Numerical evidence and limitations
+  board_emulation_t1_validation.json and board_xnnpack_t{1,2}_validation.json
+  preserve the original x86 optimized-oracle tolerance .002 + .0002*abs(ref).
+  Four of five networks pass. Pose output0 fails for PL simulation (0.003182888)
+  and XNNPACK (0.007225037). These original failures have NOT been relabeled.
+  Independent host BUILTIN_REF on the identical fixture reproduces the PL
+  output0 exactly, bit for bit (195 values), as does output4. Output1 differs
+  5.80e-9 and consumed heatmap output3 differs 2.29e-5. This identifies reference
+  versus optimized reduction arithmetic, not a layout or delegate-buffer error.
+  The unused segmentation branch still has measurable platform differences.
+  See pose_reference_vs_emulation.json and host_pose_reference/board_pose_arithmetic
+  JSON and NPZ artifacts. These are numerical checks, not recognition accuracy.
+  Roof23 host reference versus optimized full pipeline produces two hands in
+  both original and mirror images; max Pose XY difference .02193/.04852 pixels,
+  max hand difference .01783 pixels, and no changed body missing flags.
+  Subsequent real-PL validation completed with the original model bytes:
+  board_hardware_t1_validation.json records two invokes/model, real ioctl job
+  counters, hardware ns, bytes transferred, original optimized and REF oracles.
+  All consumed outputs pass REF; the original Pose optimized-oracle failure
+  remains. Second-invoke times (total / hardware ms; jobs):
+    palm        6645.5 / 5936.6 ; 63
+    hand        4921.6 / 4583.3 ; 47
+    pose detect 6136.9 / 5577.3 ; 73
+    pose lm     7609.0 / 6772.7 ; 96
+    hand recrop  288.7 /  200.1 ; 33
+  Total minus hardware time includes CPU ops AND copies/ioctl/partition overhead;
+  it is explicitly not claimed as pure nonConv execution time.
+  Actual Roof23 PL full pipeline takes 31.812/31.883 seconds per original/mirror
+  frame, 326 real PL jobs, 27.397/27.379 seconds hardware time, 202.5 MB input
+  copies and 142.6 MB output copies. Against host REF, max Pose XY difference is
+  .03042/.04958 pixels, max hand XY difference .00915 pixels, two hands in both,
+  and unchanged body missing flags. See roof23_pl_vs_reference.json.
+  The current PL design is functionally verified but is slower than the CPU
+  baseline/XNNPACK; it does NOT meet real-time throughput. A second 7020 alone
+  does not remove this measured compute/memory bottleneck.
+
+Reproduction (existing VM and isolated /tmp/gesture-board-build-20261022 only)
+  vm_helper.py extracts existing VM credentials via AST and never logs them.
+  fetch_xnn_deps.sh; fetch_psimd.sh; specialize_xnn_a9.sh; build_xnnpack.sh;
+  validate_xnnpack.sh. For PL, run pack_pl_sources.py, upload pl_sources.zip and
+  current CMakeLists.txt/gesture_tflite.cc, then build_pl.sh and validate_pl.sh.
+  Board tests: validate_delegate_models.py --root /opt/gesture-tcn-20261022
+  --library <variant> --kind emulation|xnnpack|hardware --threads 1 --repeat 1.
+  --missing-device-check opens only a deliberately nonexistent device path.
+  validate_roof_pipeline.py records all final Pose/body/hand coordinates, scores
+  and process runtime counters for original/mirror images without synthesizing
+  temporal gesture samples.

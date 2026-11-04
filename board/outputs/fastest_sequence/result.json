@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "workload": "序列分类回放调用",
+  "statistic": "fastest",
+  "elapsed_ns": 14985118,
+  "elapsed_ms": 14.985118,
+  "frame_id": 3845847,
+  "source_record_sha256": "e6a0447b597bd3479d7d0d227374d4181417dc7e0afd997a41afde46a5a769e9",
+  "source_pointer": "/restore/worker/rows/283",
+  "record_type": "verbatim_row_excerpt",
+  "record": {
+    "operation": "semantic_frame",
+    "frame_id": 3845847,
+    "source_capture_ns": 91261580687000,
+    "source_identity_sha256": "1b86468d0be6bcfd9141fecc4e277d74b97298ecce9384176b07523228147742",
+    "input_sha256": "4b2aaf58854c6a0035a38ba216240c40aa83df2401c041af9f23279419a505f7",
+    "output_sha256": "f2c07fb05060bba1a959bc283c0bfc9e427778c77add800752b5a5e2d6ef3e84",
+    "output_dtype": "json",
+    "stats": {
+      "PL_jobs": 16,
+      "complete_call_ns": 14985118,
+      "TCN_RUN": 1
+    }
+  },
+  "validated_sequence_frames": 363,
+  "validated_events": 5,
+  "restore": "PASS"
+}

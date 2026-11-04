@@ -1,0 +1,24 @@
+{
+  "status": "SOURCE_REBUILD_PAYLOAD_IDENTICAL_TIMING_PASSED",
+  "bit_sha256": "326695c02344bf5adf2deccda81ebf4d03fc20995a32383a309373620e205783",
+  "timing_sha256": "45db1fe8ccf7eb7e39215cd2f46a832d1589621d48e00574e659015a530712c3",
+  "route_setup_ns": 0.073,
+  "route_hold_ns": 0.05,
+  "pulse_width_ns": 2.203,
+  "max_clock_hz": 150000000,
+  "target_dividers": [
+    7,
+    1
+  ],
+  "restore_via_dividers": [
+    [
+      7,
+      2
+    ],
+    [
+      5,
+      2
+    ]
+  ],
+  "scope": "No PLL/CPU/other FCLK changes; fixed Full Hand only; restore exact entry registers and original services"
+}

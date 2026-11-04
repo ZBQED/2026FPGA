@@ -1,0 +1,18 @@
+{
+  "template_only": true,
+  "example_task": "generic_unsigned_vector_gain",
+  "board": null,
+  "device": null,
+  "pynq_version": null,
+  "build_id": null,
+  "bit_sha256": null,
+  "hwh_sha256": null,
+  "ip_instance": null,
+  "input": {"shape": [256], "dtype": "uint16", "layout": "linear", "byte_order": "little", "unit": "adc_count", "bytes": 512},
+  "output": {"shape": [256], "dtype": "uint16", "layout": "linear", "byte_order": "little", "unit": "adc_count", "bytes": 512},
+  "reference_rule": "y[i] = min(65535, 2 * uint32(x[i])); integer saturation; no wrap",
+  "comparison": {"atol": 0, "rtol": 0},
+  "transport": {"kind": null, "dma_mode": null, "stream_data_width_bits": null, "tlast_rule": null, "max_transfer_bytes": null, "cache_sync_owner": null},
+  "control": {"start_and_done_protocol": null, "timeout_seconds": null, "buffer_lifetime": "retain until hardware is confirmed idle", "recovery_procedure": null},
+  "acceptance": {"functional_cases": ["zero", "maximum", "saturation_boundary", "random", "repeat_different_inputs"], "same_input_required": true, "latency_limit_ms": null}
+}

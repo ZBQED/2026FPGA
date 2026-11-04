@@ -1,0 +1,18 @@
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: E:/vivado2024.2/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe xil_defaultlib.tb -prj files.prj -L unisims_ver -L xpm -L secureip -timescale 1ns/1ps -mt 2 -debug typical -s report_ov5640 
+Using 2 slave threads.
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/medical_gesture_detection/light_try/FPGA_120ms_work/waves_1103/ov5640/ov5640_capture_data.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ov5640_capture_data
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/medical_gesture_detection/light_try/FPGA_120ms_work/waves_1103/ov5640/tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ov5640_capture_data
+Compiling module xil_defaultlib.tb
+Built simulation snapshot report_ov5640

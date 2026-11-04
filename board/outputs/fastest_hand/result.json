@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "workload": "手部固定输入调用",
+  "statistic": "fastest",
+  "elapsed_ns": 90070307,
+  "elapsed_ms": 90.070307,
+  "sample": 2,
+  "source_record_sha256": "1173f81f7eab9250ec29db699ad7ed210d1704710a19ac65e37931b347d02745",
+  "source_pointer": "/state/rpc_actual.json/rows/4",
+  "record_type": "verbatim_field_excerpt",
+  "record": {
+    "sample": 2,
+    "stage": "two_hand_pair",
+    "returncode": 0,
+    "complete_call_ns": 90070307,
+    "heads_max_abs_error": 0.0
+  },
+  "restore": "PASS"
+}

@@ -1,0 +1,1 @@
+{"returncode": 0, "command": ["E:/vivado2024.2/Vitis/2024.2/bin/vitis-run.bat", "--mode", "hls", "--tcl", "E:\\medical_gesture_detection\\light_try\\FPGA_120ms_work\\engineering_execution\\package\\medical_gesture_fpga\\build\\build_hls_nav.tcl"]}

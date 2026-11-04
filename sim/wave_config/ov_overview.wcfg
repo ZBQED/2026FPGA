@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<wave_config>
+  <wave_state />
+  <db_ref_list>
+    <db_ref path="E:/medical_gesture_detection/light_try/FPGA_120ms_work/waves_1103/ov5640/ov5640.wdb" id="1">
+      <top_modules>
+        <top_module name="tb" />
+      </top_modules>
+    </db_ref>
+  </db_ref_list>
+  <zoom_setting>
+    <ZoomStartTime time="32000 ns" />
+    <ZoomEndTime time="35600 ns" />
+    <Cursor1Time time="35020 ns" />
+  </zoom_setting>
+  <column_width_setting>
+    <NameColumnWidth column_width="250" />
+    <ValueColumnWidth column_width="160" />
+  </column_width_setting>
+  <WVObjectSize size="6" />
+  <wvobject fp_name="/tb/cam_vsync" type="logic">
+    <obj_property name="ElementShortName">cam_vsync</obj_property>
+    <obj_property name="ObjectShortName">cam_vsync</obj_property>
+  </wvobject>
+  <wvobject fp_name="/tb/cam_href" type="logic">
+    <obj_property name="ElementShortName">cam_href</obj_property>
+    <obj_property name="ObjectShortName">cam_href</obj_property>
+  </wvobject>
+  <wvobject fp_name="/tb/data_ready" type="logic">
+    <obj_property name="ElementShortName">data_ready</obj_property>
+    <obj_property name="ObjectShortName">data_ready</obj_property>
+  </wvobject>
+  <wvobject fp_name="/tb/cmos_active_video" type="logic">
+    <obj_property name="ElementShortName">cmos_active_video</obj_property>
+    <obj_property name="ObjectShortName">cmos_active_video</obj_property>
+  </wvobject>
+  <wvobject fp_name="/tb/cmos_frame_ce" type="logic">
+    <obj_property name="ElementShortName">cmos_frame_ce</obj_property>
+    <obj_property name="ObjectShortName">cmos_frame_ce</obj_property>
+  </wvobject>
+  <wvobject fp_name="/tb/received" type="array">
+    <obj_property name="ElementShortName">received</obj_property>
+    <obj_property name="ObjectShortName">received</obj_property>
+    <obj_property name="Radix">HEXRADIX</obj_property>
+  </wvobject>
+</wave_config>

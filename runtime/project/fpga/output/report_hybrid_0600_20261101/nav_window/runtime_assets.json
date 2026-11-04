@@ -1,0 +1,12 @@
+{
+  "UI_sha256": "e0507f9035958a57f3397cf05c692181f21f2f3862bc147989bcc770b1ba9931",
+  "frame_library_sha256": "5b7bb09b6c8990c5b36cb9aa3a239219b126380e707a94740f70e9354e958d49",
+  "source": "new V18 same-frame publication and current40eb print/touch source merged",
+  "user_authorized_realtime": true,
+  "images_persisted": false,
+  "drawing_style": "Body12 chest/limb edges; head points only; bothHand21 skeleton+boxes; bright thick lines; enlarged outlined points",
+  "style_source": "E:\\medical_gesture_detection\\light_try\\FPGA_120ms_work\\fpga\\output\\realtime_full_system_20261031\\ui_build_style_r2\\style_contract.json",
+  "report_image_library_sha256": "5b7bb09b6c8990c5b36cb9aa3a239219b126380e707a94740f70e9354e958d49",
+  "display_library_sha256": "67815b89b663be1168906af8baf98a1c2fedd5bde0600a007a0bcf883772b257",
+  "scope": "Report core plus unchanged baseline r12 sealed-pair UI; no actual board run yet"
+}

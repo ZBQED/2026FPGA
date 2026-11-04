@@ -1,0 +1,37 @@
+{
+  "modules": {
+    "nav": {
+      "module": "board/runtime/nav/gesture_pl_driver.ko",
+      "sha256": "dc4ef9bfb68d80495129b703d072b56bc642042c9e22de86c0093a84c2ae70ac",
+      "vermagic": "5.4.0-xilinx-v2020.2 SMP preempt mod_unload modversions ARMv7 p2v8 ",
+      "scope": "Target kernel observed; production module binding. Nav retains matched original module."
+    },
+    "q": {
+      "module": "board/runtime/q/gesture_pl_i8_driver_v14.ko",
+      "sha256": "73f0b2391e4707e149b966f9bac588492aa8bc3093a865bc8295269720f953ba",
+      "vermagic": "5.4.0-xilinx-v2020.2 SMP preempt mod_unload modversions ARMv7 p2v8 ",
+      "scope": "Target kernel observed; production module binding. Nav retains matched original module."
+    },
+    "p": {
+      "module": "board/runtime/p/gesture_pynq_hand_i8.ko",
+      "sha256": "f388158560b857e2e7831bebffd52725e25d13e587a887e89b7ea6dead7d2ab9",
+      "vermagic": "6.6.10-xilinx-v2024.1-g3c0eca68c652 SMP preempt mod_unload modversions ARMv7 p2v8 ",
+      "scope": "Target kernel observed; production module binding. Nav retains matched original module."
+    }
+  },
+  "fpga_tools": {
+    "recorded_version": "Vivado/Vitis 2024.2",
+    "rebuilt_this_operation": true
+  },
+  "recovered_nav_runtime": {
+    "tensorflow": "2.11.0",
+    "compiler": "GCC 13 with GCC 9 ARM C++ headers",
+    "sysroot": "vendor glibc 2.30 / libstdc++.so.6.0.27",
+    "abi": "Cortex-A9 ARMv7 NEON hard-float",
+    "scope": "Original recovered build notes; exact external SDK still required"
+  },
+  "python_runtime_versions": "runtime/requirements-pc.txt",
+  "verification_python": "3.12.4",
+  "hardware_accessed": true,
+  "rebuild_abi_note": "Nav module build uses the included target-specific module SDK; runtime retains source-paired production driver."
+}

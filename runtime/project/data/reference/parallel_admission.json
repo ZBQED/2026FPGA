@@ -1,0 +1,11 @@
+{
+  "numeric_pass": true,
+  "restore": {
+    "restored": true
+  },
+  "model_result": {
+    "thread_pinning": true
+  },
+  "record_type": "verbatim_field_excerpt",
+  "source_record_sha256": "6f87295d69071572d7334a6380973259015efba69f791f8807fb40d7b6ece1cd"
+}

@@ -1,0 +1,67 @@
+make: Entering directory '/home/xilinx/mgd_final_build/nav_target_kernel'
+  HOSTCC  scripts/kconfig/conf.o
+  HOSTCC  scripts/kconfig/confdata.o
+  HOSTCC  scripts/kconfig/expr.o
+  LEX     scripts/kconfig/lexer.lex.c
+  YACC    scripts/kconfig/parser.tab.[ch]
+  HOSTCC  scripts/kconfig/lexer.lex.o
+  HOSTLD  scripts/kconfig/conf
+scripts/kconfig/conf  --olddefconfig Kconfig
+#
+# configuration written to .config
+#
+make: Leaving directory '/home/xilinx/mgd_final_build/nav_target_kernel'
+make: Entering directory '/home/xilinx/mgd_final_build/nav_target_kernel'
+  CC [M]  /home/xilinx/mgd_final_build/nav/gesture_pl_driver.o
+  Building modules, stage 2.
+  MODPOST 1 modules
+  CC [M]  /home/xilinx/mgd_final_build/nav/gesture_pl_driver.mod.o
+  LD [M]  /home/xilinx/mgd_final_build/nav/gesture_pl_driver.ko
+make: Leaving directory '/home/xilinx/mgd_final_build/nav_target_kernel'
+filename:       /home/xilinx/mgd_final_build/nav/gesture_pl_driver.ko
+description:    Bounded coherent-DMA runtime for gesture keypoint HLS accelerator
+license:        GPL
+alias:          of:N*T*Cgesture,keypoint-conv-f32-v1C*
+alias:          of:N*T*Cgesture,keypoint-conv-f32-v1
+depends:        
+name:           gesture_pl_driver
+vermagic:       5.4.0-xilinx-v2020.2 SMP preempt mod_unload modversions ARMv7 p2v8 
+
+make: Warning: File 'Makefile' has modification time 118395813 s in the future
+make[1]: Warning: File 'arch/arm/Makefile' has modification time 118395812 s in the future
+make[2]: Warning: File 'scripts/basic/.fixdep.cmd' has modification time 154867468 s in the future
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+make[2]: Warning: File 'scripts/kconfig/.symbol.o.cmd' has modification time 154867451 s in the future
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+make[1]: warning:  Clock skew detected.  Your build may be incomplete.
+make[1]: Warning: File 'scripts/Makefile.ubsan' has modification time 118395789 s in the future
+make[2]: Warning: File 'arch/arm/tools/../../../arch/arm/include/generated/uapi/asm/.unistd-oabi.h.cmd' has modification time 154867837 s in the future
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+make[2]: Warning: File 'scripts/basic/.fixdep.cmd' has modification time 154867445 s in the future
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+make[2]: Warning: File 'scripts/dtc/.yamltree.o.cmd' has modification time 154867483 s in the future
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+make[2]: Warning: File 'scripts/.sortextable.cmd' has modification time 154867502 s in the future
+make[3]: Warning: File 'scripts/genksyms/.parse.tab.o.cmd' has modification time 154867489 s in the future
+make[3]: warning:  Clock skew detected.  Your build may be incomplete.
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+make[2]: Warning: File 'scripts/Kbuild.include' has modification time 118395788 s in the future
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+make[2]: Warning: File 'scripts/Kbuild.include' has modification time 118395788 s in the future
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+make[2]: Warning: File 'arch/arm/tools/../../../arch/arm/include/generated/uapi/asm/.unistd-oabi.h.cmd' has modification time 154867836 s in the future
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+make[2]: Warning: File 'scripts/mod/.sumversion.o.cmd' has modification time 154867950 s in the future
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+make[2]: Warning: File 'scripts/Makefile.lib' has modification time 118395783 s in the future
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+make[1]: warning:  Clock skew detected.  Your build may be incomplete.
+make: warning:  Clock skew detected.  Your build may be incomplete.
+make: Warning: File 'scripts/Makefile.ubsan' has modification time 118395779 s in the future
+make[1]: Warning: File 'scripts/Makefile.lib' has modification time 118395779 s in the future
+make[1]: warning:  Clock skew detected.  Your build may be incomplete.
+make[1]: Warning: File 'scripts/Kbuild.include' has modification time 118395775 s in the future
+make[2]: Warning: File 'scripts/Makefile.lib' has modification time 118395775 s in the future
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+make[1]: warning:  Clock skew detected.  Your build may be incomplete.
+make: warning:  Clock skew detected.  Your build may be incomplete.

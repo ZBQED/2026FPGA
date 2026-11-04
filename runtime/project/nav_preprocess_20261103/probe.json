@@ -1,0 +1,84 @@
+{
+  "source_sha256": "1d97d6a51cf528f6be8e2e8dff3b27629217fb8f628cf79214e24adecc840861",
+  "remote": "/dev/shm/gesture-hand-crop-1793708976159801400",
+  "build": {
+    "rc": 0,
+    "stdout": "{\"rc\": 0, \"stdout\": \"\", \"stderr\": \"\"}\n",
+    "stderr": ""
+  },
+  "library_sha256": "112d329fed1044c2bb2caf21a58fbc908df3ead594f95d3386941cf672aaf6ba",
+  "execution": {
+    "rc": 0,
+    "stdout": "{\"status\": \"NATIVE_HAND_CROP_EXACT\", \"opencv\": \"3.4.3\", \"exact_cases\": 144, \"benchmark_rows\": [{\"original_ns\": 10535246, \"native_ns\": 6475218}, {\"original_ns\": 10185963, \"native_ns\": 6627728}, {\"original_ns\": 10159959, \"native_ns\": 6156639}, {\"original_ns\": 10686707, \"native_ns\": 6550300}, {\"original_ns\": 9759623, \"native_ns\": 6437228}, {\"original_ns\": 10643382, \"native_ns\": 6377129}, {\"original_ns\": 10704589, \"native_ns\": 6542121}, {\"original_ns\": 9892941, \"native_ns\": 6432579}, {\"original_ns\": 10996672, \"native_ns\": 6615720}, {\"original_ns\": 10987691, \"native_ns\": 6317971}, {\"original_ns\": 10439899, \"native_ns\": 6416261}, {\"original_ns\": 10930148, \"native_ns\": 6399955}, {\"original_ns\": 10860024, \"native_ns\": 6571646}, {\"original_ns\": 10949614, \"native_ns\": 6044261}], \"original_fastest_ms\": 9.759623, \"native_fastest_ms\": 6.044261, \"NN_RUN\": 0, \"camera_opened\": false, \"display_device_opened\": false}\n",
+    "stderr": ""
+  },
+  "probe": {
+    "status": "NATIVE_HAND_CROP_EXACT",
+    "opencv": "3.4.3",
+    "exact_cases": 144,
+    "benchmark_rows": [
+      {
+        "original_ns": 10535246,
+        "native_ns": 6475218
+      },
+      {
+        "original_ns": 10185963,
+        "native_ns": 6627728
+      },
+      {
+        "original_ns": 10159959,
+        "native_ns": 6156639
+      },
+      {
+        "original_ns": 10686707,
+        "native_ns": 6550300
+      },
+      {
+        "original_ns": 9759623,
+        "native_ns": 6437228
+      },
+      {
+        "original_ns": 10643382,
+        "native_ns": 6377129
+      },
+      {
+        "original_ns": 10704589,
+        "native_ns": 6542121
+      },
+      {
+        "original_ns": 9892941,
+        "native_ns": 6432579
+      },
+      {
+        "original_ns": 10996672,
+        "native_ns": 6615720
+      },
+      {
+        "original_ns": 10987691,
+        "native_ns": 6317971
+      },
+      {
+        "original_ns": 10439899,
+        "native_ns": 6416261
+      },
+      {
+        "original_ns": 10930148,
+        "native_ns": 6399955
+      },
+      {
+        "original_ns": 10860024,
+        "native_ns": 6571646
+      },
+      {
+        "original_ns": 10949614,
+        "native_ns": 6044261
+      }
+    ],
+    "original_fastest_ms": 9.759623,
+    "native_fastest_ms": 6.044261,
+    "NN_RUN": 0,
+    "camera_opened": false,
+    "display_device_opened": false
+  },
+  "status": "NATIVE_HAND_CROP_EXACT"
+}

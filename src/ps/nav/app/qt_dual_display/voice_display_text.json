@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "purpose": "Display wording requested for the demonstration; model classes, wire identifiers, and trained phrases remain unchanged. Overridden sentences only use explicitly bound videos with exactly matching display text.",
+  "display_text_by_model_class": {
+    "0": "请出示医保卡和身份证。",
+    "1": "请出示医保卡和相关资料。",
+    "2": "不用，在这里挂号就行。",
+    "3": "请选择你要挂号的科室。",
+    "4": "已经缴费了，可以去诊室了。",
+    "5": "盖好章了，请缴纳费用。",
+    "6": "可以的。",
+    "7": "办理好了，可以出院了。"
+  },
+  "video_by_model_class": {
+    "0": {
+      "display_text": "请出示医保卡和身份证。",
+      "asset": "staff_display_00_cards.mp4",
+      "source_slot": "03"
+    },
+    "1": {
+      "display_text": "请出示医保卡和相关资料。",
+      "asset": "staff_display_01_insurance_documents.mp4",
+      "source_slot": "05"
+    },
+    "2": {
+      "display_text": "不用，在这里挂号就行。",
+      "asset": "staff_display_02_register_here.mp4",
+      "source_slot": "01"
+    },
+    "3": {
+      "display_text": "请选择你要挂号的科室。",
+      "asset": "staff_display_03_choose_department.mp4",
+      "source_slot": "02"
+    },
+    "4": {
+      "display_text": "已经缴费了，可以去诊室了。",
+      "asset": "staff_display_04_payment_complete.mp4",
+      "source_slot": "04"
+    },
+    "5": {
+      "display_text": "盖好章了，请缴纳费用。",
+      "asset": "staff_display_05_payment_required.mp4",
+      "source_slot": "shouyu_qingjiaonaofeiyong_去水印.mp4"
+    },
+    "6": {
+      "display_text": "可以的。",
+      "asset": "staff_display_06_cash_allowed.mp4",
+      "source_slot": "06"
+    },
+    "7": {
+      "display_text": "办理好了，可以出院了。",
+      "asset": "staff_display_07_discharge_ready.mp4",
+      "source_slot": "生成手语视频_去水印.mp4"
+    }
+  },
+  "source": {
+    "document": "展示案例与词语库、意图库.docx",
+    "sha256": "1061288c92cdba145eaf529678b6dda0ba1ac91a9188dd0ebc50a1f5bdac431c",
+    "sections": [
+      "展示1",
+      "展示2"
+    ],
+    "mapping_note": "Existing model classes and wire codes select display sentences only; these sentences do not redefine trained recognition labels."
+  }
+}

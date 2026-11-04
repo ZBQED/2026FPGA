@@ -1,0 +1,27 @@
+{
+  "status": "SOFTWARE_HELPERS_RELOCATED_NO_CONNECTION",
+  "files": {
+    "qiming_root.py": {
+      "source": "output/three_board_fast_v8/hand_int8_candidate/qiming_root.py",
+      "original_sha256": "b2efcd6eac1b47fee76aef345cd1bdbd0af6ba50470874f63ba7750f4464575e",
+      "sha256": "d9fa72d0bb8eb458dabd16d0610ade80bf44e86570c94c1b1e2325a047e28172"
+    },
+    "pynq_root.py": {
+      "source": "output/three_board_fast_v8/deployment/pynq_root.py",
+      "original_sha256": "6a923083c195706bffaeadc462a394e067f824bb00360a205688b24e35a0cc4c",
+      "sha256": "a41e103ef27b42abe466f6f039918eb4a9f7bcfee5f54d4f8b6c0355b85383c6"
+    },
+    "boardctl.py": {
+      "source": "output/three_board_fast_v7/boardctl.py",
+      "original_sha256": "aa9ded32cba519c35a9e1f7e5ee38a4e7fd8f131dd21103d66c5b623bb188fde",
+      "sha256": "120da1a049efa0129924bd2c1bf4f4a6236e1f5f2f0f7254d9b119e8608fdd93"
+    },
+    "stage_candidate.py": {
+      "source": "output/three_board_v4_20261025/stage_candidate.py",
+      "original_sha256": "297318cf57955bd5e1825d1d8e7b97c87f8a5d1bf0af40ec9dfed4e183af6f1d",
+      "sha256": "5ad67f1924a8b11f9292163159a9ec87a1b0a25fd1db74d3bbd3a100b9e5d112"
+    }
+  },
+  "personal_global_config_copied": false,
+  "dependency": "Installed paramiko; imported only on explicit prepare/status/launch/stop"
+}

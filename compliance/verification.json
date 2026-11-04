@@ -1,0 +1,76 @@
+{
+  "scope": "public_source_and_host_software",
+  "source_and_import_tests": {
+    "source_integrity": {
+      "status": "PASS",
+      "release_type": "public_source",
+      "files": 1013,
+      "file_sha256": "PASS",
+      "license_file_coverage": "PASS",
+      "syntax_and_local_references": "PASS",
+      "declared_external_references": 120,
+      "skill_original_sha256": "PASS",
+      "hardware_accessed": false
+    },
+    "payload_policy": {
+      "status": "PASS",
+      "checked_public_payloads": 962,
+      "license_texts": "present",
+      "upstream_notices": "retained",
+      "unlicensed_yolo_parameters": "not_distributed",
+      "vendor_ip_and_target_binaries": "not_distributed",
+      "demonstration_videos": 8,
+      "performer_consent_basis": "publisher_confirmation",
+      "model_provenance_basis": "publisher_declaration",
+      "training_lineage_independently_reconstructed": false,
+      "hardware_accessed": false
+    },
+    "full_external_import_dry_run": {
+      "status": "DRY_RUN_PASS",
+      "files": 444,
+      "group": "all",
+      "rights_granted_by_importer": false,
+      "hardware_accessed": false
+    },
+    "runtime_gate_before_board_access": "PASS",
+    "corrupt_import_zero_writes": "PASS",
+    "traversal_rejected": "PASS",
+    "all_public_files_included_by_gitignore": "PASS"
+  },
+  "installed_host_monitor": {
+    "installed_versions": "2.5.2 5.0.0 1.31.0 2.8.1 5.9.8",
+    "pip_dependency_consistency": "PASS",
+    "monitor_process_idempotence": "PASS",
+    "http": {
+      "/api/health": {
+        "status": 200,
+        "bytes": 35
+      },
+      "/api/state": {
+        "status": 200,
+        "bytes": 2104
+      },
+      "/index.html": {
+        "status": 200,
+        "bytes": 8153
+      },
+      "/app.js": {
+        "status": 200,
+        "bytes": 29034
+      },
+      "/styles.css": {
+        "status": 200,
+        "bytes": 38724
+      }
+    },
+    "status": "PASS",
+    "original_frontend_preserved": true,
+    "core_inference_started": false,
+    "camera_opened": false,
+    "monitor_stopped": "Monitor shutdown requested; board services untouched."
+  },
+  "skill_unit_tests": {
+    "count": 63,
+    "status": "PASS"
+  }
+}

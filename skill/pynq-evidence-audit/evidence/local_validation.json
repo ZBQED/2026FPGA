@@ -1,0 +1,20 @@
+{
+  "version": "0.5.0",
+  "status": "PASS",
+  "python": "3.12.4",
+  "numpy": "2.5.4",
+  "unit_tests": 63,
+  "offline_demo_steps": 11,
+  "isolated_install": "PASS",
+  "script_sha256": {
+    "scripts/check_latency.py": "b01b327293d87f2996b75b8878d2789603ff661a32b5076a325e868fbbf83c21",
+    "scripts/check_manifest.py": "bed7909194018ade7552855b8bdac7b6bdf2bc7ab76efe16881ebd1cc6f582b7",
+    "scripts/check_pipeline.py": "5f8462606cc9207705e64baae9a37d81dbd74cd5beb614a95a0a20d269c84cc3",
+    "scripts/check_reports.py": "5bf2253406d5b344248bc5f055fcfdb432ff7b69db7ab860546815cfd5626cee",
+    "scripts/collect_evidence.py": "96cc8d1efb6ffbe5f7fe863c4b6035559113e2a9110b404c31b1801fedc71a5f",
+    "scripts/compare_arrays.py": "be9e82b8788c111205712013d97d01150d5c037a56a6c03e3343d86965fb3a4e",
+    "scripts/install_skill.py": "9e61d6bf5ee543a1f0356e3df89b0c4f8168de70e9c697ecf03ae2e537bc1c40",
+    "scripts/run.py": "9d9e93a922bfcf2cb121b459e58dd3bb139e4b86531d5fbf4ec08f8cfefa0419",
+    "scripts/run_demo.py": "a86004e9516442acba58abb3750c7385b73d576d690aa6059759f65acd167042"
+  }
+}

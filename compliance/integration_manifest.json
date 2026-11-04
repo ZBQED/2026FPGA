@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "release_kind": "complete_reproduction_bundle",
+  "source_inputs": {
+    "medical_gesture_fpga.zip": "ab7c9ea1b5e8170a9114386e29a433099d60fc79a133d4f4d4fb9ac5c099cb71",
+    "medical_gesture_fpga_github.zip": "6442eaf43ec36b0ee0e678aae50098aa7ac6dd8d9b63338e1d211ccb9ba5df5b"
+  },
+  "bundled_inputs": "compliance/bundled_inputs.json",
+  "local_build_dependencies": "build/dependencies/manifest.json",
+  "dependency_policy": "all_runtime_and_build_data_local",
+  "original_component_licenses_retained": true
+}

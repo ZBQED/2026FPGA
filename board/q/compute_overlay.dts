@@ -1,0 +1,52 @@
+/dts-v1/;
+/plugin/;
+/ {
+  fragment@0 {
+    target = [ff ff ff ff];
+    __overlay__ {
+      #address-cells = [00 00 00 01];
+      #size-cells = [00 00 00 01];
+      gpio@80010000 {
+        compatible = [78 6c 6e 78 2c 61 78 69 2d 67 70 69 6f 2d 32 2e 30 00 78 6c 6e 78 2c 78 70 73 2d 67 70 69 6f 2d 31 2e 30 30 2e 61 00];
+        reg = [80 01 00 00 00 01 00 00];
+        #gpio-cells = [00 00 00 03];
+        gpio-controller;
+        clock-names = [73 5f 61 78 69 5f 61 63 6c 6b 00];
+        clocks = [ff ff ff ff 00 00 00 0f];
+        xlnx,gpio-width = [00 00 00 01];
+        xlnx,is-dual = [00 00 00 00];
+        xlnx,all-inputs = [00 00 00 00];
+        xlnx,all-outputs = [00 00 00 01];
+        xlnx,dout-default = [00 00 00 01];
+        xlnx,tri-default = [00 00 00 00];
+        xlnx,interrupt-present = [00 00 00 00];
+        status = [6f 6b 61 79 00];
+        phandle = [00 00 00 01];
+      };
+      keypoint-conv-i8@80000000 {
+        compatible = [67 65 73 74 75 72 65 2c 6b 65 79 70 6f 69 6e 74 2d 63 6f 6e 76 2d 69 38 2d 76 32 00];
+        reg = [80 00 00 00 00 01 00 00];
+        clock-names = [61 70 5f 63 6c 6b 00];
+        clocks = [ff ff ff ff 00 00 00 0f];
+        reset-gpios = [00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 01];
+        status = [6f 6b 61 79 00];
+      };
+    };
+  };
+  __symbols__ {
+    gesture_i8_reset = [2f 66 72 61 67 6d 65 6e 74 40 30 2f 5f 5f 6f 76 65 72 6c 61 79 5f 5f 2f 67 70 69 6f 40 38 30 30 31 30 30 30 30 00];
+  };
+  __fixups__ {
+    amba = [2f 66 72 61 67 6d 65 6e 74 40 30 3a 74 61 72 67 65 74 3a 30 00];
+    clkc = [2f 66 72 61 67 6d 65 6e 74 40 30 2f 5f 5f 6f 76 65 72 6c 61 79 5f 5f 2f 67 70 69 6f 40 38 30 30 31 30 30 30 30 3a 63 6c 6f 63 6b 73 3a 30 00 2f 66 72 61 67 6d 65 6e 74 40 30 2f 5f 5f 6f 76 65 72 6c 61 79 5f 5f 2f 6b 65 79 70 6f 69 6e 74 2d 63 6f 6e 76 2d 69 38 40 38 30 30 30 30 30 30 30 3a 63 6c 6f 63 6b 73 3a 30 00];
+  };
+  __local_fixups__ {
+    fragment@0 {
+      __overlay__ {
+        keypoint-conv-i8@80000000 {
+          reset-gpios = [00 00 00 00];
+        };
+      };
+    };
+  };
+};

@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<wave_config>
+  <wave_state />
+  <db_ref_list>
+    <db_ref path="E:/medical_gesture_detection/light_try/FPGA_120ms_work/waves_1103/ethernet/ethernet.wdb" id="1">
+      <top_modules>
+        <top_module name="tb" />
+      </top_modules>
+    </db_ref>
+  </db_ref_list>
+  <zoom_setting>
+    <ZoomStartTime time="240 ns" />
+    <ZoomEndTime time="1450 ns" />
+    <Cursor1Time time="1300 ns" />
+  </zoom_setting>
+  <column_width_setting>
+    <NameColumnWidth column_width="250" />
+    <ValueColumnWidth column_width="160" />
+  </column_width_setting>
+  <WVObjectSize size="6" />
+  <wvobject fp_name="/tb/frame_id" type="array">
+    <obj_property name="ElementShortName">frame_id</obj_property>
+    <obj_property name="ObjectShortName">frame_id</obj_property>
+    <obj_property name="Radix">HEXRADIX</obj_property>
+  </wvobject>
+  <wvobject fp_name="/tb/gmii_tx_en" type="logic">
+    <obj_property name="ElementShortName">gmii_tx_en</obj_property>
+    <obj_property name="ObjectShortName">gmii_tx_en</obj_property>
+  </wvobject>
+  <wvobject fp_name="/tb/gmii_rx_dv" type="logic">
+    <obj_property name="ElementShortName">gmii_rx_dv</obj_property>
+    <obj_property name="ObjectShortName">gmii_rx_dv</obj_property>
+  </wvobject>
+  <wvobject fp_name="/tb/sent" type="array">
+    <obj_property name="ElementShortName">sent</obj_property>
+    <obj_property name="ObjectShortName">sent</obj_property>
+    <obj_property name="Radix">HEXRADIX</obj_property>
+  </wvobject>
+  <wvobject fp_name="/tb/received" type="array">
+    <obj_property name="ElementShortName">received</obj_property>
+    <obj_property name="ObjectShortName">received</obj_property>
+    <obj_property name="Radix">HEXRADIX</obj_property>
+  </wvobject>
+  <wvobject fp_name="/tb/passed" type="logic">
+    <obj_property name="ElementShortName">passed</obj_property>
+    <obj_property name="ObjectShortName">passed</obj_property>
+  </wvobject>
+</wave_config>

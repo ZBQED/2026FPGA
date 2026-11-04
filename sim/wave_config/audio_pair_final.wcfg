@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<wave_config>
+  <wave_state />
+  <db_ref_list>
+    <db_ref path="E:/medical_gesture_detection/light_try/FPGA_120ms_work/waves_1103/p_audio/p_audio.wdb" id="1">
+      <top_modules>
+        <top_module name="tb" />
+      </top_modules>
+    </db_ref>
+  </db_ref_list>
+  <zoom_setting>
+    <ZoomStartTime time="20000 ns" />
+    <ZoomEndTime time="40000 ns" />
+    <Cursor1Time time="38900 ns" />
+  </zoom_setting>
+  <column_width_setting>
+    <NameColumnWidth column_width="250" />
+    <ValueColumnWidth column_width="160" />
+  </column_width_setting>
+  <WVObjectSize size="7" />
+  <wvobject fp_name="/tb/lrclk" type="logic">
+    <obj_property name="ElementShortName">lrclk</obj_property>
+    <obj_property name="ObjectShortName">lrclk</obj_property>
+  </wvobject>
+  <wvobject fp_name="/tb/bclk" type="logic">
+    <obj_property name="ElementShortName">bclk</obj_property>
+    <obj_property name="ObjectShortName">bclk</obj_property>
+  </wvobject>
+  <wvobject fp_name="/tb/sdata" type="logic">
+    <obj_property name="ElementShortName">sdata</obj_property>
+    <obj_property name="ObjectShortName">sdata</obj_property>
+  </wvobject>
+  <wvobject fp_name="/tb/serial_last" type="array">
+    <obj_property name="ElementShortName">serial_last</obj_property>
+    <obj_property name="ObjectShortName">serial_last</obj_property>
+    <obj_property name="Radix">HEXRADIX</obj_property>
+  </wvobject>
+  <wvobject fp_name="/tb/rx_left" type="array">
+    <obj_property name="ElementShortName">rx_left</obj_property>
+    <obj_property name="ObjectShortName">rx_left</obj_property>
+    <obj_property name="Radix">HEXRADIX</obj_property>
+  </wvobject>
+  <wvobject fp_name="/tb/rx_right" type="array">
+    <obj_property name="ElementShortName">rx_right</obj_property>
+    <obj_property name="ObjectShortName">rx_right</obj_property>
+    <obj_property name="Radix">HEXRADIX</obj_property>
+  </wvobject>
+  <wvobject fp_name="/tb/received" type="array">
+    <obj_property name="ElementShortName">received</obj_property>
+    <obj_property name="ObjectShortName">received</obj_property>
+    <obj_property name="Radix">HEXRADIX</obj_property>
+  </wvobject>
+</wave_config>

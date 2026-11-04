@@ -1,0 +1,14 @@
+[
+  {
+    "source": "E:\\medical_gesture_detection\\light_try\\FPGA_120ms_work\\FPGA\\hw\\p\\build_100MHz\\project\\pynq_hand_audio.gen\\sources_1\\bd\\base\\ipshared\\f35b\\src\\iis_ser.vhd",
+    "sha256": "0ca9f3da00c5c411cbabb8b32792444366178227c7a5d0005ed26665156268d8"
+  },
+  {
+    "source": "E:\\medical_gesture_detection\\light_try\\FPGA_120ms_work\\FPGA\\hw\\p\\build_100MHz\\project\\pynq_hand_audio.gen\\sources_1\\bd\\base\\ipshared\\f35b\\src\\iis_deser.vhd",
+    "sha256": "af72dd1856a870e63b4e8cd5c69ea2ceeedae35fb788d9029db568711e533b12"
+  },
+  {
+    "source": "E:\\medical_gesture_detection\\light_try\\FPGA_120ms_work\\FPGA\\hw\\p\\build_100MHz\\project\\pynq_hand_audio.gen\\sources_1\\bd\\base\\ipshared\\f35b\\src\\user_logic.vhd",
+    "sha256": "e975ce60e953fbdf4e8d7c75311f83596e8b8940fa5c3006188db6d3bda06e2e"
+  }
+]

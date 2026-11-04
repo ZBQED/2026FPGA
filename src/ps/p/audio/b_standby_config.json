@@ -1,0 +1,11 @@
+{
+  "chunk_seconds": 0.25,
+  "pre_roll_seconds": 1.0,
+  "threshold_dbfs": -28.5,
+  "trigger_chunks": 3,
+  "cooldown_seconds": 1.0,
+  "c_host": "192.168.1.10",
+  "c_port": 9000,
+  "input_source": "microphone",
+  "local_monitor_enabled": false
+}

@@ -1,0 +1,3597 @@
+{
+  "schema_version": 1,
+  "files": [
+    {
+      "path": "board/artifacts/nav_fp32/original.hwh",
+      "bytes": 1218322,
+      "sha256": "9d66fe7ff432fae51654441cf0de8bd01cd8c9b9f02e9db7ea5ca761d8a944fa",
+      "group": "target_artifacts",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "board/artifacts/nav_fp32/recovered.bit",
+      "bytes": 4045674,
+      "sha256": "9ebc8afd90222ed84f8efc55008400bfc409c1efd99c79edeb442f3492be72d5",
+      "group": "target_artifacts",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "board/artifacts/p/pynq_hand_dw8_audio_100mhz.bit",
+      "bytes": 4045672,
+      "sha256": "8dba7cd2b9fb4e7b53633f7c92cec7db1c1ffa0e65dd6297a16d80015f7880a0",
+      "group": "target_artifacts",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "board/artifacts/p/pynq_hand_dw8_audio_100mhz.hwh",
+      "bytes": 392227,
+      "sha256": "6cb827ebed4621b422c15d7b1ed6c2c29f53574fdbf98163aaddb8a346dec677",
+      "group": "target_artifacts",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "board/artifacts/q/qiming_dw_weight8_20261031_int8_150mhz.bit",
+      "bytes": 4045674,
+      "sha256": "326695c02344bf5adf2deccda81ebf4d03fc20995a32383a309373620e205783",
+      "group": "target_artifacts",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "board/artifacts/q/qiming_dw_weight8_20261031_int8_150mhz.hwh",
+      "bytes": 571245,
+      "sha256": "3594946466e5f0c68a5b3d7d0c9c95d82f6ede35b1c398636491dc0d35c84080",
+      "group": "target_artifacts",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "board/nav/boot/image.ub",
+      "bytes": 4861996,
+      "sha256": "a24c8a80dd373f75a77a3f8a5154b45244c7b04963d11825200269a1a24b7c2e",
+      "group": "target_artifacts",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "board/nav/boot/system.bit",
+      "bytes": 4045674,
+      "sha256": "8259e3a18fa2fe6181137ff11af06690739ef813a6626d8c76b1719c6bd2f9e3",
+      "group": "target_artifacts",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "board/runtime/nav/gesture_pl_driver.ko",
+      "bytes": 13080,
+      "sha256": "dc4ef9bfb68d80495129b703d072b56bc642042c9e22de86c0093a84c2ae70ac",
+      "group": "target_artifacts",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "board/runtime/nav/libcamera_timed_arm.so",
+      "bytes": 8408,
+      "sha256": "c981f26b23f783b245a2a0831f02d9c3b8d0945fe68534b6f539a08147b62cc2",
+      "group": "target_artifacts",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "board/runtime/nav/libgaussian3.so",
+      "bytes": 5152,
+      "sha256": "e2a8ae97aa30e53a1473ab55f620eefb871f8594f2e2a1329f7fb6a0a5572025",
+      "group": "target_artifacts",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "board/runtime/nav/libgesture_tflite_pl.so",
+      "bytes": 5180744,
+      "sha256": "6cd57afe24a657cf627904ed031be01e56adbc0c0d0a47b07a848c66fc9648a8",
+      "group": "target_artifacts",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "board/runtime/nav/libhand_crop.so",
+      "bytes": 7296,
+      "sha256": "112d329fed1044c2bb2caf21a58fbc908df3ead594f95d3386941cf672aaf6ba",
+      "group": "target_artifacts",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "board/runtime/nav/liblive_integer_frame.so",
+      "bytes": 15612,
+      "sha256": "67815b89b663be1168906af8baf98a1c2fedd5bde0600a007a0bcf883772b257",
+      "group": "target_artifacts",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "board/runtime/nav/libreport_integer_image.so",
+      "bytes": 15612,
+      "sha256": "5b7bb09b6c8990c5b36cb9aa3a239219b126380e707a94740f70e9354e958d49",
+      "group": "target_artifacts",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "board/runtime/nav/libyf2_geometry.so",
+      "bytes": 356496,
+      "sha256": "4836ff699ad3b8f53822f221eae25eb8729893a2e89cf556d119d1f632598cf9",
+      "group": "models_yolo",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "board/runtime/nav/medcomm_touch_ui",
+      "bytes": 317584,
+      "sha256": "721dbd4382b5b2c92be1aa014b9906c664393e9f05d2a825666b7fa917b3469d",
+      "group": "target_artifacts",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "board/runtime/p/gesture_pynq_hand_i8.ko",
+      "bytes": 18536,
+      "sha256": "f388158560b857e2e7831bebffd52725e25d13e587a887e89b7ea6dead7d2ab9",
+      "group": "target_artifacts",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "board/runtime/p/libfull_hand_pl.so",
+      "bytes": 33504,
+      "sha256": "8cd8837d67f0ced862066484493947138e07260989438c21eacce0517be6e756",
+      "group": "target_artifacts",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "board/runtime/q/gesture_pl_i8_driver_v14.ko",
+      "bytes": 17256,
+      "sha256": "73f0b2391e4707e149b966f9bac588492aa8bc3093a865bc8295269720f953ba",
+      "group": "target_artifacts",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "board/runtime/q/libfull_hand_pl.so",
+      "bytes": 42280,
+      "sha256": "76bb7e52830788b26acd272f8584ac59179eb43e87c44346a96d082af00dd5e2",
+      "group": "target_artifacts",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "board/runtime/q/libgesture_lite_i8_v12.so",
+      "bytes": 1758476,
+      "sha256": "d05d60bab4c00fe0660590c79e48417bb0376552657bd75035821649fd8c35e7",
+      "group": "target_artifacts",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "board/runtime/q/libgesture_tflite_pl.so",
+      "bytes": 5180744,
+      "sha256": "6cd57afe24a657cf627904ed031be01e56adbc0c0d0a47b07a848c66fc9648a8",
+      "group": "target_artifacts",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "board/runtime/q/libtcn_resample.so",
+      "bytes": 5156,
+      "sha256": "dd29661aa010322a11f2ef88daca23f11b252436455b789199e5daa0d00246f0",
+      "group": "target_artifacts",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "board/runtime/q/libyf2_raw_pl.so",
+      "bytes": 356496,
+      "sha256": "4836ff699ad3b8f53822f221eae25eb8729893a2e89cf556d119d1f632598cf9",
+      "group": "models_yolo",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "build/artifacts/arm/libgesture_lite_i8_v12.so",
+      "bytes": 1758476,
+      "sha256": "d05d60bab4c00fe0660590c79e48417bb0376552657bd75035821649fd8c35e7",
+      "group": "target_artifacts",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "build/artifacts/arm/libgesture_tflite_pl.so",
+      "bytes": 5180744,
+      "sha256": "6cd57afe24a657cf627904ed031be01e56adbc0c0d0a47b07a848c66fc9648a8",
+      "group": "target_artifacts",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "build/artifacts/arm/liblive_integer_frame.so",
+      "bytes": 15612,
+      "sha256": "67815b89b663be1168906af8baf98a1c2fedd5bde0600a007a0bcf883772b257",
+      "group": "target_artifacts",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "build/artifacts/arm/libreport_integer_image.so",
+      "bytes": 15612,
+      "sha256": "5b7bb09b6c8990c5b36cb9aa3a239219b126380e707a94740f70e9354e958d49",
+      "group": "target_artifacts",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "build/artifacts/drivers/nav/gesture_pl_driver.ko",
+      "bytes": 13320,
+      "sha256": "717945e884c0d922fffb211574188b69951e9fab89a7eb3ad50cbda43abc5d5d",
+      "group": "target_artifacts",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "build/artifacts/drivers/nav/reproduced_driver.ko",
+      "bytes": 13320,
+      "sha256": "717945e884c0d922fffb211574188b69951e9fab89a7eb3ad50cbda43abc5d5d",
+      "group": "target_artifacts",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "build/artifacts/nav/nav.bit",
+      "bytes": 4045674,
+      "sha256": "8259e3a18fa2fe6181137ff11af06690739ef813a6626d8c76b1719c6bd2f9e3",
+      "group": "target_artifacts",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "build/artifacts/nav/nav.hwh",
+      "bytes": 1217185,
+      "sha256": "bda2294efea3e20b4ffe063b3aefb65883612d1047ed5b5b8caf3da9c445cfc7",
+      "group": "target_artifacts",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "build/artifacts/nav/nav.xsa",
+      "bytes": 1540694,
+      "sha256": "c285ef462e244cf4c1dbd3f04493d94f20815f0807defb973d936ecc1a81aab6",
+      "group": "target_artifacts",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "build/artifacts/p/p.bit",
+      "bytes": 4045672,
+      "sha256": "8dba7cd2b9fb4e7b53633f7c92cec7db1c1ffa0e65dd6297a16d80015f7880a0",
+      "group": "target_artifacts",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "build/artifacts/p/p.hwh",
+      "bytes": 392227,
+      "sha256": "6cb827ebed4621b422c15d7b1ed6c2c29f53574fdbf98163aaddb8a346dec677",
+      "group": "target_artifacts",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "build/artifacts/p/p.xsa",
+      "bytes": 1662738,
+      "sha256": "225c414299d1fc3265a41a166256e7ff64bbe46418879cb99dff30976b6062a8",
+      "group": "target_artifacts",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "build/artifacts/q/q.bit",
+      "bytes": 4045674,
+      "sha256": "326695c02344bf5adf2deccda81ebf4d03fc20995a32383a309373620e205783",
+      "group": "target_artifacts",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "build/artifacts/q/q.hwh",
+      "bytes": 571245,
+      "sha256": "3594946466e5f0c68a5b3d7d0c9c95d82f6ede35b1c398636491dc0d35c84080",
+      "group": "target_artifacts",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "build/artifacts/q/q.xsa",
+      "bytes": 1721659,
+      "sha256": "069f503b25ed3e2b745bc1ef3d5dbc9cd19177581ab5e3804f62d612470449f4",
+      "group": "target_artifacts",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "build/sdk/drm/libdrm.so.2.4.0",
+      "bytes": 50512,
+      "sha256": "aae553ce4dc9cc13c1fed7475ea89597fa41603b8e279245c39ccd7ca44f939c",
+      "group": "target_artifacts",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "build/sdk/nav/nav_module_sdk.tar.gz",
+      "bytes": 10692123,
+      "sha256": "846a388b81029a4510e9fbb415fc278d234e4c86e2ffea1facf3cbcd13e2425b",
+      "group": "target_artifacts",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "install/wheels/pynacl-1.5.0-cp36-abi3-win_amd64.whl",
+      "bytes": 212141,
+      "sha256": "20f42270d27e1b6a29f54032090b972d97f0a1b0948cc52392041ef7831fee93",
+      "group": "python_dependencies",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "install/wheels/bcrypt-3.2.0-cp36-abi3-win_amd64.whl",
+      "bytes": 28948,
+      "sha256": "81fec756feff5b6818ea7ab031205e1d323d8943d237303baca2c5f9c7846f34",
+      "group": "python_dependencies",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "install/wheels/cffi-2.1.1-cp312-cp312-win_amd64.whl",
+      "bytes": 185919,
+      "sha256": "f53e442b08449d42821fa4a4fba000095af9f62742a500f978a9f557ec44339a",
+      "group": "python_dependencies",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "install/wheels/cryptography-42.0.5-cp39-abi3-win_amd64.whl",
+      "bytes": 2891129,
+      "sha256": "a011a644f6d7d03736214d38832e030d8268bcff4a41f728e6030325fea3e400",
+      "group": "python_dependencies",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "install/wheels/flatbuffers-25.12.19-py2.py3-none-any.whl",
+      "bytes": 26661,
+      "sha256": "7634f50c427838bb021c2d66a3d1168e9d199b0607e6329399f04846d42e20b4",
+      "group": "python_dependencies",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "install/wheels/numpy-2.5.2-cp312-cp312-win_amd64.whl",
+      "bytes": 12464674,
+      "sha256": "28ac63476ec7651484215ee7fa15a1f78b57c14621f01e392afe17b9a1390ce4",
+      "group": "python_dependencies",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "install/wheels/onnxruntime-1.31.0-cp312-cp312-win_amd64.whl",
+      "bytes": 14888841,
+      "sha256": "09d56445c1753e66e0912de69d3f0184016ad9a191dcd6925bf5dd570d2bfbe5",
+      "group": "python_dependencies",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "install/wheels/opencv_python-5.0.0.93-cp37-abi3-win_amd64.whl",
+      "bytes": 44000345,
+      "sha256": "f90ba04b8f73bc5c3814037699739f0156f597338a98f05956c684e7c3ca10d2",
+      "group": "python_dependencies",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "install/wheels/packaging-26.3-py3-none-any.whl",
+      "bytes": 129956,
+      "sha256": "d7193f7c8e4e93f444fde0262bf90af30e16fa0ad0ad44cb553c87339b23cd1c",
+      "group": "python_dependencies",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "install/wheels/paramiko-2.8.1-py2.py3-none-any.whl",
+      "bytes": 206580,
+      "sha256": "7b5910f5815a00405af55da7abcc8a9e0d9657f57fcdd9a89894fdbba1c6b8a8",
+      "group": "python_dependencies",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "install/wheels/protobuf-7.36.2-cp310-abi3-win_amd64.whl",
+      "bytes": 456514,
+      "sha256": "a300819d441e078a5608c0d3c709796bb548136058fda017ae51d425b44fd353",
+      "group": "python_dependencies",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "install/wheels/psutil-5.9.8-cp37-abi3-win_amd64.whl",
+      "bytes": 255090,
+      "sha256": "8db4c1b57507eef143a15a6884ca10f7c73876cdf5d51e713151c1236a0e68cf",
+      "group": "python_dependencies",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "install/wheels/pycparser-3.12-py3-none-any.whl",
+      "bytes": 62600,
+      "sha256": "a076f3f489b39b43ed13563a1dafe42447445bec2e294154ec5c57fcdda4c85e",
+      "group": "python_dependencies",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "install/wheels/six-1.17.0-py2.py3-none-any.whl",
+      "bytes": 11050,
+      "sha256": "4721f391ed90541fddacab5acf947aa0d3dc7d27b2e1e8eda2be8970586c3274",
+      "group": "python_dependencies",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "runtime/project/fpga/output/report_hybrid_0600_20261101/board_workers/pynq/runtime_package/build_100MHz/pynq_hand_dw8_audio_100MHz.bit",
+      "bytes": 4045672,
+      "sha256": "8dba7cd2b9fb4e7b53633f7c92cec7db1c1ffa0e65dd6297a16d80015f7880a0",
+      "group": "runtime_targets",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "runtime/project/fpga/output/report_hybrid_0600_20261101/board_workers/pynq/runtime_package/build_100MHz/pynq_hand_dw8_audio_100MHz.hwh",
+      "bytes": 392227,
+      "sha256": "6cb827ebed4621b422c15d7b1ed6c2c29f53574fdbf98163aaddb8a346dec677",
+      "group": "runtime_targets",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "runtime/project/fpga/output/report_hybrid_0600_20261101/board_workers/pynq/runtime_package/driver/gesture_pynq_hand_i8.ko",
+      "bytes": 18536,
+      "sha256": "f388158560b857e2e7831bebffd52725e25d13e587a887e89b7ea6dead7d2ab9",
+      "group": "runtime_targets",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "runtime/project/fpga/output/report_hybrid_0600_20261101/board_workers/qiming/candidate.bit",
+      "bytes": 4045674,
+      "sha256": "326695c02344bf5adf2deccda81ebf4d03fc20995a32383a309373620e205783",
+      "group": "runtime_targets",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "runtime/project/fpga/output/report_hybrid_0600_20261101/board_workers/qiming/candidate.hwh",
+      "bytes": 571245,
+      "sha256": "3594946466e5f0c68a5b3d7d0c9c95d82f6ede35b1c398636491dc0d35c84080",
+      "group": "runtime_targets",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "runtime/project/fpga/output/report_hybrid_0600_20261101/board_workers/qiming/gesture_pl_i8_driver_v14.ko",
+      "bytes": 17256,
+      "sha256": "73f0b2391e4707e149b966f9bac588492aa8bc3093a865bc8295269720f953ba",
+      "group": "runtime_targets",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "runtime/project/fpga/output/report_hybrid_0600_20261101/board_workers/qiming/wiring/libtcn_resample.so",
+      "bytes": 5156,
+      "sha256": "dd29661aa010322a11f2ef88daca23f11b252436455b789199e5daa0d00246f0",
+      "group": "runtime_targets",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "runtime/project/fpga/output/report_hybrid_0600_20261101/nav_window/liblive_integer_frame.so",
+      "bytes": 15612,
+      "sha256": "67815b89b663be1168906af8baf98a1c2fedd5bde0600a007a0bcf883772b257",
+      "group": "runtime_targets",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "runtime/project/fpga/output/report_hybrid_0600_20261101/nav_window/libreport_integer_image.so",
+      "bytes": 15612,
+      "sha256": "5b7bb09b6c8990c5b36cb9aa3a239219b126380e707a94740f70e9354e958d49",
+      "group": "runtime_targets",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "runtime/project/fpga/output/three_board_fast_v8/capture_timing/tim9/libcamera_timed_arm.so",
+      "bytes": 8408,
+      "sha256": "c981f26b23f783b245a2a0831f02d9c3b8d0945fe68534b6f539a08147b62cc2",
+      "group": "runtime_targets",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "runtime/project/display_accel_20261103/attempt10_medcomm_touch_ui.speed",
+      "bytes": 317584,
+      "sha256": "721dbd4382b5b2c92be1aa014b9906c664393e9f05d2a825666b7fa917b3469d",
+      "group": "runtime_targets",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "runtime/project/models/full_hand/libfull_hand_pl.so",
+      "bytes": 33504,
+      "sha256": "8cd8837d67f0ced862066484493947138e07260989438c21eacce0517be6e756",
+      "group": "runtime_targets",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "runtime/project/models/movenet_lightning_evaluation/libmovenet_requant.so",
+      "bytes": 11300,
+      "sha256": "3be2a6b7fdfc1400b54b44f1cf06dd8b7fcecbc3d7535ef55f018522e09f8d2d",
+      "group": "runtime_targets",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "runtime/project/models/person_raw_pl/libyf2_raw_pl.so",
+      "bytes": 356496,
+      "sha256": "4836ff699ad3b8f53822f221eae25eb8729893a2e89cf556d119d1f632598cf9",
+      "group": "models_yolo",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "runtime/project/models/shared_workspace/full_body_channels_cached/libfull_hand_pl.so",
+      "bytes": 173384,
+      "sha256": "691646f7ceb81fb71c4b0cfa725427a028ff8426d632dba13e0722ee7a38ae64",
+      "group": "runtime_targets",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "runtime/project/models/shared_workspace/full_hand/libfull_hand_pl.so",
+      "bytes": 42280,
+      "sha256": "76bb7e52830788b26acd272f8584ac59179eb43e87c44346a96d082af00dd5e2",
+      "group": "runtime_targets",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "runtime/project/models/shared_workspace/full_palm_fused_cached/libfull_hand_pl.so",
+      "bytes": 62872,
+      "sha256": "4fade99d2ff096f6f5e8edaea4dacd30c2271cf7f803bffd7705cdfc2a73beff",
+      "group": "runtime_targets",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "runtime/project/models/tcn508a/minimal/runtime/libgesture_lite_i8_v12.so",
+      "bytes": 1758476,
+      "sha256": "d05d60bab4c00fe0660590c79e48417bb0376552657bd75035821649fd8c35e7",
+      "group": "runtime_targets",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "runtime/project/models/tcn508a/minimal/runtime/libgesture_tflite_pl.so",
+      "bytes": 5180744,
+      "sha256": "6cd57afe24a657cf627904ed031be01e56adbc0c0d0a47b07a848c66fc9648a8",
+      "group": "runtime_targets",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "runtime/project/nav_preprocess_20261103/libhand_crop.so",
+      "bytes": 7296,
+      "sha256": "112d329fed1044c2bb2caf21a58fbc908df3ead594f95d3386941cf672aaf6ba",
+      "group": "runtime_targets",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "runtime/project/pc_accel/body_nav_post_20261103/libbody_post.so",
+      "bytes": 5260,
+      "sha256": "a431c165cbcae23a867335e1dac12ff15aeb4a6cc30445e5b6456905a6abe076",
+      "group": "runtime_targets",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8.v",
+      "bytes": 489734,
+      "sha256": "87d7ecfad71f380635e9bc6bb053accda922e6e8c8d688204f8b07e3177e65f1",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_ama_addmul_sub_13ns_6ns_2ns_3ns_13_4_1.v",
+      "bytes": 2271,
+      "sha256": "6aba6f1d9f7f3bdf3709c689174d1500857df064ac0f52b5e9f12c7f7056a71c",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_ama_addmuladd_21s_13s_11ns_11ns_32_4_1.v",
+      "bytes": 2270,
+      "sha256": "52baceff400ac0195b65e0b072a69160b7a7e321f9af93fc73fa2e86c3e86b8a",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_ama_addmuladd_6ns_3ns_11ns_11ns_17_4_1.v",
+      "bytes": 2272,
+      "sha256": "267ae306f9d8378b9ef3497351c01a1735d13f146cf0d1f667466fbdcce34724",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_ama_submuladd_8s_9s_8s_32s_32_4_1.v",
+      "bytes": 2243,
+      "sha256": "3d3a413d016d6b399b0a4a0ef1236530a8509aff88bf2c8cad8d3c6423c3b0ab",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_control_s_axi.v",
+      "bytes": 18265,
+      "sha256": "fac119cfca2aecd747078a1c5f2e7dcf928a83faee2abeae30f4a07877c2e339",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_fifo_w1048_d2_d.v",
+      "bytes": 6696,
+      "sha256": "d00aa59f1b4c6692137f26f01f242e04500d2b668bd735476a457d80effe194c",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_fifo_w11_d2_s.v",
+      "bytes": 4303,
+      "sha256": "b7402b0b62980773b191f037ce5518c491c079f3887b3889c5c2155e951cc35b",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_fifo_w32_d2_s.v",
+      "bytes": 4303,
+      "sha256": "e85bf0554167263c976a6ea7acf6afe3f8ba447c3b4d3fa1b4b80c201d366523",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_fifo_w535_d2_d.v",
+      "bytes": 6690,
+      "sha256": "af86d3271c669d07786b9d60373cddf69cfdb5ea883d589022bb0e392fbb2812",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_flow_control_loop_pipe_sequential_init.v",
+      "bytes": 2889,
+      "sha256": "d58b62e42d71ae6e76569e5e10a12e6ec56e1c815099eb9df3bb2b658e159463",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_gmem_m_axi.v",
+      "bytes": 103872,
+      "sha256": "bd4c8ba979a3da41e573a8862c8192e77a0698b9950db2d4cad8c5629aa332b4",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_mac_mul_sub_10ns_2ns_3ns_13_4_1.v",
+      "bytes": 2007,
+      "sha256": "ed6566186e7c158da43b1f20a0f7ca03a63c1f6c0783be6ccfdc8949bbe21c88",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_mac_mul_sub_20ns_2ns_3ns_23_4_1.v",
+      "bytes": 2007,
+      "sha256": "ed04238d59deb77e2f25aa2909378b44e11757eb65002a3b4f276f443be7832e",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_mac_muladd_10ns_2ns_5s_13_4_1.v",
+      "bytes": 1997,
+      "sha256": "7e0bf98f532a08cde5f1058dc18ecd6aad403e4be8f9f08d9268fe2f20d99d91",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_mac_muladd_10s_6ns_10ns_10_4_1.v",
+      "bytes": 2002,
+      "sha256": "cddc4f2e8cc30adea09f3422b39599394e6c869674de73de1c2f5a39907b50bd",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_mac_muladd_11ns_10ns_3ns_21_4_1.v",
+      "bytes": 2008,
+      "sha256": "e55d4fda2c4068dca0e8390f69ebe4686ea5739d3b07572b33899cccfd3b143e",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_mac_muladd_11ns_6ns_11ns_17_4_1.v",
+      "bytes": 2008,
+      "sha256": "a65477e1ddb705a3fd319c8eeb2a09981141ae8e4a8278e70f42d820002c13b6",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_mac_muladd_11ns_7ns_11ns_18_4_1.v",
+      "bytes": 2008,
+      "sha256": "3ef61e3be713e076f61faf43d7cb188e6c2c6dea22d50215674ef1d5fae0101a",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_mac_muladd_11ns_7ns_12ns_16_4_1.v",
+      "bytes": 2008,
+      "sha256": "e88c05a7796ad468e3af4316da02829c07414f7cd1d7866e4cd98dadd784da5f",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_mac_muladd_12ns_7ns_12ns_13_4_1.v",
+      "bytes": 2008,
+      "sha256": "719320222532ea06e1af36793d9c35a4ef60ddae6aafedc14e01c3da09ce1d73",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_mac_muladd_13s_8ns_13ns_13_4_1.v",
+      "bytes": 2002,
+      "sha256": "a26cdecccf7f3052591c6e0d8521edeecd3d83a97b92ef620256962d3ad70673",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_mac_muladd_15ns_11ns_15ns_26_4_1.v",
+      "bytes": 2013,
+      "sha256": "dcac5e7a98f648c0f6f59726e6a89eebd52ff7e7bd770c5de12cfa13bea32338",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_mac_muladd_3ns_3ns_3ns_6_4_1.v",
+      "bytes": 1993,
+      "sha256": "cf501ae832f489b7adb9e3aca2c698c961e3c8d483d70a04e4adaa24e23ca470",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_mac_muladd_8ns_6ns_8ns_10_4_1.v",
+      "bytes": 1998,
+      "sha256": "940ec85d99a3ce272502c43dadf87e9ce37cfd43a4038186f80e4e90b71487ea",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_p_anonymous_namespace_compute_tile.v",
+      "bytes": 101987,
+      "sha256": "acbc27b34120609a5151230098ca5b91133b6a6226c3c39090dafc40bc4d626a",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_p_anonymous_namespace_generic_raw.v",
+      "bytes": 53728,
+      "sha256": "fae6d1391f36a3825900b4690c875b5cdf2e8cb0b9122120f7662d9b98a89ecf",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_p_anonymous_namespace_load_patch.v",
+      "bytes": 156669,
+      "sha256": "92a79ce01843ae92a2edf3f40f2ae7113e9437e0df52b42bd81878036ea6fdcd",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_p_anonymous_namespace_load_patch_pipeline_direct_contiguous_burst.v",
+      "bytes": 21036,
+      "sha256": "5a52403a5b23aeb40ee116cb458403d0de8b48e3a66d39fae7239f1a6b0cf422",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_p_anonymous_namespace_load_patch_pipeline_direct_pixel_direct_pack.v",
+      "bytes": 55144,
+      "sha256": "a6af8192ca6c451933f4b8982acc54489bd6e99d7994bfef4e1bf6cb4f4d66fb",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_p_anonymous_namespace_load_patch_pipeline_patch_continuous_bytes.v",
+      "bytes": 75637,
+      "sha256": "17f1ef8cb1ff2f4192200c13dc30e0bf88c947dba4d37035c9c17ec98e845c1a",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_p_anonymous_namespace_load_patch_rgb_rows.v",
+      "bytes": 67788,
+      "sha256": "fe9b338237fb0cb51d6287e95abc6fdb168d7afdf50f3684d49abd1662d64dae",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_p_anonymous_namespace_load_patch_rgb_rows_outline_stem_new_rows.v",
+      "bytes": 32929,
+      "sha256": "037adaaea2a6b8ad4cb42d5d6221b1def84affe44518a8744eb8ba0ce73bee51",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_p_anonymous_namespace_load_patch_rgb_rows_outline_vitis_loop_179_1.v",
+      "bytes": 22343,
+      "sha256": "2980850068fcbde98ee278bca3220eb6f2b7a7e061eef679e7c280210420dc3c",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_p_anonymous_namespace_load_patch_rgb_rows_pipeline_stem_cached_patch_bytes.v",
+      "bytes": 39645,
+      "sha256": "b608a2ebb45f5aaa1d368db67f94d8e0b4bedba63e21f0f26c4a78ee25b7a54d",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_p_anonymous_namespace_load_patch_rgb_rows_pipeline_stem_row_burst.v",
+      "bytes": 14218,
+      "sha256": "69afff81887e71285c6cff2547702a4dea043c83d526bd1a5b288793599a373f",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_p_anonymous_namespace_load_patch_rgb_rows_rows_ram_2p_bram_2r1w.v",
+      "bytes": 1565,
+      "sha256": "159efdfe80397e26d1296a39803c6adba8f13e6e536a3b5b89e342568bd4f206",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_p_anonymous_namespace_load_prelu_tables.v",
+      "bytes": 39430,
+      "sha256": "5cedf14d5e3fca7a129cec15bb63a6df971d6a7e5b42129f1175171c321e7c77",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_p_anonymous_namespace_load_row.v",
+      "bytes": 54328,
+      "sha256": "f3c9078db8ab38c047c1a280d135a0308c63751dc72826748170346cb13a1a49",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_p_anonymous_namespace_load_row_pipeline_row_burst.v",
+      "bytes": 29583,
+      "sha256": "810382b6a8b9221d2067916548dd5918f7eeb08fd3eb12707c4ba5b5f8af9501",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_p_anonymous_namespace_load_weights.v",
+      "bytes": 163788,
+      "sha256": "e946b21a8d42dbf1cae372809797545728224d391b525e585923785b70277d08",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_p_anonymous_namespace_load_weights_pipeline_load_dw8_taps.v",
+      "bytes": 38333,
+      "sha256": "9a6df5792535b9e51e259fc6b3f6567c5ff625870d70522dd33a43f683a6fdba",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_p_anonymous_namespace_load_weights_pipeline_load_dw_taps.v",
+      "bytes": 31304,
+      "sha256": "718a61ef8b8f99f7d335b07cfe817264d2bbaf8a1c294ddf776627f3828d5adf",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_p_anonymous_namespace_load_weights_pipeline_load_w_contiguous.v",
+      "bytes": 35389,
+      "sha256": "96869744eaa6ccf5d56f005dccc83f9d3d48a17ea6d6bcaef4a5feba47dd0bf7",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_p_anonymous_namespace_load_weights_pipeline_load_w_oc_load_w_pack.v",
+      "bytes": 66326,
+      "sha256": "f91f0b97ed48dfec003e98e9a69f149224bd84e401d5c5f73dc9d5cdcd3e614c",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_p_anonymous_namespace_mac_stage.v",
+      "bytes": 183089,
+      "sha256": "7617d325e8f9460047a88a56da02ed50d6fb3fe1eeadb460e6962d14830420f8",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_p_anonymous_namespace_mac_stage_pipeline_dw_tap_ky_dw_tap_kx.v",
+      "bytes": 326913,
+      "sha256": "ad3780315fef3c54b6cd3034cd9add1b644846b1e59020666ccac3123f5c844e",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_p_anonymous_namespace_mac_stage_pipeline_pw_oc16_packed_pw_pixel_reduction.v",
+      "bytes": 264772,
+      "sha256": "21b023a721f4de3e22ce2b882ba1691ff157d8f1dd82aa7712e9e11ff2362369",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_p_anonymous_namespace_post_int8_work.v",
+      "bytes": 216884,
+      "sha256": "6cbdbd61be16a6a868313c82a2711c8355f226fc1022595ada65ca71e0877d5a",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_p_anonymous_namespace_post_stage.v",
+      "bytes": 78570,
+      "sha256": "4cc5cda858c4043af05137c91ee559fa8098c8875ada009f9549240d78d8be20",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_p_anonymous_namespace_prelu_lut.v",
+      "bytes": 139207,
+      "sha256": "0fdbe354789f882c0c819887a8634cf484ca5f565e74a8ec93f520d5f02aacd4",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_p_anonymous_namespace_prelu_lut_pipeline_prelu_general_words_prelu_general_bytes.v",
+      "bytes": 38775,
+      "sha256": "5da890210fde04a950f07e1b0f1afb12cc312583280caf9d3caf29c73a27b962",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_p_anonymous_namespace_prelu_lut_pipeline_prelu_nhwc_words.v",
+      "bytes": 38807,
+      "sha256": "3173116b8ff16e9ac84c6807310610ba14a45bf3a8b496905777129345779688",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_p_anonymous_namespace_requantize.v",
+      "bytes": 27807,
+      "sha256": "55c06b956f0e1d324c44e03090ffe48a47c06c7c7c10141a5076c1e31c231dfd",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_p_anonymous_namespace_store_tile.v",
+      "bytes": 40418,
+      "sha256": "234126d1082834ae8e85284fea02d64f16b9f8d9ac5a243ec2095ffa09e29014",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_p_anonymous_namespace_store_tile_pipeline_output_contiguous_burst.v",
+      "bytes": 29924,
+      "sha256": "3fc202064f00df568c31295bbeed021c33314b7e954915438b25db7b425aed40",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_p_anonymous_namespace_unpack_pw32.v",
+      "bytes": 10798,
+      "sha256": "35fd6c1ea9614b5aeb81746885f03a1937935fd487f4ead9bf945ff5cf5bd051",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_p_anonymous_namespace_unpack_pw32_pipeline_pw32_unpack.v",
+      "bytes": 14905,
+      "sha256": "7a9d37864897ae39ca16d305d78b580276b58c6432072d7c1521299eb978e001",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_p_anonymous_namespace_write_piece.v",
+      "bytes": 27962,
+      "sha256": "0d30bbdcb29ac8585770fcdb98f948ed74e8740e2c84ed4034b405b151a34328",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_p_anonymous_namespace_write_piece_pipeline_raw_byte_banks.v",
+      "bytes": 35404,
+      "sha256": "d3598dc52927882daf8e38eafbfdf5ebc1572021cd84c65eabcb69ac3ebb7d90",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_partselect_8ns_64ns_32ns_8_1_1.v",
+      "bytes": 791,
+      "sha256": "55bf84e1bb49d5e17844434a78471b97b46b216bc7f10e1f1fecba7ee74e3b19",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_partset_64ns_64ns_32ns_32ns_64_1_1.v",
+      "bytes": 936,
+      "sha256": "b7856079eb97aed56cbe5bf05da10944c405bc70bf790b27695ee5fe42e09bab",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_partset_64ns_64ns_8ns_32ns_64_1_1.v",
+      "bytes": 909,
+      "sha256": "2f2c1b664c685d06889274ccfab9d3878b846124111243fa5d1257fd03f7a717",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_prelu_table_ram_s2p_bram_2r1w.v",
+      "bytes": 1399,
+      "sha256": "a3f94e7ec364f4f9bb6008339a0fd3a48a52865678f7e1d54b200e9b03825240",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_q_ram_2p_bram_2r1w.v",
+      "bytes": 1388,
+      "sha256": "4cdb21324af3eb7f17523791f9349c8e0dfb8b715feb02f49195ce4c7db28824",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_sdiv_32s_11ns_10_36_seq_1.v",
+      "bytes": 5438,
+      "sha256": "84145b0e9f393daac78f623fb4d615046b0b9fdc5918dd9b796a5c3763b9508b",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_sparsemux_11_3_13_1_1.v",
+      "bytes": 1581,
+      "sha256": "8c230aa54ba81c2d75972f68e155d939d7a9c823eba08951b506a058e730f40c",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_sparsemux_11_3_1_1_1.v",
+      "bytes": 1580,
+      "sha256": "44b9846d4268cd6119ee3cbb4b2d3c5c72fee0a556d5f377c6c9921c9fad2579",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_sparsemux_11_3_9_1_1.v",
+      "bytes": 1580,
+      "sha256": "8ad0d4c4a556f1074d25bf05bf6582edd6a3a5ac10adadbe5539e6a02561d76d",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_sparsemux_15_4_32_1_1.v",
+      "bytes": 1865,
+      "sha256": "e0bf6abd5f378e8ba6c50445c4558114dbef0d8225d71e8162db701d4b1f4d27",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_sparsemux_17_3_64_1_1.v",
+      "bytes": 2007,
+      "sha256": "914f24193248ea1f9968a2c0ef335fa89bc0bbb42a08f4b8cc4dcea742e46c73",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_sparsemux_17_4_32_1_1.v",
+      "bytes": 2007,
+      "sha256": "7be115395607b689ed6b233cd7eece0d412f064b8d74a24026f172bf697ef058",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_sparsemux_33_4_64_1_1.v",
+      "bytes": 3185,
+      "sha256": "df6e07987b6f787f65f0990bc04a01fc46ecf28aa90c59fb5ad3bf94a3e8d0e9",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_sparsemux_7_2_2_1_1.v",
+      "bytes": 1295,
+      "sha256": "74495bfa77dbb2bab3abedaa9772ee2e1366a5671b135d650c188b73d2675e3f",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_sparsemux_7_2_34_1_0.v",
+      "bytes": 1296,
+      "sha256": "084360fce849f6c9e64003f69a47ccfd97494dbc36239432ab3089bf00b4fa79",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_sparsemux_7_2_3_1_1.v",
+      "bytes": 1295,
+      "sha256": "f0e4bc64d6c780f4627e5b93486702008806894b8e62be96018b4091f26bb5f9",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_srem_11s_4ns_9_15_seq_1.v",
+      "bytes": 5431,
+      "sha256": "a0bef309597b827fe0c6cc6272a41249907451ab259f82bca4fd491ae20840eb",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_srem_32s_11ns_10_36_seq_1.v",
+      "bytes": 5439,
+      "sha256": "49e4431df87fb3d2b193d71c02b87bd3c797d65aa721437d34d371277546e665",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_srem_32s_4ns_3_36_seq_1.v",
+      "bytes": 5431,
+      "sha256": "e82078b6bc47c1257bf22da2a736fad73dc600d286adff596b044efd2943e1b6",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_start_for_p_anonymous_namespace_unpack_pw32_u0.v",
+      "bytes": 4225,
+      "sha256": "b10c697d8ca2c4c7d8e6e3761b573e2e4c1eca583c2e3026fb3cf10165018b89",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_udiv_14s_12ns_14_18_seq_1.v",
+      "bytes": 4593,
+      "sha256": "f8e08391b5a2b732b8f89bdb601271dd34b85fef5215aa9fdbca78fec73619a6",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_udiv_17s_13ns_7_21_seq_1.v",
+      "bytes": 4589,
+      "sha256": "ef85ec170d2519ee24a913a56f7e84a88993606911f9a878a066611e1aba0aea",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_udiv_20ns_10ns_20_24_seq_1.v",
+      "bytes": 4597,
+      "sha256": "9d7c00045ff005f804b833a6b47e5609590ec4df6578c224ce7109661867cd84",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_urem_20ns_10ns_10_24_seq_1.v",
+      "bytes": 4597,
+      "sha256": "d94893e3e3274fce1d9aafa808c8e24663da70df5c1c19ba7da7760168f7f10f",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_urem_32s_3ns_13_36_seq_1.v",
+      "bytes": 4589,
+      "sha256": "18808973c39e325597bee17092c5daab028e04d5771f5dd74e35fcaf0cc86a45",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_urem_32s_4ns_9_36_seq_1.v",
+      "bytes": 4585,
+      "sha256": "d1caf3aed6d43e9c5004cd9e9fd2968dfd8ae20c9ae3cb594a07e9bdad9ed62f",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_w_ram_2p_bram_2r1w.v",
+      "bytes": 1556,
+      "sha256": "432c7b13aae5d4a992e71c7f49227ac87b5f7245b7f5bb5997c5154ee1b016ad",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_x_ram_2p_bram_2r1w.v",
+      "bytes": 1390,
+      "sha256": "fd39580e473c58653fde2da629b74d6eb92495d26222fccf246b14adc5757d93",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/core/rtl/keypoint_conv_i8_y_ram_2p_bram_2r1w.v",
+      "bytes": 1389,
+      "sha256": "f350873cd2f1bc3b72ad28705bf8102fcdf957f440ecee2073c0c5a91c13c5e3",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/ethernet/gmii_to_rgmii.v",
+      "bytes": 3105,
+      "sha256": "fbef7d846e18f76e0e4f15d3fcf0c95d06e73ba291adc950206119897023ef55",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/ethernet/rgmii_rx.v",
+      "bytes": 8024,
+      "sha256": "d1bea161e3a69c90e9149c65fd9caf7ab921dac171807f5a8668531786c1e4a5",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/ethernet/rgmii_tx.v",
+      "bytes": 3450,
+      "sha256": "4f2eb96ccd1d2fb1be50934a939969ff74328a525905b6e074ce5731636631b4",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/ov5640/ov5640_capture_data.v",
+      "bytes": 6076,
+      "sha256": "59876e8c6054e7520e056c58735c6cffbc1c7fb492d0c11aea5842cf3e177673",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/p_audio/user_logic.vhd",
+      "bytes": 13014,
+      "sha256": "89e82f4f74a8fb436b93bd169612de85e602a3a8e509cfd44c2352d13f52d830",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/video/system_v_frmbuf_wr_0_0_axivideo2multipixstream.v",
+      "bytes": 25231,
+      "sha256": "dc22a6e0287951ed54fafd4fa4ab241d76daacc68b86e7d3e85160b143d14ddf",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/video/system_v_frmbuf_wr_0_0_axivideo2multipixstream_pipeline_loop_wait_for_eol.v",
+      "bytes": 7795,
+      "sha256": "b897006a276fb5a81d6a367b9dde6b6d25386ebba67aa3c60860290d2ca7b3a2",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/video/system_v_frmbuf_wr_0_0_axivideo2multipixstream_pipeline_loop_wait_for_start.v",
+      "bytes": 7231,
+      "sha256": "ecfe32114cf2a995798169ec9155c0642db022457bface6ea8808e4bb61b81e7",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/video/system_v_frmbuf_wr_0_0_axivideo2multipixstream_pipeline_loop_width.v",
+      "bytes": 15002,
+      "sha256": "ae142f1889458d01cd54a43044d3513039ded3ac0e5f77d0c9c86838af5678bb",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/video/system_v_frmbuf_wr_0_0_bytes2aximmvideo.v",
+      "bytes": 52516,
+      "sha256": "ddcba91f42c39424176170c41702b357a2caefcf5c9649a65f0f9d7489796625",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/video/system_v_frmbuf_wr_0_0_bytes2aximmvideo_pipeline_vitis_loop_1504_1.v",
+      "bytes": 13614,
+      "sha256": "9ed29c4a0d7d7d56e86e53806e5c1b48ea8fcb0cb03d7040f9d4143fea76d71f",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/video/system_v_frmbuf_wr_0_0_bytes_per_pixel_rom_auto_1r.v",
+      "bytes": 914,
+      "sha256": "12336da19b230909a5b449ac602cf6c6b8a45e6e8844a2dd28aa99cd88969d53",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/video/system_v_frmbuf_wr_0_0_ctrl_s_axi.v",
+      "bytes": 17849,
+      "sha256": "d44b4465254c9277a072f41ac5fc375558b291ac511e6313b042980eba0c5bca",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/video/system_v_frmbuf_wr_0_0_entry_proc.v",
+      "bytes": 5896,
+      "sha256": "3feb069ae89bdf7725d041cd7a639df5b012d06d4e4720c44b1af95c523b5ec1",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/video/system_v_frmbuf_wr_0_0_fifo_w14_d2_s.v",
+      "bytes": 4327,
+      "sha256": "0d7635919a9e601d52585256a7111c6c86f7a52ec3e177140b7d3dbf9946ed79",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/video/system_v_frmbuf_wr_0_0_fifo_w14_d3_s.v",
+      "bytes": 4327,
+      "sha256": "16ca592206d33409c3cef8246781f316ad6198b4bada177195cec7c081c6310e",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/video/system_v_frmbuf_wr_0_0_fifo_w24_d2_s.v",
+      "bytes": 4327,
+      "sha256": "ec1cc970ce903178ed4b4dde03d4361430c934dfdf7900bd01ad6394c7c07452",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/video/system_v_frmbuf_wr_0_0_fifo_w32_d4_s.v",
+      "bytes": 4327,
+      "sha256": "39d6e7363478a0b8022f1ff4116fd0995de247097efb7dfeb2dfd2faa66c1b2e",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/video/system_v_frmbuf_wr_0_0_fifo_w64_d481_b.v",
+      "bytes": 6708,
+      "sha256": "6be74425b0037b004a34642c208dfcf671abcc3d69aac769c618795b31bbe3de",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/video/system_v_frmbuf_wr_0_0_flow_control_loop_pipe_sequential_init.v",
+      "bytes": 2895,
+      "sha256": "7f1dd2d5f25b3e211dcd4902dbe1902a9d6be56b6855b7e8dfe17a4170fb09ed",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/video/system_v_frmbuf_wr_0_0_frmbufwrhlsdataflow.v",
+      "bytes": 27138,
+      "sha256": "6d1f706fa1a8b0b81906836c7bb52dc1f69a1ff87f2c19c214e5b9ecf7897437",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/video/system_v_frmbuf_wr_0_0_memory2live_rom_auto_1r.v",
+      "bytes": 906,
+      "sha256": "2632562c9f8935389149e30848efa45a1b8178e693307f6b59ef4c71346fe93b",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/video/system_v_frmbuf_wr_0_0_mm_video_m_axi.v",
+      "bytes": 105909,
+      "sha256": "51dd972ba83822721275322fc9cb133ad26689ea8c153d53ede88ad811d159d7",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/video/system_v_frmbuf_wr_0_0_multipixstream2bytes.v",
+      "bytes": 34734,
+      "sha256": "2176e5f2276bcbcc3c2f4a61e9ff819f6f7cd13ee7b37fda108dafebf7c81d15",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/video/system_v_frmbuf_wr_0_0_multipixstream2bytes_pipeline_vitis_loop_1048_1.v",
+      "bytes": 51776,
+      "sha256": "43d5ee9687a70b914326a36e2514bd792875d59ae150bc3dfb4d45f9c25bbdbb",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/video/system_v_frmbuf_wr_0_0_multipixstream2bytes_pipeline_vitis_loop_1291_6.v",
+      "bytes": 52987,
+      "sha256": "3b71fa480d9220501edcccdc2fea46cdb8330cbdf64b079fc0cfc319c8cb4dd9",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/video/system_v_frmbuf_wr_0_0_reg_unsigned_short_s.v",
+      "bytes": 3840,
+      "sha256": "3489bd624a9b865141c96894b38b71bcd925b7168bde39f6ae6127395942eb29",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/video/system_v_frmbuf_wr_0_0_regslice_both.v",
+      "bytes": 3331,
+      "sha256": "63a8e3d0002fbc61acc43cc9adf3255905ac22a30821133876458aeaa175cc94",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/video/system_v_frmbuf_wr_0_0_start_for_bytes2aximmvideo_u0.v",
+      "bytes": 4181,
+      "sha256": "e7e0d947d956d0345b392c2041e0f3ce8e43d7dc45ede61a53ff18a82cfb5210",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/video/system_v_frmbuf_wr_0_0_start_for_multipixstream2bytes_u0.v",
+      "bytes": 4197,
+      "sha256": "f56c076d95dda192915f561ce3948158f7506b3ff96a9803a066b2741cdc4759",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "sim/design/video/system_v_frmbuf_wr_0_0_v_frmbuf_wr.v",
+      "bytes": 35505,
+      "sha256": "edb6928a54cb8d63f1bc93050caee8855638dc82f690dc755b836750ff26f74e",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/native/person/yf2_weights.h",
+      "bytes": 958914,
+      "sha256": "b43d4c5e1ea6c1f010db0c156ac8e8df4d133ac3509f898d22f53b9e010373e9",
+      "group": "models_yolo",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/audio_codec_ctrl/component.xml",
+      "bytes": 40094,
+      "sha256": "87dae52dfc7e8dadec419825136289818c3fa7c4e72090a2f3d22f42bf3495f3",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/audio_codec_ctrl/src/address_decoder.vhd",
+      "bytes": 21808,
+      "sha256": "a95c77e2ef798a57f0e9cfbf3649628267518a1cc460c6d1cdef93d1f30114c4",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/audio_codec_ctrl/src/axi_lite_ipif.vhd",
+      "bytes": 13991,
+      "sha256": "3eafc1f5ef30e172dbf712c141c044635fb7f7629abcc2839c7e2463a58e47dd",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/audio_codec_ctrl/src/common_types.vhd",
+      "bytes": 3530,
+      "sha256": "c6c401e60135058f25dd4f01325f8b69ecd534f24c76703c965e50ad7d1fa752",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/audio_codec_ctrl/src/family_support.vhd",
+      "bytes": 407201,
+      "sha256": "bcb3af2a112ef3aaf2b06e56cefb2e4eb15d7db192c312bf17620ed7330caf8e",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/audio_codec_ctrl/src/i2s_ctrl.vhd",
+      "bytes": 16925,
+      "sha256": "3bae8a8a9f6bb07b6e93b6b7da602bf75e906729916e58330bfd80941e8b659a",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/audio_codec_ctrl/src/iis_deser.vhd",
+      "bytes": 4461,
+      "sha256": "af72dd1856a870e63b4e8cd5c69ea2ceeedae35fb788d9029db568711e533b12",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/audio_codec_ctrl/src/iis_ser.vhd",
+      "bytes": 4342,
+      "sha256": "0ca9f3da00c5c411cbabb8b32792444366178227c7a5d0005ed26665156268d8",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/audio_codec_ctrl/src/pselect_f.vhd",
+      "bytes": 12490,
+      "sha256": "36a3570f59f66bc16bddf5ea3c2dfeec1c5efe64eb886afc44745d2e4f1651c9",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/audio_codec_ctrl/src/slave_attachment.vhd",
+      "bytes": 21369,
+      "sha256": "019511c090eb03afb5b2ed0655ca77eaf5ddb75a7af77cc5a6baf5b7ee5a35a2",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/audio_codec_ctrl/src/user_logic.vhd",
+      "bytes": 12692,
+      "sha256": "e975ce60e953fbdf4e8d7c75311f83596e8b8940fa5c3006188db6d3bda06e2e",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/audio_codec_ctrl/xgui/audio_codec_ctrl_v1_0.tcl",
+      "bytes": 7740,
+      "sha256": "5fab564f8703c743892beb941aecb1e812345e9b2789d42aae0376777994f573",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/component.xml",
+      "bytes": 147106,
+      "sha256": "f3ccfd4bb243593c52e2bceea2cd85b4cc364bebe9451bbcabfd821b48b151ff",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/drivers/keypoint_conv_i8_v2_2/src/xkeypoint_conv_i8.c",
+      "bytes": 10610,
+      "sha256": "1991b2b2f078b6997e8cdbcefd5caba4ee53cc0cea2e81714cb604295dc8f160",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/drivers/keypoint_conv_i8_v2_2/src/xkeypoint_conv_i8.h",
+      "bytes": 4769,
+      "sha256": "927946704ecaa456c15f4236a4b2484bd3bac850401894ceb7a290858e25b3ce",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/drivers/keypoint_conv_i8_v2_2/src/xkeypoint_conv_i8_hw.h",
+      "bytes": 3223,
+      "sha256": "8e2735c48eaf38d34c1cc213a4aaf0c7bc39c88e2900ab9aedd7038c0f0d877d",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/drivers/keypoint_conv_i8_v2_2/src/xkeypoint_conv_i8_linux.c",
+      "bytes": 4923,
+      "sha256": "2bad628dab2d1d029c55281080cd39427f96e196615c5ff1ffb9511ab6f22b11",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/drivers/keypoint_conv_i8_v2_2/src/xkeypoint_conv_i8_sinit.c",
+      "bytes": 2209,
+      "sha256": "0d526dda44ff5b0bf0c8ebce4836b0f4fc803e44b33017cf6ab4c7facf0645c0",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8.v",
+      "bytes": 489734,
+      "sha256": "87d7ecfad71f380635e9bc6bb053accda922e6e8c8d688204f8b07e3177e65f1",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_ama_addmul_sub_13ns_6ns_2ns_3ns_13_4_1.v",
+      "bytes": 2271,
+      "sha256": "6aba6f1d9f7f3bdf3709c689174d1500857df064ac0f52b5e9f12c7f7056a71c",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_ama_addmuladd_21s_13s_11ns_11ns_32_4_1.v",
+      "bytes": 2270,
+      "sha256": "52baceff400ac0195b65e0b072a69160b7a7e321f9af93fc73fa2e86c3e86b8a",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_ama_addmuladd_6ns_3ns_11ns_11ns_17_4_1.v",
+      "bytes": 2272,
+      "sha256": "267ae306f9d8378b9ef3497351c01a1735d13f146cf0d1f667466fbdcce34724",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_ama_submuladd_8s_9s_8s_32s_32_4_1.v",
+      "bytes": 2243,
+      "sha256": "3d3a413d016d6b399b0a4a0ef1236530a8509aff88bf2c8cad8d3c6423c3b0ab",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_control_s_axi.v",
+      "bytes": 18265,
+      "sha256": "fac119cfca2aecd747078a1c5f2e7dcf928a83faee2abeae30f4a07877c2e339",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_fifo_w1048_d2_d.v",
+      "bytes": 6696,
+      "sha256": "d00aa59f1b4c6692137f26f01f242e04500d2b668bd735476a457d80effe194c",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_fifo_w11_d2_s.v",
+      "bytes": 4303,
+      "sha256": "b7402b0b62980773b191f037ce5518c491c079f3887b3889c5c2155e951cc35b",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_fifo_w32_d2_s.v",
+      "bytes": 4303,
+      "sha256": "e85bf0554167263c976a6ea7acf6afe3f8ba447c3b4d3fa1b4b80c201d366523",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_fifo_w535_d2_d.v",
+      "bytes": 6690,
+      "sha256": "af86d3271c669d07786b9d60373cddf69cfdb5ea883d589022bb0e392fbb2812",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_flow_control_loop_pipe_sequential_init.v",
+      "bytes": 2889,
+      "sha256": "d58b62e42d71ae6e76569e5e10a12e6ec56e1c815099eb9df3bb2b658e159463",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_gmem_m_axi.v",
+      "bytes": 103872,
+      "sha256": "bd4c8ba979a3da41e573a8862c8192e77a0698b9950db2d4cad8c5629aa332b4",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_mac_mul_sub_10ns_2ns_3ns_13_4_1.v",
+      "bytes": 2007,
+      "sha256": "ed6566186e7c158da43b1f20a0f7ca03a63c1f6c0783be6ccfdc8949bbe21c88",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_mac_mul_sub_20ns_2ns_3ns_23_4_1.v",
+      "bytes": 2007,
+      "sha256": "ed04238d59deb77e2f25aa2909378b44e11757eb65002a3b4f276f443be7832e",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_mac_muladd_10ns_2ns_5s_13_4_1.v",
+      "bytes": 1997,
+      "sha256": "7e0bf98f532a08cde5f1058dc18ecd6aad403e4be8f9f08d9268fe2f20d99d91",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_mac_muladd_10s_6ns_10ns_10_4_1.v",
+      "bytes": 2002,
+      "sha256": "cddc4f2e8cc30adea09f3422b39599394e6c869674de73de1c2f5a39907b50bd",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_mac_muladd_11ns_10ns_3ns_21_4_1.v",
+      "bytes": 2008,
+      "sha256": "e55d4fda2c4068dca0e8390f69ebe4686ea5739d3b07572b33899cccfd3b143e",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_mac_muladd_11ns_6ns_11ns_17_4_1.v",
+      "bytes": 2008,
+      "sha256": "a65477e1ddb705a3fd319c8eeb2a09981141ae8e4a8278e70f42d820002c13b6",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_mac_muladd_11ns_7ns_11ns_18_4_1.v",
+      "bytes": 2008,
+      "sha256": "3ef61e3be713e076f61faf43d7cb188e6c2c6dea22d50215674ef1d5fae0101a",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_mac_muladd_11ns_7ns_12ns_16_4_1.v",
+      "bytes": 2008,
+      "sha256": "e88c05a7796ad468e3af4316da02829c07414f7cd1d7866e4cd98dadd784da5f",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_mac_muladd_12ns_7ns_12ns_13_4_1.v",
+      "bytes": 2008,
+      "sha256": "719320222532ea06e1af36793d9c35a4ef60ddae6aafedc14e01c3da09ce1d73",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_mac_muladd_13s_8ns_13ns_13_4_1.v",
+      "bytes": 2002,
+      "sha256": "a26cdecccf7f3052591c6e0d8521edeecd3d83a97b92ef620256962d3ad70673",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_mac_muladd_15ns_11ns_15ns_26_4_1.v",
+      "bytes": 2013,
+      "sha256": "dcac5e7a98f648c0f6f59726e6a89eebd52ff7e7bd770c5de12cfa13bea32338",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_mac_muladd_3ns_3ns_3ns_6_4_1.v",
+      "bytes": 1993,
+      "sha256": "cf501ae832f489b7adb9e3aca2c698c961e3c8d483d70a04e4adaa24e23ca470",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_mac_muladd_8ns_6ns_8ns_10_4_1.v",
+      "bytes": 1998,
+      "sha256": "940ec85d99a3ce272502c43dadf87e9ce37cfd43a4038186f80e4e90b71487ea",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_mul_10ns_10ns_20_1_1.v",
+      "bytes": 668,
+      "sha256": "ebff9294b9f23c1b8d90d4dcbc2cd595a340278921ff45cc8b749c5bc820761d",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_mul_11ns_10ns_21_1_1.v",
+      "bytes": 668,
+      "sha256": "f261cf2734d08fd669034940f96d00c75c28c0349acf0531149ae5acd4e80642",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_mul_11ns_12ns_23_1_1.v",
+      "bytes": 668,
+      "sha256": "aaa1d0b1c14603c263a8bcce648eb7667662325159af3c883acc2ccee1840391",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_mul_11ns_6ns_15_1_1.v",
+      "bytes": 667,
+      "sha256": "6e1756ca6055266bba06edc1f3901c1a6ca962a9d06e26449b222d8fe7d9276d",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_mul_11ns_6ns_17_1_1.v",
+      "bytes": 667,
+      "sha256": "7f2eb822b5bf438b0260cdd8582c49dcf99bfe345ca09fe113d08161403b062f",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_mul_11s_7ns_18_1_1.v",
+      "bytes": 658,
+      "sha256": "c742db72ade65956a7c7fafc52d6dd953f1cf80c32c19dca7d8a48068ebc295c",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_mul_12ns_11ns_23_1_1.v",
+      "bytes": 668,
+      "sha256": "4a983bb2b310c6b84866c9953b336c17e245746fe34d9ad883e2e576c85c0680",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_mul_12ns_32s_32_3_1.v",
+      "bytes": 1017,
+      "sha256": "dbdc31cfe30077403368cb90be4650dec1da3b422e2b1bcfa86916784196156b",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_mul_12ns_7ns_18_1_1.v",
+      "bytes": 667,
+      "sha256": "09fd0427e8f05bf8c3f5b36ad2523fdbe737978fac593d9c421ba2d6075f505e",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_mul_13s_10ns_20_1_1.v",
+      "bytes": 659,
+      "sha256": "04b2fa785ffcff1bb416050ac53049776c78673baa003036d4d26f7c56bbcd16",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_mul_13s_10ns_21_1_1.v",
+      "bytes": 659,
+      "sha256": "6db9f64a65619a9b0abe1f0085f640995d70f27c605e6bf2bbff659f278cee05",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_mul_13s_13s_13_1_1.v",
+      "bytes": 650,
+      "sha256": "63624ed44668c2ecdec9a556dc18932d007dc5254d6d61ab30f8400a82d796dc",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_mul_13s_3ns_13_1_1.v",
+      "bytes": 658,
+      "sha256": "5afc17e064739439f5dd470e95e68cc5d5b2965002909bcf90f8fbd5b025e8fc",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_mul_14ns_3ns_17_1_1.v",
+      "bytes": 667,
+      "sha256": "a4459c9dc6c65bc034eb98d83ea62b0436863259d7e9c978f371e5ee563cbcda",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_mul_17ns_11ns_28_1_1.v",
+      "bytes": 668,
+      "sha256": "f583f516403555f4527cccc4ddd284ee3632cec51afc2307aaac825008be4e4b",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_mul_18ns_32s_32_3_1.v",
+      "bytes": 1017,
+      "sha256": "3c80a32f9f05885aec6f831dfb22bc1abb94eecbd73a491c3a5ce1e84229b244",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_mul_18ns_3ns_21_1_1.v",
+      "bytes": 667,
+      "sha256": "e420ab4ce49cc25105f83a0ece657373bb4c7556ac17ac8498510a92c42b2b39",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_mul_20ns_11ns_31_4_1.v",
+      "bytes": 1095,
+      "sha256": "442790687b7a5373f00fc63745eded838ed4c40d1e904dc692ad64008aed2e78",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_mul_24s_8s_32_4_1.v",
+      "bytes": 1099,
+      "sha256": "cf9afe40aa3d7d31482d31924e80aad941544a4da1b2a09804350bdcd98aa79b",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_mul_25s_9s_34_4_1.v",
+      "bytes": 1099,
+      "sha256": "c4c10fa98355c2daab679ebe369375222ac411432093a96f69ef2d9573ce6d24",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_mul_29s_12ns_29_3_1.v",
+      "bytes": 1017,
+      "sha256": "f070dc889173151583adf5091374ec180edf60ca50f76e5e19b86bbf44300e91",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_mul_32s_11ns_32_3_1.v",
+      "bytes": 1017,
+      "sha256": "27021686b411fc4d6bc61df83e2227e895abf3050e73f6e32e59b94ece68a64b",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_mul_32s_13ns_32_3_1.v",
+      "bytes": 1017,
+      "sha256": "35af5d1a8dc1cc34f77669b42beb5d9850b6a484f4993020e57298c42c4acaee",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_mul_32s_31ns_63_5_0.v",
+      "bytes": 1178,
+      "sha256": "989fb5398a1bc36a703be70699f04b095e68a26da5c636344e0b15677cb8b2b6",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_mul_32s_32s_32_3_1.v",
+      "bytes": 1008,
+      "sha256": "ddd4e95c6ff1185050044e0be1b93814f9fe551386358cb4986a2d73fd07aa75",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_mul_32s_7ns_32_3_1.v",
+      "bytes": 1016,
+      "sha256": "3a865f178f24d96fdbf9c0b1280c491012d363965a7e8609ec6e17241dd1d105",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_mul_32s_8ns_32_3_1.v",
+      "bytes": 1016,
+      "sha256": "547071b373d0660f19d3262ef862a3f42a6d73c253fa177a17f8f21d173719da",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_mul_3ns_3ns_6_1_1.v",
+      "bytes": 665,
+      "sha256": "1fce1300d0282d4f7b5945cfb5bb1b86886d703015bd8f1e7ffb876c7fde6a83",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_mul_3s_3s_3_1_1.v",
+      "bytes": 647,
+      "sha256": "1c14789f21aa4ff119be2916554c44b4c6cd076bf1429d1f2d3da1713b98e305",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_mul_5ns_3ns_7_1_1.v",
+      "bytes": 665,
+      "sha256": "d8dfb82c27e9eebf53dbb9336d1267ef998b925fd94de5e5ad8bdadfab027ada",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_mul_7ns_12ns_18_1_1.v",
+      "bytes": 667,
+      "sha256": "4ffa18d79776638028b5d71fe0adcfaa52a1e444ea62c667146f3e1f59919abe",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_mul_7ns_3ns_10_1_1.v",
+      "bytes": 666,
+      "sha256": "7d012c22728a9891cce26104b87a2f4483f434f2d9e1a5a170183244fa3482ec",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_mul_8ns_10ns_13_1_1.v",
+      "bytes": 667,
+      "sha256": "12e8e69234fa9e5c7df9a01b69f9156746ce5c07afdb5fd256a9d616212f4811",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_mul_8ns_31ns_38_3_1.v",
+      "bytes": 1025,
+      "sha256": "4a2c6473732eae5ade19335e2c0226b344daa99e0f66820827a448cb9cbd9c1b",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_mul_8ns_32s_32_3_1.v",
+      "bytes": 1016,
+      "sha256": "d123c647e85d344147ae9f8dd041180a239746a69c15ddb44cda660bc21a80a1",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_mul_9s_8ns_9_1_1.v",
+      "bytes": 656,
+      "sha256": "575acd40b7f91c2e81ea52b4c6ef969999dcdf6033be00e8729a510a4943c8cf",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_mul_9s_8s_17_3_1.v",
+      "bytes": 1028,
+      "sha256": "1c3e8b7c504eed15b5d644ea7d02f3fe56d365fb3896b84d82f8f105a42b1f1c",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_p_anonymous_namespace_compute_tile.v",
+      "bytes": 101987,
+      "sha256": "acbc27b34120609a5151230098ca5b91133b6a6226c3c39090dafc40bc4d626a",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_p_anonymous_namespace_generic_raw.v",
+      "bytes": 53728,
+      "sha256": "fae6d1391f36a3825900b4690c875b5cdf2e8cb0b9122120f7662d9b98a89ecf",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_p_anonymous_namespace_load_patch.v",
+      "bytes": 156669,
+      "sha256": "92a79ce01843ae92a2edf3f40f2ae7113e9437e0df52b42bd81878036ea6fdcd",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_p_anonymous_namespace_load_patch_pipeline_direct_contiguous_burst.v",
+      "bytes": 21036,
+      "sha256": "5a52403a5b23aeb40ee116cb458403d0de8b48e3a66d39fae7239f1a6b0cf422",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_p_anonymous_namespace_load_patch_pipeline_direct_pixel_direct_pack.v",
+      "bytes": 55144,
+      "sha256": "a6af8192ca6c451933f4b8982acc54489bd6e99d7994bfef4e1bf6cb4f4d66fb",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_p_anonymous_namespace_load_patch_pipeline_patch_continuous_bytes.v",
+      "bytes": 75637,
+      "sha256": "17f1ef8cb1ff2f4192200c13dc30e0bf88c947dba4d37035c9c17ec98e845c1a",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_p_anonymous_namespace_load_patch_rgb_rows.v",
+      "bytes": 67788,
+      "sha256": "fe9b338237fb0cb51d6287e95abc6fdb168d7afdf50f3684d49abd1662d64dae",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_p_anonymous_namespace_load_patch_rgb_rows_outline_stem_new_rows.v",
+      "bytes": 32929,
+      "sha256": "037adaaea2a6b8ad4cb42d5d6221b1def84affe44518a8744eb8ba0ce73bee51",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_p_anonymous_namespace_load_patch_rgb_rows_outline_vitis_loop_179_1.v",
+      "bytes": 22343,
+      "sha256": "2980850068fcbde98ee278bca3220eb6f2b7a7e061eef679e7c280210420dc3c",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_p_anonymous_namespace_load_patch_rgb_rows_pipeline_stem_cached_patch_bytes.v",
+      "bytes": 39645,
+      "sha256": "b608a2ebb45f5aaa1d368db67f94d8e0b4bedba63e21f0f26c4a78ee25b7a54d",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_p_anonymous_namespace_load_patch_rgb_rows_pipeline_stem_row_burst.v",
+      "bytes": 14218,
+      "sha256": "69afff81887e71285c6cff2547702a4dea043c83d526bd1a5b288793599a373f",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_p_anonymous_namespace_load_patch_rgb_rows_rows_ram_2p_bram_2r1w.mem",
+      "bytes": 1260,
+      "sha256": "10a0c1833240ae1e1496c8e83aa3fdd1a02b3465869074f3b5f3df7feaa911a3",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_p_anonymous_namespace_load_patch_rgb_rows_rows_ram_2p_bram_2r1w.v",
+      "bytes": 1565,
+      "sha256": "5d7fd10238ae05af07252c135fe79915b50669ba42a8bea70fe6325dae0088ac",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_p_anonymous_namespace_load_prelu_tables.v",
+      "bytes": 39430,
+      "sha256": "5cedf14d5e3fca7a129cec15bb63a6df971d6a7e5b42129f1175171c321e7c77",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_p_anonymous_namespace_load_row.v",
+      "bytes": 54328,
+      "sha256": "f3c9078db8ab38c047c1a280d135a0308c63751dc72826748170346cb13a1a49",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_p_anonymous_namespace_load_row_pipeline_row_burst.v",
+      "bytes": 29583,
+      "sha256": "810382b6a8b9221d2067916548dd5918f7eeb08fd3eb12707c4ba5b5f8af9501",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_p_anonymous_namespace_load_weights.v",
+      "bytes": 163788,
+      "sha256": "e946b21a8d42dbf1cae372809797545728224d391b525e585923785b70277d08",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_p_anonymous_namespace_load_weights_pipeline_load_dw8_taps.v",
+      "bytes": 38333,
+      "sha256": "9a6df5792535b9e51e259fc6b3f6567c5ff625870d70522dd33a43f683a6fdba",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_p_anonymous_namespace_load_weights_pipeline_load_dw_taps.v",
+      "bytes": 31304,
+      "sha256": "718a61ef8b8f99f7d335b07cfe817264d2bbaf8a1c294ddf776627f3828d5adf",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_p_anonymous_namespace_load_weights_pipeline_load_w_contiguous.v",
+      "bytes": 35389,
+      "sha256": "96869744eaa6ccf5d56f005dccc83f9d3d48a17ea6d6bcaef4a5feba47dd0bf7",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_p_anonymous_namespace_load_weights_pipeline_load_w_oc_load_w_pack.v",
+      "bytes": 66326,
+      "sha256": "f91f0b97ed48dfec003e98e9a69f149224bd84e401d5c5f73dc9d5cdcd3e614c",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_p_anonymous_namespace_mac_stage.v",
+      "bytes": 183089,
+      "sha256": "7617d325e8f9460047a88a56da02ed50d6fb3fe1eeadb460e6962d14830420f8",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_p_anonymous_namespace_mac_stage_pipeline_dw_tap_ky_dw_tap_kx.v",
+      "bytes": 326913,
+      "sha256": "ad3780315fef3c54b6cd3034cd9add1b644846b1e59020666ccac3123f5c844e",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_p_anonymous_namespace_mac_stage_pipeline_pw_oc16_packed_pw_pixel_reduction.v",
+      "bytes": 264772,
+      "sha256": "21b023a721f4de3e22ce2b882ba1691ff157d8f1dd82aa7712e9e11ff2362369",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_p_anonymous_namespace_post_int8_work.v",
+      "bytes": 216884,
+      "sha256": "6cbdbd61be16a6a868313c82a2711c8355f226fc1022595ada65ca71e0877d5a",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_p_anonymous_namespace_post_stage.v",
+      "bytes": 78570,
+      "sha256": "4cc5cda858c4043af05137c91ee559fa8098c8875ada009f9549240d78d8be20",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_p_anonymous_namespace_prelu_lut.v",
+      "bytes": 139207,
+      "sha256": "0fdbe354789f882c0c819887a8634cf484ca5f565e74a8ec93f520d5f02aacd4",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_p_anonymous_namespace_prelu_lut_pipeline_prelu_general_words_prelu_general_bytes.v",
+      "bytes": 38775,
+      "sha256": "5da890210fde04a950f07e1b0f1afb12cc312583280caf9d3caf29c73a27b962",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_p_anonymous_namespace_prelu_lut_pipeline_prelu_nhwc_words.v",
+      "bytes": 38807,
+      "sha256": "3173116b8ff16e9ac84c6807310610ba14a45bf3a8b496905777129345779688",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_p_anonymous_namespace_requantize.v",
+      "bytes": 27807,
+      "sha256": "55c06b956f0e1d324c44e03090ffe48a47c06c7c7c10141a5076c1e31c231dfd",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_p_anonymous_namespace_store_tile.v",
+      "bytes": 40418,
+      "sha256": "234126d1082834ae8e85284fea02d64f16b9f8d9ac5a243ec2095ffa09e29014",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_p_anonymous_namespace_store_tile_pipeline_output_contiguous_burst.v",
+      "bytes": 29924,
+      "sha256": "3fc202064f00df568c31295bbeed021c33314b7e954915438b25db7b425aed40",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_p_anonymous_namespace_unpack_pw32.v",
+      "bytes": 10798,
+      "sha256": "35fd6c1ea9614b5aeb81746885f03a1937935fd487f4ead9bf945ff5cf5bd051",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_p_anonymous_namespace_unpack_pw32_pipeline_pw32_unpack.v",
+      "bytes": 14905,
+      "sha256": "7a9d37864897ae39ca16d305d78b580276b58c6432072d7c1521299eb978e001",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_p_anonymous_namespace_write_piece.v",
+      "bytes": 27962,
+      "sha256": "0d30bbdcb29ac8585770fcdb98f948ed74e8740e2c84ed4034b405b151a34328",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_p_anonymous_namespace_write_piece_pipeline_raw_byte_banks.v",
+      "bytes": 35404,
+      "sha256": "d3598dc52927882daf8e38eafbfdf5ebc1572021cd84c65eabcb69ac3ebb7d90",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_partselect_8ns_64ns_32ns_8_1_1.v",
+      "bytes": 791,
+      "sha256": "55bf84e1bb49d5e17844434a78471b97b46b216bc7f10e1f1fecba7ee74e3b19",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_partset_64ns_64ns_32ns_32ns_64_1_1.v",
+      "bytes": 936,
+      "sha256": "b7856079eb97aed56cbe5bf05da10944c405bc70bf790b27695ee5fe42e09bab",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_partset_64ns_64ns_8ns_32ns_64_1_1.v",
+      "bytes": 909,
+      "sha256": "2f2c1b664c685d06889274ccfab9d3878b846124111243fa5d1257fd03f7a717",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_prelu_table_ram_s2p_bram_2r1w.v",
+      "bytes": 1399,
+      "sha256": "a3f94e7ec364f4f9bb6008339a0fd3a48a52865678f7e1d54b200e9b03825240",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_q_ram_2p_bram_2r1w.v",
+      "bytes": 1388,
+      "sha256": "4cdb21324af3eb7f17523791f9349c8e0dfb8b715feb02f49195ce4c7db28824",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_sdiv_32s_11ns_10_36_seq_1.v",
+      "bytes": 5438,
+      "sha256": "84145b0e9f393daac78f623fb4d615046b0b9fdc5918dd9b796a5c3763b9508b",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_sparsemux_11_3_13_1_1.v",
+      "bytes": 1581,
+      "sha256": "8c230aa54ba81c2d75972f68e155d939d7a9c823eba08951b506a058e730f40c",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_sparsemux_11_3_1_1_1.v",
+      "bytes": 1580,
+      "sha256": "44b9846d4268cd6119ee3cbb4b2d3c5c72fee0a556d5f377c6c9921c9fad2579",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_sparsemux_11_3_9_1_1.v",
+      "bytes": 1580,
+      "sha256": "8ad0d4c4a556f1074d25bf05bf6582edd6a3a5ac10adadbe5539e6a02561d76d",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_sparsemux_15_4_32_1_1.v",
+      "bytes": 1865,
+      "sha256": "e0bf6abd5f378e8ba6c50445c4558114dbef0d8225d71e8162db701d4b1f4d27",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_sparsemux_17_3_64_1_1.v",
+      "bytes": 2007,
+      "sha256": "914f24193248ea1f9968a2c0ef335fa89bc0bbb42a08f4b8cc4dcea742e46c73",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_sparsemux_17_4_32_1_1.v",
+      "bytes": 2007,
+      "sha256": "7be115395607b689ed6b233cd7eece0d412f064b8d74a24026f172bf697ef058",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_sparsemux_33_4_64_1_1.v",
+      "bytes": 3185,
+      "sha256": "df6e07987b6f787f65f0990bc04a01fc46ecf28aa90c59fb5ad3bf94a3e8d0e9",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_sparsemux_7_2_2_1_1.v",
+      "bytes": 1295,
+      "sha256": "74495bfa77dbb2bab3abedaa9772ee2e1366a5671b135d650c188b73d2675e3f",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_sparsemux_7_2_34_1_0.v",
+      "bytes": 1296,
+      "sha256": "084360fce849f6c9e64003f69a47ccfd97494dbc36239432ab3089bf00b4fa79",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_sparsemux_7_2_3_1_1.v",
+      "bytes": 1295,
+      "sha256": "f0e4bc64d6c780f4627e5b93486702008806894b8e62be96018b4091f26bb5f9",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_srem_11s_4ns_9_15_seq_1.v",
+      "bytes": 5431,
+      "sha256": "a0bef309597b827fe0c6cc6272a41249907451ab259f82bca4fd491ae20840eb",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_srem_32s_11ns_10_36_seq_1.v",
+      "bytes": 5439,
+      "sha256": "49e4431df87fb3d2b193d71c02b87bd3c797d65aa721437d34d371277546e665",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_srem_32s_4ns_3_36_seq_1.v",
+      "bytes": 5431,
+      "sha256": "e82078b6bc47c1257bf22da2a736fad73dc600d286adff596b044efd2943e1b6",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_start_for_p_anonymous_namespace_unpack_pw32_u0.v",
+      "bytes": 4225,
+      "sha256": "b10c697d8ca2c4c7d8e6e3761b573e2e4c1eca583c2e3026fb3cf10165018b89",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_udiv_14s_12ns_14_18_seq_1.v",
+      "bytes": 4593,
+      "sha256": "f8e08391b5a2b732b8f89bdb601271dd34b85fef5215aa9fdbca78fec73619a6",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_udiv_17s_13ns_7_21_seq_1.v",
+      "bytes": 4589,
+      "sha256": "ef85ec170d2519ee24a913a56f7e84a88993606911f9a878a066611e1aba0aea",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_udiv_20ns_10ns_20_24_seq_1.v",
+      "bytes": 4597,
+      "sha256": "9d7c00045ff005f804b833a6b47e5609590ec4df6578c224ce7109661867cd84",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_urem_20ns_10ns_10_24_seq_1.v",
+      "bytes": 4597,
+      "sha256": "d94893e3e3274fce1d9aafa808c8e24663da70df5c1c19ba7da7760168f7f10f",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_urem_32s_3ns_13_36_seq_1.v",
+      "bytes": 4589,
+      "sha256": "18808973c39e325597bee17092c5daab028e04d5771f5dd74e35fcaf0cc86a45",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_urem_32s_4ns_9_36_seq_1.v",
+      "bytes": 4585,
+      "sha256": "d1caf3aed6d43e9c5004cd9e9fd2968dfd8ae20c9ae3cb594a07e9bdad9ed62f",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_w_ram_2p_bram_2r1w.v",
+      "bytes": 1556,
+      "sha256": "432c7b13aae5d4a992e71c7f49227ac87b5f7245b7f5bb5997c5154ee1b016ad",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_x_ram_2p_bram_2r1w.v",
+      "bytes": 1390,
+      "sha256": "fd39580e473c58653fde2da629b74d6eb92495d26222fccf246b14adc5757d93",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/hdl/verilog/keypoint_conv_i8_y_ram_2p_bram_2r1w.v",
+      "bytes": 1389,
+      "sha256": "f350873cd2f1bc3b72ad28705bf8102fcdf957f440ecee2073c0c5a91c13c5e3",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/conv_i8/xgui/keypoint_conv_i8_v2_2.tcl",
+      "bytes": 10111,
+      "sha256": "7983d81939185b80d45cb9f0a13615ebe08071a2b7cd6515026a9a7144e98232",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/dvi_transmitter/component.xml",
+      "bytes": 22157,
+      "sha256": "2970b64b9efcc4057411849a6d98668cdc0b1eb0df8cc0afb83e7c133b743f4e",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/dvi_transmitter/src/asyn_rst_syn.v",
+      "bytes": 1658,
+      "sha256": "7f2ac9686a8b525077b701ac84f909ebed1d6c5ba65bb29d1f220042f5eafb53",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/dvi_transmitter/src/dvi_encoder.v",
+      "bytes": 5134,
+      "sha256": "8734138c12ecec60dd0a252a701fb5c7fd0b76e79b9d190d149ab6fa4cc50490",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/dvi_transmitter/src/dvi_transmitter_top.v",
+      "bytes": 4796,
+      "sha256": "73e5a69bf63b496031eb3ac1285bf7ce347e2a0a5bf24f0cc9f2720d91c825d3",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/dvi_transmitter/src/serializer_10_to_1.v",
+      "bytes": 5037,
+      "sha256": "bb6b2a217a9061bb25a9f70e3f34d52dfe2d2855c1a8fcfb25f8a042868f63cd",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/dvi_transmitter/xgui/dvi_transmitter_v1_0.tcl",
+      "bytes": 205,
+      "sha256": "e0725b60cdc4cd625ee059e557ee3f5569fcd085edf601849e69e4d438080d96",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/gmii2rgmii/component.xml",
+      "bytes": 18673,
+      "sha256": "95565fdd6fd069d560afde02ce6fb621d38847dc11538dabe4581a49983cf0c2",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/gmii2rgmii/gmii_to_rgmii.v",
+      "bytes": 2863,
+      "sha256": "e59751eb5d92c2779f233e55a7b57669b55600332bac48f305a79b46a4be3134",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/gmii2rgmii/rgmii_rx.v",
+      "bytes": 7666,
+      "sha256": "667b7d8d8544beaa58c2b9b65a430fd3fbd12759cf45294bcae2071fadeccb90",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/gmii2rgmii/rgmii_tx.v",
+      "bytes": 3249,
+      "sha256": "c54af19ee88b67c031ca2feb55dd1954da6070e66007dcd2e7a1ed7cf380c7f2",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/gmii2rgmii/xgui/gmii2rgmii_v1_0.tcl",
+      "bytes": 829,
+      "sha256": "a7e8b9ac4a14b29a8c0f8e19933a25a324914ea2cd117b33cd4badaceb5237fe",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/interfaces/lcd.xml",
+      "bytes": 711,
+      "sha256": "2c564e27b6dbf6cc80790c165bc5e58cba51738f0a50807ded0591455c7d0069",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/interfaces/lcd_rtl.xml",
+      "bytes": 3403,
+      "sha256": "4e0c4442a95fa4b2899c62330f9a4f63787bace52c4a72ed742a775bba620b30",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/interfaces/tmds.xml",
+      "bytes": 668,
+      "sha256": "f583b7d66684134835d1fb8b2f31d7f8c2603c36b96cb2a1bf0e3b5038453a6a",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/interfaces/tmds_rtl.xml",
+      "bytes": 3116,
+      "sha256": "42ff815b6b9fac0cbab79cbd34036d4b050296dc93a8a642312440e9523436bc",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/keypoint_conv_f32/component.xml",
+      "bytes": 139072,
+      "sha256": "29e70e5817d0821121ce2ea31a61eeb1cfdcf25e83ab5d5a4909de57b901ad41",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/keypoint_conv_f32/constraints/keypoint_conv_f32_ooc.xdc",
+      "bytes": 395,
+      "sha256": "bc275c403c2beeec95b0c3664ecc37842f82207b326bf93c35acb6c465ed2485",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/keypoint_conv_f32/drivers/keypoint_conv_f32_v1_0/src/xkeypoint_conv_f32.c",
+      "bytes": 10724,
+      "sha256": "41e53d4ad13dcb223a3f85e9b245234231c3d440a9ac784f88f60122badb3656",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/keypoint_conv_f32/drivers/keypoint_conv_f32_v1_0/src/xkeypoint_conv_f32.h",
+      "bytes": 4837,
+      "sha256": "5546b4f627cf1b837d486d055e7b7d192ee337e81e081a2e03da98c5b5581840",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/keypoint_conv_f32/drivers/keypoint_conv_f32_v1_0/src/xkeypoint_conv_f32_hw.h",
+      "bytes": 3231,
+      "sha256": "998826913d9f2846b54ac1e1933613ed6e352e83b912568448c21cfc99399f5d",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/keypoint_conv_f32/drivers/keypoint_conv_f32_v1_0/src/xkeypoint_conv_f32_linux.c",
+      "bytes": 4938,
+      "sha256": "22917e03963ca2c1f78fd25e257ff7d39d29a42d15656842695a6ec09a33301a",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/keypoint_conv_f32/drivers/keypoint_conv_f32_v1_0/src/xkeypoint_conv_f32_sinit.c",
+      "bytes": 2234,
+      "sha256": "d0e348d28503d85f2676ec31b1b693599f5b5cc882cc5104ddca4a2cdb992230",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/keypoint_conv_f32/hdl/ip/keypoint_conv_f32_fadd_32ns_32ns_32_5_full_dsp_1_ip.v",
+      "bytes": 9567,
+      "sha256": "087595edaf234ab1501757305d779ba81d92c076ee5f864c812ff3a84a82d8a9",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/keypoint_conv_f32/hdl/ip/keypoint_conv_f32_fcmp_32ns_32ns_1_2_no_dsp_1_ip.v",
+      "bytes": 9562,
+      "sha256": "585d7ad45f333a0b675d42e1e5e8b4c45a7dba06d3989db6c9722f428b39802c",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/keypoint_conv_f32/hdl/ip/keypoint_conv_f32_fmul_32ns_32ns_32_4_max_dsp_1_ip.v",
+      "bytes": 9564,
+      "sha256": "d958a5d1b38e7a8a56eb5f053c83037547ba93cf3f3906fe783fcb05de4d6c7b",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/keypoint_conv_f32/hdl/verilog/keypoint_conv_f32.v",
+      "bytes": 394886,
+      "sha256": "80386bb45f79ff24e2acaae711eab07362873d7e8f5a81ab11cf937445b43763",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/keypoint_conv_f32/hdl/verilog/keypoint_conv_f32_control_s_axi.v",
+      "bytes": 18224,
+      "sha256": "8a5822dba07bb1d134c0c7e1eb3b764d40262a1c5846ca7601be05d4c59d934b",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/keypoint_conv_f32/hdl/verilog/keypoint_conv_f32_fadd_32ns_32ns_32_5_full_dsp_1.v",
+      "bytes": 2272,
+      "sha256": "1031e7f15fb9f9ddbc4a54ebf7fcd004184a69c1221ffaa7ebaeaaa8019e2776",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/keypoint_conv_f32/hdl/verilog/keypoint_conv_f32_fcmp_32ns_32ns_1_2_no_dsp_1.v",
+      "bytes": 3238,
+      "sha256": "0cec382f7b2e34ed02bb4dbe5740a35cadf30f4ab913880493238ce763f7de2c",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/keypoint_conv_f32/hdl/verilog/keypoint_conv_f32_flow_control_loop_pipe_sequential_init.v",
+      "bytes": 2890,
+      "sha256": "13e1bab44d021e38d9af3b4e70a0d6f6c265aa9da4a31db42c463dbe080ac51d",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/keypoint_conv_f32/hdl/verilog/keypoint_conv_f32_fmul_32ns_32ns_32_4_max_dsp_1.v",
+      "bytes": 2269,
+      "sha256": "e936ada5ec97b82d1360bcbe7eaa79faf528f4b6e0cba4bf4ec050b9dc6c47b3",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/keypoint_conv_f32/hdl/verilog/keypoint_conv_f32_gmem_m_axi.v",
+      "bytes": 103914,
+      "sha256": "7aa6265328b28ae141c4a2eccc3cd126924a724b169164c2cfa2d3cac3a9c919",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/keypoint_conv_f32/hdl/verilog/keypoint_conv_f32_keypoint_conv_f32_pipeline_conv_weight_burst.v",
+      "bytes": 21196,
+      "sha256": "7125fb791232b2cc7062ed74d4246f1f384bf7387594197cb35ffc397fa5ee6d",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/keypoint_conv_f32/hdl/verilog/keypoint_conv_f32_keypoint_conv_f32_pipeline_dw_weight_burst.v",
+      "bytes": 21878,
+      "sha256": "1759f180baf59e065a6ec23336036131f51671b7da8549025abaf96665074456",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/keypoint_conv_f32/hdl/verilog/keypoint_conv_f32_keypoint_conv_f32_pipeline_general_flat_load.v",
+      "bytes": 60414,
+      "sha256": "fd58ce0e038a46a601f256e1792836b8a864317cde1ad0ec41c22ae5a0aef348",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/keypoint_conv_f32/hdl/verilog/keypoint_conv_f32_keypoint_conv_f32_pipeline_init_pixel.v",
+      "bytes": 64616,
+      "sha256": "65187421ad9bd9bc6c1228f5d1a0631d2310cdeb52e8b4f0ab05ba85406ddbd2",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/keypoint_conv_f32/hdl/verilog/keypoint_conv_f32_keypoint_conv_f32_pipeline_load_bias.v",
+      "bytes": 23047,
+      "sha256": "a3ede2e34dacdec708629fcb2a01a8624392f123ed842a56e52883286519e6be",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/keypoint_conv_f32/hdl/verilog/keypoint_conv_f32_keypoint_conv_f32_pipeline_mac_reduction_mac_pixels.v",
+      "bytes": 140023,
+      "sha256": "6026d5ac64f95c31b12e9643981ecdacd94ccebcca2bf0425c54ea92de4a7377",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/keypoint_conv_f32/hdl/verilog/keypoint_conv_f32_keypoint_conv_f32_pipeline_output_burst.v",
+      "bytes": 38783,
+      "sha256": "4f83118c5ca5efe21cb38840030c6ee227a408ab635ba60a5e3552a8c303de6c",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/keypoint_conv_f32/hdl/verilog/keypoint_conv_f32_keypoint_conv_f32_pipeline_pw_input_burst.v",
+      "bytes": 21716,
+      "sha256": "8d06e9ed3833fae0cc722d0abae32987c2c7c3879ea926f2dbbfd8231e0f4ebe",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/keypoint_conv_f32/hdl/verilog/keypoint_conv_f32_keypoint_conv_f32_pipeline_pw_pad_pixel_pw_zero.v",
+      "bytes": 15951,
+      "sha256": "da761e110e5fd6451373ef68366e7faf41d9c78d61faff5b99c7d2e0b484f801",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/keypoint_conv_f32/hdl/verilog/keypoint_conv_f32_keypoint_conv_f32_pipeline_vitis_loop_25_1.v",
+      "bytes": 24081,
+      "sha256": "7a49e4fb57787f7e905c7752c08ba66b3541adf29ab91cb0f903cf404384db2e",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/keypoint_conv_f32/hdl/verilog/keypoint_conv_f32_keypoint_conv_f32_pipeline_zero_bias.v",
+      "bytes": 13809,
+      "sha256": "0a800cea3eb3c651bf457cd22e1aba7d3607230de3a5fec4c7f1842f68cf7659",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/keypoint_conv_f32/hdl/verilog/keypoint_conv_f32_keypoint_conv_f32_pipeline_zero_weight_lane_zero_weight.v",
+      "bytes": 15217,
+      "sha256": "5828f719359f6377061e08253f9d7c28502fdd01cd518ab9fc2c7a75c911ae97",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/keypoint_conv_f32/hdl/verilog/keypoint_conv_f32_mul_28ns_32ns_59_1_1.v",
+      "bytes": 669,
+      "sha256": "36eb8f3bb37c6c37ba32e9af96c078c77a39d751bc06fae8c2bfcbe590fd1a90",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/keypoint_conv_f32/hdl/verilog/keypoint_conv_f32_mul_31ns_32s_62_1_1.v",
+      "bytes": 660,
+      "sha256": "7cc08f7578f4725aff4b16edecb264ea49f148a9fdd8b1eef90796691e97b407",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/keypoint_conv_f32/hdl/verilog/keypoint_conv_f32_mul_32ns_31ns_63_1_1.v",
+      "bytes": 669,
+      "sha256": "9a07a063d2950275a9255c784cc05883b5095b34adf3a722e6fafd54d3dc485d",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/keypoint_conv_f32/hdl/verilog/keypoint_conv_f32_mul_32s_32ns_36_1_1.v",
+      "bytes": 660,
+      "sha256": "0c0ffb7b4771bdbfb07b973a418d5c55f482e573db782fef7f491deb3356e382",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/keypoint_conv_f32/hdl/verilog/keypoint_conv_f32_mul_32s_32s_32_1_1.v",
+      "bytes": 651,
+      "sha256": "ef75c87dae8b59fb91ab279295b0d415aac299e0dbe03039e8152acfbae71f43",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/keypoint_conv_f32/hdl/verilog/keypoint_conv_f32_mul_34s_32s_62_1_1.v",
+      "bytes": 651,
+      "sha256": "7b9ab617b17795f84b26cba389dde79d3453dacac475266461b8071c8a2b99e7",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/keypoint_conv_f32/hdl/verilog/keypoint_conv_f32_sparsemux_11_4_32_1_1.v",
+      "bytes": 1582,
+      "sha256": "7b219094925bcd4025c62ecb8bf4cfa093606798cf66da967e7e5b9b0cc20e3f",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/keypoint_conv_f32/hdl/verilog/keypoint_conv_f32_sparsemux_17_3_32_1_1.v",
+      "bytes": 2008,
+      "sha256": "7d305211a63e786624ff7229ed297c37d831f4f73d9fed1f3b8193886f8d2e0d",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/keypoint_conv_f32/hdl/verilog/keypoint_conv_f32_sparsemux_7_2_32_1_1.v",
+      "bytes": 1297,
+      "sha256": "366f3156a7e06aa92888cbfd2590ac73339efc3fc6db3e76e112302a8bb3d9d6",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/keypoint_conv_f32/hdl/verilog/keypoint_conv_f32_sparsemux_9_3_32_1_1.v",
+      "bytes": 1439,
+      "sha256": "aca45035086c0b78a3f02d4df939b7877b0cf92693ef0bd99be0ec4a10cd8f43",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/keypoint_conv_f32/hdl/verilog/keypoint_conv_f32_udiv_32s_32s_32_36_seq_1.v",
+      "bytes": 4593,
+      "sha256": "2da0ae0fbdb86d44eaa47963f883e939142ea2c5ba6abef37ec434db453d67bd",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/keypoint_conv_f32/hdl/verilog/keypoint_conv_f32_urem_32s_32s_32_36_seq_1.v",
+      "bytes": 4593,
+      "sha256": "659b40daca059e436baee2b4af1afb2e562df118b1f575b9ed36e4bd0d01f332",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/keypoint_conv_f32/hdl/verilog/keypoint_conv_f32_wbuf_ram_2p_bram_1r1w.v",
+      "bytes": 1128,
+      "sha256": "feb3ef96296a4c929f0befcb84f48fcfc1b6b911add918017f1baee6bca08b13",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/keypoint_conv_f32/hdl/verilog/keypoint_conv_f32_xbuf_ram_2p_bram_1r1w.v",
+      "bytes": 1210,
+      "sha256": "c6285c6f9d6855d11fc9cc24bdd163be3d080c0b3ec55cc02d22591923543754",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/keypoint_conv_f32/hdl/vhdl/keypoint_conv_f32.vhd",
+      "bytes": 631077,
+      "sha256": "36822fe33adecf6b53818006ba774355f6052fd082cf64370541f8355c0c5cb7",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/keypoint_conv_f32/hdl/vhdl/keypoint_conv_f32_control_s_axi.vhd",
+      "bytes": 25167,
+      "sha256": "8afd03bbe4d06112ccb68056891052d1d1eeef33af3caccd3201950c9140d053",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/keypoint_conv_f32/hdl/vhdl/keypoint_conv_f32_fadd_32ns_32ns_32_5_full_dsp_1.vhd",
+      "bytes": 3794,
+      "sha256": "e00ed028fb8d8c4d974ff24e416f30c0fd892c9890737b9b90fb2af48a748bcb",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/keypoint_conv_f32/hdl/vhdl/keypoint_conv_f32_fcmp_32ns_32ns_1_2_no_dsp_1.vhd",
+      "bytes": 5599,
+      "sha256": "54025b3a09dbb3d2cb1ed466f398bbef610f5a9192a4dbe4ebad9e854b8e2fff",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/keypoint_conv_f32/hdl/vhdl/keypoint_conv_f32_flow_control_loop_pipe_sequential_init.vhd",
+      "bytes": 3461,
+      "sha256": "3f9ff37d22e06a7f8466f6bc4a4174545fef98cdd4d9583371eac6326a5525b2",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/keypoint_conv_f32/hdl/vhdl/keypoint_conv_f32_fmul_32ns_32ns_32_4_max_dsp_1.vhd",
+      "bytes": 3789,
+      "sha256": "ad2bb151d7db6b9f9c20276f841c75c7cfeb7e2d871096c91a50a523375229af",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/keypoint_conv_f32/hdl/vhdl/keypoint_conv_f32_gmem_m_axi.vhd",
+      "bytes": 150514,
+      "sha256": "204015da757f560f4b2466f2ee2377968c23995da27ec3833bbc6c0140e53404",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/keypoint_conv_f32/hdl/vhdl/keypoint_conv_f32_keypoint_conv_f32_pipeline_conv_weight_burst.vhd",
+      "bytes": 32172,
+      "sha256": "f65a53debe88119dd7ec46900ba238c80eef342abad1ad9b8d87ebe2e09e42a5",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/keypoint_conv_f32/hdl/vhdl/keypoint_conv_f32_keypoint_conv_f32_pipeline_dw_weight_burst.vhd",
+      "bytes": 33033,
+      "sha256": "2e33318558685f0d2485af0c1aaa094a6980ec62ffa3eb44d6c3dbb9d61b71df",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/keypoint_conv_f32/hdl/vhdl/keypoint_conv_f32_keypoint_conv_f32_pipeline_general_flat_load.vhd",
+      "bytes": 92436,
+      "sha256": "b25d752f107d68656a693f4cc7455868d25d89c4c6e571fc63d8aa2d097feb95",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/keypoint_conv_f32/hdl/vhdl/keypoint_conv_f32_keypoint_conv_f32_pipeline_init_pixel.vhd",
+      "bytes": 99377,
+      "sha256": "d153c4d8e40df04df07946c3511b4fcb0d99e9c0e960fa76bb74426e29e89bdb",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/keypoint_conv_f32/hdl/vhdl/keypoint_conv_f32_keypoint_conv_f32_pipeline_load_bias.vhd",
+      "bytes": 34023,
+      "sha256": "aa0ac4d19a2dec74d57aa81e13119dcdf373c54415aeafe23bfba9c2f762baf5",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/keypoint_conv_f32/hdl/vhdl/keypoint_conv_f32_keypoint_conv_f32_pipeline_mac_reduction_mac_pixels.vhd",
+      "bytes": 211385,
+      "sha256": "27a4f430a58fed2315371eb0a056d6c9ff58165935bbe754c3cee6fe382bf966",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/keypoint_conv_f32/hdl/vhdl/keypoint_conv_f32_keypoint_conv_f32_pipeline_output_burst.vhd",
+      "bytes": 55414,
+      "sha256": "3c0d73d595a43edf38ba0f23e1cf35765459dcb06eb17bf72d305383883c3fd2",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/keypoint_conv_f32/hdl/vhdl/keypoint_conv_f32_keypoint_conv_f32_pipeline_pw_input_burst.vhd",
+      "bytes": 33162,
+      "sha256": "c759587267485071791dcd61c7c426f2aa4854dac7e5089e0e87682cc15092b2",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/keypoint_conv_f32/hdl/vhdl/keypoint_conv_f32_keypoint_conv_f32_pipeline_pw_pad_pixel_pw_zero.vhd",
+      "bytes": 26287,
+      "sha256": "519bd2f9c7455001977711035a295c8ddd4f7e6e401136416514733a307a6955",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/keypoint_conv_f32/hdl/vhdl/keypoint_conv_f32_keypoint_conv_f32_pipeline_vitis_loop_25_1.vhd",
+      "bytes": 37618,
+      "sha256": "e73d0a9ab4b1d1de82182e43fcc86e93c3175d217fc643e750bc1c82ca5fedf8",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/keypoint_conv_f32/hdl/vhdl/keypoint_conv_f32_keypoint_conv_f32_pipeline_zero_bias.vhd",
+      "bytes": 21677,
+      "sha256": "3ae192ae4ecae797bd905432c0f837bd9787c8d203a2af1d33299eeefb36dc90",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/keypoint_conv_f32/hdl/vhdl/keypoint_conv_f32_keypoint_conv_f32_pipeline_zero_weight_lane_zero_weight.vhd",
+      "bytes": 24873,
+      "sha256": "bfa2831cb98baba18739372ac2354bef1609d19eaee10c204182a85cff49e55e",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/keypoint_conv_f32/hdl/vhdl/keypoint_conv_f32_mul_28ns_32ns_59_1_1.vhd",
+      "bytes": 1232,
+      "sha256": "fd6e31e1326ec1885ff5c104fb0c4fdf94da0e5c35e89268a2d32793c9bc74ef",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/keypoint_conv_f32/hdl/vhdl/keypoint_conv_f32_mul_31ns_32s_62_1_1.vhd",
+      "bytes": 1260,
+      "sha256": "f925a4b6b4a7b4f2dbca2daefab48a4c4f432d98f04c5788bc5fa802d816460a",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/keypoint_conv_f32/hdl/vhdl/keypoint_conv_f32_mul_32ns_31ns_63_1_1.vhd",
+      "bytes": 1232,
+      "sha256": "39a6349a7f19a575d69238bfaf6c82e3432744607e5567261f3ae028f4a7be46",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/keypoint_conv_f32/hdl/vhdl/keypoint_conv_f32_mul_32s_32ns_36_1_1.vhd",
+      "bytes": 1260,
+      "sha256": "d2fa96db8b0f2bc345bd4c65b5b3eec51840d2c97bdb06fcace0f999d34a2a20",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/keypoint_conv_f32/hdl/vhdl/keypoint_conv_f32_mul_32s_32s_32_1_1.vhd",
+      "bytes": 1252,
+      "sha256": "53c3d6eee05468bff6e48c8d755021ee43890e319e4bd6342762c43302c0322b",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/keypoint_conv_f32/hdl/vhdl/keypoint_conv_f32_mul_34s_32s_62_1_1.vhd",
+      "bytes": 1252,
+      "sha256": "07f8aa3d5783f60b5d72a3a3e913901c4bc69e57540c6771f3799b0e8844c1b8",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/keypoint_conv_f32/hdl/vhdl/keypoint_conv_f32_sparsemux_11_4_32_1_1.vhd",
+      "bytes": 2345,
+      "sha256": "c0fea092946276ec490ecc90be3c1347fc4cc5787a67df682fb0a7b96ff3e7d2",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/keypoint_conv_f32/hdl/vhdl/keypoint_conv_f32_sparsemux_17_3_32_1_1.vhd",
+      "bytes": 3017,
+      "sha256": "194563523bd51e1f3670837ca305a8673ce7e8b7453c88720b2b49e4b68fb971",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/keypoint_conv_f32/hdl/vhdl/keypoint_conv_f32_sparsemux_7_2_32_1_1.vhd",
+      "bytes": 1895,
+      "sha256": "5312b7d1143931f45a6c3f697fb43dd0ded9aa7bc10fa5c22a9d1daac249798a",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/keypoint_conv_f32/hdl/vhdl/keypoint_conv_f32_sparsemux_9_3_32_1_1.vhd",
+      "bytes": 2119,
+      "sha256": "d85707e4939ef2150bf0ea1980e9665800c7891e48b59424d35639bd324ad2b5",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/keypoint_conv_f32/hdl/vhdl/keypoint_conv_f32_udiv_32s_32s_32_36_seq_1.vhd",
+      "bytes": 6943,
+      "sha256": "906a54869be8a8a78963ec11b521f7cad0f091279e87c18096a55d0e77d61a4b",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/keypoint_conv_f32/hdl/vhdl/keypoint_conv_f32_urem_32s_32s_32_36_seq_1.vhd",
+      "bytes": 6943,
+      "sha256": "d9b9f8efffb0d4ac329c61b041c2b055b1cf707deb53879987e0d7a1c82fd5b9",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/keypoint_conv_f32/hdl/vhdl/keypoint_conv_f32_wbuf_ram_2p_bram_1r1w.vhd",
+      "bytes": 2432,
+      "sha256": "2cd24132edd4c63165fc620d8b68154ed81b20ad62edfb10c4fd109d63d22b47",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/keypoint_conv_f32/hdl/vhdl/keypoint_conv_f32_xbuf_ram_2p_bram_1r1w.vhd",
+      "bytes": 2955,
+      "sha256": "09000a90fc7d092115b56c5d4cf1d6cc0618766100dfc6e76c7c065ced67f64b",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/keypoint_conv_f32/xgui/keypoint_conv_f32_v1_0.tcl",
+      "bytes": 10111,
+      "sha256": "7983d81939185b80d45cb9f0a13615ebe08071a2b7cd6515026a9a7144e98232",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/ov5640_capture_data/component.xml",
+      "bytes": 20122,
+      "sha256": "1115027d756149eff212aa5c49e827ddf9db46fe639a01505f4c11bc562737c0",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/ov5640_capture_data/src/ov5640_capture_data.v",
+      "bytes": 5452,
+      "sha256": "2ff535d3d60806bdd8f8f5a53d226997b65b086bd280ec318c54e0208440265e",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/ov5640_capture_data/xgui/ov5640_capture_data_v1_0.tcl",
+      "bytes": 205,
+      "sha256": "e0725b60cdc4cd625ee059e557ee3f5569fcd085edf601849e69e4d438080d96",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/pwm/bd/bd.tcl",
+      "bytes": 7835,
+      "sha256": "1c84726f85b384b436e268025ceca83ffa845ba278ff1acf1650a58ebd373fc6",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/pwm/component.xml",
+      "bytes": 39369,
+      "sha256": "0263957fbcb0aa79aeae99bad3e1a2062e1e6da2391b1d7259880bc5d3bb81a1",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/pwm/drivers/pwm_v1_0/src/pwm.c",
+      "bytes": 862,
+      "sha256": "e99c4397c10dba8260fc98141bae5e175985e4d4218fd19ff8459142205dd2ab",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/pwm/drivers/pwm_v1_0/src/pwm.h",
+      "bytes": 2602,
+      "sha256": "376359ffdec619e820a90c86c3c65074b569fb8262e600f6f6de7188c17a994e",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/pwm/hdl/pwm_axi.sv",
+      "bytes": 15636,
+      "sha256": "6db0d59db640930cb317933383c701df984f4da4a3195a5433d95848c83fb60e",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/pwm/hdl/pwm_v2_0.sv",
+      "bytes": 3959,
+      "sha256": "3c51b58e2b574dc01efc63322cf515f09e9dcc22b83ad7b61cbe9aef4161af98",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/pwm/xgui/pwm_v2_0.tcl",
+      "bytes": 3889,
+      "sha256": "0d318ad81e20569a1784c0e73b871baa0cfe55029b64d87d22518c0aedeec26a",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/rgb2lcd/component.xml",
+      "bytes": 28641,
+      "sha256": "dbbc7acf610f05f96e04f34536ad3c3923d90566a9506612426729fc1b333ee5",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/rgb2lcd/src/rgb2lcd.v",
+      "bytes": 2736,
+      "sha256": "b7a6b1b737fb15a3fc5812326d1d5374254d7ad2feda229f31028d5507eff6f8",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    },
+    {
+      "path": "src/rtl/ip/rgb2lcd/xgui/rgb2lcd_v1_0.tcl",
+      "bytes": 933,
+      "sha256": "ff7e21d65eb6858a3d60277d60f7163ed36bb2a3aa6cc0fa160a1b6e3c724609",
+      "group": "hardware_sources",
+      "license_scope": "original_component_terms",
+      "distribution_basis": "publisher_confirmation"
+    }
+  ]
+}

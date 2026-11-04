@@ -1,0 +1,14 @@
+KERNEL_DIR=/usr/src/kernel
+make: Entering directory '/usr/lib/modules/6.6.10-xilinx-v2024.1-g3c0eca68c652/build'
+  CC [M]  /home/xilinx/mgd_final_build/p/gesture_pynq_hand_i8.o
+make: Leaving directory '/usr/lib/modules/6.6.10-xilinx-v2024.1-g3c0eca68c652/build'
+
+warning: the compiler differs from the one used to build the kernel
+  The kernel was built by: arm-xilinx-linux-gnueabi-gcc (GCC) 12.2.0
+  You are using:           gcc (Ubuntu 11.2.0-19ubuntu1) 11.2.0
+gcc: error: unrecognized command-line option ‘-ftrivial-auto-var-init=zero’
+gcc: error: unrecognized command-line option ‘-mstack-protector-guard=tls’; did you mean ‘-fstack-protector-all’?
+gcc: error: unrecognized command-line option ‘-mstack-protector-guard-offset=1320’
+make[2]: *** [scripts/Makefile.build:243: /home/xilinx/mgd_final_build/p/gesture_pynq_hand_i8.o] Error 1
+make[1]: *** [/usr/lib/modules/6.6.10-xilinx-v2024.1-g3c0eca68c652/build/Makefile:1913: /home/xilinx/mgd_final_build/p] Error 2
+make: *** [Makefile:234: __sub-make] Error 2

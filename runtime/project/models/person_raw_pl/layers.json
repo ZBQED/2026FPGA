@@ -1,0 +1,1422 @@
+[
+  {
+    "name": "Conv_0",
+    "type": 1,
+    "offset": 110592,
+    "shape": [
+      96,
+      96,
+      24
+    ]
+  },
+  {
+    "name": "MaxPool_2",
+    "type": 3,
+    "offset": 331776,
+    "shape": [
+      48,
+      48,
+      24
+    ]
+  },
+  {
+    "name": "splitncnn_0",
+    "type": 8,
+    "offset": 331776,
+    "shape": [
+      48,
+      48,
+      24
+    ]
+  },
+  {
+    "name": "Conv_3",
+    "type": 2,
+    "offset": 387072,
+    "shape": [
+      24,
+      24,
+      24
+    ]
+  },
+  {
+    "name": "Conv_4",
+    "type": 1,
+    "offset": 400896,
+    "shape": [
+      24,
+      24,
+      24
+    ]
+  },
+  {
+    "name": "Conv_6",
+    "type": 1,
+    "offset": 414720,
+    "shape": [
+      48,
+      48,
+      24
+    ]
+  },
+  {
+    "name": "Conv_8",
+    "type": 2,
+    "offset": 470016,
+    "shape": [
+      24,
+      24,
+      24
+    ]
+  },
+  {
+    "name": "Conv_9",
+    "type": 1,
+    "offset": 483840,
+    "shape": [
+      24,
+      24,
+      24
+    ]
+  },
+  {
+    "name": "Concat_11",
+    "type": 4,
+    "offset": 497664,
+    "shape": [
+      24,
+      24,
+      48
+    ]
+  },
+  {
+    "name": "Reshape_16",
+    "type": 5,
+    "offset": 525312,
+    "shape": [
+      24,
+      24,
+      48
+    ]
+  },
+  {
+    "name": "Gather_20",
+    "type": 6,
+    "offset": 552960,
+    "shape": [
+      24,
+      24,
+      24
+    ]
+  },
+  {
+    "name": "Conv_21",
+    "type": 1,
+    "offset": 580608,
+    "shape": [
+      24,
+      24,
+      24
+    ]
+  },
+  {
+    "name": "Conv_23",
+    "type": 2,
+    "offset": 594432,
+    "shape": [
+      24,
+      24,
+      24
+    ]
+  },
+  {
+    "name": "Conv_24",
+    "type": 1,
+    "offset": 608256,
+    "shape": [
+      24,
+      24,
+      24
+    ]
+  },
+  {
+    "name": "Concat_26",
+    "type": 4,
+    "offset": 622080,
+    "shape": [
+      24,
+      24,
+      48
+    ]
+  },
+  {
+    "name": "Reshape_31",
+    "type": 5,
+    "offset": 649728,
+    "shape": [
+      24,
+      24,
+      48
+    ]
+  },
+  {
+    "name": "Gather_35",
+    "type": 6,
+    "offset": 677376,
+    "shape": [
+      24,
+      24,
+      24
+    ]
+  },
+  {
+    "name": "Conv_36",
+    "type": 1,
+    "offset": 705024,
+    "shape": [
+      24,
+      24,
+      24
+    ]
+  },
+  {
+    "name": "Conv_38",
+    "type": 2,
+    "offset": 718848,
+    "shape": [
+      24,
+      24,
+      24
+    ]
+  },
+  {
+    "name": "Conv_39",
+    "type": 1,
+    "offset": 732672,
+    "shape": [
+      24,
+      24,
+      24
+    ]
+  },
+  {
+    "name": "Concat_41",
+    "type": 4,
+    "offset": 746496,
+    "shape": [
+      24,
+      24,
+      48
+    ]
+  },
+  {
+    "name": "Reshape_46",
+    "type": 5,
+    "offset": 774144,
+    "shape": [
+      24,
+      24,
+      48
+    ]
+  },
+  {
+    "name": "Gather_50",
+    "type": 6,
+    "offset": 801792,
+    "shape": [
+      24,
+      24,
+      24
+    ]
+  },
+  {
+    "name": "Conv_51",
+    "type": 1,
+    "offset": 829440,
+    "shape": [
+      24,
+      24,
+      24
+    ]
+  },
+  {
+    "name": "Conv_53",
+    "type": 2,
+    "offset": 843264,
+    "shape": [
+      24,
+      24,
+      24
+    ]
+  },
+  {
+    "name": "Conv_54",
+    "type": 1,
+    "offset": 857088,
+    "shape": [
+      24,
+      24,
+      24
+    ]
+  },
+  {
+    "name": "Concat_56",
+    "type": 4,
+    "offset": 870912,
+    "shape": [
+      24,
+      24,
+      48
+    ]
+  },
+  {
+    "name": "splitncnn_1",
+    "type": 8,
+    "offset": 870912,
+    "shape": [
+      24,
+      24,
+      48
+    ]
+  },
+  {
+    "name": "Conv_57",
+    "type": 2,
+    "offset": 898560,
+    "shape": [
+      12,
+      12,
+      48
+    ]
+  },
+  {
+    "name": "Conv_58",
+    "type": 1,
+    "offset": 905472,
+    "shape": [
+      12,
+      12,
+      48
+    ]
+  },
+  {
+    "name": "Conv_60",
+    "type": 1,
+    "offset": 912384,
+    "shape": [
+      24,
+      24,
+      48
+    ]
+  },
+  {
+    "name": "Conv_62",
+    "type": 2,
+    "offset": 940032,
+    "shape": [
+      12,
+      12,
+      48
+    ]
+  },
+  {
+    "name": "Conv_63",
+    "type": 1,
+    "offset": 946944,
+    "shape": [
+      12,
+      12,
+      48
+    ]
+  },
+  {
+    "name": "Concat_65",
+    "type": 4,
+    "offset": 953856,
+    "shape": [
+      12,
+      12,
+      96
+    ]
+  },
+  {
+    "name": "Reshape_70",
+    "type": 5,
+    "offset": 967680,
+    "shape": [
+      12,
+      12,
+      96
+    ]
+  },
+  {
+    "name": "Gather_74",
+    "type": 6,
+    "offset": 981504,
+    "shape": [
+      12,
+      12,
+      48
+    ]
+  },
+  {
+    "name": "Conv_75",
+    "type": 1,
+    "offset": 995328,
+    "shape": [
+      12,
+      12,
+      48
+    ]
+  },
+  {
+    "name": "Conv_77",
+    "type": 2,
+    "offset": 1002240,
+    "shape": [
+      12,
+      12,
+      48
+    ]
+  },
+  {
+    "name": "Conv_78",
+    "type": 1,
+    "offset": 1009152,
+    "shape": [
+      12,
+      12,
+      48
+    ]
+  },
+  {
+    "name": "Concat_80",
+    "type": 4,
+    "offset": 1016064,
+    "shape": [
+      12,
+      12,
+      96
+    ]
+  },
+  {
+    "name": "Reshape_85",
+    "type": 5,
+    "offset": 1029888,
+    "shape": [
+      12,
+      12,
+      96
+    ]
+  },
+  {
+    "name": "Gather_89",
+    "type": 6,
+    "offset": 1043712,
+    "shape": [
+      12,
+      12,
+      48
+    ]
+  },
+  {
+    "name": "Conv_90",
+    "type": 1,
+    "offset": 1057536,
+    "shape": [
+      12,
+      12,
+      48
+    ]
+  },
+  {
+    "name": "Conv_92",
+    "type": 2,
+    "offset": 1064448,
+    "shape": [
+      12,
+      12,
+      48
+    ]
+  },
+  {
+    "name": "Conv_93",
+    "type": 1,
+    "offset": 1071360,
+    "shape": [
+      12,
+      12,
+      48
+    ]
+  },
+  {
+    "name": "Concat_95",
+    "type": 4,
+    "offset": 1078272,
+    "shape": [
+      12,
+      12,
+      96
+    ]
+  },
+  {
+    "name": "Reshape_100",
+    "type": 5,
+    "offset": 1092096,
+    "shape": [
+      12,
+      12,
+      96
+    ]
+  },
+  {
+    "name": "Gather_104",
+    "type": 6,
+    "offset": 1105920,
+    "shape": [
+      12,
+      12,
+      48
+    ]
+  },
+  {
+    "name": "Conv_105",
+    "type": 1,
+    "offset": 1119744,
+    "shape": [
+      12,
+      12,
+      48
+    ]
+  },
+  {
+    "name": "Conv_107",
+    "type": 2,
+    "offset": 1126656,
+    "shape": [
+      12,
+      12,
+      48
+    ]
+  },
+  {
+    "name": "Conv_108",
+    "type": 1,
+    "offset": 1133568,
+    "shape": [
+      12,
+      12,
+      48
+    ]
+  },
+  {
+    "name": "Concat_110",
+    "type": 4,
+    "offset": 1140480,
+    "shape": [
+      12,
+      12,
+      96
+    ]
+  },
+  {
+    "name": "Reshape_115",
+    "type": 5,
+    "offset": 1154304,
+    "shape": [
+      12,
+      12,
+      96
+    ]
+  },
+  {
+    "name": "Gather_119",
+    "type": 6,
+    "offset": 1168128,
+    "shape": [
+      12,
+      12,
+      48
+    ]
+  },
+  {
+    "name": "Conv_120",
+    "type": 1,
+    "offset": 1181952,
+    "shape": [
+      12,
+      12,
+      48
+    ]
+  },
+  {
+    "name": "Conv_122",
+    "type": 2,
+    "offset": 1188864,
+    "shape": [
+      12,
+      12,
+      48
+    ]
+  },
+  {
+    "name": "Conv_123",
+    "type": 1,
+    "offset": 1195776,
+    "shape": [
+      12,
+      12,
+      48
+    ]
+  },
+  {
+    "name": "Concat_125",
+    "type": 4,
+    "offset": 1202688,
+    "shape": [
+      12,
+      12,
+      96
+    ]
+  },
+  {
+    "name": "Reshape_130",
+    "type": 5,
+    "offset": 1216512,
+    "shape": [
+      12,
+      12,
+      96
+    ]
+  },
+  {
+    "name": "Gather_134",
+    "type": 6,
+    "offset": 1230336,
+    "shape": [
+      12,
+      12,
+      48
+    ]
+  },
+  {
+    "name": "Conv_135",
+    "type": 1,
+    "offset": 1244160,
+    "shape": [
+      12,
+      12,
+      48
+    ]
+  },
+  {
+    "name": "Conv_137",
+    "type": 2,
+    "offset": 1251072,
+    "shape": [
+      12,
+      12,
+      48
+    ]
+  },
+  {
+    "name": "Conv_138",
+    "type": 1,
+    "offset": 1257984,
+    "shape": [
+      12,
+      12,
+      48
+    ]
+  },
+  {
+    "name": "Concat_140",
+    "type": 4,
+    "offset": 1264896,
+    "shape": [
+      12,
+      12,
+      96
+    ]
+  },
+  {
+    "name": "Reshape_145",
+    "type": 5,
+    "offset": 1278720,
+    "shape": [
+      12,
+      12,
+      96
+    ]
+  },
+  {
+    "name": "Gather_149",
+    "type": 6,
+    "offset": 1292544,
+    "shape": [
+      12,
+      12,
+      48
+    ]
+  },
+  {
+    "name": "Conv_150",
+    "type": 1,
+    "offset": 1306368,
+    "shape": [
+      12,
+      12,
+      48
+    ]
+  },
+  {
+    "name": "Conv_152",
+    "type": 2,
+    "offset": 1313280,
+    "shape": [
+      12,
+      12,
+      48
+    ]
+  },
+  {
+    "name": "Conv_153",
+    "type": 1,
+    "offset": 1320192,
+    "shape": [
+      12,
+      12,
+      48
+    ]
+  },
+  {
+    "name": "Concat_155",
+    "type": 4,
+    "offset": 1327104,
+    "shape": [
+      12,
+      12,
+      96
+    ]
+  },
+  {
+    "name": "Reshape_160",
+    "type": 5,
+    "offset": 1340928,
+    "shape": [
+      12,
+      12,
+      96
+    ]
+  },
+  {
+    "name": "Gather_164",
+    "type": 6,
+    "offset": 1354752,
+    "shape": [
+      12,
+      12,
+      48
+    ]
+  },
+  {
+    "name": "Conv_165",
+    "type": 1,
+    "offset": 1368576,
+    "shape": [
+      12,
+      12,
+      48
+    ]
+  },
+  {
+    "name": "Conv_167",
+    "type": 2,
+    "offset": 1375488,
+    "shape": [
+      12,
+      12,
+      48
+    ]
+  },
+  {
+    "name": "Conv_168",
+    "type": 1,
+    "offset": 1382400,
+    "shape": [
+      12,
+      12,
+      48
+    ]
+  },
+  {
+    "name": "Concat_170",
+    "type": 4,
+    "offset": 1389312,
+    "shape": [
+      12,
+      12,
+      96
+    ]
+  },
+  {
+    "name": "splitncnn_2",
+    "type": 8,
+    "offset": 1389312,
+    "shape": [
+      12,
+      12,
+      96
+    ]
+  },
+  {
+    "name": "Conv_171",
+    "type": 2,
+    "offset": 1403136,
+    "shape": [
+      6,
+      6,
+      96
+    ]
+  },
+  {
+    "name": "Conv_172",
+    "type": 1,
+    "offset": 1406592,
+    "shape": [
+      6,
+      6,
+      96
+    ]
+  },
+  {
+    "name": "Conv_174",
+    "type": 1,
+    "offset": 1410048,
+    "shape": [
+      12,
+      12,
+      96
+    ]
+  },
+  {
+    "name": "Conv_176",
+    "type": 2,
+    "offset": 1423872,
+    "shape": [
+      6,
+      6,
+      96
+    ]
+  },
+  {
+    "name": "Conv_177",
+    "type": 1,
+    "offset": 1427328,
+    "shape": [
+      6,
+      6,
+      96
+    ]
+  },
+  {
+    "name": "Concat_179",
+    "type": 4,
+    "offset": 1430784,
+    "shape": [
+      6,
+      6,
+      192
+    ]
+  },
+  {
+    "name": "Reshape_184",
+    "type": 5,
+    "offset": 1437696,
+    "shape": [
+      6,
+      6,
+      192
+    ]
+  },
+  {
+    "name": "Gather_188",
+    "type": 6,
+    "offset": 1444608,
+    "shape": [
+      6,
+      6,
+      96
+    ]
+  },
+  {
+    "name": "Conv_189",
+    "type": 1,
+    "offset": 1451520,
+    "shape": [
+      6,
+      6,
+      96
+    ]
+  },
+  {
+    "name": "Conv_191",
+    "type": 2,
+    "offset": 1454976,
+    "shape": [
+      6,
+      6,
+      96
+    ]
+  },
+  {
+    "name": "Conv_192",
+    "type": 1,
+    "offset": 1458432,
+    "shape": [
+      6,
+      6,
+      96
+    ]
+  },
+  {
+    "name": "Concat_194",
+    "type": 4,
+    "offset": 1461888,
+    "shape": [
+      6,
+      6,
+      192
+    ]
+  },
+  {
+    "name": "Reshape_199",
+    "type": 5,
+    "offset": 1468800,
+    "shape": [
+      6,
+      6,
+      192
+    ]
+  },
+  {
+    "name": "Gather_203",
+    "type": 6,
+    "offset": 1475712,
+    "shape": [
+      6,
+      6,
+      96
+    ]
+  },
+  {
+    "name": "Conv_204",
+    "type": 1,
+    "offset": 1482624,
+    "shape": [
+      6,
+      6,
+      96
+    ]
+  },
+  {
+    "name": "Conv_206",
+    "type": 2,
+    "offset": 1486080,
+    "shape": [
+      6,
+      6,
+      96
+    ]
+  },
+  {
+    "name": "Conv_207",
+    "type": 1,
+    "offset": 1489536,
+    "shape": [
+      6,
+      6,
+      96
+    ]
+  },
+  {
+    "name": "Concat_209",
+    "type": 4,
+    "offset": 1492992,
+    "shape": [
+      6,
+      6,
+      192
+    ]
+  },
+  {
+    "name": "Reshape_214",
+    "type": 5,
+    "offset": 1499904,
+    "shape": [
+      6,
+      6,
+      192
+    ]
+  },
+  {
+    "name": "Gather_218",
+    "type": 6,
+    "offset": 1506816,
+    "shape": [
+      6,
+      6,
+      96
+    ]
+  },
+  {
+    "name": "Conv_219",
+    "type": 1,
+    "offset": 1513728,
+    "shape": [
+      6,
+      6,
+      96
+    ]
+  },
+  {
+    "name": "Conv_221",
+    "type": 2,
+    "offset": 1517184,
+    "shape": [
+      6,
+      6,
+      96
+    ]
+  },
+  {
+    "name": "Conv_222",
+    "type": 1,
+    "offset": 1520640,
+    "shape": [
+      6,
+      6,
+      96
+    ]
+  },
+  {
+    "name": "Concat_224",
+    "type": 4,
+    "offset": 1524096,
+    "shape": [
+      6,
+      6,
+      192
+    ]
+  },
+  {
+    "name": "splitncnn_3",
+    "type": 8,
+    "offset": 1524096,
+    "shape": [
+      6,
+      6,
+      192
+    ]
+  },
+  {
+    "name": "Conv_225",
+    "type": 1,
+    "offset": 1531008,
+    "shape": [
+      6,
+      6,
+      72
+    ]
+  },
+  {
+    "name": "splitncnn_4",
+    "type": 8,
+    "offset": 1531008,
+    "shape": [
+      6,
+      6,
+      72
+    ]
+  },
+  {
+    "name": "Conv_227",
+    "type": 2,
+    "offset": 1533600,
+    "shape": [
+      6,
+      6,
+      72
+    ]
+  },
+  {
+    "name": "Conv_229",
+    "type": 1,
+    "offset": 1536192,
+    "shape": [
+      6,
+      6,
+      72
+    ]
+  },
+  {
+    "name": "Conv_230",
+    "type": 2,
+    "offset": 1538784,
+    "shape": [
+      6,
+      6,
+      72
+    ]
+  },
+  {
+    "name": "Conv_232",
+    "type": 1,
+    "offset": 1541376,
+    "shape": [
+      6,
+      6,
+      72
+    ]
+  },
+  {
+    "name": "splitncnn_5",
+    "type": 8,
+    "offset": 1541376,
+    "shape": [
+      6,
+      6,
+      72
+    ]
+  },
+  {
+    "name": "Conv_233",
+    "type": 2,
+    "offset": 1543968,
+    "shape": [
+      6,
+      6,
+      72
+    ]
+  },
+  {
+    "name": "Conv_235",
+    "type": 1,
+    "offset": 1546560,
+    "shape": [
+      6,
+      6,
+      72
+    ]
+  },
+  {
+    "name": "Conv_236",
+    "type": 2,
+    "offset": 1549152,
+    "shape": [
+      6,
+      6,
+      72
+    ]
+  },
+  {
+    "name": "Conv_238",
+    "type": 1,
+    "offset": 1551744,
+    "shape": [
+      6,
+      6,
+      72
+    ]
+  },
+  {
+    "name": "Resize_240",
+    "type": 7,
+    "offset": 1554336,
+    "shape": [
+      12,
+      12,
+      192
+    ]
+  },
+  {
+    "name": "Concat_241",
+    "type": 4,
+    "offset": 1581984,
+    "shape": [
+      12,
+      12,
+      288
+    ]
+  },
+  {
+    "name": "Conv_242",
+    "type": 1,
+    "offset": 1623456,
+    "shape": [
+      12,
+      12,
+      72
+    ]
+  },
+  {
+    "name": "splitncnn_6",
+    "type": 8,
+    "offset": 1623456,
+    "shape": [
+      12,
+      12,
+      72
+    ]
+  },
+  {
+    "name": "Conv_244",
+    "type": 2,
+    "offset": 1633824,
+    "shape": [
+      12,
+      12,
+      72
+    ]
+  },
+  {
+    "name": "Conv_246",
+    "type": 1,
+    "offset": 1644192,
+    "shape": [
+      12,
+      12,
+      72
+    ]
+  },
+  {
+    "name": "Conv_247",
+    "type": 2,
+    "offset": 1654560,
+    "shape": [
+      12,
+      12,
+      72
+    ]
+  },
+  {
+    "name": "Conv_249",
+    "type": 1,
+    "offset": 1664928,
+    "shape": [
+      12,
+      12,
+      72
+    ]
+  },
+  {
+    "name": "splitncnn_7",
+    "type": 8,
+    "offset": 1664928,
+    "shape": [
+      12,
+      12,
+      72
+    ]
+  },
+  {
+    "name": "Conv_250",
+    "type": 2,
+    "offset": 1675296,
+    "shape": [
+      12,
+      12,
+      72
+    ]
+  },
+  {
+    "name": "Conv_252",
+    "type": 1,
+    "offset": 1685664,
+    "shape": [
+      12,
+      12,
+      72
+    ]
+  },
+  {
+    "name": "Conv_253",
+    "type": 2,
+    "offset": 1696032,
+    "shape": [
+      12,
+      12,
+      72
+    ]
+  },
+  {
+    "name": "Conv_255",
+    "type": 1,
+    "offset": 1706400,
+    "shape": [
+      12,
+      12,
+      72
+    ]
+  },
+  {
+    "name": "Conv_256",
+    "type": 1,
+    "offset": 1716768,
+    "shape": [
+      12,
+      12,
+      12
+    ]
+  },
+  {
+    "name": "Conv_257",
+    "type": 1,
+    "offset": 1718496,
+    "shape": [
+      12,
+      12,
+      3
+    ]
+  },
+  {
+    "name": "Conv_258",
+    "type": 1,
+    "offset": 1718928,
+    "shape": [
+      12,
+      12,
+      80
+    ]
+  },
+  {
+    "name": "Conv_259",
+    "type": 1,
+    "offset": 1730448,
+    "shape": [
+      6,
+      6,
+      12
+    ]
+  },
+  {
+    "name": "Conv_260",
+    "type": 1,
+    "offset": 1730880,
+    "shape": [
+      6,
+      6,
+      3
+    ]
+  },
+  {
+    "name": "Conv_261",
+    "type": 1,
+    "offset": 1730992,
+    "shape": [
+      6,
+      6,
+      80
+    ]
+  },
+  {
+    "name": "Transpose_264",
+    "type": 8,
+    "offset": 1718928,
+    "shape": [
+      12,
+      12,
+      80
+    ]
+  },
+  {
+    "name": "Softmax_265",
+    "type": 8,
+    "offset": 1718928,
+    "shape": [
+      12,
+      12,
+      80
+    ]
+  },
+  {
+    "name": "Transpose_266",
+    "type": 8,
+    "offset": 1718928,
+    "shape": [
+      12,
+      12,
+      80
+    ]
+  },
+  {
+    "name": "Transpose_269",
+    "type": 8,
+    "offset": 1730992,
+    "shape": [
+      6,
+      6,
+      80
+    ]
+  },
+  {
+    "name": "Softmax_270",
+    "type": 8,
+    "offset": 1730992,
+    "shape": [
+      6,
+      6,
+      80
+    ]
+  },
+  {
+    "name": "Transpose_271",
+    "type": 8,
+    "offset": 1730992,
+    "shape": [
+      6,
+      6,
+      80
+    ]
+  },
+  {
+    "name": "Concat_272",
+    "type": 4,
+    "offset": 1733872,
+    "shape": [
+      12,
+      12,
+      95
+    ]
+  },
+  {
+    "name": "Transpose_273",
+    "type": 8,
+    "offset": 1733872,
+    "shape": [
+      12,
+      12,
+      95
+    ]
+  },
+  {
+    "name": "Concat_274",
+    "type": 4,
+    "offset": 1747552,
+    "shape": [
+      6,
+      6,
+      95
+    ]
+  },
+  {
+    "name": "Transpose_275",
+    "type": 8,
+    "offset": 1747552,
+    "shape": [
+      6,
+      6,
+      95
+    ]
+  }
+]

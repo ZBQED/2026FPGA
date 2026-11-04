@@ -1,0 +1,4 @@
+interface:
+  display_name: "PYNQ Evidence Audit"
+  short_description: "PYNQ validation, multi-board pipelines and reproducible handoff"
+  default_prompt: "Use $pynq-evidence-audit to verify the PYNQ project, compare golden outputs and check multi-board frame consistency."

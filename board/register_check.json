@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "compared_offsets": {
+    "CONTROL": "0x0",
+    "RESULT": "0x10",
+    "INPUT": "0x18",
+    "WEIGHTS": "0x24",
+    "BIAS": "0x30",
+    "OUTPUT": "0x3c",
+    "CONFIG": "0x48"
+  },
+  "scope": "Static register ABI only",
+  "hardware_accessed": false
+}

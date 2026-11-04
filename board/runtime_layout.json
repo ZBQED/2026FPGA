@@ -1,0 +1,59 @@
+{
+  "nav": {
+    "source": "src/ps/nav/runtime",
+    "application": "src/ps/nav/app",
+    "ui": "src/ui",
+    "native": [
+      "libhand_crop.so",
+      "libgaussian3.so",
+      "libyf2_geometry.so",
+      "libcamera_timed_arm.so",
+      "liblive_integer_frame.so",
+      "libreport_integer_image.so"
+    ],
+    "models": {
+      "head_manifest.json": "data/models/nav_heads/manifest.json",
+      "palm_0_group0.npz": "data/models/nav_heads/palm_0_group0.npz",
+      "body_0_group0.npz": "data/models/nav_heads/body_0_group0.npz",
+      "body_plan.json": "data/models/body_plan.json"
+    },
+    "existing_camera": "/run/medcomm/camera.frame",
+    "existing_fp32_library": "/opt/gesture-tcn-20261022/build_runtime/libgesture_tflite_pl.so",
+    "device": "/dev/gesture-pl0"
+  },
+  "q": {
+    "source": "src/ps/common",
+    "wiring": "src/ps/common/wiring",
+    "models": [
+      "data/models/hand_q",
+      "data/models/tcn",
+      "data/models/shared_workspace"
+    ],
+    "device": "/dev/gesture-i8-pl0"
+  },
+  "p": {
+    "source": "src/ps/common",
+    "audio": "src/ps/p/audio",
+    "hand_model": "data/models/hand_p",
+    "device": "/dev/gesture-i8-pl0"
+  },
+  "pc": {
+    "source": "src/pc",
+    "models": "data/models/nav_heads",
+    "required_config": {
+      "compact_nav": true,
+      "nav_body_post": true,
+      "pc_hands": false
+    }
+  },
+  "native_name_mapping": {
+    "libhand_q.so": "q/shared_workspace/full_hand/libfull_hand_pl.so",
+    "libhand_p.so": "p/full_hand/libfull_hand_pl.so",
+    "libyf2_raw_pl.so": [
+      "q/person_raw/libyf2_raw_pl.so",
+      "p/person_raw/libyf2_raw_pl.so",
+      "nav/libyf2_geometry.so"
+    ],
+    "libtcn_resample.so": "q/wiring/libtcn_resample.so"
+  }
+}

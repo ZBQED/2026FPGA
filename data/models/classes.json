@@ -1,0 +1,223 @@
+{
+  "0461": {
+    "name": "发烧",
+    "gloss": "发烧",
+    "idx": 0,
+    "intents": [
+      "症状:发烧"
+    ]
+  },
+  "0781": {
+    "name": "结果",
+    "gloss": "结果",
+    "idx": 1,
+    "intents": [
+      "REPORT_PICKUP 取报告"
+    ]
+  },
+  "1153": {
+    "name": "马桶",
+    "gloss": "马桶",
+    "idx": 2,
+    "intents": [
+      "TOILET_LOCATION 卫生间"
+    ]
+  },
+  "1305": {
+    "name": "药房",
+    "gloss": "药房",
+    "idx": 3,
+    "intents": [
+      "MEDICINE_PICKUP 取药",
+      "PHARMACY_LOCATION 药房"
+    ]
+  },
+  "1325": {
+    "name": "感谢",
+    "gloss": "感谢",
+    "idx": 4,
+    "intents": [
+      "THANKS 谢谢"
+    ]
+  },
+  "1660": {
+    "name": "挂号",
+    "gloss": "挂号",
+    "idx": 5,
+    "intents": [
+      "REGISTER_REQUEST 挂号",
+      "REGISTER_LOCATION 挂号处"
+    ]
+  },
+  "1871": {
+    "name": "预约",
+    "gloss": "预约",
+    "idx": 6,
+    "intents": [
+      "APPOINTMENT_DONE 已预约"
+    ]
+  },
+  "1887": {
+    "name": "走",
+    "gloss": "走",
+    "idx": 7,
+    "intents": [
+      "问路组合"
+    ]
+  },
+  "1925": {
+    "name": "你",
+    "gloss": "你",
+    "idx": 8,
+    "intents": [
+      "词组合"
+    ]
+  },
+  "1928": {
+    "name": "我",
+    "gloss": "我",
+    "idx": 9,
+    "intents": [
+      "词组合起始"
+    ]
+  },
+  "1931": {
+    "name": "头",
+    "gloss": "头",
+    "idx": 10,
+    "intents": [
+      "头痛=头+疼痛",
+      "头晕=头+晕"
+    ]
+  },
+  "2092": {
+    "name": "好",
+    "gloss": "好",
+    "idx": 11,
+    "intents": [
+      "OK+我+挂号",
+      "OK+我+缴费"
+    ]
+  },
+  "2395": {
+    "name": "晕",
+    "gloss": "晕",
+    "idx": 12,
+    "intents": [
+      "头晕=头+晕"
+    ]
+  },
+  "2454": {
+    "name": "皮肤科",
+    "gloss": "皮肤科",
+    "idx": 13,
+    "intents": [
+      "皮肤科问路"
+    ]
+  },
+  "2465": {
+    "name": "急诊室",
+    "gloss": "急诊室",
+    "idx": 14,
+    "intents": [
+      "CLINIC_LOCATION 诊室"
+    ]
+  },
+  "3131": {
+    "name": "身份证",
+    "gloss": "身份证",
+    "idx": 15,
+    "intents": [
+      "出示身份证"
+    ]
+  },
+  "3505": {
+    "name": "钱(现金)",
+    "gloss": "钱",
+    "idx": 16,
+    "intents": [
+      "现金支付",
+      "钱/现金"
+    ]
+  },
+  "4046": {
+    "name": "再见",
+    "gloss": "再见",
+    "idx": 17,
+    "intents": [
+      "对话结束"
+    ]
+  },
+  "4061": {
+    "name": "恶心",
+    "gloss": "恶心",
+    "idx": 18,
+    "intents": [
+      "症状:恶心"
+    ]
+  },
+  "4202": {
+    "name": "化验",
+    "gloss": "化验",
+    "idx": 19,
+    "intents": [
+      "LAB_LOCATION 检验科"
+    ]
+  },
+  "4323": {
+    "name": "医保卡",
+    "gloss": "医保卡",
+    "idx": 20,
+    "intents": [
+      "出示医保卡"
+    ]
+  },
+  "5092": {
+    "name": "腰",
+    "gloss": "腰",
+    "idx": 21,
+    "intents": [
+      "腰痛=腰+疼痛"
+    ]
+  },
+  "5222": {
+    "name": "放射科",
+    "gloss": "放射科",
+    "idx": 22,
+    "intents": [
+      "IMAGING_LOCATION 影像科"
+    ]
+  },
+  "9002": {
+    "name": "入院",
+    "gloss": "自录新词",
+    "idx": 23,
+    "intents": [
+      "我要入院(医院+进去的组合动作)"
+    ]
+  },
+  "9003": {
+    "name": "出院",
+    "gloss": "自录新词",
+    "idx": 24,
+    "intents": [
+      "我要出院(医院+出来的组合动作)"
+    ]
+  },
+  "9004": {
+    "name": "缴费",
+    "gloss": "自录新词",
+    "idx": 25,
+    "intents": [
+      "我要缴费(交钱/递卡的动作)"
+    ]
+  },
+  "9001": {
+    "name": "你好",
+    "gloss": "自录新词",
+    "idx": 26,
+    "intents": [
+      "你好,我觉得有点头痛…(开场问候)"
+    ]
+  }
+}

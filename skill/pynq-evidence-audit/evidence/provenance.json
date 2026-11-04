@@ -1,0 +1,45 @@
+{
+  "sources": [
+    {
+      "id": "skill_archive",
+      "sha256": "744abe58c87e8f1945ed60c68b4e9a9a8c0d80976a9abcd6782a8a67aafe8301"
+    },
+    {
+      "id": "competition_guide",
+      "sha256": "c6ad82acd4f7bdcd13bd412e232ed85d05f2a87dd5e2cdd04f9d219f88b569fc"
+    },
+    {
+      "id": "performance_observation",
+      "sha256": "ac624c5cec7bcd702b468024cf8c16ed2dada79a06a3853ca84b782f272cd802"
+    },
+    {
+      "id": "handoff_observation",
+      "sha256": "0713a0cb3d36c79a9bd18353dfa422209a474ea68e28a78596f4025bfca01d81"
+    },
+    {
+      "id": "board_stage_observation",
+      "sha256": "fdd3d1324a3c114e83a071acd76673e0eb131f9297f20d766937aa87a6258beb"
+    }
+  ],
+  "report_excerpts": [
+    {
+      "source_sha256": "d83aa86b495524a40ee020a5dddfcdd2cd69c6ea7e4a6d2cac8448ff0e897aa1",
+      "excerpt": "examples/historical_utilization.rpt",
+      "excerpt_sha256": "b2a0649801a64291f0dd606cb607f345298e5c5ac008283f2d77bd78f874e4b2",
+      "transform": "selected metric tables; source metadata omitted"
+    },
+    {
+      "source_sha256": "433231e7c5375085718f2afd059d102eda8b12e96d8f4d07adb28919a3fd6ed7",
+      "excerpt": "examples/historical_timing.rpt",
+      "excerpt_sha256": "65ad31bcf81ec81f65e47bd26e95845ddcb469043e6e43bb236e087e393d7cc6",
+      "transform": "selected metric tables; source metadata omitted"
+    }
+  ],
+  "board_source_sha256": "2c33b825d5b12308a761a7a4d85cd7016ba4ded1c06f3b7efeebb0df4609c467",
+  "revision_input": {
+    "kind": "teammate_skill_release",
+    "sha256": "18359ba007af9b42439377d9b6133c026f4df5dd8b183c00a92a657a55ce27a3",
+    "revision_version": "0.4.0",
+    "scope": "software fixes, audio workflow, current software validation; no new board measurement"
+  }
+}

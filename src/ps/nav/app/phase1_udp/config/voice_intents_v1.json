@@ -1,0 +1,345 @@
+{
+  "schema_version": 1,
+  "catalog_version": "voice-v1",
+  "source": {
+    "workbook": "B_当前冻结识别意图与固定说法清单_v1.xlsx",
+    "sheet": "当前保留范围",
+    "range": "A4:H21",
+    "sha256": "cdab560f88bd2506a9dab716ca51f3e7a01389bb161d6300f4f442b22509d4be"
+  },
+  "counts": {
+    "total_categories": 18,
+    "business_categories": 15,
+    "reject_categories": 3,
+    "business_fixed_phrases": 40,
+    "reject_contents": 7
+  },
+  "intent_id_wire_type": "uint16",
+  "intents": [
+    {
+      "category": "C00",
+      "model_class": 0,
+      "intent_id": 8193,
+      "intent_id_hex": "0x2001",
+      "code": "ASK_ID_CARD",
+      "type": "业务",
+      "meaning": "请出示身份证",
+      "fixed_phrases": [
+        "请出示身份证",
+        "麻烦拿一下身份证"
+      ],
+      "system_action": "播放 staff_01_id_card.mp4"
+    },
+    {
+      "category": "C01",
+      "model_class": 1,
+      "intent_id": 8194,
+      "intent_id_hex": "0x2002",
+      "code": "ASK_INSURANCE_CARD",
+      "type": "业务",
+      "meaning": "请出示医保卡",
+      "fixed_phrases": [
+        "请出示医保卡",
+        "请刷医保卡",
+        "需要核对医保信息"
+      ],
+      "system_action": "播放 staff_02_insurance.mp4"
+    },
+    {
+      "category": "C02",
+      "model_class": 2,
+      "intent_id": 8195,
+      "intent_id_hex": "0x2003",
+      "code": "ASK_APPOINTMENT",
+      "type": "业务",
+      "meaning": "请出示预约信息",
+      "fixed_phrases": [
+        "请出示预约信息",
+        "您预约了吗",
+        "麻烦打开预约记录"
+      ],
+      "system_action": "播放 staff_03_appointment.mp4"
+    },
+    {
+      "category": "C03",
+      "model_class": 3,
+      "intent_id": 8196,
+      "intent_id_hex": "0x2004",
+      "code": "GO_REGISTER",
+      "type": "业务",
+      "meaning": "请到挂号窗口",
+      "fixed_phrases": [
+        "请到一楼挂号窗口",
+        "挂号窗口在一楼大厅",
+        "请去一楼办理挂号"
+      ],
+      "system_action": "播放 staff_04_register.mp4"
+    },
+    {
+      "category": "C04",
+      "model_class": 4,
+      "intent_id": 8197,
+      "intent_id_hex": "0x2005",
+      "code": "GO_PAYMENT",
+      "type": "业务",
+      "meaning": "请到缴费处",
+      "fixed_phrases": [
+        "请到一楼缴费处",
+        "收费窗口在一楼",
+        "请去一楼缴费"
+      ],
+      "system_action": "播放 staff_05_payment.mp4"
+    },
+    {
+      "category": "C05",
+      "model_class": 5,
+      "intent_id": 8198,
+      "intent_id_hex": "0x2006",
+      "code": "GO_CLINIC",
+      "type": "业务",
+      "meaning": "请到诊室就诊",
+      "fixed_phrases": [
+        "请到二楼诊室",
+        "诊室在二楼"
+      ],
+      "system_action": "播放 staff_06_clinic.mp4"
+    },
+    {
+      "category": "C06",
+      "model_class": 6,
+      "intent_id": 8199,
+      "intent_id_hex": "0x2007",
+      "code": "GO_LAB",
+      "type": "业务",
+      "meaning": "请到检验科",
+      "fixed_phrases": [
+        "请到二楼检验科",
+        "检验科在二楼",
+        "请到采血窗口"
+      ],
+      "system_action": "播放 staff_07_lab.mp4"
+    },
+    {
+      "category": "C07",
+      "model_class": 7,
+      "intent_id": 8200,
+      "intent_id_hex": "0x2008",
+      "code": "GO_IMAGING",
+      "type": "业务",
+      "meaning": "请到影像科",
+      "fixed_phrases": [
+        "请到一楼影像科",
+        "影像科在一楼"
+      ],
+      "system_action": "播放 staff_08_imaging.mp4"
+    },
+    {
+      "category": "C08",
+      "model_class": 8,
+      "intent_id": 8201,
+      "intent_id_hex": "0x2009",
+      "code": "GO_PHARMACY",
+      "type": "业务",
+      "meaning": "请到药房取药",
+      "fixed_phrases": [
+        "请到一楼药房",
+        "药房在一楼",
+        "请去药房取药"
+      ],
+      "system_action": "播放 staff_09_pharmacy.mp4"
+    },
+    {
+      "category": "C09",
+      "model_class": 9,
+      "intent_id": 8202,
+      "intent_id_hex": "0x200A",
+      "code": "WAIT_FOR_CALL",
+      "type": "业务",
+      "meaning": "请等待叫号",
+      "fixed_phrases": [
+        "请等待叫号",
+        "请在候诊区等候"
+      ],
+      "system_action": "播放 staff_10_wait_call.mp4"
+    },
+    {
+      "category": "C10",
+      "model_class": 10,
+      "intent_id": 8208,
+      "intent_id_hex": "0x2010",
+      "code": "USE_TEXT",
+      "type": "业务",
+      "meaning": "使用文字沟通",
+      "fixed_phrases": [
+        "我写给您看",
+        "我们用文字沟通",
+        "请看屏幕上的文字"
+      ],
+      "system_action": "播放 staff_16_text.mp4"
+    },
+    {
+      "category": "C11",
+      "model_class": 11,
+      "intent_id": 8209,
+      "intent_id_hex": "0x2011",
+      "code": "ASK_REPEAT",
+      "type": "业务",
+      "meaning": "请重新表达",
+      "fixed_phrases": [
+        "请重复一遍",
+        "刚才没有识别清楚"
+      ],
+      "system_action": "播放 staff_17_repeat.mp4"
+    },
+    {
+      "category": "C12",
+      "model_class": 12,
+      "intent_id": 8211,
+      "intent_id_hex": "0x2013",
+      "code": "GO_TOILET",
+      "type": "业务",
+      "meaning": "请到卫生间",
+      "fixed_phrases": [
+        "卫生间在一楼",
+        "请到一楼卫生间",
+        "卫生间在前方右侧"
+      ],
+      "system_action": "播放 staff_19_toilet.mp4"
+    },
+    {
+      "category": "C13",
+      "model_class": 13,
+      "intent_id": 8212,
+      "intent_id_hex": "0x2014",
+      "code": "GO_REPORT_DESK",
+      "type": "业务",
+      "meaning": "请领取检查报告",
+      "fixed_phrases": [
+        "请到二楼取报告",
+        "报告打印处在二楼",
+        "请到自助机取报告"
+      ],
+      "system_action": "播放 staff_20_report.mp4"
+    },
+    {
+      "category": "C14",
+      "model_class": 14,
+      "intent_id": 8213,
+      "intent_id_hex": "0x2015",
+      "code": "YOU_ARE_WELCOME",
+      "type": "业务",
+      "meaning": "不客气",
+      "fixed_phrases": [
+        "不客气",
+        "不用谢",
+        "没关系"
+      ],
+      "system_action": "播放 staff_21_you_are_welcome.mp4"
+    },
+    {
+      "category": "C15",
+      "model_class": 15,
+      "intent_id": 8432,
+      "intent_id_hex": "0x20F0",
+      "code": "SILENCE",
+      "type": "拒识",
+      "meaning": "没有有效语音",
+      "fixed_phrases": [
+        "保持安静约四秒，不说话"
+      ],
+      "system_action": "继续监听，不播放视频"
+    },
+    {
+      "category": "C16",
+      "model_class": 16,
+      "intent_id": 8433,
+      "intent_id_hex": "0x20F1",
+      "code": "UNKNOWN_SPEECH",
+      "type": "拒识",
+      "meaning": "未收录的说法",
+      "fixed_phrases": [
+        "今天天气不错",
+        "我想喝一杯热水",
+        "请告诉我公交站在哪里"
+      ],
+      "system_action": "请求重新表达，不播放业务视频"
+    },
+    {
+      "category": "C17",
+      "model_class": 17,
+      "intent_id": 8434,
+      "intent_id_hex": "0x20F2",
+      "code": "BACKGROUND_NOISE",
+      "type": "拒识",
+      "meaning": "背景噪声",
+      "fixed_phrases": [
+        "空调或风扇的稳定环境声",
+        "键盘敲击、翻页或桌面轻响",
+        "远处播放的非目标说话声"
+      ],
+      "system_action": "丢弃结果，不播放视频"
+    }
+  ],
+  "excluded_phrases": [
+    {
+      "original_category": "C00",
+      "original_phrase_id": "P03",
+      "phrase": "需要核对身份信息",
+      "current_handling": "不再作为 C00 的保证识别台词；当前严格范围外"
+    },
+    {
+      "original_category": "C05",
+      "original_phrase_id": "P03",
+      "phrase": "请去相应诊室就诊",
+      "current_handling": "不再作为 C05 的保证识别台词；当前严格范围外"
+    },
+    {
+      "original_category": "C07",
+      "original_phrase_id": "P03",
+      "phrase": "请去影像科检查",
+      "current_handling": "不再作为 C07 的保证识别台词；当前严格范围外"
+    },
+    {
+      "original_category": "C09",
+      "original_phrase_id": "P03",
+      "phrase": "叫到您再进去",
+      "current_handling": "不再作为 C09 的保证识别台词；当前严格范围外"
+    },
+    {
+      "original_category": "C11",
+      "original_phrase_id": "P01",
+      "phrase": "请再做一次",
+      "current_handling": "不再作为 C11 的保证识别台词；当前严格范围外"
+    }
+  ],
+  "usage_rules": [
+    {
+      "item": "识别范围",
+      "rule": "系统保证识别表一中的固定说法。其他业务同义句不承诺正确归类。"
+    },
+    {
+      "item": "C15",
+      "rule": "没有有效说话声时使用，例如安静录音约 4 秒。系统继续监听。"
+    },
+    {
+      "item": "C16",
+      "rule": "有说话声但不属于表一业务固定说法时使用。系统请求重新表达。"
+    },
+    {
+      "item": "C17",
+      "rule": "检测到环境声、敲击声、翻页声等非目标声音时使用。系统丢弃结果。"
+    },
+    {
+      "item": "训练数据",
+      "rule": "S01F/S01G 的 R01、R02 可以训练；R03 先作为测试，不能提前加入训练。"
+    },
+    {
+      "item": "S01E",
+      "rule": "S01E 的新说法不计入业务准确率，只用于检查陌生说法能否被拒识。"
+    },
+    {
+      "item": "编号关系",
+      "rule": "模型类别 C00-C17 最终映射到 intent_id，再由 PS 端选择对应视频。"
+    }
+  ]
+}

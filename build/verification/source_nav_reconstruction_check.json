@@ -1,0 +1,12 @@
+{
+  "original_hwh_sha256": "9d66fe7ff432fae51654441cf0de8bd01cd8c9b9f02e9db7ea5ca761d8a944fa",
+  "original_module_count": 48,
+  "rebuilt_module_count": 48,
+  "module_set_equal": true,
+  "ps_parameter_differences": {},
+  "core_port_differences": {},
+  "all_module_port_differences": {
+    "cnn_gp1_ctrl": "10 one-bit ports exported as scalar instead of [0:0]; width, direction and connections identical"
+  },
+  "all_48_module_port_width_direction_connectivity_equal": true
+}

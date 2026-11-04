@@ -1,0 +1,30 @@
+
+****** xsim v2024.2 (64-bit)
+  **** SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+  **** IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+  **** SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+  **** Start of session at: Wed Nov  4 00:52:21 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/submission_p_audio/xsim_script.tcl
+# xsim {submission_p_audio} -wdb {p_audio.wdb} -autoloadwcfg -tclbatch {run.tcl}
+Time resolution is 1 ps
+source run.tcl
+## log_wave /tb/clk /tb/resetn /tb/bclk /tb/lrclk /tb/sdata /tb/wr_ce /tb/rd_ce /tb/bus_data /tb/bus_result /tb/rd_ack /tb/wr_ack /tb/ref_left /tb/ref_right /tb/rx_left /tb/rx_right /tb/serial_last /tb/serial_checked /tb/received /tb/passed
+## open_vcd p_audio.vcd
+## log_vcd /tb/clk /tb/resetn /tb/bclk /tb/lrclk /tb/sdata /tb/wr_ce /tb/rd_ce /tb/bus_data /tb/bus_result /tb/rd_ack /tb/wr_ack /tb/ref_left /tb/ref_right /tb/rx_left /tb/rx_right /tb/serial_last /tb/serial_checked /tb/received /tb/passed
+## run all
+P_AUDIO_PAIR_PASS case=0 L=123456 R=fedcba samples=2
+P_AUDIO_PAIR_PASS case=1 L=800000 R=000001 samples=4
+P_AUDIO_PAIR_PASS case=2 L=7fffff R=a5a55a samples=6
+P_AUDIO_PAIR_PASS case=3 L=ffffff R=000000 samples=8
+P_AUDIO_PAIR_PASS case=4 L=000000 R=ffffff samples=10
+P_AUDIO_PAIR_PASS case=5 L=a5a55a R=7fffff samples=12
+P_AUDIO_PAIR_PASS case=6 L=000001 R=800000 samples=14
+P_AUDIO_PAIR_PASS case=7 L=fedcba R=123456 samples=16
+P_AUDIO_RTL_PASS stereo_pairs=8 rx_samples=16 independently_decoded=16 ready_clear_checks=8
+$finish called at time : 326060 ns : File "E:/medical_gesture_detection/light_try/FPGA_120ms_work/submission_release_20261104/recheck_p_audio/tb.sv" Line 45
+## close_vcd
+## quit
+INFO: [Common 17-206] Exiting xsim at Wed Nov  4 00:52:23 2026...

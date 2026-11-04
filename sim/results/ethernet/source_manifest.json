@@ -1,0 +1,17 @@
+[
+  {
+    "source": "E:\\medical_gesture_detection\\light_try\\FPGA_120ms_work\\FPGA\\hw\\nav\\board_project\\Navigator_7020.gen\\sources_1\\bd\\system\\ipshared\\934f\\gmii_to_rgmii.v",
+    "copy": "E:\\medical_gesture_detection\\light_try\\FPGA_120ms_work\\waves_1103\\ethernet\\gmii_to_rgmii.v",
+    "sha256": "e59751eb5d92c2779f233e55a7b57669b55600332bac48f305a79b46a4be3134"
+  },
+  {
+    "source": "E:\\medical_gesture_detection\\light_try\\FPGA_120ms_work\\FPGA\\hw\\nav\\board_project\\Navigator_7020.gen\\sources_1\\bd\\system\\ipshared\\934f\\rgmii_tx.v",
+    "copy": "E:\\medical_gesture_detection\\light_try\\FPGA_120ms_work\\waves_1103\\ethernet\\rgmii_tx.v",
+    "sha256": "c54af19ee88b67c031ca2feb55dd1954da6070e66007dcd2e7a1ed7cf380c7f2"
+  },
+  {
+    "source": "E:\\medical_gesture_detection\\light_try\\FPGA_120ms_work\\FPGA\\hw\\nav\\board_project\\Navigator_7020.gen\\sources_1\\bd\\system\\ipshared\\934f\\rgmii_rx.v",
+    "copy": "E:\\medical_gesture_detection\\light_try\\FPGA_120ms_work\\waves_1103\\ethernet\\rgmii_rx.v",
+    "sha256": "667b7d8d8544beaa58c2b9b65a430fd3fbd12759cf45294bcae2071fadeccb90"
+  }
+]

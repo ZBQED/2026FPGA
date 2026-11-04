@@ -1,0 +1,79 @@
+{
+  "status": "failed",
+  "resources": {
+    "lut": {
+      "used": 36475.0,
+      "available": 53200.0,
+      "prohibited": 0.0,
+      "percent": 68.56203007518798
+    },
+    "ff": {
+      "used": 51327.0,
+      "available": 106400.0,
+      "prohibited": 0.0,
+      "percent": 48.23966165413534
+    },
+    "bram": {
+      "used": 139.0,
+      "available": 140.0,
+      "prohibited": 0.0,
+      "percent": 99.28571428571429
+    },
+    "dsp": {
+      "used": 200.0,
+      "available": 220.0,
+      "prohibited": 0.0,
+      "percent": 90.9090909090909
+    }
+  },
+  "timing": {
+    "wns_ns": 0.272,
+    "tns_ns": 0.0,
+    "setup_failing": 0.0,
+    "setup_total": 123595.0,
+    "whs_ns": 0.02,
+    "ths_ns": 0.0,
+    "hold_failing": 0.0,
+    "hold_total": 123595.0,
+    "wpws_ns": 3.0,
+    "tpws_ns": 0.0,
+    "pulse_failing": 0.0,
+    "pulse_total": 52895.0,
+    "constraint_checks": {
+      "no_clock": 0,
+      "constant_clock": 0,
+      "pulse_width_clock": 0,
+      "unconstrained_internal_endpoints": 0,
+      "no_input_delay": 1,
+      "no_output_delay": 3,
+      "multiple_clock": 0,
+      "generated_clocks": 0,
+      "loops": 0,
+      "partial_input_delay": 0,
+      "partial_output_delay": 0,
+      "latch_loops": 0
+    }
+  },
+  "identity": {
+    "utilization": {
+      "Design": "base_wrapper",
+      "Device": "xc7z020clg400-1",
+      "Design State": "Routed"
+    },
+    "timing": {
+      "Design": "base_wrapper",
+      "Device": "7z020-clg400",
+      "Design State": "Routed"
+    }
+  },
+  "max_percent": 100.0,
+  "issues": [
+    "constraint review required: no_input_delay=1",
+    "constraint review required: no_output_delay=3"
+  ],
+  "scope": "report checks only; verify common build, constraints, DRC and bitstream provenance separately",
+  "input_sha256": {
+    "utilization": "b2a0649801a64291f0dd606cb607f345298e5c5ac008283f2d77bd78f874e4b2",
+    "timing": "65ad31bcf81ec81f65e47bd26e95845ddcb469043e6e43bb236e087e393d7cc6"
+  }
+}

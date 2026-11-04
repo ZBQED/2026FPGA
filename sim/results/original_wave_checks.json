@@ -1,0 +1,30 @@
+{
+  "status": "PASS_FOUR_SELECTED_GROUPS",
+  "checks": {
+    "ov5640": [
+      "OV5640_RTL_PASS warmup_frames=10 valid_frames=3 lines=9 pixels=72 rgb565_to_rgb888_exact=1"
+    ],
+    "ethernet": [
+      "RGMII_RTL_PASS frames=3 rx_bytes=104 tx_bytes=104 ddr_nibbles=208 interpacket_idle_cycles=12"
+    ],
+    "p_audio": [
+      "P_AUDIO_PAIR_PASS case=0 L=123456 R=fedcba samples=2",
+      "P_AUDIO_PAIR_PASS case=1 L=800000 R=000001 samples=4",
+      "P_AUDIO_PAIR_PASS case=2 L=7fffff R=a5a55a samples=6",
+      "P_AUDIO_PAIR_PASS case=3 L=ffffff R=000000 samples=8",
+      "P_AUDIO_PAIR_PASS case=4 L=000000 R=ffffff samples=10",
+      "P_AUDIO_PAIR_PASS case=5 L=a5a55a R=7fffff samples=12",
+      "P_AUDIO_PAIR_PASS case=6 L=000001 R=800000 samples=14",
+      "P_AUDIO_PAIR_PASS case=7 L=fedcba R=123456 samples=16",
+      "P_AUDIO_RTL_PASS stereo_pairs=8 rx_samples=16 independently_decoded=16 ready_clear_checks=8"
+    ],
+    "core": [
+      "CORE_CASE_PASS case=0 words=10 read_beats=69 write_beats=10 AR_stall=0 start_ns=373000 end_ns=4153000",
+      "CORE_CASE_PASS case=1 words=15 read_beats=56 write_beats=15 AR_stall=5 start_ns=4580000 end_ns=12925000",
+      "CORE_CASE_PASS case=2 words=14 read_beats=115 write_beats=14 AR_stall=7 start_ns=13352000 end_ns=19365000",
+      "CURRENT_CORE_RTL_PASS cases=3 output_bytes=312 int8_reference_exact=1 output_guards=1"
+    ]
+  },
+  "record_type": "selected_group_field_excerpt",
+  "source_record_sha256": "7bc14b5cb7c671afa4105ad16522df8a22a69fe91333b9c8e14d5b6e8d94b0d8"
+}

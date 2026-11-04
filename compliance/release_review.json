@@ -1,0 +1,20 @@
+{
+  "release_type": "public_source",
+  "original_delivery_unchanged": true,
+  "licensor": "Medical Gesture FPGA contributors",
+  "original_software_license": "MIT",
+  "driver_license": "GPL-2.0-only",
+  "paddle_derived_license": "Apache-2.0",
+  "documentation_and_demonstration_media_license": "CC-BY-4.0",
+  "performer_consent_basis": "Maintainer explicit confirmation for every demonstration video",
+  "model_training_provenance_basis": "Maintainer declaration; not an independently reconstructed training lineage",
+  "excluded_file_count": 480,
+  "public_distribution_of_yolo_weights": false,
+  "public_distribution_of_vendor_rtl": false,
+  "public_distribution_of_target_binaries": false,
+  "public_distribution_of_python_wheels": false,
+  "project_publication_authorized_by_maintainer": true,
+  "maintainer_reconfirmed_publication": true,
+  "third_party_authorization_text_supplied": false,
+  "third_party_without_explicit_license_redistributed": false
+}

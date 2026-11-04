@@ -1,0 +1,4 @@
+run_id,frame_id,clock_id,capture_ns,result_ns,display_ns,status,display_evidence
+synthetic,0,simulated_monotonic,1000000000,1010000000,1020000000,ok,presentation_feedback
+synthetic,1,simulated_monotonic,1100000000,1115000000,1125000000,ok,presentation_feedback
+synthetic,2,simulated_monotonic,1200000000,1210000000,1230000000,ok,presentation_feedback

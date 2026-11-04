@@ -1,0 +1,303 @@
+{
+  "status": "HYBRID_Q_SOFTWARE_STAGED_NATIVE800_OFFLINE_ONLY",
+  "host_sha256": "abfb8530a7477d6cd9caec3a71232df6285c4e2f8600a700fb5f082516365742",
+  "host_helper_files": {
+    "boardctl.py": "6cb7e9cde454d42b3da07bb7a6af9ff38c4ebb6008c59a25185c8cb413d63fb9",
+    "qiming_root.py": "433a869d5bdd4994dcc8cd63d86d6846ae663fc708729c8c22c8fe1723c60c76",
+    "pynq_root.py": "2681666d3146bf12b9f983bc724f09f6a4cbb0b8948522accf9cc1e9fa6f3c16"
+  },
+  "files": {
+    "q_host.py": {
+      "path": "@project/fpga/output/report_hybrid_0600_20261101/board_workers/qiming/q_host.py",
+      "sha256": "abfb8530a7477d6cd9caec3a71232df6285c4e2f8600a700fb5f082516365742"
+    },
+    "q_rpc_controller.py": {
+      "path": "@project/fpga/output/report_hybrid_0600_20261101/board_workers/qiming/q_rpc_controller.py",
+      "sha256": "24a9cf126a409cfa560ffd12f5d4458092913181a0c8a2fbe36f22ce836480da"
+    },
+    "q_rpc_worker.py": {
+      "path": "@project/fpga/output/report_hybrid_0600_20261101/board_workers/qiming/q_rpc_worker.py",
+      "sha256": "6c9bedc4460403923c91bae7c8d3907a9dec7d7970508888122a439454b6ab7f"
+    },
+    "q_live_policy.py": {
+      "path": "@project/fpga/output/report_hybrid_0600_20261101/board_workers/qiming/q_live_policy.py",
+      "sha256": "611219d63735ce3099f5b3c2d555abd79d8ca73db04549bab230d32a458f8081"
+    },
+    "window_state.py": {
+      "path": "@project/fpga/output/report_hybrid_0600_20261101/board_workers/qiming/window_state.py",
+      "sha256": "7bccec8407ea26eaa3e2f992c9a9156c4536257680e5eaf4323fc51837072173"
+    },
+    "rpc_protocol.py": {
+      "path": "@project/fpga/output/report_hybrid_0600_20261101/board_workers/qiming/rpc_protocol.py",
+      "sha256": "c1263d97f3807c455e4afee8a8bccee5626948aaf89c792236d5cba61d7aea09"
+    },
+    "metadata_codec.py": {
+      "path": "@project/fpga/output/report_hybrid_0600_20261101/board_workers/qiming/metadata_codec.py",
+      "sha256": "6d2b21542e002e926beb37799f8a36c5582a715e42b7dd6636efacf097dd6ef6"
+    },
+    "wiring/classes.json": {
+      "path": "@project/fpga/output/report_hybrid_0600_20261101/board_workers/qiming/wiring/classes.json",
+      "sha256": "d163047f63455870440d44e7c0321a5d28d21c2bd39bb00026a0ead341d5709e"
+    },
+    "wiring/features_integer.py": {
+      "path": "@project/fpga/output/report_hybrid_0600_20261101/board_workers/qiming/wiring/features_integer.py",
+      "sha256": "a82e697e06432844a3821dd8c5cbc8cb00befdef7b320378a4ac63476e550263"
+    },
+    "wiring/word_integer.py": {
+      "path": "@project/fpga/output/report_hybrid_0600_20261101/board_workers/qiming/wiring/word_integer.py",
+      "sha256": "fe449d4eb15936ae320e1248bc30de3399014fd022b00202c9f1fccb75ad5093"
+    },
+    "candidate.bit": {
+      "path": "@project/fpga/output/report_hybrid_0600_20261101/board_workers/qiming/candidate.bit",
+      "sha256": "326695c02344bf5adf2deccda81ebf4d03fc20995a32383a309373620e205783"
+    },
+    "candidate.hwh": {
+      "path": "@project/fpga/output/report_hybrid_0600_20261101/board_workers/qiming/candidate.hwh",
+      "sha256": "3594946466e5f0c68a5b3d7d0c9c95d82f6ede35b1c398636491dc0d35c84080"
+    },
+    "gesture_pl_i8_driver_v14.ko": {
+      "path": "@project/fpga/output/report_hybrid_0600_20261101/board_workers/qiming/gesture_pl_i8_driver_v14.ko",
+      "sha256": "73f0b2391e4707e149b966f9bac588492aa8bc3093a865bc8295269720f953ba"
+    },
+    "fixed_hand_worker.py": {
+      "path": "@project/fpga/output/report_hybrid_0600_20261101/board_workers/qiming/fixed_hand_worker.py",
+      "sha256": "e87160c449b3b58f5685d7ecc464ec723416c0004451e7fee15504b5454bd296"
+    },
+    "fixed_dw_worker.py": {
+      "path": "@project/fpga/output/report_hybrid_0600_20261101/board_workers/qiming/fixed_dw_worker.py",
+      "sha256": "19b95206b3c1e686272400afd9e4527e1cd1f5ba2f4d9380e55329d196352433"
+    },
+    "pl_depthwise.py": {
+      "path": "@project/fpga/output/report_hybrid_0600_20261101/board_workers/qiming/pl_depthwise.py",
+      "sha256": "495c8c281e9dd6bdd47565675dff443e84861a15d827dec5aca277d49b3bf9d4"
+    },
+    "fixed_full_hand_worker.py": {
+      "path": "@project/fpga/output/report_hybrid_0600_20261101/board_workers/qiming/fixed_full_hand_worker.py",
+      "sha256": "2eaf8496017f5387bab8e93514a510e33defe996142aff772015e1ff9bf94fea"
+    },
+    "tcn508a/runtime/libgesture_lite_i8_v12.so": {
+      "path": "@project/models/tcn508a/minimal/runtime/libgesture_lite_i8_v12.so",
+      "sha256": "d05d60bab4c00fe0660590c79e48417bb0376552657bd75035821649fd8c35e7"
+    },
+    "tcn508a/seven_words.npz": {
+      "path": "@project/models/tcn508a/minimal/seven_words.npz",
+      "sha256": "76021f91f6fc8460727326822d70bb66847b7bbe9aa0037c351346437643dacd"
+    },
+    "tcn508a/shared_tcn/candidate_primary_input.npz": {
+      "path": "@project/models/tcn508a/minimal/shared_tcn/candidate_primary_input.npz",
+      "sha256": "12f7ef7fbd5a9dbef696a2869322bdd308be9b4a6017c3bb09df20f9bd5b2f84"
+    },
+    "tcn508a/shared_tcn/expected_primary_golden.json": {
+      "path": "@project/models/tcn508a/minimal/shared_tcn/expected_primary_golden.json",
+      "sha256": "65b81bffcd314467242fa18a60eed59e786ffc727df71fc4d75136b723f1d72b"
+    },
+    "tcn508a/shared_tcn/shared_tcn.py": {
+      "path": "@project/models/tcn508a/minimal/shared_tcn/shared_tcn.py",
+      "sha256": "88d3ea5d19671a5ecbdf5de318c0087b21731dc9601844afff0c9783858d7e10"
+    },
+    "tcn508a/shared_tcn/assets/primary/integer_parameters.json": {
+      "path": "@project/models/tcn508a/minimal/shared_tcn/assets/primary/integer_parameters.json",
+      "sha256": "03e04a6d4aafd580f10673e06043095d404197e33eb823c5a093b9f1ba999e29"
+    },
+    "tcn508a/shared_tcn/assets/primary/primary_core_int8_io.tflite": {
+      "path": "@project/models/tcn508a/minimal/shared_tcn/assets/primary/primary_core_int8_io.tflite",
+      "sha256": "96e5280aa30b3c6f623653c6eac48330b6e2cd5c9e18e58ea349b21894c1bef4"
+    },
+    "tcn508a/shared_tcn/assets/primary/primary_head_int8_io.tflite": {
+      "path": "@project/models/tcn508a/minimal/shared_tcn/assets/primary/primary_head_int8_io.tflite",
+      "sha256": "553c59eaf62fa5c20a801f62f8f77b6f681678da0d3e9ca16be7646f6f94edfa"
+    },
+    "tcn508a/shared_tcn/assets/roof/integer_parameters.json": {
+      "path": "@project/models/tcn508a/minimal/shared_tcn/assets/roof/integer_parameters.json",
+      "sha256": "fc3f2ad93f2d0e20f5e92ede4500e381e9bab0d7d01743b525e28dde287c87a2"
+    },
+    "tcn508a/shared_tcn/assets/roof/roof_core_int8_io.tflite": {
+      "path": "@project/models/tcn508a/minimal/shared_tcn/assets/roof/roof_core_int8_io.tflite",
+      "sha256": "c741e06eea1e5de5628ef37910557dea4a4d1b392228cbda01cf4b4b557833b6"
+    },
+    "tcn508a/shared_tcn/assets/roof/roof_head_int8_io.tflite": {
+      "path": "@project/models/tcn508a/minimal/shared_tcn/assets/roof/roof_head_int8_io.tflite",
+      "sha256": "eea4e87b32ae7d499f7755225e57993fee928e4e388d0a3446584236e587ac32"
+    },
+    "tcn_mac_reference.py": {
+      "path": "@project/fpga/output/report_hybrid_0600_20261101/board_workers/qiming/tcn_mac_reference.py",
+      "sha256": "6660dace9ab28f87a506342a3ce882bd9f8633563199749f4b4d6a47784f9704"
+    },
+    "full_hand_runtime.py": {
+      "path": "@project/fpga/output/report_hybrid_0600_20261101/board_workers/qiming/full_hand_runtime.py",
+      "sha256": "a260cbde24034be6433217a0b8eda782384911de8c12b395232fbe3bc84d4942"
+    },
+    "fixed_full_tcn_worker.py": {
+      "path": "@project/fpga/output/report_hybrid_0600_20261101/board_workers/qiming/fixed_full_tcn_worker.py",
+      "sha256": "f1546470e027bc10c46840699eada86d40d24ce2b8e428b2c37fcfd3c6e01a67"
+    },
+    "fixed_graph_worker.py": {
+      "path": "@project/fpga/output/report_hybrid_0600_20261101/board_workers/qiming/fixed_graph_worker.py",
+      "sha256": "52d9a630ee390db9950462d9717f4f99d727adc27be9364e34a4589d2a0adfea"
+    },
+    "clock_qualification.json": {
+      "path": "@project/runs/q_clock_qualification.json",
+      "sha256": "8c826c5755c8342585c482845fc67e94335a38b3046b786444ee4af78d6e38bd"
+    },
+    "qualified_clock.py": {
+      "path": "@project/fpga/output/report_hybrid_0600_20261101/board_workers/qiming/qualified_clock.py",
+      "sha256": "6e25cdce874c66cd4667829762b93483a951e2504867dcaf414c5cd096ebde7b"
+    },
+    "fixed_movenet_worker.py": {
+      "path": "@project/fpga/output/report_hybrid_0600_20261101/board_workers/qiming/fixed_movenet_worker.py",
+      "sha256": "9a223a84e9bfa23f659e295682129781f47762e5b2e905de29c6c375232927cb"
+    },
+    "movenet_split.json": {
+      "path": "@project/models/movenet_lightning_evaluation/split_fixture.json",
+      "sha256": "92c81c66a8d48d1ff4fa7ffb9425c2c3bf8a5e5eb1f2f6b3d87a238140b015f5"
+    },
+    "fixed_movenet_quant_worker.py": {
+      "path": "@project/fpga/output/report_hybrid_0600_20261101/board_workers/qiming/fixed_movenet_quant_worker.py",
+      "sha256": "aa0d66b7a1249ff21c40efea6c4cd15c0a9b406fd9913e0b371ac5825bbd9ea5"
+    },
+    "movenet_conv.json": {
+      "path": "@project/models/movenet_lightning_evaluation/conv_fixture.json",
+      "sha256": "415fbfbba8a66621e063bf0feb6e4af968bbd15d0cc5590de9e63ea9f0fd4ba4"
+    },
+    "libmovenet_requant.so": {
+      "path": "@project/models/movenet_lightning_evaluation/libmovenet_requant.so",
+      "sha256": "3be2a6b7fdfc1400b54b44f1cf06dd8b7fcecbc3d7535ef55f018522e09f8d2d"
+    },
+    "same_frame_hand_worker.py": {
+      "path": "@project/fpga/output/report_hybrid_0600_20261101/board_workers/qiming/same_frame_hand_worker.py",
+      "sha256": "f20225bfbb047fc1582c5b688abe86caec0be6532e4a6d660a6bf930abfcfbc3"
+    },
+    "resident_models.py": {
+      "path": "@project/fpga/output/report_hybrid_0600_20261101/board_workers/qiming/resident_models.py",
+      "sha256": "54f8133ea3c4c5b1944a187334844f1f14c410e76d0e573c62f617c943064903"
+    },
+    "fixed_resident_worker.py": {
+      "path": "@project/fpga/output/report_hybrid_0600_20261101/board_workers/qiming/fixed_resident_worker.py",
+      "sha256": "adfc10fd7d356ceb7447f25c17c295efe9f776621546601dc40533d25c6b46a8"
+    },
+    "same_frame_perception_worker.py": {
+      "path": "@project/fpga/output/report_hybrid_0600_20261101/board_workers/qiming/same_frame_perception_worker.py",
+      "sha256": "1378976b1ab33c122ccb3c07d89d709f1cc982fe3399d34f9147d907f77cce47"
+    },
+    "fixed_person_raw_worker.py": {
+      "path": "@project/fpga/output/report_hybrid_0600_20261101/board_workers/qiming/fixed_person_raw_worker.py",
+      "sha256": "20efa19d3146b672571fded6c7beeee948f8f9bdb3e48d2463bfcbe01ecfd38d"
+    },
+    "person_raw/libyf2_raw_pl.so": {
+      "path": "@project/models/person_raw_pl/libyf2_raw_pl.so",
+      "sha256": "4836ff699ad3b8f53822f221eae25eb8729893a2e89cf556d119d1f632598cf9"
+    },
+    "person_raw/layers.json": {
+      "path": "@project/models/person_raw_pl/layers.json",
+      "sha256": "b57c936c21915d8b6647856474de7085fc5b358920434016b485977bd23176ef"
+    },
+    "shared_workspace/manifest.json": {
+      "path": "@project/models/shared_workspace/manifest.json",
+      "sha256": "2b2975d7e3ca10faf3921f9162f2bbd18762022531e5cbe415fe96978c3d897a"
+    },
+    "shared_workspace/layout.json": {
+      "path": "@project/models/shared_workspace/layout.json",
+      "sha256": "b5a9ea7e5090e1d29ba3fd0281c7ec5f547e0e406908eb974e6dcea39ddb849d"
+    },
+    "shared_workspace/full_palm_fused_cached/libfull_hand_pl.so": {
+      "path": "@project/models/shared_workspace/full_palm_fused_cached/libfull_hand_pl.so",
+      "sha256": "4fade99d2ff096f6f5e8edaea4dacd30c2271cf7f803bffd7705cdfc2a73beff"
+    },
+    "shared_workspace/full_palm_fused_cached/hand_weights.bin": {
+      "path": "@project/models/shared_workspace/full_palm_fused_cached/hand_weights.bin",
+      "sha256": "22e7b5f546b0cdfbe51f8ae59808476cca6abfcb7c15a855330b07b1ce4e6e12"
+    },
+    "shared_workspace/full_palm_fused_cached/hand_plan.json": {
+      "path": "@project/models/shared_workspace/full_palm_fused_cached/hand_plan.json",
+      "sha256": "5f3a056ed89e50e89f30917369c8c2930ad402cfd2e54344f2110fa97faeb1a6"
+    },
+    "shared_workspace/full_palm_fused_cached/layer_hashes.json": {
+      "path": "@project/models/full_palm_fused_lut_cached/layer_hashes.json",
+      "sha256": "3e80f2eb4c48c687ea67a7e85f494173fb9b5173c63847cd70e71defdb3a0be2"
+    },
+    "shared_workspace/full_body_channels_cached/libfull_hand_pl.so": {
+      "path": "@project/models/shared_workspace/full_body_channels_cached/libfull_hand_pl.so",
+      "sha256": "691646f7ceb81fb71c4b0cfa725427a028ff8426d632dba13e0722ee7a38ae64"
+    },
+    "shared_workspace/full_body_channels_cached/hand_weights.bin": {
+      "path": "@project/models/shared_workspace/full_body_channels_cached/hand_weights.bin",
+      "sha256": "013c93aed3f31a483362b5b62b0a8b97cce42a6cbfba788758c0decb3ca48a23"
+    },
+    "shared_workspace/full_body_channels_cached/hand_plan.json": {
+      "path": "@project/models/shared_workspace/full_body_channels_cached/hand_plan.json",
+      "sha256": "10c8d9b747560ad8875c5d5cae27bcd1d281e6c0fd91a370411965ed7c938e64"
+    },
+    "shared_workspace/full_body_channels_cached/layer_hashes.json": {
+      "path": "@project/models/full_body_channels_halfadd_cached/layer_hashes.json",
+      "sha256": "8c49104b4d3e6d8cdbeaedaddd791fb96d96ab51d18d4de5982a75b89ea0de84"
+    },
+    "shared_workspace/full_hand/libfull_hand_pl.so": {
+      "path": "@project/models/shared_workspace/full_hand/libfull_hand_pl.so",
+      "sha256": "76bb7e52830788b26acd272f8584ac59179eb43e87c44346a96d082af00dd5e2"
+    },
+    "shared_workspace/full_hand/hand_weights.bin": {
+      "path": "@project/models/shared_workspace/full_hand/hand_weights.bin",
+      "sha256": "3dca375e721dcde0d822b6c22acb38bbc1f2d931b147a83c21fb4780d15d0cf9"
+    },
+    "shared_workspace/full_hand/hand_plan.json": {
+      "path": "@project/models/shared_workspace/full_hand/hand_plan.json",
+      "sha256": "c04c33162124b4025591a8b598ff4c8a006ead57fde90d90c8566b796cffd9d9"
+    },
+    "shared_workspace/full_hand/layer_hashes.json": {
+      "path": "@project/models/full_hand/full_hand_layer_hashes.json",
+      "sha256": "457d03e04fe19718252ae0d4025edc1c201cb11b52128cd90a7789a0f04fcad7"
+    },
+    "shared_perception_tcn.py": {
+      "path": "@project/fpga/output/report_hybrid_0600_20261101/board_workers/qiming/shared_perception_tcn.py",
+      "sha256": "92457b884522f0a24bd11fbef102258612e55ffeea14f12446a3942ea2a6f73e"
+    },
+    "person_raw_runtime.py": {
+      "path": "@project/fpga/output/report_hybrid_0600_20261101/board_workers/qiming/person_raw_runtime.py",
+      "sha256": "c420f88e56e8a68f9d9e6e9be4737a8338506e958de89af5ea79496e0f7133c0"
+    },
+    "shared_person_startup.py": {
+      "path": "@project/fpga/output/report_hybrid_0600_20261101/board_workers/qiming/shared_person_startup.py",
+      "sha256": "72dbeac3035fb8d5ba061bc88f304048fe90adfd668979cfc79c83836515d141"
+    },
+    "person_raw/shared_references.json": {
+      "path": "@project/models/person_raw_pl/shared_references.json",
+      "sha256": "dc3f6723357488dc12cc4c82ec9e591eccd83a65e004743227c6d7d0ba42a160"
+    },
+    "person_raw/shared_admission.json": {
+      "path": "@project/models/person_raw_pl/shared_admission.json",
+      "sha256": "68e84b533d397310091971a7c502755fe62e4b7b2a0198cb529a90ec76de716a"
+    },
+    "wiring/libtcn_resample.so": {
+      "path": "@project/fpga/output/report_hybrid_0600_20261101/board_workers/qiming/wiring/libtcn_resample.so",
+      "sha256": "dd29661aa010322a11f2ef88daca23f11b252436455b789199e5daa0d00246f0"
+    },
+    "fixed_person_hand_parallel.py": {
+      "path": "@project/fpga/output/report_hybrid_0600_20261101/board_workers/qiming/fixed_person_hand_parallel.py",
+      "sha256": "3660079d0f0145f159f016f49dcd95225f3945daa8b459e07339eb82e5e9a7e9"
+    },
+    "full_palm/fixture.npz": {
+      "path": "@project/models/full_palm/fixture.npz",
+      "sha256": "a7c7c5de753ece8f3f33532d6ab7a3bf28e30070ae844756e9e9545d504b9861"
+    },
+    "full_hand/full_hand_fixture.npz": {
+      "path": "@project/models/full_hand/full_hand_fixture.npz",
+      "sha256": "c7742d449348ca45bb61adf892f1da41763a9eeff666cbde62da4540d25d3e9c"
+    },
+    "tcn508a/runtime/libgesture_tflite_pl.so": {
+      "path": "@project/models/tcn508a/minimal/runtime/libgesture_tflite_pl.so",
+      "sha256": "6cd57afe24a657cf627904ed031be01e56adbc0c0d0a47b07a848c66fc9648a8"
+    }
+  },
+  "original_ready_sha256": "4496cc8ead44fca2df4888c30518620b2ac6325ecddb5ad5ae09a5f6ac880967",
+  "source_geometry": [
+    800,
+    480
+  ],
+  "pixel_derivation": "native_BGR800x480_v1",
+  "word_gate": {
+    "original_Q15": 26215,
+    "hybrid_Q15": 19661
+  },
+  "board_acceptance": "NOT_RUN",
+  "NN_RUN": 0
+}

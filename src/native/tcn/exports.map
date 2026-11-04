@@ -1,0 +1,35 @@
+GPI8P_1.0 {
+ global:
+  gtcn_*;
+  gpo_owner_open;
+  gpo_owner_close;
+  gpo_owner_error;
+  gpo_owner_stats;
+  gpo_person_infer;
+  gpi8p_debug_tensor;
+  gpi8p_close;
+  gpi8p_mean_lut_info;
+  gpi8p_resize_neon_info;
+  gpi8p_count;
+  gpi8p_error;
+  gpi8p_hardware_stats;
+  gpi8p_input;
+  gpi8p_invoke;
+  gpi8p_layer_stats;
+  gpi8p_open;
+  gpi8p_output;
+  gpi8p_policy_info;
+  gpi8p_tensor_info;
+  gpi8p_tensor_quantization;
+  gpi8p_input_i8;
+  gpi8p_output_i8;
+  gpi8p_op_count;
+  gpi8p_layer_copy_stats;
+  gpi8p_plprelu_job_count;
+  gpi8p_plprelu_job_info;
+  gpi8p_prelu_count;
+  gpi8p_prelu_stats;
+  gpi8p_op_stats;
+  gpi8p_tensor_id;
+ local: *;
+};

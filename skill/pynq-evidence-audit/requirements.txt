@@ -1,0 +1,4 @@
+# Python >=3.9. NumPy only needed by array comparison, demo and tests.
+# Offline validation: Python 3.12.14, NumPy 2.3.5.
+# Keep a working board environment; do not blindly replace its NumPy.
+numpy>=1.21

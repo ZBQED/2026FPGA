@@ -1,0 +1,13 @@
+{
+  "component": "PaddleDetection",
+  "license": "Apache-2.0",
+  "files": [
+    "runtime/workbuddy_21/data/pp_tinypose_trial_20261024/official/keypoint_preprocess.py",
+    "runtime/workbuddy_21/data/pp_tinypose_trial_20261024/official/topdown_postprocess.py",
+    "src/pc/keypoint_preprocess.py",
+    "src/pc/topdown_postprocess.py",
+    "src/ps/nav/runtime/keypoint_preprocess.py",
+    "src/ps/nav/runtime/topdown_postprocess.py"
+  ],
+  "modification_notice_added": true
+}

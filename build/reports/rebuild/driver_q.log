@@ -1,0 +1,26 @@
+KERNEL_DIR=/home/xilinx/gesture-cnn-driver-20261023/kernel-build
+make: Entering directory '/home/xilinx/gesture-cnn-driver-20261023/kernel-build'
+  CC [M]  /home/xilinx/mgd_final_build/q/gesture_pl_i8_driver_v14.o
+  Building modules, stage 2.
+  MODPOST 1 modules
+  CC [M]  /home/xilinx/mgd_final_build/q/gesture_pl_i8_driver_v14.mod.o
+  LD [M]  /home/xilinx/mgd_final_build/q/gesture_pl_i8_driver_v14.ko
+make: Leaving directory '/home/xilinx/gesture-cnn-driver-20261023/kernel-build'
+73f0b2391e4707e149b966f9bac588492aa8bc3093a865bc8295269720f953ba  /home/xilinx/mgd_final_build/q/gesture_pl_i8_driver_v14.ko
+filename:       /home/xilinx/mgd_final_build/q/gesture_pl_i8_driver_v14.ko
+description:    ABI2 RAW, ABI3 INT8 and explicit ABI4 PReLU/fusion bounded coherent-DMA runtime
+license:        GPL
+alias:          of:N*T*Cgesture,keypoint-conv-i8-v2C*
+alias:          of:N*T*Cgesture,keypoint-conv-i8-v2
+depends:        
+name:           gesture_pl_i8_driver_v14
+vermagic:       5.4.0-xilinx-v2020.2 SMP preempt mod_unload modversions ARMv7 p2v8 
+
+make: Warning: File 'scripts/Makefile.ubsan' has modification time 118408402 s in the future
+make[1]: Warning: File 'scripts/Makefile.lib' has modification time 118408402 s in the future
+make[1]: warning:  Clock skew detected.  Your build may be incomplete.
+make[1]: Warning: File 'scripts/Kbuild.include' has modification time 118408397 s in the future
+make[2]: Warning: File 'scripts/Makefile.lib' has modification time 118408396 s in the future
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+make[1]: warning:  Clock skew detected.  Your build may be incomplete.
+make: warning:  Clock skew detected.  Your build may be incomplete.

@@ -1,0 +1,338 @@
+{
+  "status": "passed",
+  "evidence_kind": "synthetic_offline_only",
+  "checks": [
+    {
+      "script": "collect_evidence",
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "report": {
+        "schema_version": "pynq_evidence_audit_v0.3",
+        "environment": {
+          "platform": "Windows-11-10.0.26200-SP0",
+          "python": "3.12.4",
+          "pynq_package_version": null
+        },
+        "input_files": {
+          "bit": {
+            "path": "E:\\mgd_release_qa\\skill_demo\\fixture.bit",
+            "bytes": 34,
+            "sha256": "281dfa810ae532c6380b653f64714eafc3774ac6526d2f10b0d4d46ccff6ede0",
+            "expected_sha256": null,
+            "hash_matches": null,
+            "unchanged_at_end": true
+          },
+          "hwh": {
+            "path": "E:\\mgd_release_qa\\skill_demo\\fixture.hwh",
+            "bytes": 50,
+            "sha256": "89a102b349cf7409cb57103f567d389e72474a371b161992f7a1291124bf670c",
+            "expected_sha256": null,
+            "hash_matches": null,
+            "unchanged_at_end": true
+          }
+        },
+        "issues": [],
+        "warnings": [],
+        "pl_utilization": {
+          "status": "not_measured",
+          "lut": null,
+          "ff": null,
+          "bram": null,
+          "dsp": null,
+          "reason": "requires a matching implementation/synthesis report"
+        },
+        "hwh_metadata": {
+          "root_tag": "EDKSYSTEM",
+          "root_attributes": {},
+          "system_info": [],
+          "module_nodes": 1,
+          "ip_types": {
+            "axi_dma": 1
+          },
+          "modules": [
+            {
+              "MODTYPE": "axi_dma"
+            }
+          ],
+          "interpretation": "hardware metadata only; not synthesized resource utilization"
+        },
+        "required_ip_check": {
+          "requested": [
+            "axi_dma"
+          ],
+          "missing": []
+        },
+        "sample_pid": null,
+        "status": "ok",
+        "status_scope": "requested checks only; not functional or end-to-end acceptance"
+      }
+    },
+    {
+      "script": "compare_arrays",
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "report": {
+        "reference_shape": [
+          3
+        ],
+        "actual_shape": [
+          3
+        ],
+        "reference_dtype": "uint32",
+        "actual_dtype": "uint32",
+        "atol": 0.0,
+        "rtol": 0.0,
+        "status": "passed",
+        "element_count": 3,
+        "mismatch_count": 0,
+        "max_abs_error": "0",
+        "first_mismatch_index": null,
+        "reference_path": "E:\\mgd_release_qa\\skill_demo\\reference.npy",
+        "actual_path": "E:\\mgd_release_qa\\skill_demo\\actual.npy",
+        "interpretation": "array equality/tolerance check only; not classifier accuracy or task acceptance"
+      }
+    },
+    {
+      "script": "compare_arrays",
+      "expected_exit": 2,
+      "actual_exit": 2,
+      "report": {
+        "reference_shape": [
+          3
+        ],
+        "actual_shape": [
+          3
+        ],
+        "reference_dtype": "uint32",
+        "actual_dtype": "uint32",
+        "atol": 0.0,
+        "rtol": 0.0,
+        "status": "failed",
+        "element_count": 3,
+        "mismatch_count": 1,
+        "max_abs_error": "1",
+        "first_mismatch_index": [
+          1
+        ],
+        "reference_path": "E:\\mgd_release_qa\\skill_demo\\reference.npy",
+        "actual_path": "E:\\mgd_release_qa\\skill_demo\\bad.npy",
+        "interpretation": "array equality/tolerance check only; not classifier accuracy or task acceptance"
+      }
+    },
+    {
+      "script": "check_reports",
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "report": {
+        "status": "passed",
+        "resources": {
+          "lut": {
+            "used": 100.0,
+            "available": 53200.0,
+            "prohibited": 0.0,
+            "percent": 0.18796992481203006
+          },
+          "ff": {
+            "used": 120.0,
+            "available": 106400.0,
+            "prohibited": 0.0,
+            "percent": 0.11278195488721804
+          },
+          "bram": {
+            "used": 1.5,
+            "available": 140.0,
+            "prohibited": 0.0,
+            "percent": 1.0714285714285714
+          },
+          "dsp": {
+            "used": 2.0,
+            "available": 220.0,
+            "prohibited": 0.0,
+            "percent": 0.9090909090909091
+          }
+        },
+        "timing": {
+          "wns_ns": 0.25,
+          "tns_ns": 0.0,
+          "setup_failing": 0.0,
+          "setup_total": 100.0,
+          "whs_ns": 0.05,
+          "ths_ns": 0.0,
+          "hold_failing": 0.0,
+          "hold_total": 100.0,
+          "wpws_ns": 2.0,
+          "tpws_ns": 0.0,
+          "pulse_failing": 0.0,
+          "pulse_total": 10.0,
+          "constraint_checks": {
+            "no_clock": 0,
+            "constant_clock": 0,
+            "pulse_width_clock": 0,
+            "unconstrained_internal_endpoints": 0,
+            "no_input_delay": 0,
+            "no_output_delay": 0,
+            "multiple_clock": 0,
+            "generated_clocks": 0,
+            "loops": 0,
+            "partial_input_delay": 0,
+            "partial_output_delay": 0,
+            "latch_loops": 0
+          }
+        },
+        "identity": {
+          "utilization": {
+            "Design": "fixture",
+            "Device": "xc7z020clg400-1",
+            "Design State": "Routed"
+          },
+          "timing": {
+            "Design": "fixture",
+            "Device": "7z020-clg400",
+            "Design State": "Routed"
+          }
+        },
+        "max_percent": 80.0,
+        "issues": [],
+        "scope": "report checks only; verify common build, constraints, DRC and bitstream provenance separately",
+        "input_sha256": {
+          "utilization": "de7b6d8d389f7e838fbeb7f52eab0ba4ae4a613db7443a30221c36570b725bfa",
+          "timing": "d14c3b394c9251970c97235de7abc3a67af88805d390d3c436e006770d54832d"
+        }
+      }
+    },
+    {
+      "script": "check_latency",
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "report": {
+        "status": "passed",
+        "issues": [],
+        "expected_frames": 3,
+        "rows": 3,
+        "complete_frames": 3,
+        "limit_ms_exclusive": 40.0,
+        "latency": {
+          "fastest_ms": 20.0
+        },
+        "display_throughput_fps": 9.523809523809524,
+        "run_id": [
+          "synthetic"
+        ],
+        "clock_id": [
+          "simulated_monotonic"
+        ],
+        "scope": "validates relative counters; physical display evidence must be supplied separately",
+        "input_sha256": "237ee62f624255ea30317c10f1b6c0fc6e8e101edc8445c36ebed978812dbbe8"
+      }
+    },
+    {
+      "script": "check_latency",
+      "expected_exit": 2,
+      "actual_exit": 2,
+      "report": {
+        "status": "failed",
+        "issues": [
+          "at least one complete frame fails strict latency < limit_ms"
+        ],
+        "expected_frames": 3,
+        "rows": 3,
+        "complete_frames": 3,
+        "limit_ms_exclusive": 30.0,
+        "latency": {
+          "fastest_ms": 20.0
+        },
+        "display_throughput_fps": 9.523809523809524,
+        "run_id": [
+          "synthetic"
+        ],
+        "clock_id": [
+          "simulated_monotonic"
+        ],
+        "scope": "validates relative counters; physical display evidence must be supplied separately",
+        "input_sha256": "237ee62f624255ea30317c10f1b6c0fc6e8e101edc8445c36ebed978812dbbe8"
+      }
+    },
+    {
+      "script": "check_pipeline",
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "report": {
+        "status": "passed",
+        "issues": [],
+        "frames": 2,
+        "expected_frames": 2,
+        "rows": 6,
+        "branches": [
+          "context",
+          "region_a",
+          "region_b"
+        ],
+        "evidence_kind": "synthetic",
+        "scope": "identity and completeness only; numerical accuracy and physical execution are separate",
+        "input_sha256": {
+          "contract": "52438b1e901010a568317303cdcf2539876c1f661a09db33579b82951c231c6e",
+          "results": "c423aa07cf91a28895a10fe227ffc9aded9967189e759dd0971df5767a0e69fd"
+        }
+      }
+    },
+    {
+      "script": "check_pipeline",
+      "expected_exit": 2,
+      "actual_exit": 2,
+      "report": {
+        "status": "failed",
+        "issues": [
+          "stale source/ROI result: frame_a/region_a"
+        ],
+        "frames": 2,
+        "expected_frames": 2,
+        "rows": 6,
+        "branches": [
+          "context",
+          "region_a",
+          "region_b"
+        ],
+        "evidence_kind": "synthetic",
+        "scope": "identity and completeness only; numerical accuracy and physical execution are separate",
+        "input_sha256": {
+          "contract": "52438b1e901010a568317303cdcf2539876c1f661a09db33579b82951c231c6e",
+          "results": "03e4cd0b11b5497e429acf4841ce369a04742fd93b72e1ccc5c8176e7d584cc7"
+        }
+      }
+    },
+    {
+      "script": "check_manifest",
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "report": {
+        "status": "passed",
+        "files": 1,
+        "manifest": "E:\\mgd_release_qa\\skill_demo\\manifest.json"
+      }
+    },
+    {
+      "script": "check_manifest",
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "report": {
+        "status": "passed",
+        "files": 1,
+        "issues": [],
+        "scope": "file integrity only; not rebuild reproducibility or trusted authorship"
+      }
+    },
+    {
+      "script": "check_manifest",
+      "expected_exit": 2,
+      "actual_exit": 2,
+      "report": {
+        "status": "failed",
+        "files": 1,
+        "issues": [
+          "changed: input.txt"
+        ],
+        "scope": "file integrity only; not rebuild reproducibility or trusted authorship"
+      }
+    }
+  ]
+}

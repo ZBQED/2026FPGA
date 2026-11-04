@@ -1,0 +1,104 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "B 25-class speech_result candidate for interaction board",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "event",
+    "status",
+    "model_version",
+    "intent_table_version",
+    "top3",
+    "timestamp_us",
+    "error_code"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "const": "b_speech_result_v0.1"
+    },
+    "event": {
+      "type": "string",
+      "const": "speech_result"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "candidate",
+        "rejected",
+        "error"
+      ]
+    },
+    "model_version": {
+      "type": "string"
+    },
+    "intent_table_version": {
+      "type": "string"
+    },
+    "utterance_id": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "top3": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 3,
+      "items": {
+        "type": "object",
+        "required": [
+          "model_class",
+          "intent_id",
+          "intent_id_hex",
+          "code",
+          "score"
+        ],
+        "properties": {
+          "model_class": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 24
+          },
+          "intent_id": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "intent_id_hex": {
+            "type": "string"
+          },
+          "code": {
+            "type": "string"
+          },
+          "score": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "vad_state": {
+      "type": "string",
+      "enum": [
+        "speech",
+        "silence",
+        "unknown"
+      ]
+    },
+    "snr_q8": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "timestamp_us": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "error_code": {
+      "type": "integer",
+      "minimum": 0
+    }
+  },
+  "additionalProperties": true
+}

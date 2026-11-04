@@ -1,0 +1,13 @@
+{
+  "nav": "192.168.1.10",
+  "p": "192.168.1.20",
+  "q": "192.168.1.30",
+  "rpc_port": 5115,
+  "hand_presence_threshold": 0.85,
+  "tcn_q15_threshold": 26215,
+  "q_parallel": true,
+  "roi_reuse": true,
+  "native_hand_crop": true,
+  "nav_body_native": true,
+  "pc_hands": false
+}

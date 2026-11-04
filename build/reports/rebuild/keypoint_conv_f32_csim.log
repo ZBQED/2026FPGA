@@ -1,0 +1,13 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch CLANG as the compiler.
+   Compiling ../../../../../medical_gesture_detection/light_try/FPGA_120ms_work/engineering_execution/package/medical_gesture_fpga/src/hls/nav_fp32/test_keypoint_conv.cpp in debug mode
+   Compiling ../../../../../medical_gesture_detection/light_try/FPGA_120ms_work/engineering_execution/package/medical_gesture_fpga/src/hls/nav_fp32/reference_v1.cpp in debug mode
+   Compiling ../../../../../medical_gesture_detection/light_try/FPGA_120ms_work/engineering_execution/package/medical_gesture_fpga/src/hls/nav_fp32/keypoint_conv.cpp in debug mode
+   Generating csim.exe
+V1_DIFFERENTIAL_BITEXACT_PASSED cases=6
+case=000 mode=0 IC=3 OC=24 K=3x3 S=2x2 start=0 count=16 status=0 max_abs_error=0 failures=0
+case=018 mode=1 IC=32 OC=32 K=5x5 S=1x1 start=0 count=16 status=0 max_abs_error=0 failures=0
+case=046 mode=0 IC=16 OC=64 K=1x1 S=1x1 start=0 count=16 status=0 max_abs_error=0 failures=0
+KEYPOINT_CONV_TEST_PASSED fixtures=3
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************

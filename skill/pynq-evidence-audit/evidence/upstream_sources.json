@@ -1,0 +1,74 @@
+[
+  {
+    "repo": "Xilinx/ross-ai-assistant",
+    "commit": "dce0fb90611b144dd529490359b51cea5d0d5596",
+    "path": "skills/vivado-revision-control/SKILL.md",
+    "url": "https://raw.githubusercontent.com/Xilinx/ross-ai-assistant/dce0fb90611b144dd529490359b51cea5d0d5596/skills/vivado-revision-control/SKILL.md",
+    "sha256": "a06ae1e281c214a461d69f750ab359da2ed52eef7ab3d47c7fd09838ea2b8f39",
+    "bytes": 18158
+  },
+  {
+    "repo": "Xilinx/ross-ai-assistant",
+    "commit": "dce0fb90611b144dd529490359b51cea5d0d5596",
+    "path": "skills/vivado-timing-methodology-checks/SKILL.md",
+    "url": "https://raw.githubusercontent.com/Xilinx/ross-ai-assistant/dce0fb90611b144dd529490359b51cea5d0d5596/skills/vivado-timing-methodology-checks/SKILL.md",
+    "sha256": "27737039372a9184fdc5ca0cb6c1ca77c759d1b7563ce608dffaec22c4c8c5a6",
+    "bytes": 18095
+  },
+  {
+    "repo": "Xilinx/ross-ai-assistant",
+    "commit": "dce0fb90611b144dd529490359b51cea5d0d5596",
+    "path": "skills/hls-run-flow/SKILL.md",
+    "url": "https://raw.githubusercontent.com/Xilinx/ross-ai-assistant/dce0fb90611b144dd529490359b51cea5d0d5596/skills/hls-run-flow/SKILL.md",
+    "sha256": "67bfcce2537a706241bb043214052512ea7514b4d9b86bd6456fd0c2fe881b68",
+    "bytes": 4302
+  },
+  {
+    "repo": "Xilinx/ross-ai-assistant",
+    "commit": "dce0fb90611b144dd529490359b51cea5d0d5596",
+    "path": "LICENSE",
+    "url": "https://raw.githubusercontent.com/Xilinx/ross-ai-assistant/dce0fb90611b144dd529490359b51cea5d0d5596/LICENSE",
+    "sha256": "3de7fea911353980067e0f943d332dd74cbd2b610d4421318aaef25d8103f11d",
+    "bytes": 1085
+  },
+  {
+    "repo": "Xilinx/PYNQ",
+    "commit": "d90670c69f7b71ea1a5d23aaa3e0ec713ff5fa9f",
+    "path": "pynq/lib/dma.py",
+    "url": "https://raw.githubusercontent.com/Xilinx/PYNQ/d90670c69f7b71ea1a5d23aaa3e0ec713ff5fa9f/pynq/lib/dma.py",
+    "sha256": "dd4cb9649a99a16ede63d6f9e92116205d8361c8de6e18757ed2182fbfc8b9c0",
+    "bytes": 26813
+  },
+  {
+    "repo": "Xilinx/PYNQ",
+    "commit": "d90670c69f7b71ea1a5d23aaa3e0ec713ff5fa9f",
+    "path": "pynq/buffer.py",
+    "url": "https://raw.githubusercontent.com/Xilinx/PYNQ/d90670c69f7b71ea1a5d23aaa3e0ec713ff5fa9f/pynq/buffer.py",
+    "sha256": "532f1cee01509b4f90e3976d4270a0a5f7d525d4ba94f7233b0b5fda0f281463",
+    "bytes": 4677
+  },
+  {
+    "repo": "Xilinx/PYNQ",
+    "commit": "d90670c69f7b71ea1a5d23aaa3e0ec713ff5fa9f",
+    "path": "LICENSE",
+    "url": "https://raw.githubusercontent.com/Xilinx/PYNQ/d90670c69f7b71ea1a5d23aaa3e0ec713ff5fa9f/LICENSE",
+    "sha256": "6d822a20e645291ace79180f0ae94f604b9d5fb81165e302b2c7b8cd7bf83fc3",
+    "bytes": 1506
+  },
+  {
+    "repo": "cathalmccabe/PYNQ_tutorials",
+    "commit": "f4a11dc92ef855dab0bf98af9de9c8af4fb70a18",
+    "path": "README.md",
+    "url": "https://raw.githubusercontent.com/cathalmccabe/PYNQ_tutorials/f4a11dc92ef855dab0bf98af9de9c8af4fb70a18/README.md",
+    "sha256": "755c6fdcad2e1fccbbb6028b3805c2bf51e4e0fd8fc55e5f790599e6b3f749c7",
+    "bytes": 3446
+  },
+  {
+    "repo": "cathalmccabe/PYNQ_tutorials",
+    "commit": "f4a11dc92ef855dab0bf98af9de9c8af4fb70a18",
+    "path": "LICENSE",
+    "url": "https://raw.githubusercontent.com/cathalmccabe/PYNQ_tutorials/f4a11dc92ef855dab0bf98af9de9c8af4fb70a18/LICENSE",
+    "sha256": "e54778ff9edf9bb5c73db1ac4b3172a070540ab727fa0c3978412f8d00ffbda5",
+    "bytes": 1513
+  }
+]

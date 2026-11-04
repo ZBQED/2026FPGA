@@ -1,0 +1,25 @@
+
+****** xsim v2024.2 (64-bit)
+  **** SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+  **** IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+  **** SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+  **** Start of session at: Wed Nov  4 00:53:26 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/submission_core/xsim_script.tcl
+# xsim {submission_core} -wdb {core.wdb} -autoloadwcfg -tclbatch {run.tcl}
+Time resolution is 1 ps
+source run.tcl
+## log_wave /tb/clk /tb/resetn /tb/case_id /tb/ap_start /tb/weights_done /tb/compute_start /tb/compute_done /tb/writeback_done /tb/ap_done /tb/ap_return /tb/arvalid /tb/arready /tb/araddr /tb/arlen /tb/rvalid /tb/rready /tb/rdata /tb/rlast /tb/awvalid /tb/awready /tb/awaddr /tb/wvalid /tb/wready /tb/wdata /tb/wstrb /tb/wlast /tb/bvalid /tb/bready /tb/read_beats /tb/write_beats /tb/passed
+## open_vcd core.vcd
+## log_vcd /tb/clk /tb/resetn /tb/case_id /tb/ap_start /tb/weights_done /tb/compute_start /tb/compute_done /tb/writeback_done /tb/ap_done /tb/ap_return /tb/arvalid /tb/arready /tb/araddr /tb/arlen /tb/rvalid /tb/rready /tb/rdata /tb/rlast /tb/awvalid /tb/awready /tb/awaddr /tb/wvalid /tb/wready /tb/wdata /tb/wstrb /tb/wlast /tb/bvalid /tb/bready /tb/read_beats /tb/write_beats /tb/passed
+## run all
+CORE_CASE_PASS case=0 words=10 read_beats=69 write_beats=10 AR_stall=0 start_ns=373000 end_ns=4153000
+CORE_CASE_PASS case=1 words=15 read_beats=56 write_beats=15 AR_stall=5 start_ns=4580000 end_ns=12925000
+CORE_CASE_PASS case=2 words=14 read_beats=115 write_beats=14 AR_stall=7 start_ns=13352000 end_ns=19365000
+CURRENT_CORE_RTL_PASS cases=3 output_bytes=312 int8_reference_exact=1 output_guards=1
+$finish called at time : 19518058 ps : File "E:/medical_gesture_detection/light_try/FPGA_120ms_work/submission_release_20261104/recheck_core/tb.sv" Line 89
+## close_vcd
+## quit
+INFO: [Common 17-206] Exiting xsim at Wed Nov  4 00:53:29 2026...

@@ -1,0 +1,14 @@
+{
+  "template_only": true,
+  "schema_version": "audio_contract_v1",
+  "target": {"board": null, "device": null, "image": null, "pynq_version": null},
+  "ownership": {"service_or_pid": null, "capture_owner": null, "experiment_duration_seconds": null, "restore_procedure": null},
+  "capture": {"input_port": null, "codec": null, "driver_api": null, "input_selection": null, "microphone_wiring": null, "bias_requirement": null, "gain": null},
+  "pcm": {"sample_rate_hz": null, "channels": null, "channel_rule": null, "storage_dtype": null, "valid_bits": null, "bit_alignment": null, "byte_order": null, "full_scale": null},
+  "preprocess": {"sha256": null, "resample_rule": null, "window_seconds": null, "padding_rule": null, "frame_samples": null, "hop_samples": null, "fft_samples": null, "window_function": null, "center": null, "spectrum_rule": null, "mel_bins": null, "mel_scale": null, "mel_normalization": null, "fmin_hz": null, "fmax_hz": null, "log_base": null, "log_floor": null, "normalization_sha256": null, "input_shape": null, "input_dtype": null},
+  "model": {"sha256": null, "class_count": null, "label_map_sha256": null, "rejection_labels": null, "score_semantics": null, "baseline_sha256": null},
+  "trigger": {"level_definition": null, "chunk_seconds": null, "threshold": null, "consecutive_chunks": null, "pre_roll_seconds": null, "capture_end_rule": null, "cooldown_seconds": null},
+  "validation": {"reference_input_sha256": null, "atol": null, "rtol": null, "split_policy": null, "old_class_results": null, "new_class_results": null, "unknown_input_results": null, "noise_observation_seconds": null, "false_trigger_count": null, "target_utterance_count": null, "missed_trigger_count": null},
+  "application": {"protocol_contract": null, "label_to_business_id": null, "authorization_rule": null, "failure_policy": null},
+  "notes": "Fill from the actual target. No microphone, threshold, vocabulary, class count, transport or board is assumed. This template is not an executable validator."
+}

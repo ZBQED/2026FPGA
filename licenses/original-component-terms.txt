@@ -1,0 +1,8 @@
+Original component terms
+
+Files marked LicenseRef-Original-Component-Terms retain the copyright notices,
+license terms, and permissions supplied by their original rightsholders.
+This identifier and the project LICENSE do not grant additional rights to those
+components. The publisher has confirmed distribution permission for the supplied
+engineering materials. That declaration is recorded separately from the original
+rightsholders' notices. Source archives retain their upstream license files.

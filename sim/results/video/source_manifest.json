@@ -1,0 +1,162 @@
+[
+  {
+    "source": "E:\\medical_gesture_detection\\light_try\\FPGA_120ms_work\\FPGA\\hw\\nav\\board_project\\Navigator_7020.gen\\sources_1\\bd\\system\\ip\\system_v_frmbuf_wr_0_0\\hdl\\verilog\\system_v_frmbuf_wr_0_0_AXIvideo2MultiPixStream.v",
+    "saved": "system_v_frmbuf_wr_0_0_AXIvideo2MultiPixStream.v",
+    "sha256": "dc22a6e0287951ed54fafd4fa4ab241d76daacc68b86e7d3e85160b143d14ddf"
+  },
+  {
+    "source": "E:\\medical_gesture_detection\\light_try\\FPGA_120ms_work\\FPGA\\hw\\nav\\board_project\\Navigator_7020.gen\\sources_1\\bd\\system\\ip\\system_v_frmbuf_wr_0_0\\hdl\\verilog\\system_v_frmbuf_wr_0_0_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_eol.v",
+    "saved": "system_v_frmbuf_wr_0_0_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_eol.v",
+    "sha256": "b897006a276fb5a81d6a367b9dde6b6d25386ebba67aa3c60860290d2ca7b3a2"
+  },
+  {
+    "source": "E:\\medical_gesture_detection\\light_try\\FPGA_120ms_work\\FPGA\\hw\\nav\\board_project\\Navigator_7020.gen\\sources_1\\bd\\system\\ip\\system_v_frmbuf_wr_0_0\\hdl\\verilog\\system_v_frmbuf_wr_0_0_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_start.v",
+    "saved": "system_v_frmbuf_wr_0_0_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_start.v",
+    "sha256": "ecfe32114cf2a995798169ec9155c0642db022457bface6ea8808e4bb61b81e7"
+  },
+  {
+    "source": "E:\\medical_gesture_detection\\light_try\\FPGA_120ms_work\\FPGA\\hw\\nav\\board_project\\Navigator_7020.gen\\sources_1\\bd\\system\\ip\\system_v_frmbuf_wr_0_0\\hdl\\verilog\\system_v_frmbuf_wr_0_0_AXIvideo2MultiPixStream_Pipeline_loop_width.v",
+    "saved": "system_v_frmbuf_wr_0_0_AXIvideo2MultiPixStream_Pipeline_loop_width.v",
+    "sha256": "ae142f1889458d01cd54a43044d3513039ded3ac0e5f77d0c9c86838af5678bb"
+  },
+  {
+    "source": "E:\\medical_gesture_detection\\light_try\\FPGA_120ms_work\\FPGA\\hw\\nav\\board_project\\Navigator_7020.gen\\sources_1\\bd\\system\\ip\\system_v_frmbuf_wr_0_0\\hdl\\verilog\\system_v_frmbuf_wr_0_0_Bytes2AXIMMvideo.v",
+    "saved": "system_v_frmbuf_wr_0_0_Bytes2AXIMMvideo.v",
+    "sha256": "ddcba91f42c39424176170c41702b357a2caefcf5c9649a65f0f9d7489796625"
+  },
+  {
+    "source": "E:\\medical_gesture_detection\\light_try\\FPGA_120ms_work\\FPGA\\hw\\nav\\board_project\\Navigator_7020.gen\\sources_1\\bd\\system\\ip\\system_v_frmbuf_wr_0_0\\hdl\\verilog\\system_v_frmbuf_wr_0_0_Bytes2AXIMMvideo_Pipeline_VITIS_LOOP_1504_1.v",
+    "saved": "system_v_frmbuf_wr_0_0_Bytes2AXIMMvideo_Pipeline_VITIS_LOOP_1504_1.v",
+    "sha256": "9ed29c4a0d7d7d56e86e53806e5c1b48ea8fcb0cb03d7040f9d4143fea76d71f"
+  },
+  {
+    "source": "E:\\medical_gesture_detection\\light_try\\FPGA_120ms_work\\FPGA\\hw\\nav\\board_project\\Navigator_7020.gen\\sources_1\\bd\\system\\ip\\system_v_frmbuf_wr_0_0\\hdl\\verilog\\system_v_frmbuf_wr_0_0_BYTES_PER_PIXEL_ROM_AUTO_1R.v",
+    "saved": "system_v_frmbuf_wr_0_0_BYTES_PER_PIXEL_ROM_AUTO_1R.v",
+    "sha256": "12336da19b230909a5b449ac602cf6c6b8a45e6e8844a2dd28aa99cd88969d53"
+  },
+  {
+    "source": "E:\\medical_gesture_detection\\light_try\\FPGA_120ms_work\\FPGA\\hw\\nav\\board_project\\Navigator_7020.gen\\sources_1\\bd\\system\\ip\\system_v_frmbuf_wr_0_0\\hdl\\verilog\\system_v_frmbuf_wr_0_0_CTRL_s_axi.v",
+    "saved": "system_v_frmbuf_wr_0_0_CTRL_s_axi.v",
+    "sha256": "d44b4465254c9277a072f41ac5fc375558b291ac511e6313b042980eba0c5bca"
+  },
+  {
+    "source": "E:\\medical_gesture_detection\\light_try\\FPGA_120ms_work\\FPGA\\hw\\nav\\board_project\\Navigator_7020.gen\\sources_1\\bd\\system\\ip\\system_v_frmbuf_wr_0_0\\hdl\\verilog\\system_v_frmbuf_wr_0_0_entry_proc.v",
+    "saved": "system_v_frmbuf_wr_0_0_entry_proc.v",
+    "sha256": "3feb069ae89bdf7725d041cd7a639df5b012d06d4e4720c44b1af95c523b5ec1"
+  },
+  {
+    "source": "E:\\medical_gesture_detection\\light_try\\FPGA_120ms_work\\FPGA\\hw\\nav\\board_project\\Navigator_7020.gen\\sources_1\\bd\\system\\ip\\system_v_frmbuf_wr_0_0\\hdl\\verilog\\system_v_frmbuf_wr_0_0_fifo_w14_d2_S.v",
+    "saved": "system_v_frmbuf_wr_0_0_fifo_w14_d2_S.v",
+    "sha256": "0d7635919a9e601d52585256a7111c6c86f7a52ec3e177140b7d3dbf9946ed79"
+  },
+  {
+    "source": "E:\\medical_gesture_detection\\light_try\\FPGA_120ms_work\\FPGA\\hw\\nav\\board_project\\Navigator_7020.gen\\sources_1\\bd\\system\\ip\\system_v_frmbuf_wr_0_0\\hdl\\verilog\\system_v_frmbuf_wr_0_0_fifo_w14_d3_S.v",
+    "saved": "system_v_frmbuf_wr_0_0_fifo_w14_d3_S.v",
+    "sha256": "16ca592206d33409c3cef8246781f316ad6198b4bada177195cec7c081c6310e"
+  },
+  {
+    "source": "E:\\medical_gesture_detection\\light_try\\FPGA_120ms_work\\FPGA\\hw\\nav\\board_project\\Navigator_7020.gen\\sources_1\\bd\\system\\ip\\system_v_frmbuf_wr_0_0\\hdl\\verilog\\system_v_frmbuf_wr_0_0_fifo_w24_d2_S.v",
+    "saved": "system_v_frmbuf_wr_0_0_fifo_w24_d2_S.v",
+    "sha256": "ec1cc970ce903178ed4b4dde03d4361430c934dfdf7900bd01ad6394c7c07452"
+  },
+  {
+    "source": "E:\\medical_gesture_detection\\light_try\\FPGA_120ms_work\\FPGA\\hw\\nav\\board_project\\Navigator_7020.gen\\sources_1\\bd\\system\\ip\\system_v_frmbuf_wr_0_0\\hdl\\verilog\\system_v_frmbuf_wr_0_0_fifo_w32_d4_S.v",
+    "saved": "system_v_frmbuf_wr_0_0_fifo_w32_d4_S.v",
+    "sha256": "39d6e7363478a0b8022f1ff4116fd0995de247097efb7dfeb2dfd2faa66c1b2e"
+  },
+  {
+    "source": "E:\\medical_gesture_detection\\light_try\\FPGA_120ms_work\\FPGA\\hw\\nav\\board_project\\Navigator_7020.gen\\sources_1\\bd\\system\\ip\\system_v_frmbuf_wr_0_0\\hdl\\verilog\\system_v_frmbuf_wr_0_0_fifo_w64_d481_B.v",
+    "saved": "system_v_frmbuf_wr_0_0_fifo_w64_d481_B.v",
+    "sha256": "6be74425b0037b004a34642c208dfcf671abcc3d69aac769c618795b31bbe3de"
+  },
+  {
+    "source": "E:\\medical_gesture_detection\\light_try\\FPGA_120ms_work\\FPGA\\hw\\nav\\board_project\\Navigator_7020.gen\\sources_1\\bd\\system\\ip\\system_v_frmbuf_wr_0_0\\hdl\\verilog\\system_v_frmbuf_wr_0_0_flow_control_loop_pipe_sequential_init.v",
+    "saved": "system_v_frmbuf_wr_0_0_flow_control_loop_pipe_sequential_init.v",
+    "sha256": "7f1dd2d5f25b3e211dcd4902dbe1902a9d6be56b6855b7e8dfe17a4170fb09ed"
+  },
+  {
+    "source": "E:\\medical_gesture_detection\\light_try\\FPGA_120ms_work\\FPGA\\hw\\nav\\board_project\\Navigator_7020.gen\\sources_1\\bd\\system\\ip\\system_v_frmbuf_wr_0_0\\hdl\\verilog\\system_v_frmbuf_wr_0_0_FrmbufWrHlsDataFlow.v",
+    "saved": "system_v_frmbuf_wr_0_0_FrmbufWrHlsDataFlow.v",
+    "sha256": "6d1f706fa1a8b0b81906836c7bb52dc1f69a1ff87f2c19c214e5b9ecf7897437"
+  },
+  {
+    "source": "E:\\medical_gesture_detection\\light_try\\FPGA_120ms_work\\FPGA\\hw\\nav\\board_project\\Navigator_7020.gen\\sources_1\\bd\\system\\ip\\system_v_frmbuf_wr_0_0\\hdl\\verilog\\system_v_frmbuf_wr_0_0_hls_deadlock_detection_unit.v",
+    "saved": "system_v_frmbuf_wr_0_0_hls_deadlock_detection_unit.v",
+    "sha256": "73cb1cd790db2cb50581e51dbfe0be39afe8fa642da7d34972291d32ed3d0c49"
+  },
+  {
+    "source": "E:\\medical_gesture_detection\\light_try\\FPGA_120ms_work\\FPGA\\hw\\nav\\board_project\\Navigator_7020.gen\\sources_1\\bd\\system\\ip\\system_v_frmbuf_wr_0_0\\hdl\\verilog\\system_v_frmbuf_wr_0_0_hls_deadlock_idx0_monitor.v",
+    "saved": "system_v_frmbuf_wr_0_0_hls_deadlock_idx0_monitor.v",
+    "sha256": "77a79b0a76cbb36254cd6500099f71d3abf407898985a0247e09d6d734e94ed8"
+  },
+  {
+    "source": "E:\\medical_gesture_detection\\light_try\\FPGA_120ms_work\\FPGA\\hw\\nav\\board_project\\Navigator_7020.gen\\sources_1\\bd\\system\\ip\\system_v_frmbuf_wr_0_0\\hdl\\verilog\\system_v_frmbuf_wr_0_0_hls_deadlock_idx1_monitor.v",
+    "saved": "system_v_frmbuf_wr_0_0_hls_deadlock_idx1_monitor.v",
+    "sha256": "77e186ce417bbe93d1aa9b7398edfb13617a304d562a74dea932ad4a0ef8d09c"
+  },
+  {
+    "source": "E:\\medical_gesture_detection\\light_try\\FPGA_120ms_work\\FPGA\\hw\\nav\\board_project\\Navigator_7020.gen\\sources_1\\bd\\system\\ip\\system_v_frmbuf_wr_0_0\\hdl\\verilog\\system_v_frmbuf_wr_0_0_hls_deadlock_idx2_monitor.v",
+    "saved": "system_v_frmbuf_wr_0_0_hls_deadlock_idx2_monitor.v",
+    "sha256": "80af63621b220dc41bfca082d1fc4e7a2be78e2d849d06619a608403bf63fc9f"
+  },
+  {
+    "source": "E:\\medical_gesture_detection\\light_try\\FPGA_120ms_work\\FPGA\\hw\\nav\\board_project\\Navigator_7020.gen\\sources_1\\bd\\system\\ip\\system_v_frmbuf_wr_0_0\\hdl\\verilog\\system_v_frmbuf_wr_0_0_MEMORY2LIVE_ROM_AUTO_1R.v",
+    "saved": "system_v_frmbuf_wr_0_0_MEMORY2LIVE_ROM_AUTO_1R.v",
+    "sha256": "2632562c9f8935389149e30848efa45a1b8178e693307f6b59ef4c71346fe93b"
+  },
+  {
+    "source": "E:\\medical_gesture_detection\\light_try\\FPGA_120ms_work\\FPGA\\hw\\nav\\board_project\\Navigator_7020.gen\\sources_1\\bd\\system\\ip\\system_v_frmbuf_wr_0_0\\hdl\\verilog\\system_v_frmbuf_wr_0_0_mm_video_m_axi.v",
+    "saved": "system_v_frmbuf_wr_0_0_mm_video_m_axi.v",
+    "sha256": "51dd972ba83822721275322fc9cb133ad26689ea8c153d53ede88ad811d159d7"
+  },
+  {
+    "source": "E:\\medical_gesture_detection\\light_try\\FPGA_120ms_work\\FPGA\\hw\\nav\\board_project\\Navigator_7020.gen\\sources_1\\bd\\system\\ip\\system_v_frmbuf_wr_0_0\\hdl\\verilog\\system_v_frmbuf_wr_0_0_MultiPixStream2Bytes.v",
+    "saved": "system_v_frmbuf_wr_0_0_MultiPixStream2Bytes.v",
+    "sha256": "2176e5f2276bcbcc3c2f4a61e9ff819f6f7cd13ee7b37fda108dafebf7c81d15"
+  },
+  {
+    "source": "E:\\medical_gesture_detection\\light_try\\FPGA_120ms_work\\FPGA\\hw\\nav\\board_project\\Navigator_7020.gen\\sources_1\\bd\\system\\ip\\system_v_frmbuf_wr_0_0\\hdl\\verilog\\system_v_frmbuf_wr_0_0_MultiPixStream2Bytes_Pipeline_VITIS_LOOP_1048_1.v",
+    "saved": "system_v_frmbuf_wr_0_0_MultiPixStream2Bytes_Pipeline_VITIS_LOOP_1048_1.v",
+    "sha256": "43d5ee9687a70b914326a36e2514bd792875d59ae150bc3dfb4d45f9c25bbdbb"
+  },
+  {
+    "source": "E:\\medical_gesture_detection\\light_try\\FPGA_120ms_work\\FPGA\\hw\\nav\\board_project\\Navigator_7020.gen\\sources_1\\bd\\system\\ip\\system_v_frmbuf_wr_0_0\\hdl\\verilog\\system_v_frmbuf_wr_0_0_MultiPixStream2Bytes_Pipeline_VITIS_LOOP_1291_6.v",
+    "saved": "system_v_frmbuf_wr_0_0_MultiPixStream2Bytes_Pipeline_VITIS_LOOP_1291_6.v",
+    "sha256": "3b71fa480d9220501edcccdc2fea46cdb8330cbdf64b079fc0cfc319c8cb4dd9"
+  },
+  {
+    "source": "E:\\medical_gesture_detection\\light_try\\FPGA_120ms_work\\FPGA\\hw\\nav\\board_project\\Navigator_7020.gen\\sources_1\\bd\\system\\ip\\system_v_frmbuf_wr_0_0\\hdl\\verilog\\system_v_frmbuf_wr_0_0_mul_11ns_13ns_23_1_1.v",
+    "saved": "system_v_frmbuf_wr_0_0_mul_11ns_13ns_23_1_1.v",
+    "sha256": "5accd86c0559a6c5307650356b57799968704688f2c26d855af1f421f80b667f"
+  },
+  {
+    "source": "E:\\medical_gesture_detection\\light_try\\FPGA_120ms_work\\FPGA\\hw\\nav\\board_project\\Navigator_7020.gen\\sources_1\\bd\\system\\ip\\system_v_frmbuf_wr_0_0\\hdl\\verilog\\system_v_frmbuf_wr_0_0_mul_14s_3ns_14_1_1.v",
+    "saved": "system_v_frmbuf_wr_0_0_mul_14s_3ns_14_1_1.v",
+    "sha256": "123ddfca0da559355a860c4dbd097408cc76914aa40b84af7ccd27638e4c390f"
+  },
+  {
+    "source": "E:\\medical_gesture_detection\\light_try\\FPGA_120ms_work\\FPGA\\hw\\nav\\board_project\\Navigator_7020.gen\\sources_1\\bd\\system\\ip\\system_v_frmbuf_wr_0_0\\hdl\\verilog\\system_v_frmbuf_wr_0_0_regslice_both.v",
+    "saved": "system_v_frmbuf_wr_0_0_regslice_both.v",
+    "sha256": "63a8e3d0002fbc61acc43cc9adf3255905ac22a30821133876458aeaa175cc94"
+  },
+  {
+    "source": "E:\\medical_gesture_detection\\light_try\\FPGA_120ms_work\\FPGA\\hw\\nav\\board_project\\Navigator_7020.gen\\sources_1\\bd\\system\\ip\\system_v_frmbuf_wr_0_0\\hdl\\verilog\\system_v_frmbuf_wr_0_0_reg_unsigned_short_s.v",
+    "saved": "system_v_frmbuf_wr_0_0_reg_unsigned_short_s.v",
+    "sha256": "3489bd624a9b865141c96894b38b71bcd925b7168bde39f6ae6127395942eb29"
+  },
+  {
+    "source": "E:\\medical_gesture_detection\\light_try\\FPGA_120ms_work\\FPGA\\hw\\nav\\board_project\\Navigator_7020.gen\\sources_1\\bd\\system\\ip\\system_v_frmbuf_wr_0_0\\hdl\\verilog\\system_v_frmbuf_wr_0_0_start_for_Bytes2AXIMMvideo_U0.v",
+    "saved": "system_v_frmbuf_wr_0_0_start_for_Bytes2AXIMMvideo_U0.v",
+    "sha256": "e7e0d947d956d0345b392c2041e0f3ce8e43d7dc45ede61a53ff18a82cfb5210"
+  },
+  {
+    "source": "E:\\medical_gesture_detection\\light_try\\FPGA_120ms_work\\FPGA\\hw\\nav\\board_project\\Navigator_7020.gen\\sources_1\\bd\\system\\ip\\system_v_frmbuf_wr_0_0\\hdl\\verilog\\system_v_frmbuf_wr_0_0_start_for_MultiPixStream2Bytes_U0.v",
+    "saved": "system_v_frmbuf_wr_0_0_start_for_MultiPixStream2Bytes_U0.v",
+    "sha256": "f56c076d95dda192915f561ce3948158f7506b3ff96a9803a066b2741cdc4759"
+  },
+  {
+    "source": "E:\\medical_gesture_detection\\light_try\\FPGA_120ms_work\\FPGA\\hw\\nav\\board_project\\Navigator_7020.gen\\sources_1\\bd\\system\\ip\\system_v_frmbuf_wr_0_0\\hdl\\verilog\\system_v_frmbuf_wr_0_0_v_frmbuf_wr.v",
+    "saved": "system_v_frmbuf_wr_0_0_v_frmbuf_wr.v",
+    "sha256": "edb6928a54cb8d63f1bc93050caee8855638dc82f690dc755b836750ff26f74e"
+  }
+]

@@ -1,0 +1,118 @@
+{
+  "intent_table_version": "2026.10.31-seven-extension-v1",
+  "destination": "interaction board through switch",
+  "mapping_confirmed": false,
+  "rejection_model_classes": [
+    15,
+    16,
+    17
+  ],
+  "new_intents": [
+    {
+      "model_class": 18,
+      "intent_id": 8449,
+      "intent_id_hex": "0x2101",
+      "code": "SHOW_CARD_AND_INSURANCE",
+      "meaning": "请出示医保卡和身份证。",
+      "sign_text": "请出示医保卡和身份证。",
+      "speech_examples": [
+        "请出示医保卡和身份证。"
+      ],
+      "legacy_showcase_button": "00",
+      "is_business_intent": true,
+      "video_asset": null,
+      "video_mapping_status": "receiver_mapping_required"
+    },
+    {
+      "model_class": 19,
+      "intent_id": 8450,
+      "intent_id_hex": "0x2102",
+      "code": "REGISTER_NO_APPOINTMENT",
+      "meaning": "不用，在这里挂号就行。",
+      "sign_text": "不用，在这里挂号就行。",
+      "speech_examples": [
+        "不用，在这里挂号就行。"
+      ],
+      "legacy_showcase_button": "02",
+      "is_business_intent": true,
+      "video_asset": null,
+      "video_mapping_status": "receiver_mapping_required"
+    },
+    {
+      "model_class": 20,
+      "intent_id": 8451,
+      "intent_id_hex": "0x2103",
+      "code": "SELECT_REGISTRATION_DEPARTMENT",
+      "meaning": "请选择你要挂号的科室。",
+      "sign_text": "请选择你要挂号的科室。",
+      "speech_examples": [
+        "请选择你要挂号的科室。"
+      ],
+      "legacy_showcase_button": "03",
+      "is_business_intent": true,
+      "video_asset": null,
+      "video_mapping_status": "receiver_mapping_required"
+    },
+    {
+      "model_class": 21,
+      "intent_id": 8452,
+      "intent_id_hex": "0x2104",
+      "code": "PAYMENT_COMPLETED_GO_CLINIC",
+      "meaning": "已经缴费了，可以去诊室了。",
+      "sign_text": "已经缴费了，可以去诊室了。",
+      "speech_examples": [
+        "已经缴费了，可以去诊室了。"
+      ],
+      "legacy_showcase_button": "04",
+      "is_business_intent": true,
+      "video_asset": null,
+      "video_mapping_status": "receiver_mapping_required"
+    },
+    {
+      "model_class": 22,
+      "intent_id": 8453,
+      "intent_id_hex": "0x2105",
+      "code": "PAYMENT_REQUIRED",
+      "meaning": "请缴纳费用。",
+      "sign_text": "请缴纳费用。",
+      "speech_examples": [
+        "请缴纳费用。"
+      ],
+      "legacy_showcase_button": "05",
+      "is_business_intent": true,
+      "video_asset": null,
+      "video_mapping_status": "receiver_mapping_required"
+    },
+    {
+      "model_class": 23,
+      "intent_id": 8454,
+      "intent_id_hex": "0x2106",
+      "code": "CASH_PAYMENT_ALLOWED",
+      "meaning": "可以的。",
+      "sign_text": "可以的。",
+      "speech_examples": [
+        "可以的。"
+      ],
+      "legacy_showcase_button": "06",
+      "is_business_intent": true,
+      "video_asset": null,
+      "video_mapping_status": "receiver_mapping_required"
+    },
+    {
+      "model_class": 24,
+      "intent_id": 8455,
+      "intent_id_hex": "0x2107",
+      "code": "DISCHARGE_READY",
+      "meaning": "可以出院了。",
+      "sign_text": "可以出院了。",
+      "speech_examples": [
+        "可以出院了。"
+      ],
+      "legacy_showcase_button": "07",
+      "is_business_intent": true,
+      "video_asset": null,
+      "video_mapping_status": "receiver_mapping_required"
+    }
+  ],
+  "note": "Legacy showcase button is only a display alias. Map new intent_id to the correct existing sign video; do not change old intent IDs."
+}

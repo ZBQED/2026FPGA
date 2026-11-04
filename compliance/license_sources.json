@@ -1,0 +1,42 @@
+[
+  {
+    "path": "licenses/apache-2.0.txt",
+    "source_url": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "path": "licenses/gpl-2.0-only.txt",
+    "source_url": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/GPL-2.0-only.txt",
+    "sha256": "aaf135472f81c5b4a0dca9367e5bb5e9750032b5bebe5442b36e4c0a47430df3"
+  },
+  {
+    "path": "licenses/cc-by-4.0.txt",
+    "source_url": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/CC-BY-4.0.txt",
+    "sha256": "d557539df68e771cc1eedcc91d13f70fca930e508d11eedcafa4b15db49e3744"
+  },
+  {
+    "path": "licenses/upstream/pynq-bsd-3-clause.txt",
+    "source_url": "https://raw.githubusercontent.com/Xilinx/PYNQ/master/LICENSE",
+    "sha256": "6d822a20e645291ace79180f0ae94f604b9d5fb81165e302b2c7b8cd7bf83fc3"
+  },
+  {
+    "path": "licenses/upstream/pynq-third-party.txt",
+    "source_url": "https://raw.githubusercontent.com/Xilinx/PYNQ/master/THIRD_PARTY_LIC",
+    "sha256": "67b312b63fa1c6539a45fef2ed79d0001d0d681bbaa35b459e4b0f29453d9a26"
+  },
+  {
+    "path": "licenses/dependencies/flatbuffers/license.txt",
+    "source_url": "https://raw.githubusercontent.com/google/flatbuffers/v25.12.19/LICENSE",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "path": "licenses/upstream/mediapipe-apache-2.0.txt",
+    "source_url": "https://raw.githubusercontent.com/google-ai-edge/mediapipe/master/LICENSE",
+    "sha256": "8707eef0533987efc5b155d64761eeb6e20793f50b9bd1a68dad1cf4719d0ed8"
+  },
+  {
+    "path": "licenses/upstream/paddledetection-apache-2.0.txt",
+    "source_url": "https://raw.githubusercontent.com/PaddlePaddle/PaddleDetection/release/2.6/LICENSE",
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+  }
+]

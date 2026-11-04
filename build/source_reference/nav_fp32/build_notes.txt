@@ -1,0 +1,49 @@
+Cortex-A9 TFLite runtime build, 2026-10-22
+
+Deliverables
+  libgesture_tflite.so: 5,116,860 bytes
+  SHA256: f6a471a1b2772829eeeaac7dd737344b75bf9b2aa4f4e250357034e7eedc73c3
+  a9_interpreter.py: numpy/ctypes interface for the fixed float-input models.
+  Import: from a9_interpreter import Interpreter
+  Put .so beside the Python file, or set GESTURE_TFLITE_LIB to its absolute path.
+  Static verification is in runtime_validation.json. Actual model Invoke must
+  additionally be tested on the target; static ELF checks do not prove inference.
+
+Implementation
+  Official TensorFlow v2.11.0 C++ interpreter, no default delegates.
+  XNNPACK, NNAPI, GPU, external delegates disabled; resource support enabled
+  because the complete builtin operator registry references those implementations.
+  All compilation uses -mcpu=cortex-a9 -mfpu=neon -mfloat-abi=hard -marm
+  -ffp-contract=off, release optimization, and the preserved vendor glibc 2.30 sysroot.
+  Verified output: ELF32 ARM EABI hard-float, VFPv3, NEONv1. No VFPv4 or
+  Tag_FP_HP_extension attribute. No missing dynamic exports or ABI versions.
+  Highest direct requirements: GLIBC_2.29, GLIBCXX_3.4.22, CXXABI_1.3.9.
+
+C++ ABI repair
+  The existing GCC13 cross compiler was paired with GCC13 standard headers but
+  the vendor library is libstdc++.so.6.0.27. GCC13 headers introduced an unresolved
+  std::__throw_bad_array_new_length helper. We use the GCC9 ARM standard headers
+  from Ubuntu's official cross development package with -nostdinc++, while
+  continuing to link the original vendor library. No substitute runtime symbols
+  were added. GCC13 recognizes __remove_cv as a builtin keyword, so the private
+  template alias of that name in the extracted GCC9 unique_ptr header was renamed
+  together with its two uses. cpp9_gcc13_keyword.patch records this type-alias-only
+  change. This does not modify ABI or exception behavior.
+
+Sources and integrity
+  https://codeload.github.com/tensorflow/tensorflow/tar.gz/refs/tags/v2.11.0
+  SHA256: 99c732b92b1b37fc243a559e02f9aef5671771e272758aa4aec7f34dc92dac48
+  https://archive.ubuntu.com/ubuntu/pool/universe/g/gcc-9-cross/libstdc++-9-dev-armhf-cross_9.4.0-5ubuntu1cross1_all.deb
+  SHA256: 6a66531148f7b7fed8fee422ddb589c1328652b4013c83204c672533e525c86d
+
+Rebuild isolation
+  Existing Ubuntu VM: F:/Ubuntu/Ubuntu 64 位.vmx
+  Only new/modified guest files: /tmp/gesture-board-build-20261022
+  C compiler and vendor sysroot paths are recorded in a9_toolchain.cmake.
+  Use vm_helper.py to put CMakeLists.txt, a9_toolchain.cmake, gesture_tflite.cc,
+  validate_elf.py. Run prepare_cpp9.sh, fix_cpp9_header.sh, build_tflite.sh, then
+  validate_runtime.sh through vm_helper.py. The build script can be started with
+  --async; retrieve build_tflite.sh.log to inspect progress. Source, dependencies,
+  and intermediate objects remain in the isolated guest directory.
+  vm_helper.py reads existing VM credentials via AST and never prints them.
+  No board access is performed by these scripts.

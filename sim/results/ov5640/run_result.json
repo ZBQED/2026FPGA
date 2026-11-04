@@ -1,0 +1,44 @@
+{
+  "kind": "ov5640",
+  "board_connected": false,
+  "commands": [
+    {
+      "argv": [
+        "E:\\vivado2024.2\\Vivado\\2024.2\\bin\\xelab.bat",
+        "xil_defaultlib.tb",
+        "-prj",
+        "files.prj",
+        "-L",
+        "unisims_ver",
+        "-L",
+        "xpm",
+        "-L",
+        "secureip",
+        "-timescale",
+        "1ns/1ps",
+        "-mt",
+        "2",
+        "-debug",
+        "typical",
+        "-s",
+        "report_ov5640"
+      ],
+      "returncode": 0,
+      "wall_seconds": 1.9679999999934807
+    },
+    {
+      "argv": [
+        "E:\\vivado2024.2\\Vivado\\2024.2\\bin\\xsim.bat",
+        "report_ov5640",
+        "-tclbatch",
+        "run.tcl",
+        "-wdb",
+        "ov5640.wdb"
+      ],
+      "returncode": 0,
+      "wall_seconds": 3.5320000000065193
+    }
+  ],
+  "started": "2026-11-03 22:23:55",
+  "finished": "2026-11-03 22:24:01"
+}

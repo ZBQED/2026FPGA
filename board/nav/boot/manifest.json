@@ -1,0 +1,23 @@
+{
+  "files": {
+    "boot.cmd": {
+      "sha256": "ad310624b1fa3a426e810bb9ecd4dbde76d6de212436f2f5d2b533cadc6a6f63",
+      "bytes": 1329
+    },
+    "boot.scr": {
+      "sha256": "7aa48bbcf79c10f6a3843dd0cc77f6d833ce4c7d3c1cf34d77dc08a8782adb5d",
+      "bytes": 1401
+    },
+    "image.ub": {
+      "sha256": "a24c8a80dd373f75a77a3f8a5154b45244c7b04963d11825200269a1a24b7c2e",
+      "bytes": 4861996
+    },
+    "system.bit": {
+      "sha256": "8259e3a18fa2fe6181137ff11af06690739ef813a6626d8c76b1719c6bd2f9e3",
+      "bytes": 4045674
+    }
+  },
+  "sd_subdirectory": "medical_gesture",
+  "uboot_command": "fatload mmc 0:1 0x01000000 medical_gesture/boot.scr; source 0x01000000",
+  "default_boot_modified": false
+}

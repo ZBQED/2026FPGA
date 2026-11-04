@@ -1,0 +1,30 @@
+{
+  "profile": "development-v1",
+  "protocol_version": 1,
+  "catalog_version": "voice-v1",
+  "pynq": {
+    "ip": "192.168.10.20",
+    "bind_port": 5001,
+    "role": "voice_result_sender"
+  },
+  "zynq": {
+    "ip": "192.168.10.10",
+    "bind_port": 5000,
+    "role": "voice_result_receiver_and_ui"
+  },
+  "udp": {
+    "encoding": "utf-8",
+    "max_datagram_bytes": 1024,
+    "ack_timeout_ms": 100,
+    "max_send_attempts": 3,
+    "heartbeat_interval_ms": 1000,
+    "offline_timeout_ms": 3000,
+    "dedup_cache_entries": 256,
+    "dedup_retention_ms": 10000
+  },
+  "confidence": {
+    "business_threshold": null,
+    "owner": "speech_recognition_team",
+    "note": "正式阈值必须由语音识别验证集校准；协议只校验confidence位于0.0到1.0。"
+  }
+}

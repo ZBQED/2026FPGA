@@ -1,0 +1,965 @@
+{
+  "schema_version": "1.0.0",
+  "registry_version": "2026.09.29",
+  "json_interface_version": 1,
+  "protocol_version": 256,
+  "protocol_version_hex": "0x0100",
+  "intent_id_width_bits": 16,
+  "byte_order": "little-endian",
+  "owner": "C",
+  "runtime_policy": {
+    "confidence_format": "float_0_to_1",
+    "confidence_accept_threshold": 0.8,
+    "confidence_confirm_threshold": 0.55,
+    "minimum_temporal_score": 0.6,
+    "minimum_track_quality": 0.6,
+    "max_recognition_attempts": 3,
+    "max_dialogue_rounds": 12,
+    "timestamp_field": "timestamp_us",
+    "timestamp_unit": "microsecond",
+    "a_result_timeout_ms": 2000,
+    "b_result_timeout_ms": 3000,
+    "command_ack_timeout_ms": 500,
+    "play_first_frame_timeout_ms": 1000
+  },
+  "dialogue_policy": {
+    "initial_stage": "ARRIVAL",
+    "patient_always_allowed": [
+      "USE_TEXT",
+      "REPEAT",
+      "THANKS",
+      "REGISTER_LOCATION",
+      "PAYMENT_LOCATION",
+      "PHARMACY_LOCATION",
+      "TOILET_LOCATION",
+      "CLINIC_LOCATION",
+      "LAB_LOCATION",
+      "IMAGING_LOCATION"
+    ],
+    "staff_always_allowed": [
+      "USE_TEXT",
+      "ASK_REPEAT",
+      "YOU_ARE_WELCOME",
+      "GO_REGISTER",
+      "GO_PAYMENT",
+      "GO_CLINIC",
+      "GO_LAB",
+      "GO_IMAGING",
+      "GO_PHARMACY",
+      "GO_TOILET",
+      "GO_REPORT_DESK"
+    ],
+    "patient_allowed_by_stage": {
+      "ARRIVAL": [
+        "REGISTER_REQUEST",
+        "APPOINTMENT_DONE"
+      ],
+      "REGISTRATION": [
+        "REGISTER_REQUEST",
+        "APPOINTMENT_DONE",
+        "PAY_REQUEST"
+      ],
+      "WAITING": [
+        "APPOINTMENT_DONE"
+      ],
+      "EXAMINATION": [
+        "REPORT_PICKUP",
+        "PAY_REQUEST"
+      ],
+      "POST_VISIT": [
+        "PAY_REQUEST",
+        "MEDICINE_PICKUP",
+        "REPORT_PICKUP"
+      ],
+      "COMPLETE": [
+        "THANKS"
+      ]
+    },
+    "staff_allowed_by_stage": {
+      "ARRIVAL": [
+        "ASK_ID_CARD",
+        "ASK_INSURANCE_CARD",
+        "ASK_APPOINTMENT",
+        "GO_REGISTER",
+        "GO_CLINIC",
+        "GO_TOILET"
+      ],
+      "REGISTRATION": [
+        "ASK_ID_CARD",
+        "ASK_INSURANCE_CARD",
+        "ASK_APPOINTMENT",
+        "GO_REGISTER",
+        "GO_PAYMENT",
+        "GO_CLINIC",
+        "GO_TOILET"
+      ],
+      "WAITING": [
+        "WAIT_FOR_CALL",
+        "GO_CLINIC",
+        "GO_TOILET"
+      ],
+      "EXAMINATION": [
+        "GO_LAB",
+        "GO_IMAGING",
+        "GO_PAYMENT",
+        "GO_PHARMACY",
+        "GO_REPORT_DESK",
+        "GO_TOILET"
+      ],
+      "POST_VISIT": [
+        "GO_PAYMENT",
+        "GO_PHARMACY",
+        "GO_REPORT_DESK",
+        "GO_TOILET"
+      ],
+      "COMPLETE": [
+        "YOU_ARE_WELCOME"
+      ]
+    },
+    "staff_reply_by_patient": {
+      "REGISTER_REQUEST": [
+        "GO_REGISTER",
+        "ASK_ID_CARD",
+        "ASK_INSURANCE_CARD"
+      ],
+      "APPOINTMENT_DONE": [
+        "ASK_APPOINTMENT",
+        "GO_CLINIC",
+        "WAIT_FOR_CALL"
+      ],
+      "PAY_REQUEST": [
+        "GO_PAYMENT"
+      ],
+      "MEDICINE_PICKUP": [
+        "GO_PHARMACY"
+      ],
+      "REPORT_PICKUP": [
+        "GO_REPORT_DESK"
+      ],
+      "REGISTER_LOCATION": [
+        "GO_REGISTER"
+      ],
+      "PAYMENT_LOCATION": [
+        "GO_PAYMENT"
+      ],
+      "PHARMACY_LOCATION": [
+        "GO_PHARMACY"
+      ],
+      "TOILET_LOCATION": [
+        "GO_TOILET"
+      ],
+      "CLINIC_LOCATION": [
+        "GO_CLINIC"
+      ],
+      "LAB_LOCATION": [
+        "GO_LAB"
+      ],
+      "IMAGING_LOCATION": [
+        "GO_IMAGING"
+      ],
+      "USE_TEXT": [
+        "USE_TEXT"
+      ],
+      "REPEAT": [
+        "ASK_REPEAT"
+      ],
+      "THANKS": [
+        "YOU_ARE_WELCOME"
+      ]
+    },
+    "next_stage_by_staff": {
+      "GO_REGISTER": "REGISTRATION",
+      "ASK_APPOINTMENT": "REGISTRATION",
+      "WAIT_FOR_CALL": "WAITING",
+      "GO_CLINIC": "WAITING",
+      "GO_LAB": "EXAMINATION",
+      "GO_IMAGING": "EXAMINATION",
+      "GO_PAYMENT": "POST_VISIT",
+      "GO_PHARMACY": "POST_VISIT",
+      "GO_REPORT_DESK": "POST_VISIT",
+      "YOU_ARE_WELCOME": "COMPLETE"
+    },
+    "manual_confirmation_patient_codes": [],
+    "urgent_patient_codes": [],
+    "followup_ui_by_patient": {
+      "REGISTER_REQUEST": {
+        "field": "department",
+        "mode": "department_selection",
+        "options": [
+          "内科",
+          "外科",
+          "急诊科",
+          "骨科",
+          "眼科",
+          "耳鼻喉科",
+          "皮肤科",
+          "妇科",
+          "妇产科",
+          "儿科",
+          "其他科室"
+        ]
+      }
+    },
+    "turn_control": {
+      "continue_staff_codes": [
+        "ASK_ID_CARD",
+        "ASK_INSURANCE_CARD",
+        "ASK_APPOINTMENT",
+        "ASK_REPEAT"
+      ],
+      "complete_staff_codes": [
+        "GO_REGISTER",
+        "GO_PAYMENT",
+        "GO_CLINIC",
+        "GO_LAB",
+        "GO_IMAGING",
+        "GO_PHARMACY",
+        "GO_TOILET",
+        "GO_REPORT_DESK",
+        "WAIT_FOR_CALL",
+        "YOU_ARE_WELCOME"
+      ],
+      "handoff_staff_codes": [
+        "USE_TEXT"
+      ],
+      "default_action": "ASK_USER"
+    },
+    "followup_ui_by_staff": {
+      "ASK_APPOINTMENT": {
+        "field": "appointment_reference",
+        "mode": "text_or_scan"
+      }
+    }
+  },
+  "rules": {
+    "numeric_id_is_wire_value": true,
+    "code_is_stable_programmatic_name": true,
+    "code_scope": "owner_section",
+    "display_text_may_be_revised_after_review": true,
+    "retired_id_must_not_be_reused": true,
+    "model_outputs_must_be_mapped_by_class_index": true,
+    "unregistered_id_must_be_rejected": true,
+    "high_risk_intent_requires_human_confirmation": true
+  },
+  "ranges": {
+    "common": {
+      "start": 0,
+      "end": 255,
+      "hex": "0x0000-0x00FF"
+    },
+    "a_patient_sign": {
+      "start": 4096,
+      "end": 8191,
+      "hex": "0x1000-0x1FFF"
+    },
+    "b_staff_speech": {
+      "start": 8192,
+      "end": 12287,
+      "hex": "0x2000-0x2FFF"
+    },
+    "c_control_and_fixed": {
+      "start": 12288,
+      "end": 16383,
+      "hex": "0x3000-0x3FFF"
+    }
+  },
+  "sentinels": [
+    {
+      "numeric_id": 0,
+      "intent_id_hex": "0x0000",
+      "code": "INVALID",
+      "meaning": "无有效意图；不得触发文本播报或手语视频播放。"
+    }
+  ],
+  "a_patient_sign": {
+    "owner": "A",
+    "direction": "patient_to_staff",
+    "source_id": 1,
+    "packet": "sign_result_v1",
+    "model_class_count": 18,
+    "business_intent_count": 15,
+    "intents": [
+      {
+        "class_index": 0,
+        "key": "PAT-02",
+        "numeric_id": 4098,
+        "intent_id_hex": "0x1002",
+        "code": "REGISTER_REQUEST",
+        "category": "办理",
+        "display_text": "我要挂号。",
+        "priority": "high",
+        "context": [
+          "到院"
+        ]
+      },
+      {
+        "class_index": 1,
+        "key": "PAT-03",
+        "numeric_id": 4099,
+        "intent_id_hex": "0x1003",
+        "code": "APPOINTMENT_DONE",
+        "category": "办理",
+        "display_text": "我已经预约了。",
+        "priority": "high",
+        "context": [
+          "到院"
+        ]
+      },
+      {
+        "class_index": 2,
+        "key": "PAT-04",
+        "numeric_id": 4100,
+        "intent_id_hex": "0x1004",
+        "code": "PAY_REQUEST",
+        "category": "办理",
+        "display_text": "我要缴费。",
+        "priority": "high",
+        "context": [
+          "检查前",
+          "诊后"
+        ]
+      },
+      {
+        "class_index": 3,
+        "key": "PAT-05",
+        "numeric_id": 4101,
+        "intent_id_hex": "0x1005",
+        "code": "MEDICINE_PICKUP",
+        "category": "办理",
+        "display_text": "我要取药。",
+        "priority": "high",
+        "context": [
+          "诊后"
+        ]
+      },
+      {
+        "class_index": 4,
+        "key": "PAT-06",
+        "numeric_id": 4102,
+        "intent_id_hex": "0x1006",
+        "code": "REPORT_PICKUP",
+        "category": "办理",
+        "display_text": "我要取检查报告。",
+        "priority": "high",
+        "context": [
+          "检查后"
+        ]
+      },
+      {
+        "class_index": 5,
+        "key": "PAT-07",
+        "numeric_id": 4103,
+        "intent_id_hex": "0x1007",
+        "code": "REGISTER_LOCATION",
+        "category": "问路",
+        "display_text": "请问挂号窗口在几楼，怎么走？",
+        "priority": "high",
+        "context": [
+          "任何阶段"
+        ]
+      },
+      {
+        "class_index": 6,
+        "key": "PAT-08",
+        "numeric_id": 4104,
+        "intent_id_hex": "0x1008",
+        "code": "PAYMENT_LOCATION",
+        "category": "问路",
+        "display_text": "请问缴费处在几楼，怎么走？",
+        "priority": "high",
+        "context": [
+          "任何阶段"
+        ]
+      },
+      {
+        "class_index": 7,
+        "key": "PAT-09",
+        "numeric_id": 4105,
+        "intent_id_hex": "0x1009",
+        "code": "PHARMACY_LOCATION",
+        "category": "问路",
+        "display_text": "请问药房在几楼，怎么走？",
+        "priority": "high",
+        "context": [
+          "任何阶段"
+        ]
+      },
+      {
+        "class_index": 8,
+        "key": "PAT-10",
+        "numeric_id": 4106,
+        "intent_id_hex": "0x100A",
+        "code": "TOILET_LOCATION",
+        "category": "问路",
+        "display_text": "请问卫生间在几楼，怎么走？",
+        "priority": "high",
+        "context": [
+          "任何阶段"
+        ]
+      },
+      {
+        "class_index": 9,
+        "key": "PAT-11",
+        "numeric_id": 4107,
+        "intent_id_hex": "0x100B",
+        "code": "USE_TEXT",
+        "category": "沟通辅助",
+        "display_text": "请写下来，我们用文字沟通。",
+        "priority": "high",
+        "context": [
+          "任何阶段"
+        ]
+      },
+      {
+        "class_index": 10,
+        "key": "PAT-12",
+        "numeric_id": 4108,
+        "intent_id_hex": "0x100C",
+        "code": "REPEAT",
+        "category": "沟通辅助",
+        "display_text": "请再说或再做一次。",
+        "priority": "high",
+        "context": [
+          "确认失败"
+        ]
+      },
+      {
+        "class_index": 11,
+        "key": "PAT-21",
+        "numeric_id": 4117,
+        "intent_id_hex": "0x1015",
+        "code": "THANKS",
+        "category": "礼貌",
+        "display_text": "谢谢。",
+        "priority": "medium",
+        "context": [
+          "任何阶段"
+        ]
+      },
+      {
+        "class_index": 12,
+        "key": "PAT-22",
+        "numeric_id": 4118,
+        "intent_id_hex": "0x1016",
+        "code": "CLINIC_LOCATION",
+        "category": "问路",
+        "display_text": "请问诊室在几楼，怎么走？",
+        "priority": "high",
+        "context": [
+          "任何阶段"
+        ]
+      },
+      {
+        "class_index": 13,
+        "key": "PAT-23",
+        "numeric_id": 4119,
+        "intent_id_hex": "0x1017",
+        "code": "LAB_LOCATION",
+        "category": "问路",
+        "display_text": "请问检验科在几楼，怎么走？",
+        "priority": "high",
+        "context": [
+          "任何阶段"
+        ]
+      },
+      {
+        "class_index": 14,
+        "key": "PAT-24",
+        "numeric_id": 4120,
+        "intent_id_hex": "0x1018",
+        "code": "IMAGING_LOCATION",
+        "category": "问路",
+        "display_text": "请问影像科在几楼，怎么走？",
+        "priority": "high",
+        "context": [
+          "任何阶段"
+        ]
+      }
+    ],
+    "reject_classes": [
+      {
+        "class_index": 15,
+        "numeric_id": 4336,
+        "intent_id_hex": "0x10F0",
+        "code": "NO_ACTION",
+        "model_class": true,
+        "business_intent": false,
+        "system_action": "keep_listening"
+      },
+      {
+        "class_index": 16,
+        "numeric_id": 4337,
+        "intent_id_hex": "0x10F1",
+        "code": "UNKNOWN_SIGN",
+        "model_class": true,
+        "business_intent": false,
+        "system_action": "request_retry"
+      },
+      {
+        "class_index": 17,
+        "numeric_id": 4338,
+        "intent_id_hex": "0x10F2",
+        "code": "TRANSITION_ACTION",
+        "model_class": true,
+        "business_intent": false,
+        "system_action": "discard_result"
+      }
+    ]
+  },
+  "b_staff_speech": {
+    "owner": "B",
+    "direction": "staff_to_patient",
+    "source_id": 2,
+    "packet": "speech_result_v1",
+    "model_class_count": 18,
+    "business_intent_count": 15,
+    "intents": [
+      {
+        "class_index": 0,
+        "key": "STAFF-01",
+        "numeric_id": 8193,
+        "intent_id_hex": "0x2001",
+        "code": "ASK_ID_CARD",
+        "category": "证件",
+        "speech_variants": [
+          "请出示身份证",
+          "麻烦拿一下身份证",
+          "需要核对身份信息"
+        ],
+        "sign_text": "请出示身份证。",
+        "asset_path": "sign/staff_01_id_card.mp4"
+      },
+      {
+        "class_index": 1,
+        "key": "STAFF-02",
+        "numeric_id": 8194,
+        "intent_id_hex": "0x2002",
+        "code": "ASK_INSURANCE_CARD",
+        "category": "证件",
+        "speech_variants": [
+          "请出示医保卡",
+          "请刷医保卡",
+          "需要核对医保信息"
+        ],
+        "sign_text": "请出示医保卡。",
+        "asset_path": "sign/staff_02_insurance.mp4"
+      },
+      {
+        "class_index": 2,
+        "key": "STAFF-03",
+        "numeric_id": 8195,
+        "intent_id_hex": "0x2003",
+        "code": "ASK_APPOINTMENT",
+        "category": "预约",
+        "speech_variants": [
+          "请出示预约信息",
+          "您预约了吗",
+          "麻烦打开预约记录"
+        ],
+        "sign_text": "请出示预约信息。",
+        "controlled_fields": [
+          "appointment_reference"
+        ],
+        "asset_path": "sign/staff_03_appointment.mp4"
+      },
+      {
+        "class_index": 3,
+        "key": "STAFF-04",
+        "numeric_id": 8196,
+        "intent_id_hex": "0x2004",
+        "code": "GO_REGISTER",
+        "category": "楼层与路线",
+        "speech_variants": [
+          "请到一楼挂号窗口",
+          "挂号窗口在一楼大厅",
+          "请去一楼办理挂号"
+        ],
+        "sign_text": "请到挂号窗口。",
+        "controlled_fields": [
+          "floor",
+          "window",
+          "location",
+          "direction_hint"
+        ],
+        "asset_path": "sign/staff_04_register.mp4"
+      },
+      {
+        "class_index": 4,
+        "key": "STAFF-05",
+        "numeric_id": 8197,
+        "intent_id_hex": "0x2005",
+        "code": "GO_PAYMENT",
+        "category": "楼层与路线",
+        "speech_variants": [
+          "请到一楼缴费处",
+          "收费窗口在一楼",
+          "请去一楼缴费"
+        ],
+        "sign_text": "请到缴费处。",
+        "controlled_fields": [
+          "amount",
+          "floor",
+          "window",
+          "location",
+          "direction_hint"
+        ],
+        "asset_path": "sign/staff_05_payment.mp4"
+      },
+      {
+        "class_index": 5,
+        "key": "STAFF-06",
+        "numeric_id": 8198,
+        "intent_id_hex": "0x2006",
+        "code": "GO_CLINIC",
+        "category": "楼层与路线",
+        "speech_variants": [
+          "请到二楼诊室",
+          "诊室在二楼",
+          "请去相应诊室就诊"
+        ],
+        "sign_text": "请到诊室就诊。",
+        "controlled_fields": [
+          "department",
+          "clinic_room",
+          "floor",
+          "location",
+          "direction_hint"
+        ],
+        "asset_path": "sign/staff_06_clinic.mp4"
+      },
+      {
+        "class_index": 6,
+        "key": "STAFF-07",
+        "numeric_id": 8199,
+        "intent_id_hex": "0x2007",
+        "code": "GO_LAB",
+        "category": "楼层与路线",
+        "speech_variants": [
+          "请到二楼检验科",
+          "检验科在二楼",
+          "请到采血窗口"
+        ],
+        "sign_text": "请到检验科。",
+        "controlled_fields": [
+          "department",
+          "floor",
+          "window",
+          "location",
+          "direction_hint"
+        ],
+        "asset_path": "sign/staff_07_lab.mp4"
+      },
+      {
+        "class_index": 7,
+        "key": "STAFF-08",
+        "numeric_id": 8200,
+        "intent_id_hex": "0x2008",
+        "code": "GO_IMAGING",
+        "category": "楼层与路线",
+        "speech_variants": [
+          "请到一楼影像科",
+          "影像科在一楼",
+          "请去影像科检查"
+        ],
+        "sign_text": "请到影像科检查。",
+        "controlled_fields": [
+          "exam_name",
+          "room",
+          "floor",
+          "location",
+          "direction_hint"
+        ],
+        "asset_path": "sign/staff_08_imaging.mp4"
+      },
+      {
+        "class_index": 8,
+        "key": "STAFF-09",
+        "numeric_id": 8201,
+        "intent_id_hex": "0x2009",
+        "code": "GO_PHARMACY",
+        "category": "楼层与路线",
+        "speech_variants": [
+          "请到一楼药房",
+          "药房在一楼",
+          "请去药房取药"
+        ],
+        "sign_text": "请到药房取药。",
+        "controlled_fields": [
+          "floor",
+          "location",
+          "direction_hint"
+        ],
+        "asset_path": "sign/staff_09_pharmacy.mp4"
+      },
+      {
+        "class_index": 9,
+        "key": "STAFF-10",
+        "numeric_id": 8202,
+        "intent_id_hex": "0x200A",
+        "code": "WAIT_FOR_CALL",
+        "category": "候诊",
+        "speech_variants": [
+          "请等待叫号",
+          "请在候诊区等候",
+          "叫到您再进去"
+        ],
+        "sign_text": "请在候诊区等待叫号。",
+        "controlled_fields": [
+          "queue_number",
+          "location"
+        ],
+        "asset_path": "sign/staff_10_wait_call.mp4"
+      },
+      {
+        "class_index": 10,
+        "key": "STAFF-16",
+        "numeric_id": 8208,
+        "intent_id_hex": "0x2010",
+        "code": "USE_TEXT",
+        "category": "沟通辅助",
+        "speech_variants": [
+          "我写给您看",
+          "我们用文字沟通",
+          "请看屏幕上的文字"
+        ],
+        "sign_text": "我们可以使用文字沟通。",
+        "controlled_fields": [
+          "text"
+        ],
+        "asset_path": "sign/staff_16_text.mp4"
+      },
+      {
+        "class_index": 11,
+        "key": "STAFF-17",
+        "numeric_id": 8209,
+        "intent_id_hex": "0x2011",
+        "code": "ASK_REPEAT",
+        "category": "沟通辅助",
+        "speech_variants": [
+          "请再做一次",
+          "请重复一遍",
+          "刚才没有识别清楚"
+        ],
+        "sign_text": "请再做一次。",
+        "asset_path": "sign/staff_17_repeat.mp4"
+      },
+      {
+        "class_index": 12,
+        "key": "STAFF-19",
+        "numeric_id": 8211,
+        "intent_id_hex": "0x2013",
+        "code": "GO_TOILET",
+        "category": "楼层与路线",
+        "speech_variants": [
+          "卫生间在一楼",
+          "请到一楼卫生间",
+          "卫生间在前方右侧"
+        ],
+        "sign_text": "请到卫生间。",
+        "controlled_fields": [
+          "floor",
+          "location",
+          "direction_hint"
+        ],
+        "asset_path": "sign/staff_19_toilet.mp4"
+      },
+      {
+        "class_index": 13,
+        "key": "STAFF-20",
+        "numeric_id": 8212,
+        "intent_id_hex": "0x2014",
+        "code": "GO_REPORT_DESK",
+        "category": "楼层与路线",
+        "speech_variants": [
+          "请到二楼取报告",
+          "报告打印处在二楼",
+          "请到自助机取报告"
+        ],
+        "sign_text": "请到报告领取处。",
+        "controlled_fields": [
+          "floor",
+          "location",
+          "machine_or_window",
+          "direction_hint"
+        ],
+        "asset_path": "sign/staff_20_report.mp4"
+      },
+      {
+        "class_index": 14,
+        "key": "STAFF-21",
+        "numeric_id": 8213,
+        "intent_id_hex": "0x2015",
+        "code": "YOU_ARE_WELCOME",
+        "category": "礼貌",
+        "speech_variants": [
+          "不客气",
+          "不用谢",
+          "没关系"
+        ],
+        "sign_text": "不客气。",
+        "asset_path": "sign/staff_21_you_are_welcome.mp4"
+      }
+    ],
+    "reject_classes": [
+      {
+        "class_index": 15,
+        "numeric_id": 8432,
+        "intent_id_hex": "0x20F0",
+        "code": "SILENCE",
+        "model_class": true,
+        "business_intent": false,
+        "system_action": "keep_listening"
+      },
+      {
+        "class_index": 16,
+        "numeric_id": 8433,
+        "intent_id_hex": "0x20F1",
+        "code": "UNKNOWN_SPEECH",
+        "model_class": true,
+        "business_intent": false,
+        "system_action": "request_retry"
+      },
+      {
+        "class_index": 17,
+        "numeric_id": 8434,
+        "intent_id_hex": "0x20F2",
+        "code": "BACKGROUND_NOISE",
+        "model_class": true,
+        "business_intent": false,
+        "system_action": "discard_result"
+      }
+    ]
+  },
+  "c_control_and_fixed": {
+    "owner": "C",
+    "model_class": false,
+    "controls": [
+      {
+        "key": "CTRL-01",
+        "numeric_id": 12289,
+        "intent_id_hex": "0x3001",
+        "code": "CONFIRM_YES",
+        "name": "确认是",
+        "action": "accept_current_candidate"
+      },
+      {
+        "key": "CTRL-02",
+        "numeric_id": 12290,
+        "intent_id_hex": "0x3002",
+        "code": "CONFIRM_NO",
+        "name": "确认否",
+        "action": "reject_current_candidate_and_show_top3"
+      },
+      {
+        "key": "CTRL-03",
+        "numeric_id": 12291,
+        "intent_id_hex": "0x3003",
+        "code": "RECOGNIZE_AGAIN",
+        "name": "重新识别",
+        "action": "clear_result_and_restart_capture"
+      },
+      {
+        "key": "CTRL-04",
+        "numeric_id": 12292,
+        "intent_id_hex": "0x3004",
+        "code": "CANCEL",
+        "name": "取消",
+        "action": "cancel_current_flow"
+      },
+      {
+        "key": "CTRL-05",
+        "numeric_id": 12293,
+        "intent_id_hex": "0x3005",
+        "code": "REPLAY_SIGN",
+        "name": "重播手语",
+        "action": "replay_current_sign_asset"
+      },
+      {
+        "key": "CTRL-06",
+        "numeric_id": 12294,
+        "intent_id_hex": "0x3006",
+        "code": "END_SESSION",
+        "name": "结束会话",
+        "action": "end_session_and_clear_media_cache"
+      }
+    ],
+    "fixed_phrases": [
+      {
+        "key": "FIX-01",
+        "numeric_id": 12545,
+        "intent_id_hex": "0x3101",
+        "code": "WELCOME",
+        "name": "您好",
+        "display_text": "欢迎使用手语沟通终端。",
+        "trigger": "session_start"
+      },
+      {
+        "key": "FIX-02",
+        "numeric_id": 12546,
+        "intent_id_hex": "0x3102",
+        "code": "THANKS",
+        "name": "谢谢",
+        "display_text": "谢谢您的配合。",
+        "trigger": "manual_or_flow"
+      },
+      {
+        "key": "FIX-03",
+        "numeric_id": 12547,
+        "intent_id_hex": "0x3103",
+        "code": "PROCESSING",
+        "name": "处理中",
+        "display_text": "系统正在处理，请稍等。",
+        "trigger": "inference_busy"
+      },
+      {
+        "key": "FIX-04",
+        "numeric_id": 12548,
+        "intent_id_hex": "0x3104",
+        "code": "NOT_RECOGNIZED",
+        "name": "未识别",
+        "display_text": "没有识别清楚，请再做一次。",
+        "trigger": "reject_or_low_confidence"
+      },
+      {
+        "key": "FIX-05",
+        "numeric_id": 12549,
+        "intent_id_hex": "0x3105",
+        "code": "PLEASE_CONFIRM",
+        "name": "请确认",
+        "display_text": "请确认识别结果是否正确。",
+        "trigger": "top3_confirmation"
+      },
+      {
+        "key": "FIX-06",
+        "numeric_id": 12550,
+        "intent_id_hex": "0x3106",
+        "code": "SESSION_COMPLETE",
+        "name": "办理完成",
+        "display_text": "本次沟通已经完成。",
+        "trigger": "session_complete"
+      }
+    ]
+  },
+  "reserved_retired_ids": {
+    "note": "以下旧编号仅为防止历史模型误映射，禁止重新分配；它们不是当前意图，也不参加训练。",
+    "a_patient_sign": [
+      4097,
+      4109,
+      4110,
+      4111,
+      4112,
+      4113,
+      4114,
+      4115,
+      4116
+    ],
+    "b_staff_speech": [
+      8203,
+      8204,
+      8205,
+      8206,
+      8207,
+      8210
+    ]
+  }
+}

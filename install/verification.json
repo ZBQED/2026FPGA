@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "python": "3.12 x64",
+  "offline_wheels": true,
+  "dependencies": "runtime/requirements-pc.txt",
+  "actual_versions": [
+    "numpy2.5.2",
+    "onnxruntime1.31.0",
+    "opencv5.0.0",
+    "paramiko2.8.1",
+    "psutil5.9.8"
+  ],
+  "monitor_startup_and_idempotence": "PASS",
+  "fixed_and_tcn_on_installed_environment": "PASS"
+}

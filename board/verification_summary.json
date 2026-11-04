@@ -1,0 +1,91 @@
+{
+  "record_policy": "fastest_verified_per_workload",
+  "timing_endpoints": {
+    "visual": "固定输入就绪至同帧扫描确认",
+    "sequence": "回放分类调用起止",
+    "hand": "固定输入调用起止"
+  },
+  "benchmarks": {
+    "visual": {
+      "status": "PASS",
+      "workload": "固定图像完整视觉推理至扫描确认",
+      "statistic": "fastest",
+      "elapsed_ns": 327943966,
+      "elapsed_ms": 327.943966,
+      "frame_id": 12,
+      "test_input_sha256": "ee74c843cc3574d9875dfe3c320dd830686dfe9ff5f0eeef5c73176396a52caa",
+      "eligible_frames": 20,
+      "source_record_sha256": "b08631736094fdbd621706ef18bb5f8cac6a2fd4fd45bb7b9f3f20f4ab1192ae",
+      "record_type": "verbatim_field_excerpt",
+      "restore": "PASS"
+    },
+    "sequence": {
+      "status": "PASS",
+      "workload": "序列分类回放调用",
+      "statistic": "fastest",
+      "elapsed_ns": 14985118,
+      "elapsed_ms": 14.985118,
+      "frame_id": 3845847,
+      "source_record_sha256": "e6a0447b597bd3479d7d0d227374d4181417dc7e0afd997a41afde46a5a769e9",
+      "record_type": "verbatim_row_excerpt",
+      "validated_sequence_frames": 363,
+      "validated_events": 5,
+      "restore": "PASS"
+    },
+    "hand": {
+      "status": "PASS",
+      "workload": "手部固定输入调用",
+      "statistic": "fastest",
+      "elapsed_ns": 90070307,
+      "elapsed_ms": 90.070307,
+      "sample": 2,
+      "source_record_sha256": "1173f81f7eab9250ec29db699ad7ed210d1704710a19ac65e37931b347d02745",
+      "record_type": "verbatim_row_excerpt",
+      "restore": "PASS"
+    }
+  },
+  "timing": {
+    "nav": {
+      "setup_slack_ns": 0.002,
+      "hold_slack_ns": 0.003,
+      "pulse_slack_ns": 0.264,
+      "report": "build/reports/rebuild/nav/timing.rpt",
+      "report_sha256": "cb05e6795fba7d755b63e1d4b1e65eb58e21c6d143df1461adc42bb03d20c693"
+    },
+    "q": {
+      "setup_slack_ns": 0.073,
+      "hold_slack_ns": 0.05,
+      "pulse_slack_ns": 2.203,
+      "report": "build/reports/rebuild/q/timing.rpt",
+      "report_sha256": "45db1fe8ccf7eb7e39215cd2f46a832d1589621d48e00574e659015a530712c3"
+    },
+    "p": {
+      "setup_slack_ns": 0.272,
+      "hold_slack_ns": 0.02,
+      "pulse_slack_ns": 3.0,
+      "report": "build/reports/rebuild/p/timing.rpt",
+      "report_sha256": "e5e6afa129dbaad3f997278345653397c328be0218e3aed5389541d2b331c824"
+    }
+  },
+  "records": {
+    "visual": "board/outputs/fastest_visual/result.json",
+    "sequence": "board/outputs/fastest_sequence/result.json",
+    "hand": "board/outputs/fastest_hand/result.json",
+    "host_monitor": "board/outputs/host_monitor/result.json",
+    "nav_backend": "board/outputs/nav_backend/result.json"
+  },
+  "source_records": {
+    "visual": {
+      "path": "board/outputs/source_complete_fixed/result.json",
+      "sha256": "b08631736094fdbd621706ef18bb5f8cac6a2fd4fd45bb7b9f3f20f4ab1192ae"
+    },
+    "sequence": {
+      "path": "board/outputs/installed_tcn/result.json",
+      "sha256": "e6a0447b597bd3479d7d0d227374d4181417dc7e0afd997a41afde46a5a769e9"
+    },
+    "hand": {
+      "path": "board/outputs/rebuilt_hand/result.json",
+      "sha256": "1173f81f7eab9250ec29db699ad7ed210d1704710a19ac65e37931b347d02745"
+    }
+  }
+}

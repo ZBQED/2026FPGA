@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "source_manifest": null,
+  "toolchain": {
+    "name": null,
+    "version": null,
+    "target_abi": null
+  },
+  "target": {
+    "board": null,
+    "part": null,
+    "kernel": null
+  },
+  "build": {
+    "command": null,
+    "returncode": null,
+    "log": null
+  },
+  "artifacts": [],
+  "numeric_check": {
+    "input_manifest": null,
+    "golden": null,
+    "result": null
+  },
+  "recovery": {
+    "entry": null,
+    "result": null
+  }
+}

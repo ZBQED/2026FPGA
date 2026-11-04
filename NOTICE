@@ -1,0 +1,9 @@
+Medical Gesture FPGA
+
+Project contributions retain the licenses identified in LICENSE and license_scope.md.
+PaddleDetection modifications retain Copyright (c) 2021 PaddlePaddle Authors.
+Linux module sources retain their GPL SPDX identifiers and module declarations.
+AMD/Xilinx, board-vendor, SDK, runtime, model, and other upstream components retain
+their original notices and terms. Their distribution basis is the publisher's
+confirmation, separately recorded in publisher_authorization.md.
+See third_party_notices.md, licenses/, and compliance/file_licenses.json.

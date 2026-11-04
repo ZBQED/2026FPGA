@@ -1,0 +1,17 @@
+{
+  "catalog_version": "departments-v1",
+  "source": "previous_qt_interface_confirmed_by_user_2026-10-03",
+  "options": [
+    "内科",
+    "外科",
+    "急诊科",
+    "骨科",
+    "眼科",
+    "耳鼻喉科",
+    "皮肤科",
+    "妇科",
+    "妇产科",
+    "儿科",
+    "其他科室"
+  ]
+}

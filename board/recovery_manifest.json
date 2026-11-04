@@ -1,0 +1,188 @@
+{
+  "baseline_zip_sha256": "58254d595b4b14abda6b8e65624dfa1b35240c591d540cf8bd9fab01da12020c",
+  "recovered_archive_sha256": "82c3eca1993ee902c291aafd8874fc4c3cf7698eb3509f1c87a4763faa91a4a0",
+  "files": [
+    {
+      "source_member": "runtime_baseline/pl_runtime/gesture_pl_abi.h",
+      "destination": "src/native/nav_fp32/pl_runtime/gesture_pl_abi.h",
+      "bytes": 2711,
+      "sha256": "17466cf2071bedf6475861168e1fa384ef4610092be03942bb6b67c1a911ef89"
+    },
+    {
+      "source_member": "runtime_baseline/pl_runtime/gesture_pl_client.cpp",
+      "destination": "src/native/nav_fp32/pl_runtime/gesture_pl_client.cpp",
+      "bytes": 4222,
+      "sha256": "a9e9b36b99e549050b3a044257ab041b9183aad07d0d571833dc884759fc3206"
+    },
+    {
+      "source_member": "runtime_baseline/pl_runtime/gesture_pl_client.h",
+      "destination": "src/native/nav_fp32/pl_runtime/gesture_pl_client.h",
+      "bytes": 788,
+      "sha256": "7e1f9cdb4460434734afde240b9f840d2e0a07fe2f2ea04a256d208b68eef869"
+    },
+    {
+      "source_member": "runtime_baseline/pl_runtime/gesture_pl_driver.c",
+      "destination": "src/native/nav_fp32/pl_runtime/gesture_pl_driver.c",
+      "bytes": 8464,
+      "sha256": "af8a9422fd9ace4912336387cb976a1695d8f0b2e4e1ca5d8ab717b2f203551e"
+    },
+    {
+      "source_member": "runtime_baseline/pl_runtime/gesture_pl_registers.h",
+      "destination": "src/native/nav_fp32/pl_runtime/gesture_pl_registers.h",
+      "bytes": 336,
+      "sha256": "5f40d38c1d06f4b9fefdf54c02248f0cc8bd300a53842ed3e42b4936866c592f"
+    },
+    {
+      "source_member": "runtime_baseline/pl_runtime/pl_delegate.cc",
+      "destination": "src/native/nav_fp32/pl_runtime/pl_delegate.cc",
+      "bytes": 10717,
+      "sha256": "4dfc9da7ef19c8cc12c19b939cdd474eed178af892fa9b18f39dc52671dc75b7"
+    },
+    {
+      "source_member": "runtime_baseline/pl_runtime/pl_delegate.h",
+      "destination": "src/native/nav_fp32/pl_runtime/pl_delegate.h",
+      "bytes": 599,
+      "sha256": "cee56c15a334119ddac7e8cc46acc8bc0cc0749b0de41372ebea10ca48562375"
+    },
+    {
+      "source_member": "runtime_baseline/build_runtime/gesture_tflite.cc",
+      "destination": "src/native/nav_fp32/gesture_tflite.cc",
+      "bytes": 6005,
+      "sha256": "35a396539e43829dc78a5fe8a0df497a29c07dac1f0b9e6f7dcb89b1a44f7e39"
+    },
+    {
+      "source_member": "hardware/driver_source/gesture_pl_driver.c",
+      "destination": "src/drivers/nav/gesture_pl_driver.c",
+      "bytes": 8464,
+      "sha256": "af8a9422fd9ace4912336387cb976a1695d8f0b2e4e1ca5d8ab717b2f203551e"
+    },
+    {
+      "source_member": "hardware/driver_source/gesture_pl_abi.h",
+      "destination": "src/drivers/nav/gesture_pl_abi.h",
+      "bytes": 2711,
+      "sha256": "17466cf2071bedf6475861168e1fa384ef4610092be03942bb6b67c1a911ef89"
+    },
+    {
+      "source_member": "hardware/driver_source/gesture_pl_registers.h",
+      "destination": "src/drivers/nav/gesture_pl_registers.h",
+      "bytes": 336,
+      "sha256": "5f40d38c1d06f4b9fefdf54c02248f0cc8bd300a53842ed3e42b4936866c592f"
+    },
+    {
+      "source_member": "runtime_baseline/pl_runtime/Makefile",
+      "destination": "src/drivers/nav/makefile",
+      "bytes": 29,
+      "sha256": "3a5135ab85fad027ff1941ea89356810fd18e0fe6176767b6e5b0ccf1479a90c"
+    },
+    {
+      "source_member": "hardware/artifacts/navigator/gesture_pl_driver.ko",
+      "destination": "board/runtime/nav/gesture_pl_driver.ko",
+      "bytes": 13080,
+      "sha256": "dc4ef9bfb68d80495129b703d072b56bc642042c9e22de86c0093a84c2ae70ac"
+    },
+    {
+      "source_member": "hardware/artifacts/navigator/candidate_original_plus_cnn_cma128.dts",
+      "destination": "board/nav/fp32_system.dts",
+      "bytes": 35255,
+      "sha256": "1ef1afbd7b6fba34904a41cba4ecb5c046dcca0fe8ce2a4394e3d8f52f3de40b"
+    },
+    {
+      "source_member": "hardware/artifacts/navigator/v3_merged_system_wrapper.bit",
+      "destination": "board/artifacts/nav_fp32/recovered.bit",
+      "bytes": 4045674,
+      "sha256": "9ebc8afd90222ed84f8efc55008400bfc409c1efd99c79edeb442f3492be72d5"
+    },
+    {
+      "source_member": "logs/hardware/navigator/v3_merged_routed_drc.rpt",
+      "destination": "build/reports/nav_fp32/v3_merged_routed_drc.rpt",
+      "bytes": 294521,
+      "sha256": "b3cdbead7dce4d5712706f8540c73208be0ca62846547fa0f5073f109a0767ed"
+    },
+    {
+      "source_member": "logs/hardware/navigator/v3_merged_routed_timing.rpt",
+      "destination": "build/reports/nav_fp32/v3_merged_routed_timing.rpt",
+      "bytes": 380187,
+      "sha256": "92c92ec8da9cec3eec188f1ff8428e3c4effa389f0742ffc6fe160b5b4a6a845"
+    },
+    {
+      "source_member": "logs/hardware/navigator/v3_merged_routed_utilization.rpt",
+      "destination": "build/reports/nav_fp32/v3_merged_routed_utilization.rpt",
+      "bytes": 659077,
+      "sha256": "7318e82761ff82b24f1a67cae5a5223538a117a22a2e1a44cc7b4071bfaed95f"
+    },
+    {
+      "source_member": "logs/hardware/navigator/v3_merged_synth_timing.rpt",
+      "destination": "build/reports/nav_fp32/v3_merged_synth_timing.rpt",
+      "bytes": 387281,
+      "sha256": "6447346e603f791e0d168b4e2469d7040c25a1ad0a7243e0e6723ccf11c5cec9"
+    },
+    {
+      "source_member": "logs/hardware/navigator/v3_merged_synth_utilization.rpt",
+      "destination": "build/reports/nav_fp32/v3_merged_synth_utilization.rpt",
+      "bytes": 725382,
+      "sha256": "e5b123769dc64cd1b5bcb073c28841e1d11bcd8c6bbb10e22ff17610e4f873fe"
+    },
+    {
+      "source_member": "logs/hardware/navigator/v3_merged_exceptions.rpt",
+      "destination": "build/reports/nav_fp32/v3_merged_exceptions.rpt",
+      "bytes": 1416,
+      "sha256": "fd5c858e2f5c04780e2898eeb780ac2ac76785f0d636bea496ef86880418f2d7"
+    },
+    {
+      "source_member": "runtime_baseline/build_runtime/CMakeLists.txt",
+      "destination": "build/source_reference/nav_fp32/runtime_cmake.txt",
+      "bytes": 2290,
+      "sha256": "453031f8ec0ab22eefe9aa0725c7c3ffef4ac5cf4467b03fd67117cb2811be4f"
+    },
+    {
+      "source_member": "runtime_baseline/pl_runtime/CMakeLists.txt",
+      "destination": "build/source_reference/nav_fp32/delegate_cmake.txt",
+      "bytes": 896,
+      "sha256": "d447e541cf1f43604cc1528ede782666e0c82d4263ef6098a80940697420189a"
+    },
+    {
+      "source_member": "runtime_baseline/build_runtime/a9_toolchain.cmake",
+      "destination": "build/source_reference/nav_fp32/original_toolchain.txt",
+      "bytes": 983,
+      "sha256": "eba728e5919b1209bab1dd8c79571b17b824f46a8a92432cccc8a731e42dddca"
+    },
+    {
+      "source_member": "runtime_baseline/build_runtime/BUILD_NOTES.txt",
+      "destination": "build/source_reference/nav_fp32/build_notes.txt",
+      "bytes": 2989,
+      "sha256": "404089995b9e1cda6f261b9fa2d4ca0c07fb5df4403757ca21e2e0947b4a86c5"
+    },
+    {
+      "source_member": "runtime_baseline/build_runtime/DELEGATE_NOTES.txt",
+      "destination": "build/source_reference/nav_fp32/delegate_notes.txt",
+      "bytes": 6490,
+      "sha256": "e545f842ec1e62d097cd782e7e3734b11b01cd4c45439c923a5394fb578c375b"
+    },
+    {
+      "source_member": "runtime_baseline/build_runtime/cpp9_gcc13_keyword.patch",
+      "destination": "build/source_reference/nav_fp32/cpp9_gcc13_keyword.patch",
+      "bytes": 659,
+      "sha256": "5687f00d148cb6f280d45e55a982465daaa260e74d39b61b1c71221979792048"
+    }
+  ],
+  "exact_binary_matches": [],
+  "original_hwh_identical": true,
+  "recovered_bit_is_archive_pair_not_fresh_active_readback": true,
+  "hardware_accessed": true,
+  "source_rebuilt": true,
+  "missing_implementations": [],
+  "portable_runtime_entry_complete": true,
+  "derived_changes": [],
+  "implementation_changes": [
+    {
+      "component": "display",
+      "source": "src/native/display",
+      "validation": "Pixel/transform/resize golden and real DRM receipts"
+    },
+    {
+      "component": "TCN backend",
+      "source": "src/native/nav_fp32",
+      "validation": "Source-built ordinary backend and exact 363-frame replay"
+    }
+  ]
+}

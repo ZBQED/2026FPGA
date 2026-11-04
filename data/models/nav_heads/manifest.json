@@ -1,0 +1,122 @@
+{
+  "status": "DEPLOYMENT_PARAMETERS_NO_VALIDATION_DATA",
+  "models": {
+    "palm": {
+      "source": "palm.onnx",
+      "source_sha256": "5abb05b8ea267e0008288296d87165e499a1219b9d41972aa04a33fdc8b006dd",
+      "features": [
+        "/layer_230/PRelu_output_0"
+      ],
+      "heads": [
+        "/layer_233/Conv_output_0",
+        "/layer_237/Conv_output_0",
+        "/layer_264/Conv_output_0",
+        "/layer_269/Conv_output_0"
+      ],
+      "outputs": [
+        "regressions",
+        "score_logits"
+      ],
+      "FPGA_convolutions": [
+        {
+          "node": "/layer_233/Conv",
+          "feature": "/layer_230/PRelu_output_0",
+          "head": "/layer_233/Conv_output_0",
+          "input_shape": [
+            12,
+            12,
+            256
+          ],
+          "output_shape": [
+            12,
+            12,
+            6
+          ],
+          "macs": 221184
+        }
+      ],
+      "prefix_suffix_reference_pass": true,
+      "groups": [
+        {
+          "feature": "/layer_230/PRelu_output_0",
+          "heads": [
+            "/layer_233/Conv_output_0"
+          ],
+          "channels": [
+            6
+          ],
+          "input_shape": [
+            12,
+            12,
+            256
+          ]
+        }
+      ],
+      "PC_heads": [
+        "/layer_237/Conv_output_0",
+        "/layer_264/Conv_output_0",
+        "/layer_269/Conv_output_0"
+      ]
+    },
+    "body": {
+      "source": "body.onnx",
+      "source_sha256": "caade4456b4f0be66a41fab8a5a44d8db803ea4e7d4c78665d8b1a04d8f47490",
+      "features": [
+        "relu_143.tmp_0"
+      ],
+      "heads": [
+        "conv2d_441.tmp_1"
+      ],
+      "outputs": [
+        "conv2d_441.tmp_1"
+      ],
+      "FPGA_convolutions": [
+        {
+          "node": "Conv.268",
+          "feature": "relu_143.tmp_0",
+          "head": "conv2d_441.tmp_1",
+          "input_shape": [
+            64,
+            48,
+            40
+          ],
+          "output_shape": [
+            64,
+            48,
+            17
+          ],
+          "macs": 2088960
+        }
+      ],
+      "prefix_suffix_reference_pass": true,
+      "groups": [
+        {
+          "feature": "relu_143.tmp_0",
+          "heads": [
+            "conv2d_441.tmp_1"
+          ],
+          "channels": [
+            17
+          ],
+          "input_shape": [
+            64,
+            48,
+            40
+          ]
+        }
+      ],
+      "PC_heads": []
+    }
+  },
+  "PC_Hand_RUN": 0,
+  "PC_TCN_RUN": 0,
+  "files": {
+    "body_0_group0.npz": "4b3f553500801e50bef2e7a38ec2c20a72ae2fb570d37a334a6901eeee87d4e6",
+    "body_prefix.onnx": "8aa33fc4971bee309516ef606efe256b5db4a1352200294f698934eca24877ea",
+    "body_suffix.onnx": "2de09ad50150bfcbe85e1dc0c3ba291d420698d86ca5b31ef45c9da639c2abde",
+    "palm_0_group0.npz": "5fefbff7f49e31d14a1af4c62c283eed65e4c5c2a21efea27b0e56d1d2145f7d",
+    "palm_prefix.onnx": "5089098926c13b017bdc6cc72d0f9eaf28397ecf923687c6bd63364476779c0f",
+    "palm_suffix.onnx": "ec0ec7aa32083e892dac190a696fc838d7bff119e1e34bc8c21e831808bc92ff"
+  },
+  "native_library_sha256": "a55d4f27cbf296355f6db0ce1f23566b36470a385ee295c6ce1b6202ff73a277"
+}

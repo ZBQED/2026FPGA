@@ -1,0 +1,23 @@
+
+****** xsim v2024.2 (64-bit)
+  **** SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+  **** IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+  **** SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+  **** Start of session at: Wed Nov  4 00:52:15 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/submission_ethernet/xsim_script.tcl
+# xsim {submission_ethernet} -wdb {ethernet.wdb} -autoloadwcfg -tclbatch {run.tcl}
+Time resolution is 1 ps
+source run.tcl
+## log_wave /tb/*
+## open_vcd ethernet.vcd
+## log_vcd /tb/*
+INFO: HDL object /tb/expected is an unpacked array. VCD does not support unpacked array type according to IEEE LRM 1800-2009, section21.7.5.
+## run all
+RGMII_RTL_PASS frames=3 rx_bytes=104 tx_bytes=104 ddr_nibbles=208 interpacket_idle_cycles=12
+$finish called at time : 1450 ns : File "E:/medical_gesture_detection/light_try/FPGA_120ms_work/submission_release_20261104/recheck_ethernet/tb.sv" Line 37
+## close_vcd
+## quit
+INFO: [Common 17-206] Exiting xsim at Wed Nov  4 00:52:17 2026...
