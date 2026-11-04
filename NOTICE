@@ -1,9 +1,8 @@
 Medical Gesture FPGA
 
-Project contributions retain the licenses identified in LICENSE and license_scope.md.
-PaddleDetection modifications retain Copyright (c) 2021 PaddlePaddle Authors.
-Linux module sources retain their GPL SPDX identifiers and module declarations.
-AMD/Xilinx, board-vendor, SDK, runtime, model, and other upstream components retain
-their original notices and terms. Their distribution basis is the publisher's
-confirmation, separately recorded in publisher_authorization.md.
-See third_party_notices.md, licenses/, and compliance/file_licenses.json.
+Original project code and self-trained parameter contributions: Medical Gesture FPGA contributors.
+PaddleDetection derived preprocessing/postprocessing: Copyright (c) 2021 PaddlePaddle Authors; Apache-2.0; project adaptations marked in the affected files.
+Linux external module sources retain GPL-2.0 SPDX identifiers and module declarations.
+libdrm headers retain their original copyright and permission notices.
+Upstream components retain their own licenses. See third_party_notices.md, license_scope.md, licenses/ and compliance/.
+Third-party firmware, proprietary IP sources and unlicensed YOLO-FastestV2 pretrained parameters are not redistributed in this source release.

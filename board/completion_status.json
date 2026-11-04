@@ -1,58 +1,9 @@
 {
-  "runtime_status": "SOURCE_COMPLETE_AUTOMATED_CHECKS_PASSED",
-  "bound_files": {
-    "board/runtime/nav/liblive_integer_frame.so": "67815b89b663be1168906af8baf98a1c2fedd5bde0600a007a0bcf883772b257",
-    "board/runtime/nav/libreport_integer_image.so": "5b7bb09b6c8990c5b36cb9aa3a239219b126380e707a94740f70e9354e958d49",
-    "board/runtime/nav/libgesture_tflite_pl.so": "6cd57afe24a657cf627904ed031be01e56adbc0c0d0a47b07a848c66fc9648a8",
-    "board/runtime/q/libgesture_tflite_pl.so": "6cd57afe24a657cf627904ed031be01e56adbc0c0d0a47b07a848c66fc9648a8",
-    "board/runtime/q/libgesture_lite_i8_v12.so": "d05d60bab4c00fe0660590c79e48417bb0376552657bd75035821649fd8c35e7",
-    "build/sdk/nav/nav_module_sdk.tar.gz": "846a388b81029a4510e9fbb415fc278d234e4c86e2ffea1facf3cbcd13e2425b",
-    "build/artifacts/drivers/nav/gesture_pl_driver.ko": "717945e884c0d922fffb211574188b69951e9fab89a7eb3ad50cbda43abc5d5d",
-    "board/runtime/p/gesture_pynq_hand_i8.ko": "f388158560b857e2e7831bebffd52725e25d13e587a887e89b7ea6dead7d2ab9"
-  },
-  "requirements": [
-    {
-      "id": "three_board_source_build",
-      "complete": true,
-      "detail": "BIT/HWH/XSA generated, setup/hold/pulse checks passed"
-    },
-    {
-      "id": "native_userspace_build",
-      "complete": true,
-      "detail": "Native libraries, TCN, ordinary TFLite backend, Qt and capture compiled"
-    },
-    {
-      "id": "display_source_and_golden",
-      "complete": true,
-      "detail": "918 pixel cases, 403 transforms, 8 resizes, 6 actual DRM receipts passed"
-    },
-    {
-      "id": "tcn_source_and_replay",
-      "complete": true,
-      "detail": "Ordinary source-built backend; 363 frames, 5 events, 80 PL calls, exact logits/events and restored"
-    },
-    {
-      "id": "nav_driver_rebuild_kit",
-      "complete": true,
-      "detail": "Target configuration/import CRCs match; fresh extracted SDK builds module"
-    },
-    {
-      "id": "runtime_integration",
-      "complete": true,
-      "detail": "24 fixed frames, 1200 P-side PL calls, both compute boards restored"
-    },
-    {
-      "id": "host_monitor_integration",
-      "complete": true,
-      "detail": "HTTP/static/API checks, all three boards online, actual 17+21+21 point telemetry"
-    },
-    {
-      "id": "portable_installation",
-      "complete": true,
-      "detail": "Fresh Python3.12 x64 venv installed exclusively from included wheels; imports, fixed route, TCN replay, monitor startup/idempotence and integrity after run passed"
-    }
-  ],
-  "full_source_rebuild_ready": true,
-  "hardware_accessed": true,
-  "evidence": "board/verification_summary.json"
+  "release_type": "public_source",
+  "source_integrity_entry": "build/verify_package.py",
+  "target_input_entry": "build/check_external_assets.py",
+  "external_manifest": "compliance/external_assets.json",
+  "historical_runtime_summary": "board/verification_summary.json",
+  "target_binaries_redistributed": false,
+  "unlicensed_yolo_weights_redistributed": false
 }

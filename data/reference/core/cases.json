@@ -43,5 +43,20 @@
     "output_bytes": 112,
     "output_words": 14,
     "reference_sha256": "9c2c96b95fc7f60160e0127e5a63419541b75bca381d21f7f7992c35cd04722a"
+  },
+  {
+    "case": 3,
+    "name": "PW17_tail",
+    "shape": [
+      1,
+      5,
+      8,
+      17,
+      1,
+      1
+    ],
+    "output_bytes": 85,
+    "output_words": 11,
+    "reference_sha256": "aec13dd03810f2948f726f5bba82884e001715b2f8e11ca3cb6be1a152ad641f"
   }
 ]

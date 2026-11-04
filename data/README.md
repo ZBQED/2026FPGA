@@ -4,7 +4,7 @@
 
 `test_inputs/nav_heads/*.npz`保存Palm/Body输出头的输入、权重、偏置、配置与期望输出；部署用NPZ位于`models/nav_heads`，二者用途不同。
 
-`test_inputs/core/case*_mem.hex`是AXI内存初始内容；`reference/core/case*_expected.hex`是独立计算的期望输出；`reference/core/cases.json`记录形状、输出长度和SHA。三组PW/DW/TCN用例均与独立整数参考一致。内存按64bit小端字记录。
+`test_inputs/core/case*_mem.hex`是AXI内存初始内容；`reference/core/case*_expected.hex`是独立计算的期望输出；`cases.json`记录形状、输出长度和SHA。前三组是通过的PW/DW/TCN用例，第四组是17通道压力诊断。内存按64bit小端字记录。
 
 ```powershell
 python -B sim/make_core_vectors.py E:/fpga_verify/core_vectors

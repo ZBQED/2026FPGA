@@ -1,70 +1,68 @@
 # 工程重建
 
-所有命令在工程根目录执行；输入使用本目录，输出使用build_output/，不同重任务串行执行。
-
-## 本地ARM构建输入
-
-```powershell
-python -B build/unpack_dependencies.py
-python -B build/unpack_dependencies.py --verify
-```
-
-三个归档分别提供ARM/Qt sysroot与目标运行库、TensorFlow 2.11源码、九项TFLite依赖。解压内容位于.cache/build_dependencies，manifest.json按归档及成员固定SHA-256。无需原电脑的SDK或TensorFlow目录。
-
-```powershell
-python -B build/reproduce.py native --vitis-root <Vitis安装目录>
-python -B build/reproduce.py display --vitis-root <Vitis安装目录>
-python -B build/reproduce.py qt --vitis-root <Vitis安装目录>
-python -B build/reproduce.py camera --vitis-root <Vitis安装目录>
-python -B build/reproduce.py tcn --vitis-root <Vitis安装目录>
-python -B build/reproduce.py backend --vitis-root <Vitis安装目录>
-```
-
-采用Vitis 2024.2的ARM Linux GCC、Cortex-A9/NEON/hard-float目标、包内glibc 2.30与GCC9 C++头。backend使用本地FetchContent源码，禁止联网下载；默认两任务编译，可用--jobs调整。--configure-only用于检查backend配置。build_arm.py保留显式参数入口，build/reproduce.py负责绑定包内输入与输出路径。
+本源码发行版的厂商IP、SDK和预编译目标文件采用外部输入方式，先按../external_assets.md配齐hardware/runtime组。src/hls保留自主HLS源码，生成IP需安装Vivado/Vitis；build/sdk/drm保留有原许可的开发头，目标libdrm由系统提供。
 
 ## 三板FPGA
 
-在已加载Vivado 2024.2环境的PowerShell中：
+使用Vivado/Vitis 2024.2，输出放新的英文短路径，三板重任务串行执行。build_board.tcl完成综合、布局布线、时序与DRC检查，再导出BIT/HWH/XSA。
 
 ```powershell
-New-Item -ItemType Directory -Force build_output
-vivado -mode batch -nojournal -log build_output/q.log -source build/build_board.tcl -tclargs q build_output/q
-vivado -mode batch -nojournal -log build_output/p.log -source build/build_board.tcl -tclargs p build_output/p
-vivado -mode batch -nojournal -log build_output/nav.log -source build/build_board.tcl -tclargs nav build_output/nav
+vivado -mode batch -nojournal -log E:/fpga_build/q.log -source build/build_board.tcl -tclargs q E:/fpga_build/q
+vivado -mode batch -nojournal -log E:/fpga_build/p.log -source build/build_board.tcl -tclargs p E:/fpga_build/p
+vivado -mode batch -nojournal -log E:/fpga_build/nav.log -source build/build_board.tcl -tclargs nav E:/fpga_build/nav
 ```
 
-源文件、IP仓库、BD与约束均由工程根目录解析。入口完成综合、布局布线、建立/保持/脉宽与DRC检查，并导出BIT/HWH/XSA。可选第三参数为本地已布线DCP。
-
-## HLS
+第四个可选参数为已布线参考DCP。整板源码仍重新综合。HLS入口：
 
 ```powershell
-$env:HLS_OUT=(Join-Path (Get-Location) 'build_output/hls_i8')
+$env:HLS_OUT='E:/fpga_build/i8_hls'
 vitis-run --mode hls --tcl build/build_hls.tcl
-$env:HLS_OUT_NAV=(Join-Path (Get-Location) 'build_output/hls_nav')
+$env:HLS_OUT_NAV='E:/fpga_build/nav_hls'
 vitis-run --mode hls --tcl build/build_hls_nav.tcl
 ```
 
-两个输出目录使用新的位置；FP32入口同时执行包内固定样本的C仿真。
+## ARM原生算子与界面
+
+使用ARMv7 Cortex-A9、NEON、hard-float工具链及匹配glibc 2.30/libstdc++运行环境。build_arm.py支持native、display、tcn、qt、camera。参数分别指向工具链bin、目标sysroot、目标运行库和新的工程外输出目录。
+
+```powershell
+python build/build_arm.py native --compiler-dir <工具链bin> --sysroot <目标sysroot> --runtime-libs <目标运行库> --output <新输出目录>
+python build/build_arm.py display --compiler-dir <工具链bin> --sysroot <目标sysroot> --runtime-libs <目标运行库> --drm-sdk build/sdk/drm --output <新输出目录>
+```
+
+Qt与camera使用相同基础参数。Qt头文件和运行库需匹配目标板；修改界面后重新生成moc/rcc，bindings.json约束生成输入。Linux本机原生库可用build_native.sh。
+
+普通TFLite后端使用TensorFlow 2.11.0源码与build/nav_fp32/CMakeLists.txt，配合ARM交叉CMake工具链构建。设置GESTURE_TENSORFLOW_SOURCE指向TensorFlow源码；使用GCC13配GCC9头时设置GESTURE_CPP9_INCLUDE。TCN的--tf-source、--tf-dependencies分别指向同版本TensorFlow及flatbuffers/gemmlowp/abseil目录；--backend-library指向刚构建的普通libgesture_tflite_pl.so，默认采用artifacts/arm中的同名库。
+
+```powershell
+python build/build_arm.py tcn --compiler-dir <工具链bin> --sysroot <目标sysroot> --runtime-libs <目标运行库> --tf-source <TensorFlow源码> --tf-dependencies <依赖目录> --backend-library <普通后端so> --output <新输出目录>
+```
 
 ## Linux驱动
 
-在对应目标Linux/PYNQ系统、匹配的内核模块构建环境中，Q/P分别执行：
+Q/P使用对应目标内核构建树：
 
 ```sh
-make -C src/drivers/q kernel_src=/usr/src/kernel cross_compile=
-make -C src/drivers/p kernel_src=/usr/src/kernel cross_compile= CC=gcc-12
+make -C src/drivers/q kernel_src=/path/to/q/kernel cross_compile=
+make -C src/drivers/p kernel_src=/path/to/p/kernel cross_compile= CC=gcc-12
 ```
 
-内核构建环境属于目标系统SDK，需与目标uname、配置及符号CRC一致。Nav使用包内匹配SDK：
+Nav模块构建使用目标Linux 5.4 SDK、配套配置与导入符号CRC。SDK压缩包由合法取得的目标输入提供；本包保留配置与来源索引。在ARM Linux构建机上：
 
 ```sh
-mkdir -p build_output/kernel_nav
-tar -xzf build/sdk/nav/nav_module_sdk.tar.gz -C build_output/kernel_nav
-KERNEL_BUILD="$PWD/build_output/kernel_nav" CC=gcc-9 sh build/build_nav_driver.sh "$PWD/build_output/nav_driver"
+mkdir -p /data/nav_kernel
+tar -xzf build/sdk/nav/nav_module_sdk.tar.gz -C /data/nav_kernel
+KERNEL_BUILD=/data/nav_kernel CROSS_COMPILE= CC=gcc-9 sh build/build_nav_driver.sh /data/new_nav_module
 ```
 
-该SDK覆盖Nav模块所需配置、生成头和39项导入CRC，部署时与包内Nav位流、内核和设备树配套。目标系统的Python/PYNQ、内核构建工具及AMD工具按对应平台安装。
+交叉构建时设置CROSS_COMPILE为ARM前缀，CC为对应编译器。该套件用于本工程Nav外部模块，不是完整内核发行包；更换内核应使用新目标的配置、生成头与符号表。provenance.json记录来源及39项导入CRC校验。驱动部署与位流、设备树和内核版本配套。
 
-## 数值与显示
+## 显示数值复核
 
-在匹配ARM环境执行sim/display/verify_display.py，指定包内黄金参考和显示库；--drm同时核对DRM扫描回执。RTL和通用数值工具见sim/README.md。
+将sim/display/verify_display.py、golden.json及新编译的显示库放在匹配的ARM Linux环境执行：
+
+```sh
+python3 verify_display.py --library ./liblive_integer_frame.so --golden ./golden.json --output ./display_result.json --drm
+```
+
+省略--drm只执行像素与整数变换检查。源码、构建产物与运行验证分开记录于artifacts、reports和../board/outputs。

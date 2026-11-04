@@ -4,14 +4,14 @@
 
 ## 复现
 
-使用Python 3.10+及Vivado 2024.2。从工程根目录串行运行，各次输出选新的build_output子目录：
+使用Python 3.10+及Vivado 2024.2。从工程根目录串行运行，各次输出选新的工程外目录：
 
 ```powershell
-python -B sim/run_sim.py ov5640 --output build_output/sim/ov5640 --vivado-bin E:/vivado2024.2/Vivado/2024.2/bin
-python -B sim/run_sim.py ethernet --output build_output/sim/ethernet --vivado-bin E:/vivado2024.2/Vivado/2024.2/bin
-python -B sim/run_sim.py p_audio --output build_output/sim/p_audio --vivado-bin E:/vivado2024.2/Vivado/2024.2/bin
-python -B sim/run_sim.py video --output build_output/sim/video --vivado-bin E:/vivado2024.2/Vivado/2024.2/bin
-python -B sim/run_sim.py core --output build_output/sim/core --vivado-bin E:/vivado2024.2/Vivado/2024.2/bin
+python -B sim/run_sim.py ov5640 --output E:/fpga_verify/ov5640 --vivado-bin E:/vivado2024.2/Vivado/2024.2/bin
+python -B sim/run_sim.py ethernet --output E:/fpga_verify/ethernet --vivado-bin E:/vivado2024.2/Vivado/2024.2/bin
+python -B sim/run_sim.py p_audio --output E:/fpga_verify/p_audio --vivado-bin E:/vivado2024.2/Vivado/2024.2/bin
+python -B sim/run_sim.py video --output E:/fpga_verify/video --vivado-bin E:/vivado2024.2/Vivado/2024.2/bin
+python -B sim/run_sim.py core --output E:/fpga_verify/core --vivado-bin E:/vivado2024.2/Vivado/2024.2/bin
 ```
 
 Vivado在PATH中时可省略`--vivado-bin`。脚本从包内复制源码、内存初始化与冻结激励到新目录后执行xelab/xsim，按自校验PASS标记与进程退出码判定；不会连接板卡。`--check-only`只检查项目文件引用闭包。
@@ -40,7 +40,7 @@ vivado -mode gui -source sim/open_wave.tcl -tclargs core detail
 
 ```powershell
 python -B skill/pynq-evidence-audit/scripts/run.py test
-python -B skill/pynq-evidence-audit/scripts/run.py demo --output-dir build_output/sim/skill_demo
+python -B skill/pynq-evidence-audit/scripts/run.py demo --output-dir E:/fpga_verify/skill_demo
 python -B skill/pynq-evidence-audit/scripts/check_manifest.py verify skill skill/files_sha256.json --strict
 ```
 

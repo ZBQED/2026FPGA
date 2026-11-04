@@ -1,13 +1,12 @@
 # 许可证适用范围
 
-| 组件 | 适用范围 |
+| 内容 | 许可 |
 |---|---|
-| 自主Python/C/C++/HLS及自训参数 | MIT，见LICENSE和licenses/mit.txt |
-| Linux外部驱动 | 保留GPL-2.0条款、源码和构建入口 |
-| PaddleDetection派生代码 | Apache-2.0，保留作者版权与修改说明 |
-| 文档、视频、图像、项目波形及截图 | 对应文件的CC-BY-4.0范围 |
-| TensorFlow和TFLite依赖源码 | 各上游原许可；归档内保留LICENSE/COPYING等文件 |
-| 厂商RTL/IP、SDK、内核/系统和预编译组件 | 原组件条款及发布方确认的分发权限；不改为自主MIT |
-| Python wheel及附属组件 | 原发行方许可与第三方通知，见licenses/dependencies |
+| 自主Python/C/C++/HLS/RTL、配置与自训模型参数 | MIT，见LICENSE |
+| src/drivers/及src/native/nav_fp32/pl_runtime/gesture_pl_driver.c | GPL-2.0-only |
+| 保留PaddlePaddle版权头的关键点处理文件 | Apache-2.0，保留上游版权并注明修改 |
+| build/sdk/drm/开发头 | 文件内原有宽松许可及原版权所有者声明 |
+| 文档、演示视频、固定图像及包含图像输入的fixture样本 | CC-BY-4.0；署名Medical Gesture FPGA contributors并保留文件/项目名称 |
+| licenses/第三方原文及通知 | 作为对应组件的原始法律文本保存，不改为本项目原创作品 |
 
-compliance/file_licenses.json逐文件区分自主许可与LicenseRef-Original-Component-Terms。后者指向组件自带的原条款，项目许可证不增加第三方材料的权利。compliance/bundled_inputs.json给出工程组件摘要；build/dependencies/manifest.json给出源码/SDK归档及成员摘要。
+逐文件映射以compliance/file_licenses.json为准。MIT只覆盖发布者有权许可的自主内容，GPL/Apache及原有版权头不因工程根目录有MIT文本而失效。compliance/external_assets.json列明不随包分发的组件；导入文件仍由各自原许可管理。

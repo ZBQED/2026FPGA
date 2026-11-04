@@ -2,70 +2,70 @@
   "archive_sha256": "b9d516b39fa56f2801b80e077017750ab9bdcd3774c9f5a547dbfbe461d9093a",
   "files": [
     {
+      "source": "上位机资料与代码交接包_20261104/02_project/host_monitor/audio_stream.py",
       "destination": "host_monitor/audio_stream.py",
       "original_sha256": "3d01670b07c73dcb3e2d824534083fa642855c24c18a8b59858e8933f3223786",
-      "delivery_sha256": "3d01670b07c73dcb3e2d824534083fa642855c24c18a8b59858e8933f3223786",
-      "source_member": "02_project/host_monitor/audio_stream.py"
+      "delivery_sha256": "3d01670b07c73dcb3e2d824534083fa642855c24c18a8b59858e8933f3223786"
     },
     {
+      "source": "上位机资料与代码交接包_20261104/02_project/host_monitor/launch_monitor.py",
       "destination": "host_monitor/launch_monitor.py",
       "original_sha256": "461ca3aaf8693fa4424ab67939249605b0accd8bf3427ea095a636b4dc31769a",
-      "delivery_sha256": "b04c4714dbead98463b380058f2d9011ede59062c759089d2af4362d0624d2e3",
-      "source_member": "02_project/host_monitor/launch_monitor.py"
+      "delivery_sha256": "b04c4714dbead98463b380058f2d9011ede59062c759089d2af4362d0624d2e3"
     },
     {
+      "source": "上位机资料与代码交接包_20261104/02_project/host_monitor/open_monitor.pyw",
       "destination": "host_monitor/open_monitor.pyw",
       "original_sha256": "37f2846d581cb3b2a8b86a8e48c6be85a62134e9942fb0bb881af15f0a569cd7",
-      "delivery_sha256": "77c6c6310b676b3858478bc382dca9d82cf7cb5394789dd44365aa5eabf530ab",
-      "source_member": "02_project/host_monitor/open_monitor.pyw"
+      "delivery_sha256": "77c6c6310b676b3858478bc382dca9d82cf7cb5394789dd44365aa5eabf530ab"
     },
     {
+      "source": "上位机资料与代码交接包_20261104/02_project/host_monitor/server.py",
       "destination": "host_monitor/server.py",
       "original_sha256": "d84e6554ab845673c8fc4f105ee32baad3ec253d9bcd83cfe290b040e2ab4a2a",
-      "delivery_sha256": "bba4941c51d3cb3c09c51d4a6e565b08a73969b723ee534821403fca621132b1",
-      "source_member": "02_project/host_monitor/server.py"
+      "delivery_sha256": "bba4941c51d3cb3c09c51d4a6e565b08a73969b723ee534821403fca621132b1"
     },
     {
+      "source": "上位机资料与代码交接包_20261104/02_project/host_monitor/stop_monitor.py",
       "destination": "host_monitor/stop_monitor.py",
       "original_sha256": "d9d035a1d942033f8a8beb33a294aa5d0be02e5f9afc40c7451a94e505820723",
-      "delivery_sha256": "d9d035a1d942033f8a8beb33a294aa5d0be02e5f9afc40c7451a94e505820723",
-      "source_member": "02_project/host_monitor/stop_monitor.py"
+      "delivery_sha256": "d9d035a1d942033f8a8beb33a294aa5d0be02e5f9afc40c7451a94e505820723"
     },
     {
+      "source": "上位机资料与代码交接包_20261104/02_project/host_monitor/web/api_schema.json",
       "destination": "host_monitor/web/api_schema.json",
       "original_sha256": "fdb54fab6fd16d69a488aec74f4270b9a575cbb5e63c7deee0818b16bade6d49",
-      "delivery_sha256": "fdb54fab6fd16d69a488aec74f4270b9a575cbb5e63c7deee0818b16bade6d49",
-      "source_member": "02_project/host_monitor/web/api_schema.json"
+      "delivery_sha256": "fdb54fab6fd16d69a488aec74f4270b9a575cbb5e63c7deee0818b16bade6d49"
     },
     {
+      "source": "上位机资料与代码交接包_20261104/02_project/host_monitor/web/app.js",
       "destination": "host_monitor/web/app.js",
       "original_sha256": "7ae9eeb2f885e794178cf19e15326740286e3a9e156e1b5ea78a7207fc1a0d06",
-      "delivery_sha256": "7ae9eeb2f885e794178cf19e15326740286e3a9e156e1b5ea78a7207fc1a0d06",
-      "source_member": "02_project/host_monitor/web/app.js"
+      "delivery_sha256": "7ae9eeb2f885e794178cf19e15326740286e3a9e156e1b5ea78a7207fc1a0d06"
     },
     {
+      "source": "上位机资料与代码交接包_20261104/02_project/host_monitor/web/index.html",
       "destination": "host_monitor/web/index.html",
       "original_sha256": "c1249f5cef10d4e074dd1be75088fd98c1eed70fb1e63225e6e78cde35af2e10",
-      "delivery_sha256": "c1249f5cef10d4e074dd1be75088fd98c1eed70fb1e63225e6e78cde35af2e10",
-      "source_member": "02_project/host_monitor/web/index.html"
+      "delivery_sha256": "c1249f5cef10d4e074dd1be75088fd98c1eed70fb1e63225e6e78cde35af2e10"
     },
     {
+      "source": "上位机资料与代码交接包_20261104/02_project/host_monitor/web/styles.css",
       "destination": "host_monitor/web/styles.css",
       "original_sha256": "4b3385523c3219381f0214005f19559f87ccce1998df78d91bef1bc173bb8fa0",
-      "delivery_sha256": "4b3385523c3219381f0214005f19559f87ccce1998df78d91bef1bc173bb8fa0",
-      "source_member": "02_project/host_monitor/web/styles.css"
+      "delivery_sha256": "4b3385523c3219381f0214005f19559f87ccce1998df78d91bef1bc173bb8fa0"
     },
     {
+      "source": "上位机资料与代码交接包_20261104/02_project/output/pc_demo_all_inference_20261101/pc_runtime/display_hand_color.py",
       "destination": "host_monitor/display_hand_color.py",
       "original_sha256": "4e8467c4a119770b2b906d69171f0fbbb86a52d80a056cbc28dd4366f675f32e",
-      "delivery_sha256": "4e8467c4a119770b2b906d69171f0fbbb86a52d80a056cbc28dd4366f675f32e",
-      "source_member": "02_project/output/pc_demo_all_inference_20261101/pc_runtime/display_hand_color.py"
+      "delivery_sha256": "4e8467c4a119770b2b906d69171f0fbbb86a52d80a056cbc28dd4366f675f32e"
     },
     {
+      "source": "上位机资料与代码交接包_20261104/02_project/output/b_comm_integration_20261101/candidate_r1/intents_25class.json",
       "destination": "host_monitor/config/speech_intents.json",
       "original_sha256": "21633ad377bf3454e3834ef289c9d2daaaf613fec582c64c11b42fb2e25d2ffa",
-      "delivery_sha256": "21633ad377bf3454e3834ef289c9d2daaaf613fec582c64c11b42fb2e25d2ffa",
-      "source_member": "02_project/output/b_comm_integration_20261101/candidate_r1/intents_25class.json"
+      "delivery_sha256": "21633ad377bf3454e3834ef289c9d2daaaf613fec582c64c11b42fb2e25d2ffa"
     }
   ],
   "frontend_preserved": true

@@ -5,10 +5,8 @@
   "yolo": {
     "upstream": "https://github.com/dog-qiuqiu/Yolo-FastestV2",
     "license_issue": "https://github.com/dog-qiuqiu/Yolo-FastestV2/issues/50",
-    "redistributed_pretrained_weights": true,
-    "training_images_redistributed": false,
-    "distribution_basis": "publisher_confirmation",
-    "license_scope": "original_component_terms"
+    "redistributed_pretrained_weights": false,
+    "training_images_redistributed": false
   },
   "models_and_test_data": [
     {

@@ -8,6 +8,12 @@ sys.path.insert(0,str(ROOT));import sitecustomize
 parser=argparse.ArgumentParser(description=__doc__)
 parser.add_argument('mode',choices=['live','fixed','tcn','hand','restore'])
 args=parser.parse_args()
+if args.mode!='restore':
+ sys.path.insert(0,str(ROOT.parent/'build'))
+ from check_external_assets import check
+ admission=check('runtime')
+ if admission['status']!='READY':
+  parser.exit(2,'Target inputs are required. See external_assets.md and run build/check_external_assets.py --group runtime.\n')
 os.environ.update(PYTHONUTF8='1',PYTHONDONTWRITEBYTECODE='1',PYTHONPATH=str(ROOT)+os.pathsep+os.environ.get('PYTHONPATH',''))
 W=ROOT/'project';sys.path.insert(0,str(W/'tools'))
 if args.mode in ('fixed','live'):

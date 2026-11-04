@@ -26,8 +26,8 @@ SDK = args.sysroot.resolve()
 TOOLS = args.compiler_dir.resolve()
 LIB = args.runtime_libs.resolve()
 OUT = args.output.resolve()
-if OUT.is_relative_to(ROOT) and not OUT.is_relative_to(ROOT/'build_output'):
-    parser.error('Use build_output/ or an external build directory')
+if OUT.is_relative_to(ROOT):
+    parser.error('Build output must be outside the source package')
 OUT.mkdir(parents=True,exist_ok=True)
 (OUT/'tmp').mkdir(exist_ok=True)
 suffix = '.exe' if os.name=='nt' else ''

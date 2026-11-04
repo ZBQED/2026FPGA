@@ -4,7 +4,7 @@ p=argparse.ArgumentParser()
 p.add_argument("output")
 a=p.parse_args()
 D=Path(a.output).resolve();D.mkdir(parents=True,exist_ok=False)
-cases=[('PW16',0,1,5,8,16,1,1,0,0),('DW3x3',1,3,5,8,8,3,3,1,1),('TCN1x3',0,1,7,8,16,1,3,0,1)]
+cases=[('PW16',0,1,5,8,16,1,1,0,0),('DW3x3',1,3,5,8,8,3,3,1,1),('TCN1x3',0,1,7,8,16,1,3,0,1),('PW17_tail',0,1,5,8,17,1,1,0,0)]
 info=[]
 for case,(name,op,h,w,ci,co,kh,kw,pt,pl) in enumerate(cases):
  x=[(i*7+case*3)%31-15 for i in range(h*w*ci)]

@@ -1,5 +1,6 @@
 {
   "status": "PASS_FOUR_SELECTED_GROUPS",
+  "hardware": "PAUSED_BY_USER",
   "checks": {
     "ov5640": [
       "OV5640_RTL_PASS warmup_frames=10 valid_frames=3 lines=9 pixels=72 rgb565_to_rgb888_exact=1"
@@ -25,6 +26,5 @@
       "CURRENT_CORE_RTL_PASS cases=3 output_bytes=312 int8_reference_exact=1 output_guards=1"
     ]
   },
-  "record_type": "selected_group_field_excerpt",
-  "source_record_sha256": "7bc14b5cb7c671afa4105ad16522df8a22a69fe91333b9c8e14d5b6e8d94b0d8"
+  "additional_stress_failure": "core/tail_stress.log: 17-channel stress case timeout, unchanged original RTL; retained separately"
 }

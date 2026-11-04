@@ -1,0 +1,93 @@
+{
+  "update_date": "2026-11-04",
+  "source_archive": "medical_gesture_fpga_opensource (2).zip",
+  "updated_files": [
+    {
+      "path": "report/design/system_report.docx",
+      "sha256": "bb001f7df22b82bf9650b3b99e28f3576d8717c4d46ff2c451fc0b962fbf37ec",
+      "bytes": 16723687
+    },
+    {
+      "path": "report/design/system_report.pdf",
+      "sha256": "592b92743c3f47e97f057e808f90358706611029a00a1d950d4051145ab5c7f3",
+      "bytes": 15814037
+    },
+    {
+      "path": "report/collaboration/development_record.md",
+      "sha256": "ab3888e2e25f09865014d8c1b470641355b79c171a0716feed3240ba947e423b",
+      "bytes": 15698
+    },
+    {
+      "path": "report/vivado/screenshots/q_layout.jpg",
+      "sha256": "896f9dcdfdb155fe42f075b1770a5fe4f56eb85c676f9002dd336e52b37da43f",
+      "bytes": 198107
+    },
+    {
+      "path": "report/vivado/screenshots/q_utilization.jpg",
+      "sha256": "bf26bfbfa61264e0eb6f25ab9f77b56087e1270b9ced7d8073f34a6417bcf5b6",
+      "bytes": 51923
+    },
+    {
+      "path": "report/vivado/screenshots/p_layout.jpg",
+      "sha256": "487f15323c66707b97c948e6b46398f36134d38a4c12d3a4cd940ab13bf63e97",
+      "bytes": 199112
+    },
+    {
+      "path": "report/vivado/screenshots/p_utilization.jpg",
+      "sha256": "210167a433914bf22324f64bbd9d7550c901df4ce99cc2f707b6b641c8274edb",
+      "bytes": 51064
+    },
+    {
+      "path": "report/vivado/screenshots/nav_layout.jpg",
+      "sha256": "1e188a0700d2b1fef04f9679a2ddf7e41575785c92b7b588d82f351611ff7ca8",
+      "bytes": 204671
+    },
+    {
+      "path": "report/vivado/screenshots/nav_utilization.jpg",
+      "sha256": "b108ccb23514aa042f31c41631697f37c06baf9c8c88895678ec1aa6f26f2ad1",
+      "bytes": 50419
+    },
+    {
+      "path": "report/vivado/evidence/q_gui_timing.rpt",
+      "sha256": "7ce6cc87505d2de82b86d52b66ab063bf07a1e8d833206e80daeb2eb140b9aee",
+      "bytes": 38487
+    },
+    {
+      "path": "report/vivado/evidence/q_gui_utilization.rpt",
+      "sha256": "57a8aac89387f8ba198fe83344df6838d851896eefc5a146b1f90cd927763c25",
+      "bytes": 11883
+    },
+    {
+      "path": "report/vivado/evidence/p_gui_timing.rpt",
+      "sha256": "4de81e1e2218ef36d59638d399291496f6eb3c604fb2eeef32e643200faf9697",
+      "bytes": 48666
+    },
+    {
+      "path": "report/vivado/evidence/p_gui_utilization.rpt",
+      "sha256": "1bcf85a9f77ea6ba0e2944cf0f94855b5454b3a94e84f30d266d5ec0a2f416c2",
+      "bytes": 11941
+    },
+    {
+      "path": "report/vivado/evidence/nav_gui_timing.rpt",
+      "sha256": "91525998cf733b2a1034b52d6aed7efdf2c59bbca9654dc93687403bc58e9cb2",
+      "bytes": 174437
+    },
+    {
+      "path": "report/vivado/evidence/nav_gui_utilization.rpt",
+      "sha256": "bb581541949f6f796bada4b2f6fa919bd05bd673215af3e140afd882be1fe96b",
+      "bytes": 12804
+    },
+    {
+      "path": "report/vivado/evidence/qp_checkpoint_latest_package_provenance.json",
+      "sha256": "a750069abce269a675c6b1d3c5c8f3f0d96253f3248648557f6e2360eaf34790",
+      "bytes": 7113
+    },
+    {
+      "path": "report/vivado/evidence/nav_local_rebuild_provenance.json",
+      "sha256": "a4f2dbc5ee008f332b1ed2e5842035b91120a43b629faf727a2a3cb7ec400ca8",
+      "bytes": 85044
+    }
+  ],
+  "collaboration_entries": 16,
+  "vivado_screenshots": 6
+}

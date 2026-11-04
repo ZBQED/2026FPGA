@@ -12,7 +12,7 @@ parser.add_argument('--check-only', action='store_true')
 args = parser.parse_args()
 source = root/'sim/design'/args.case
 out = Path(args.output).resolve()
-if out.is_relative_to(root) and not out.is_relative_to(root/'build_output'): parser.error('Use build_output/ or an external output directory')
+if out.is_relative_to(root): parser.error('Output must be outside this repository')
 if out.exists(): parser.error('Output directory already exists; choose a new directory')
 references = re.findall(r'"([^"]+)"', (source/'files.prj').read_text('utf-8'))
 for name in references:

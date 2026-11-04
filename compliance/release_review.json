@@ -8,7 +8,7 @@
   "documentation_and_demonstration_media_license": "CC-BY-4.0",
   "performer_consent_basis": "Maintainer explicit confirmation for every demonstration video",
   "model_training_provenance_basis": "Maintainer declaration; not an independently reconstructed training lineage",
-  "excluded_file_count": 480,
+  "excluded_file_count": 471,
   "public_distribution_of_yolo_weights": false,
   "public_distribution_of_vendor_rtl": false,
   "public_distribution_of_target_binaries": false,
@@ -16,5 +16,8 @@
   "project_publication_authorized_by_maintainer": true,
   "maintainer_reconfirmed_publication": true,
   "third_party_authorization_text_supplied": false,
-  "third_party_without_explicit_license_redistributed": false
+  "third_party_without_explicit_license_redistributed": false,
+  "report_document_included": true,
+  "report_document_path": "report/design/system_report.docx",
+  "update_date": "2026-11-04"
 }

@@ -672,11 +672,25 @@
     "delivered_sha256": "37a558899499552093f19d4a2a2000e33b3ecaaf2ff3e0c7918ebc2718b20cfe"
   },
   {
+    "path": "data/reference/core/case3_expected.hex",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\core\\case3_expected.hex",
+    "source_sha256": "d0e7ee5a93e402b44f80f684818ae36239d516c78e100de73a8142c825847b12",
+    "transformed": false,
+    "delivered_sha256": "d0e7ee5a93e402b44f80f684818ae36239d516c78e100de73a8142c825847b12"
+  },
+  {
+    "path": "data/test_inputs/core/case3_mem.hex",
+    "source": "仿真报告留存_20261102\\报告补充波形_20261103\\core\\case3_mem.hex",
+    "source_sha256": "1e37ffe9b41ca4c6f2199618f21d7b25e6260422e5c7e63f76150e2809e33b3e",
+    "transformed": false,
+    "delivered_sha256": "1e37ffe9b41ca4c6f2199618f21d7b25e6260422e5c7e63f76150e2809e33b3e"
+  },
+  {
     "path": "data/reference/core/cases.json",
     "source": "仿真报告留存_20261102\\报告补充波形_20261103\\core\\cases.json",
     "source_sha256": "69030d44f5248671ec48b1cc9a028603ab3768f0f9b456532b66e8edd3bd68d1",
-    "transformed": true,
-    "delivered_sha256": "711c1add508526b5156c4950d5caef23b9885566059e2c588c2ffd4d2d4957b0"
+    "transformed": false,
+    "delivered_sha256": "69030d44f5248671ec48b1cc9a028603ab3768f0f9b456532b66e8edd3bd68d1"
   },
   {
     "path": "sim/wave_config/audio_detail.wcfg",
@@ -738,8 +752,8 @@
     "path": "sim/results/original_wave_checks.json",
     "source": "仿真报告留存_20261102\\报告补充波形_20261103\\final_wave_checks.json",
     "source_sha256": "7bc14b5cb7c671afa4105ad16522df8a22a69fe91333b9c8e14d5b6e8d94b0d8",
-    "transformed": true,
-    "delivered_sha256": "d967907002f7d5846abeeb23dfc2650b17ad471407a88db2a4a886f4e2180243"
+    "transformed": false,
+    "delivered_sha256": "7bc14b5cb7c671afa4105ad16522df8a22a69fe91333b9c8e14d5b6e8d94b0d8"
   },
   {
     "path": "build/reports/q/complete_synthesized_150mhz_timing.rpt",
@@ -1121,40 +1135,140 @@
   },
   {
     "path": "report/design/system_report.docx",
-    "source": "medical_gesture_fpga_submission_3_20261104.zip::medical_gesture_fpga/report/design/system_report.docx",
-    "source_archive_sha256": "5c3f5458efa22dd127729bafba09f07111bf7f66fb9faffb1affbbea7e0fd5e2",
-    "source_sha256": "fecca32d811aa02d573d6a6e9b44a1f23a9c265426fa39c44ad2ee765c03fa09",
+    "source": "system_report_vivado_preview.docx",
+    "source_sha256": "bb001f7df22b82bf9650b3b99e28f3576d8717c4d46ff2c451fc0b962fbf37ec",
     "transformed": false,
-    "delivered_sha256": "fecca32d811aa02d573d6a6e9b44a1f23a9c265426fa39c44ad2ee765c03fa09"
+    "delivered_sha256": "bb001f7df22b82bf9650b3b99e28f3576d8717c4d46ff2c451fc0b962fbf37ec"
   },
   {
     "path": "report/design/system_report.pdf",
-    "source": "medical_gesture_fpga_submission_3_20261104.zip::medical_gesture_fpga/report/design/system_report.pdf",
-    "source_archive_sha256": "5c3f5458efa22dd127729bafba09f07111bf7f66fb9faffb1affbbea7e0fd5e2",
-    "source_sha256": "8250a79f583f04a57c976c05e2c5deb96d2d5b440b8c29ab9c5c66cc21c5a594",
+    "source": "system_report_vivado_preview.pdf",
+    "source_sha256": "592b92743c3f47e97f057e808f90358706611029a00a1d950d4051145ab5c7f3",
     "transformed": false,
-    "delivered_sha256": "8250a79f583f04a57c976c05e2c5deb96d2d5b440b8c29ab9c5c66cc21c5a594"
+    "delivered_sha256": "592b92743c3f47e97f057e808f90358706611029a00a1d950d4051145ab5c7f3"
+  },
+  {
+    "path": "report/collaboration/development_record.md",
+    "source": "llm_collaboration_records_updated.md",
+    "source_sha256": "ab3888e2e25f09865014d8c1b470641355b79c171a0716feed3240ba947e423b",
+    "transformed": false,
+    "delivered_sha256": "ab3888e2e25f09865014d8c1b470641355b79c171a0716feed3240ba947e423b"
+  },
+  {
+    "path": "report/vivado/screenshots/q_layout.jpg",
+    "source": "q_layout.jpg",
+    "source_sha256": "896f9dcdfdb155fe42f075b1770a5fe4f56eb85c676f9002dd336e52b37da43f",
+    "transformed": false,
+    "delivered_sha256": "896f9dcdfdb155fe42f075b1770a5fe4f56eb85c676f9002dd336e52b37da43f"
+  },
+  {
+    "path": "report/vivado/screenshots/q_utilization.jpg",
+    "source": "q_utilization.jpg",
+    "source_sha256": "bf26bfbfa61264e0eb6f25ab9f77b56087e1270b9ced7d8073f34a6417bcf5b6",
+    "transformed": false,
+    "delivered_sha256": "bf26bfbfa61264e0eb6f25ab9f77b56087e1270b9ced7d8073f34a6417bcf5b6"
+  },
+  {
+    "path": "report/vivado/screenshots/p_layout.jpg",
+    "source": "p_layout.jpg",
+    "source_sha256": "487f15323c66707b97c948e6b46398f36134d38a4c12d3a4cd940ab13bf63e97",
+    "transformed": false,
+    "delivered_sha256": "487f15323c66707b97c948e6b46398f36134d38a4c12d3a4cd940ab13bf63e97"
+  },
+  {
+    "path": "report/vivado/screenshots/p_utilization.jpg",
+    "source": "p_utilization.jpg",
+    "source_sha256": "210167a433914bf22324f64bbd9d7550c901df4ce99cc2f707b6b641c8274edb",
+    "transformed": false,
+    "delivered_sha256": "210167a433914bf22324f64bbd9d7550c901df4ce99cc2f707b6b641c8274edb"
+  },
+  {
+    "path": "report/vivado/screenshots/nav_layout.jpg",
+    "source": "nav_layout.jpg",
+    "source_sha256": "1e188a0700d2b1fef04f9679a2ddf7e41575785c92b7b588d82f351611ff7ca8",
+    "transformed": false,
+    "delivered_sha256": "1e188a0700d2b1fef04f9679a2ddf7e41575785c92b7b588d82f351611ff7ca8"
+  },
+  {
+    "path": "report/vivado/screenshots/nav_utilization.jpg",
+    "source": "nav_utilization.jpg",
+    "source_sha256": "b108ccb23514aa042f31c41631697f37c06baf9c8c88895678ec1aa6f26f2ad1",
+    "transformed": false,
+    "delivered_sha256": "b108ccb23514aa042f31c41631697f37c06baf9c8c88895678ec1aa6f26f2ad1"
+  },
+  {
+    "path": "report/vivado/evidence/q_gui_timing.rpt",
+    "source": "q_gui_timing.rpt",
+    "source_sha256": "7ce6cc87505d2de82b86d52b66ab063bf07a1e8d833206e80daeb2eb140b9aee",
+    "transformed": false,
+    "delivered_sha256": "7ce6cc87505d2de82b86d52b66ab063bf07a1e8d833206e80daeb2eb140b9aee"
+  },
+  {
+    "path": "report/vivado/evidence/q_gui_utilization.rpt",
+    "source": "q_gui_utilization.rpt",
+    "source_sha256": "57a8aac89387f8ba198fe83344df6838d851896eefc5a146b1f90cd927763c25",
+    "transformed": false,
+    "delivered_sha256": "57a8aac89387f8ba198fe83344df6838d851896eefc5a146b1f90cd927763c25"
+  },
+  {
+    "path": "report/vivado/evidence/p_gui_timing.rpt",
+    "source": "p_gui_timing.rpt",
+    "source_sha256": "4de81e1e2218ef36d59638d399291496f6eb3c604fb2eeef32e643200faf9697",
+    "transformed": false,
+    "delivered_sha256": "4de81e1e2218ef36d59638d399291496f6eb3c604fb2eeef32e643200faf9697"
+  },
+  {
+    "path": "report/vivado/evidence/p_gui_utilization.rpt",
+    "source": "p_gui_utilization.rpt",
+    "source_sha256": "1bcf85a9f77ea6ba0e2944cf0f94855b5454b3a94e84f30d266d5ec0a2f416c2",
+    "transformed": false,
+    "delivered_sha256": "1bcf85a9f77ea6ba0e2944cf0f94855b5454b3a94e84f30d266d5ec0a2f416c2"
+  },
+  {
+    "path": "report/vivado/evidence/nav_gui_timing.rpt",
+    "source": "nav_gui_timing.rpt",
+    "source_sha256": "91525998cf733b2a1034b52d6aed7efdf2c59bbca9654dc93687403bc58e9cb2",
+    "transformed": false,
+    "delivered_sha256": "91525998cf733b2a1034b52d6aed7efdf2c59bbca9654dc93687403bc58e9cb2"
+  },
+  {
+    "path": "report/vivado/evidence/nav_gui_utilization.rpt",
+    "source": "nav_gui_utilization.rpt",
+    "source_sha256": "bb581541949f6f796bada4b2f6fa919bd05bd673215af3e140afd882be1fe96b",
+    "transformed": false,
+    "delivered_sha256": "bb581541949f6f796bada4b2f6fa919bd05bd673215af3e140afd882be1fe96b"
+  },
+  {
+    "path": "report/vivado/evidence/qp_checkpoint_latest_package_provenance.json",
+    "source": "qp_checkpoint_latest_package_provenance.json",
+    "source_sha256": "a750069abce269a675c6b1d3c5c8f3f0d96253f3248648557f6e2360eaf34790",
+    "transformed": false,
+    "delivered_sha256": "a750069abce269a675c6b1d3c5c8f3f0d96253f3248648557f6e2360eaf34790"
+  },
+  {
+    "path": "report/vivado/evidence/nav_local_rebuild_provenance.json",
+    "source": "nav_local_rebuild_provenance.json",
+    "source_sha256": "a4f2dbc5ee008f332b1ed2e5842035b91120a43b629faf727a2a3cb7ec400ca8",
+    "transformed": false,
+    "delivered_sha256": "a4f2dbc5ee008f332b1ed2e5842035b91120a43b629faf727a2a3cb7ec400ca8"
   },
   {
     "path": "board/outputs/source_complete_fixed/result.json",
-    "source": "medical_gesture_fpga_submission_3_20261104.zip::medical_gesture_fpga/board/outputs/source_complete_fixed/result.json",
-    "source_archive_sha256": "5c3f5458efa22dd127729bafba09f07111bf7f66fb9faffb1affbbea7e0fd5e2",
+    "source": "medical_gesture_fpga_submission_3_20261104.rar:board/outputs/source_complete_fixed/result.json",
     "source_sha256": "b08631736094fdbd621706ef18bb5f8cac6a2fd4fd45bb7b9f3f20f4ab1192ae",
     "transformed": false,
     "delivered_sha256": "b08631736094fdbd621706ef18bb5f8cac6a2fd4fd45bb7b9f3f20f4ab1192ae"
   },
   {
     "path": "board/outputs/installed_tcn/result.json",
-    "source": "medical_gesture_fpga_submission_3_20261104.zip::medical_gesture_fpga/board/outputs/installed_tcn/result.json",
-    "source_archive_sha256": "5c3f5458efa22dd127729bafba09f07111bf7f66fb9faffb1affbbea7e0fd5e2",
+    "source": "medical_gesture_fpga_submission_3_20261104.rar:board/outputs/installed_tcn/result.json",
     "source_sha256": "e6a0447b597bd3479d7d0d227374d4181417dc7e0afd997a41afde46a5a769e9",
     "transformed": false,
     "delivered_sha256": "e6a0447b597bd3479d7d0d227374d4181417dc7e0afd997a41afde46a5a769e9"
   },
   {
     "path": "board/outputs/rebuilt_hand/result.json",
-    "source": "medical_gesture_fpga_submission_3_20261104.zip::medical_gesture_fpga/board/outputs/rebuilt_hand/result.json",
-    "source_archive_sha256": "5c3f5458efa22dd127729bafba09f07111bf7f66fb9faffb1affbbea7e0fd5e2",
+    "source": "medical_gesture_fpga_submission_3_20261104.rar:board/outputs/rebuilt_hand/result.json",
     "source_sha256": "1173f81f7eab9250ec29db699ad7ed210d1704710a19ac65e37931b347d02745",
     "transformed": false,
     "delivered_sha256": "1173f81f7eab9250ec29db699ad7ed210d1704710a19ac65e37931b347d02745"

@@ -16,14 +16,7 @@ if (!(Test-Path -LiteralPath $venvPython)) {
     & $Python -B -m venv (Join-Path $projectRoot '.venv')
     if ($LASTEXITCODE -ne 0) { throw 'Python environment creation failed' }
 }
-$wheelRoot = Join-Path $projectRoot 'install/wheels'
-if (Test-Path -LiteralPath $wheelRoot) {
-    & $venvPython -B (Join-Path $projectRoot 'install/check_wheels.py')
-    if ($LASTEXITCODE -ne 0) { throw 'Offline dependency cache check failed' }
-    & $venvPython -B -m pip install --disable-pip-version-check --no-index --find-links $wheelRoot --only-binary=:all: --no-deps --require-hashes -r (Join-Path $projectRoot 'install/requirements-offline.txt')
-} else {
-    throw 'The bundled install/wheels directory is required'
-}
+& $venvPython -B -m pip install --disable-pip-version-check --only-binary=:all: -r (Join-Path $projectRoot 'runtime/requirements-pc.txt')
 if ($LASTEXITCODE -ne 0) { throw 'Dependency installation failed' }
 & $venvPython -B (Join-Path $projectRoot 'runtime/run.py') --help
 if ($LASTEXITCODE -ne 0) { throw 'Runtime entry check failed' }

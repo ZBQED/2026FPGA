@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "verified_at": "2026-11-04T16:54:20.332296+08:00",
+  "method": "Vivado 2024.2 batch open_checkpoint and write_bitstream; byte-for-byte comparison of complete Xilinx .bit e configuration field",
+  "vivado_version": "2024.2",
+  "vivado_build": "5239630",
+  "vivado_mode": "batch",
+  "vivado_exit_code": 0,
+  "general_max_threads": 2,
+  "source_zip": {
+    "path": "C:\\Users\\dudu\\Downloads\\medical_gesture_fpga_github.zip",
+    "size_bytes": 293688745,
+    "sha256": "11523773d8130d6f0090cb6fbd798629d61ab5aa6d4bff9b52363dd1b536965f"
+  },
+  "tcl": {
+    "path": "F:\\FPGAProjects\\report_vivado_screenshots_20261104\\evidence\\reproduce_qp_checkpoint_bits.tcl",
+    "sha256": "517720dd7e34d13c0f8c865cd0d7852fd60926142038083113b187bfb83d7904"
+  },
+  "vivado_log": {
+    "path": "F:\\FPGAProjects\\report_vivado_screenshots_20261104\\evidence\\qp_checkpoint_bitstream.log",
+    "sha256": "a783c2fcbb5642a37d611faa4e99233fb78d73f7b0aa9a0c7710505105627959"
+  },
+  "boards": {
+    "q": {
+      "part": "xc7z020clg400-2",
+      "checkpoint": {
+        "path": "F:\\FPGAProjects\\report_layout_preview_20261104\\evidence\\q_routed.dcp",
+        "size_bytes": 33691808,
+        "sha256_before": "b7a2de2ace25d3a37f05671e90e81a0e95eede99387357a343b183c0b4c58c23",
+        "sha256_after": "b7a2de2ace25d3a37f05671e90e81a0e95eede99387357a343b183c0b4c58c23",
+        "unchanged": true
+      },
+      "generated_bit": {
+        "path": "F:\\FPGAProjects\\report_vivado_screenshots_20261104\\evidence\\q_from_checkpoint.bit",
+        "size_bytes": 4045674,
+        "sha256": "95f1d94aaffd91589f49248b8bd0863ed8151930bfe3849dfe87d0f40aef5ab7",
+        "header_fields": {
+          "a": "system_wrapper;UserID=0XFFFFFFFF;Version=2024.2",
+          "b": "7z020clg400",
+          "c": "2026/11/04",
+          "d": "16:52:07"
+        },
+        "payload_offset": 110,
+        "payload_size_bytes": 4045564,
+        "payload_sha256": "4867ecfb4719ce72a6c88310f1c19b31846b33215a1c8de55c0e703c58d52ad7"
+      },
+      "latest_packaged_bit": {
+        "zip_member": "medical_gesture_fpga/build/artifacts/q/q.bit",
+        "size_bytes": 4045674,
+        "sha256": "326695c02344bf5adf2deccda81ebf4d03fc20995a32383a309373620e205783",
+        "header_fields": {
+          "a": "system_wrapper;UserID=0XFFFFFFFF;Version=2024.2",
+          "b": "7z020clg400",
+          "c": "2026/11/04",
+          "d": "05:16:04"
+        },
+        "payload_offset": 110,
+        "payload_size_bytes": 4045564,
+        "payload_sha256": "4867ecfb4719ce72a6c88310f1c19b31846b33215a1c8de55c0e703c58d52ad7",
+        "completed_directory_copy_identical": true
+      },
+      "latest_report_hashes": {
+        "timing.rpt": {
+          "zip_member": "medical_gesture_fpga/build/reports/rebuild/q/timing.rpt",
+          "sha256": "45db1fe8ccf7eb7e39215cd2f46a832d1589621d48e00574e659015a530712c3"
+        },
+        "utilization.rpt": {
+          "zip_member": "medical_gesture_fpga/build/reports/rebuild/q/utilization.rpt",
+          "sha256": "f7c0f29d67a2c7d46f7c715908678f8f1d917dfc135f0f5e0ac947b8360431af"
+        },
+        "route.rpt": {
+          "zip_member": "medical_gesture_fpga/build/reports/rebuild/q/route.rpt",
+          "sha256": "f3f9af54a7609dd231ea6a32cc0f54a8c3046569ad1eda708d506830cbaebcb1"
+        },
+        "drc.rpt": {
+          "zip_member": "medical_gesture_fpga/build/reports/rebuild/q/drc.rpt",
+          "sha256": "52bebf4dc650bfdc0d1b3f550c408fa8ba9685df7b1588a0326c2593f09c4c9a"
+        },
+        "cdc.rpt": {
+          "zip_member": "medical_gesture_fpga/build/reports/rebuild/q/cdc.rpt",
+          "sha256": "04832b218b6ef7028f986bb5458f35f8ba1ca8755181ff814da46a1006991eb2"
+        }
+      },
+      "full_bit_file_identical": false,
+      "payload_byte_for_byte_identical": true,
+      "vivado_completion_marker_present": true,
+      "verified": true
+    },
+    "p": {
+      "part": "xc7z020clg400-1",
+      "checkpoint": {
+        "path": "F:\\FPGAProjects\\report_layout_preview_20261104\\evidence\\p_routed.dcp",
+        "size_bytes": 32977211,
+        "sha256_before": "72a9964217166a2e6a8771a3f6125d2f225759e0c5c0dbee805884addcf4a988",
+        "sha256_after": "72a9964217166a2e6a8771a3f6125d2f225759e0c5c0dbee805884addcf4a988",
+        "unchanged": true
+      },
+      "generated_bit": {
+        "path": "F:\\FPGAProjects\\report_vivado_screenshots_20261104\\evidence\\p_from_checkpoint.bit",
+        "size_bytes": 4045672,
+        "sha256": "894460ca90490c992e2e8daaa1420e1477de4d3b8b48bd0dd11fe0e15729e69f",
+        "header_fields": {
+          "a": "base_wrapper;UserID=0XFFFFFFFF;Version=2024.2",
+          "b": "7z020clg400",
+          "c": "2026/11/04",
+          "d": "16:53:26"
+        },
+        "payload_offset": 108,
+        "payload_size_bytes": 4045564,
+        "payload_sha256": "049d3c09ef64f54ac79962b0cffff9a888f25ba6588d2aea46ecfd36ea4897f9"
+      },
+      "latest_packaged_bit": {
+        "zip_member": "medical_gesture_fpga/build/artifacts/p/p.bit",
+        "size_bytes": 4045672,
+        "sha256": "8dba7cd2b9fb4e7b53633f7c92cec7db1c1ffa0e65dd6297a16d80015f7880a0",
+        "header_fields": {
+          "a": "base_wrapper;UserID=0XFFFFFFFF;Version=2024.2",
+          "b": "7z020clg400",
+          "c": "2026/11/04",
+          "d": "05:39:41"
+        },
+        "payload_offset": 108,
+        "payload_size_bytes": 4045564,
+        "payload_sha256": "049d3c09ef64f54ac79962b0cffff9a888f25ba6588d2aea46ecfd36ea4897f9",
+        "completed_directory_copy_identical": true
+      },
+      "latest_report_hashes": {
+        "timing.rpt": {
+          "zip_member": "medical_gesture_fpga/build/reports/rebuild/p/timing.rpt",
+          "sha256": "e5e6afa129dbaad3f997278345653397c328be0218e3aed5389541d2b331c824"
+        },
+        "utilization.rpt": {
+          "zip_member": "medical_gesture_fpga/build/reports/rebuild/p/utilization.rpt",
+          "sha256": "cfbc331c3be24b10dacf170d17e74a9894a89f7fe74f5fd1863fa5964fd81355"
+        },
+        "route.rpt": {
+          "zip_member": "medical_gesture_fpga/build/reports/rebuild/p/route.rpt",
+          "sha256": "f2920e121ede981cccd8633639ba4146285781f19df3c595179f12c370b4291d"
+        },
+        "drc.rpt": {
+          "zip_member": "medical_gesture_fpga/build/reports/rebuild/p/drc.rpt",
+          "sha256": "49f0dd755ab1b5d284cc9e392cd96ffb54b343742d837c3f8201c9ffaf6d21cd"
+        },
+        "cdc.rpt": {
+          "zip_member": "medical_gesture_fpga/build/reports/rebuild/p/cdc.rpt",
+          "sha256": "667a07cd0045ec00fbb9c7bc361e5827287c08643d3bb87dce304b7e8e8d916b"
+        }
+      },
+      "full_bit_file_identical": false,
+      "payload_byte_for_byte_identical": true,
+      "vivado_completion_marker_present": true,
+      "verified": true
+    }
+  },
+  "hardware_programming_performed": false,
+  "all_verified": true,
+  "conclusion": "Both re-exported checkpoint configuration payloads exactly match the latest package; checkpoint bytes are unchanged."
+}
