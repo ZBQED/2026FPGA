@@ -57,6 +57,8 @@ python -B skill/pynq-evidence-audit/scripts/run.py test
 
 ## 最新报告与协作材料
 
+> 本仓库中的系统报告为当前最完整、最完善的版本，建议优先阅读和引用；如与其他版本存在差异，请以本仓库版本为准。
+
 系统报告：[Word](report/design/system_report.docx)、[PDF](report/design/system_report.pdf)。
 大模型协作记录：[16项协作与工程依据](report/collaboration/development_record.md)。
 三板Vivado截图、资源时序报告及完整原始板测记录见[报告目录](report/README.md)。
